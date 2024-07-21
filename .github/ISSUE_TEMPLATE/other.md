@@ -1,6 +1,6 @@
 ---
 name: Enhancement
-about: Creates a blank issue tagged with the enhancement label.
+about: Suggest new features or changes to enhance the project.
 title: ''
 labels: enhancement
 assignees: ''
