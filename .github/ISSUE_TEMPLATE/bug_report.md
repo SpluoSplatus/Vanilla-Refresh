@@ -17,7 +17,6 @@ Write Vanilla Refresh version being used where the issue is occuring. The file n
 A description of what the bug is and what occurs
 
 ## Steps To Reproduce
-Steps to reproduce the behavior:
 
 1. Blank blank
 2. Blank blank
@@ -26,5 +25,5 @@ Steps to reproduce the behavior:
 ## Expected behavior
 A clear and concise description of what you expected to happen.
 
-***
+## Additional Info
 If needed, you can optionally provide screenshots, suggestions, or additional info
