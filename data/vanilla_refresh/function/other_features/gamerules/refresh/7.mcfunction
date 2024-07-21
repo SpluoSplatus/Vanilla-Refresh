@@ -12,6 +12,7 @@ execute if score playerlist refresh_settings matches 1 run tellraw @s [{"transla
 execute if score playerlist refresh_settings matches 2 run tellraw @s [{"translate": "  ","color": "gray"},{"translate":"/trigger playerlist Command: ","color":"gray"},{"score":{"name": "playerlist","objective": "refresh_settings"},"color": "yellow"},{"translate": " - Sort by Dimension","color": "yellow"}]
 tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Trimmed Armored Piglins: ","color":"gray"},{"score":{"name": "armortrimmed_mobs","objective": "refresh_settings"},"color": "yellow"}]
 
+
 tellraw @s [{"translate": "  ","color": "gray"},{"translate":"/trigger stats Command: ","color":"gray"},{"score":{"name": "stats","objective": "refresh_settings"},"color": "yellow"}]
 tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Stats Tracking: ","color":"gray"},{"score":{"name": "process_stats","objective": "refresh_settings"},"color": "yellow"}]
 tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Gravestones: ","color":"gray"},{"score":{"name": "gravestone","objective": "refresh_settings"},"color": "yellow"}]

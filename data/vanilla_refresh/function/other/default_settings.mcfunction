@@ -201,11 +201,16 @@ execute unless score soul_takeitems refresh_settings matches -2147483648.. run s
 
 
 
+execute unless score jukebox_stop_sound refresh_settings matches -2147483648.. run scoreboard players set jukebox_stop_sound refresh_settings 1
+
+execute unless score death_stop_music refresh_settings matches -2147483648.. run scoreboard players set death_stop_music refresh_settings 0
+
+
+
+
 execute unless score process_stats refresh_settings matches -2147483648.. run scoreboard players set process_stats refresh_settings 1
 
 # ######################################
-
-function vanilla_refresh:other/default_settings_displays
 
 execute if score cyclestats_health refresh_settings matches 1 run scoreboard objectives modify refresh_player_health displayname {"translate":"❤"}
 execute if score cyclestats_health refresh_settings matches 2 run scoreboard objectives modify refresh_player_health displayname {"translate":"Health"}

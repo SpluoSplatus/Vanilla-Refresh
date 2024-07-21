@@ -1,0 +1,34 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "jukebox"
+        },
+        "score": "refresh_settings"
+      },
+      "range": 1
+    },
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "jukebox_stop_sound"
+        },
+        "score": "refresh_settings"
+      },
+      "range": 1
+    }
+
+  ]
+}
+
+
+
+  

@@ -8,4 +8,3 @@ execute if score second refresh_clock matches 1 as @s[tag=refresh_entity_jukebox
 execute if score @s refresh_count matches 1.. run function vanilla_refresh:block/jukebox/playing
 
 execute unless block ~ ~ ~ jukebox run function vanilla_refresh:block/jukebox/stopsound
-execute unless block ~ ~ ~ jukebox run kill @s

@@ -1,0 +1,1 @@
+stopsound @a[distance=..32] music

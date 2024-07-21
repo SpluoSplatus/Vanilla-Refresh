@@ -14,14 +14,14 @@ execute if score @s refresh_count matches 31..40 at @s run tp @s ~ ~-.04 ~
 execute if score @s refresh_count matches 41..45 at @s run tp @s ~ ~-.08 ~
 
 
-execute if score @s refresh_count matches 1.. at @s run tp @s ^.3 ^ ^ facing entity @e[sort=nearest,limit=1,tag=refresh_entity_playersoul,type=marker]
-execute if score @s refresh_count matches 36.. at @s run tp @s ^.15 ^ ^ facing entity @e[sort=nearest,limit=1,tag=refresh_entity_playersoul,type=marker]
+execute if score @s refresh_count matches 1.. at @s run tp @s ^.3 ^ ^ facing entity @n[tag=refresh_entity_playersoul,type=marker]
+execute if score @s refresh_count matches 36.. at @s run tp @s ^.15 ^ ^ facing entity @n[tag=refresh_entity_playersoul,type=marker]
 
-execute if score @s refresh_count matches 11..20 at @s run tp @s ^ ^ ^-.12 facing entity @e[sort=nearest,limit=1,tag=refresh_entity_playersoul,type=marker]
-execute if score @s refresh_count matches 21..25 at @s run tp @s ^ ^ ^-.06 facing entity @e[sort=nearest,limit=1,tag=refresh_entity_playersoul,type=marker]
+execute if score @s refresh_count matches 11..20 at @s run tp @s ^ ^ ^-.12 facing entity @n[tag=refresh_entity_playersoul,type=marker]
+execute if score @s refresh_count matches 21..25 at @s run tp @s ^ ^ ^-.06 facing entity @n[tag=refresh_entity_playersoul,type=marker]
 
-execute if score @s refresh_count matches 31..35 at @s run tp @s ^ ^ ^.1 facing entity @e[sort=nearest,limit=1,tag=refresh_entity_playersoul,type=marker]
-execute if score @s refresh_count matches 36.. at @s run tp @s ^ ^ ^.25 facing entity @e[sort=nearest,limit=1,tag=refresh_entity_playersoul,type=marker]
+execute if score @s refresh_count matches 31..35 at @s run tp @s ^ ^ ^.1 facing entity @n[tag=refresh_entity_playersoul,type=marker]
+execute if score @s refresh_count matches 36.. at @s run tp @s ^ ^ ^.25 facing entity @n[tag=refresh_entity_playersoul,type=marker]
 
 
 execute if score @s refresh_count matches 48.. at @s run kill @s

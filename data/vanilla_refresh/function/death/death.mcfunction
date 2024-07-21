@@ -17,7 +17,8 @@ execute if score death_sound_local refresh_settings matches 11 unless score deat
 #orbs dropped on death are not homing
 execute as @e[distance=..4,type=experience_orb,tag=!refresh_disabledhoming] run tag @s add refresh_disabledhoming
 
-
+#stops music on death
+execute if score death_stop_music refresh_settings matches 1 run stopsound @s music
 
 #execute if score healthsound refresh_settings matches 1 run scoreboard players set @s refresh_event_highdamage 0
 

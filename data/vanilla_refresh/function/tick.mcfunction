@@ -90,7 +90,7 @@ execute if score lodestone refresh_settings matches 1 as @e[type=marker,tag=refr
 execute if score lodestone refresh_settings matches 1 as @a[predicate=vanilla_refresh:holding/ender_pearl] at @s if entity @e[type=marker,tag=refresh_entity_lodestone_teleport,distance=..96] run function vanilla_refresh:block/lodestone/holding_pearl
 
 #jukebox
-execute if score jukebox refresh_settings matches 1 as @e[type=marker,tag=refresh_entity_jukebox] at @s run function vanilla_refresh:block/jukebox/marker
+execute if predicate vanilla_refresh:setting/jukebox_feature as @e[type=marker,tag=refresh_entity_jukebox] at @s run function vanilla_refresh:block/jukebox/a_main
 
 
 #jukebox entity

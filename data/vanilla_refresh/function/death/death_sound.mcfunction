@@ -10,7 +10,7 @@ execute if score death_sound refresh_settings matches 8 run playsound minecraft:
 execute if score death_sound refresh_settings matches 9 run playsound minecraft:entity.allay.ambient_without_item player @s ~ ~ ~ 2 .75
 
 
-execute if score death_sound refresh_settings matches 10 store result score temp refresh_randomizer_output run random value 1..10 
+execute if score death_sound refresh_settings matches 10 store result score temp refresh_randomizer_output run random value 1..10
 
 
 execute if score death_sound refresh_settings matches 10 if score temp refresh_randomizer_output matches 1 run playsound entity.ender_dragon.growl player @p ~ ~ ~ .5 1

@@ -30,8 +30,8 @@ execute if score @s refresh_player_rotation matches 45..134 rotated 90 0 run set
 
 #insert texture
 execute on origin run loot spawn ^ ^ ^1 loot vanilla_refresh:drop/player_head
-execute positioned ^ ^ ^1 run data modify block ^ ^ ^ profile set from entity @e[sort=nearest,limit=1,type=item] Item.components."minecraft:profile"
-kill @e[sort=nearest,limit=1,type=item]
+execute positioned ^ ^ ^1 run data modify block ^ ^ ^ profile set from entity @n[type=item] Item.components."minecraft:profile"
+kill @n[type=item]
 
 #========================================================
 

@@ -2,10 +2,10 @@ scoreboard players add @s refresh_count 1
 
 particle dust_color_transition{from_color:[1.000,0.000,0.973],scale:0.8,to_color:[0.000,0.267,1.000]} ~ ~.5 ~ 0 0 0 1 0 normal
 
-execute if score @s refresh_count matches 1..9 at @s facing entity @e[type=marker,tag=refresh_entity_blockanim_enchanting_table,sort=nearest,limit=1] eyes run tp @s ^.08 ^ ^-.03
-execute if score @s refresh_count matches 10..40 at @s facing entity @e[type=marker,tag=refresh_entity_blockanim_enchanting_table,sort=nearest,limit=1] eyes run tp @s ^.16 ^ ^-.06
-execute if score @s refresh_count matches 41..49 at @s facing entity @e[type=marker,tag=refresh_entity_blockanim_enchanting_table,sort=nearest,limit=1] eyes run tp @s ^.12 ^ ^.1
-execute if score @s refresh_count matches 50.. at @s facing entity @e[type=marker,tag=refresh_entity_blockanim_enchanting_table,sort=nearest,limit=1] eyes run tp @s ^.12 ^ ^.2
+execute if score @s refresh_count matches 1..9 at @s facing entity @n[type=marker,tag=refresh_entity_blockanim_enchanting_table] eyes run tp @s ^.08 ^ ^-.03
+execute if score @s refresh_count matches 10..40 at @s facing entity @n[type=marker,tag=refresh_entity_blockanim_enchanting_table] eyes run tp @s ^.16 ^ ^-.06
+execute if score @s refresh_count matches 41..49 at @s facing entity @n[type=marker,tag=refresh_entity_blockanim_enchanting_table] eyes run tp @s ^.12 ^ ^.1
+execute if score @s refresh_count matches 50.. at @s facing entity @n[type=marker,tag=refresh_entity_blockanim_enchanting_table] eyes run tp @s ^.12 ^ ^.2
 
 
 

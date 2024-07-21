@@ -43,6 +43,8 @@ execute if score armorstand refresh_settings matches 1 as @s[advancements={vanil
 
 #disc
 execute if score blockanims refresh_settings matches 1 as @s[advancements={vanilla_refresh:place/disc=true}] anchored eyes run function vanilla_refresh:block/block_anims/jukebox/raycast
+#disc
+execute if score jukebox_stop_sound refresh_settings matches 1 as @s[advancements={vanilla_refresh:place/disc=true}] anchored eyes run function vanilla_refresh:block/jukebox_stop_sound/insert_disc
 
 
 

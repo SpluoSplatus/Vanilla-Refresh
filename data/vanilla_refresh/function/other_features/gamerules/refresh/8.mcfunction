@@ -15,7 +15,9 @@ tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Player Head Drops:
 
 tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Explosive Blast Furnace: ","color":"gray"},{"score":{"name": "explosivefurnace","objective": "refresh_settings"},"color": "yellow"}]
 
-tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Dragon Drops Elytra: ","color":"gray"},{"score":{"name": "dragonelytra","objective": "refresh_settings"},"color": "yellow"}]
+tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Jukebox Music Override: ","color":"gray"},{"score":{"name": "jukebox_stop_sound","objective": "refresh_settings"},"color": "yellow"}]
+
+tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Stop Music on Death: ","color":"gray"},{"score":{"name": "death_stop_music","objective": "refresh_settings"},"color": "yellow"}]
 
 tellraw @s [{"translate": "","color": "yellow"},{"translate":"\n"},{"translate":"<-- Page 7","color":"yellow","underlined":false,"hoverEvent":{"action":"show_text","contents":[{"translate":"Previous Page"}]},"clickEvent":{"action":"run_command","value":"/trigger gamerules set 27"}},{"translate":"    - 8/8 -     ","color": "gray","italic": false}]
 

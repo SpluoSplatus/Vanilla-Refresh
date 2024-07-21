@@ -24,7 +24,7 @@ execute if score anvil refresh_settings matches 0 run tellraw @s [{"translate": 
 
 tellraw @s [{"text": " "}]
 
-tellraw @s [{"translate": "","color": "yellow"},{"translate":"<-- Page 4","color":"yellow","underlined":false,"hoverEvent":{"action":"show_text","contents":[{"translate":"Previous Page"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:other/menus/block/settings4"}},{"translate":"    - 5/5 -     ","color": "gray","italic": false},{"translate":"","color": "yellow"}]
+tellraw @s [{"translate": "","color": "yellow"},{"translate":"<-- Page 4","color":"yellow","underlined":false,"hoverEvent":{"action":"show_text","contents":[{"translate":"Previous Page"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:other/menus/block/settings4"}},{"translate":"    - 5/6 -     ","color": "gray","italic": false},{"translate":"","color": "yellow"},{"translate":"Page 6 -->","color":"yellow","underlined":false,"hoverEvent":{"action":"show_text","contents":[{"translate":"Next Page"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:other/menus/block/settings6"}}]
 
 
 tellraw @s [{"text": " "}]

@@ -14,7 +14,7 @@ execute as @s[nbt={data:{Dye:11}}] run loot spawn ~ ~ ~ loot vanilla_refresh:dro
 execute as @s[nbt={data:{Dye:12}}] run loot spawn ~ ~ ~ loot vanilla_refresh:drop/black_dye
 
 execute as @s[nbt={data:{Name:1}}] run loot spawn ~ ~ ~ loot vanilla_refresh:drop/paper
-execute as @s[nbt={data:{Name:1}}] run data modify entity @e[sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:paper"}}] Item.tag.display.Name set from entity @s data.CustomName
+execute as @s[nbt={data:{Name:1}}] run data modify entity @n[type=item,nbt={Item:{id:"minecraft:paper"}}] Item.tag.display.Name set from entity @s data.CustomName
 
 execute as @s[nbt={data:{Teleport:1}}] run loot spawn ~ ~ ~ loot vanilla_refresh:drop/ender_pearl
 

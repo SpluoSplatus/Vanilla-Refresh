@@ -13,4 +13,4 @@ data merge entity @s {NoAI:0b}
 
 ###ARROW
 
-execute anchored eyes as @e[type=arrow,sort=nearest,limit=1] at @s rotated as @e[sort=nearest,limit=1,type=!arrow] run function vanilla_refresh:other/actions/arrow_data
+execute anchored eyes as @e[type=arrow,sort=nearest,limit=1] at @s rotated as @n[type=!arrow] run function vanilla_refresh:other/actions/arrow_data

@@ -7,7 +7,8 @@
     {"id":"minecraft:stray","required":false},
     {"id":"minecraft:husk","required":false},
     {"id":"minecraft:phantom","required":false},
-    {"id":"minecraft:witch","required":false}
+    {"id":"minecraft:witch","required":false},
+    {"id":"minecraft:phantom","required":false}
     
    
 

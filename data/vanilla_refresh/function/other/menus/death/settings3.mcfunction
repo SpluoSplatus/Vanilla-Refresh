@@ -17,6 +17,11 @@ execute if score playerheads refresh_settings matches 0 run tellraw @s [{"transl
 
 tellraw @s [{"text": " "}]
 
+execute if score death_stop_music refresh_settings matches 1 run tellraw @s [{"translate": "","color": "gray"},{"translate": "ⓘ ","hoverEvent":{"action":"show_text","contents":[{"translate":"On death, currently playing music will stop"}]}},{"translate":"Stop Music on Death: ","color":"gray"},{"translate":"Enabled","color":"green","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to change this setting"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:other/actions/death/death_stop_music_0"}}]
+execute if score death_stop_music refresh_settings matches 0 run tellraw @s [{"translate": "","color": "gray"},{"translate": "ⓘ ","hoverEvent":{"action":"show_text","contents":[{"translate":"On death, currently playing music will stop"}]}},{"translate":"Stop Music on Death: ","color":"gray"},{"translate":"Disabled","color":"red","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to change this setting"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:other/actions/death/death_stop_music_1"}}]
+
+
+
 
 
 tellraw @s [{"text": " "}]
