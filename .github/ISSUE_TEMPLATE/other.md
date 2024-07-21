@@ -1,8 +1,8 @@
 ---
-name: Enhancement / Other
-about: Creates a blank issue with no template. Use if not reporting a bug.
+name: Enhancement
+about: Creates a blank issue tagged with the enhancement label.
 title: ''
-labels: ''
+labels: 'enhancements'
 assignees: ''
 
 ---
