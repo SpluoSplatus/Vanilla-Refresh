@@ -1,6 +1,6 @@
 ---
-name: Bug report
-about: Write details relating to your bug report below
+name: Bug Report
+about: Report a bug report using this bug report template
 title: ''
 labels: ''
 assignees: ''
