@@ -13,21 +13,18 @@ Write Minecraft version where the issue is occuring (e.x. 1.21)
 **Vanilla Refresh Version**
 Write Vanilla Refresh version being used where the issue is occuring. The file name of the .zip/.jar can be pasted here
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+## Description
+A description of what the bug is and what occurs
 
-**To Reproduce**
+## Steps To Reproduce
 Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
 
-**Expected behavior**
+1. Blank blank
+2. Blank blank
+3. etc
+
+## Expected behavior
 A clear and concise description of what you expected to happen.
 
-**Screenshots**
-(optional)
-
-**Additional context**
-(optional) Add any other context about the problem here.
+***
+If needed, you can optionally provide screenshots, suggestions, or additional info
