@@ -1,0 +1,16 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "head": {
+            "items": "#vanilla_refresh:armor"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+
+      {"id":"minecraft:stripped_crimson_stem","required": false},
+      {"id":"minecraft:stripped_crimson_hyphae","required": false},
+      {"id":"minecraft:crimson_hyphae","required": false}
+
+
+
+    
+
+
+      
+    ]
+  }
+  

@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "refresh_player_uitoastout": {
+          "min": 1,
+          "max": 200
+        }
+      }
+    }
+  }
+  

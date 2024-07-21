@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_killed_player",
+        "conditions": {
+          "killing_blow": {
+            "direct_entity": {
+              "type": "minecraft:potion"
+            }
+          }
+        }
+      }
+    }
+  }
+  

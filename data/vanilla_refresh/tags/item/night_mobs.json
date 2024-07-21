@@ -1,0 +1,23 @@
+{
+    "replace": false,
+    "values": [
+
+
+
+      {"id":"minecraft:zombie_spawn_egg","required":false},
+      {"id":"minecraft:skeleton_spawn_egg","required":false},
+      {"id":"minecraft:creeper_spawn_egg","required":false},
+      {"id":"minecraft:spider_spawn_egg","required":false},
+      {"id":"minecraft:witch_spawn_egg","required":false},
+      {"id":"minecraft:zombie_villager_spawn_egg","required":false},
+      {"id":"minecraft:phantom_spawn_egg","required":false},
+      {"id":"minecraft:stray_spawn_egg","required":false},
+      {"id":"minecraft:husk_spawn_egg","required":false}
+
+    
+
+
+      
+    ]
+  }
+  

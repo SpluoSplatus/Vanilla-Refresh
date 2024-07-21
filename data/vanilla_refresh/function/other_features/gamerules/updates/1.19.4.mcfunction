@@ -1,0 +1,2 @@
+execute store result score doVinesSpread refresh_gamerules run gamerule doVinesSpread
+execute store result score commandModificationBlockLimit refresh_gamerules run gamerule commandModificationBlockLimit

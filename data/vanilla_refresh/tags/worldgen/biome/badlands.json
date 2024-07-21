@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+{"id":"minecraft:badlands","required":false},
+      {"id":"minecraft:eroded_badlands","required":false},
+      {"id":"minecraft:wooded_badlands","required":false},
+      {"id":"terralith:bryce_canyon","required":false},
+      {"id":"terralith:white_mesa","required":false}
+    ]
+  }

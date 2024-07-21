@@ -1,0 +1,49 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "vanilla_refresh:holding/bundle_soul_link"
+  },
+  
+  
+  {
+  "condition": "minecraft:inverted",
+  "term": {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:bundle"
+              ],
+              "components": {
+                "minecraft:custom_data": {"VanillaRefreshBundle":1} ,
+                "minecraft:bundle_contents": []
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "offhand": {
+              "items": [
+                "minecraft:bundle"
+              ],
+              "components": {
+                "minecraft:custom_data": {"VanillaRefreshBundle":1} ,
+                "minecraft:bundle_contents": []
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}]

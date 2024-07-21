@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+
+    {"id":"minecraft:cake","required": false},
+    {"id":"#minecraft:candle_cakes","required": false}
+
+
+
+    
+  ]
+}

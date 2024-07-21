@@ -1,0 +1,65 @@
+{
+  "replace": false,
+  "values": [
+   
+    {"id":"minecraft:air","required": false},
+    {"id":"minecraft:cave_air","required": false},
+    {"id":"minecraft:void_air","required": false},
+    {"id":"minecraft:water","required": false},
+    {"id":"minecraft:fire","required": false},
+    {"id":"minecraft:soul_fire","required": false},
+    {"id":"minecraft:lava","required": false},
+    {"id":"minecraft:vine","required": false},
+    {"id":"minecraft:cave_vines","required": false},
+    {"id":"minecraft:grass","required": false},
+    {"id":"#minecraft:replaceable_plants","required": false},
+    {"id":"minecraft:tall_grass","required": false},
+    {"id":"#minecraft:standing_signs","required": false},
+    {"id":"#minecraft:flowers","required": false},
+    {"id":"#minecraft:buttons","required": false},
+    {"id":"#minecraft:saplings","required": false},
+    {"id":"#minecraft:climbable","required": false},
+
+    {"id":"#minecraft:banners","required": false},
+    {"id":"#minecraft:tall_flowers","required": false},
+    {"id":"#minecraft:carpets","required": false},
+    {"id":"minecraft:torch","required": false},
+    {"id":"minecraft:soul_torch","required": false},
+    {"id":"#minecraft:pressure_plates","required": false},
+
+    {"id":"minecraft:warped_roots","required": false},
+    {"id":"minecraft:crimson_roots","required": false},
+
+    {"id":"#minecraft:crops","required": false},
+    {"id":"minecraft:dead_bush","required": false},
+    {"id":"minecraft:bamboo","required": false},
+
+    {"id":"minecraft:iron_bars","required": false},
+    {"id":"minecraft:lever","required": false},
+
+    {"id":"minecraft:snow","required": false},
+    {"id":"minecraft:powder_snow","required": false},
+    {"id":"minecraft:moss_carpet","required": false},
+    {"id":"minecraft:kelp","required": false},
+    {"id":"minecraft:kelp_plant","required": false},
+    {"id":"minecraft:tall_seagrass","required": false},
+    {"id":"minecraft:seagrass","required": false},
+    {"id":"minecraft:bubble_column","required": false},
+    {"id":"minecraft:end_portal","required": false},
+    {"id":"minecraft:end_gateway","required": false},
+    {"id":"minecraft:nether_portal","required": false},
+    {"id":"minecraft:light","required": false}
+    
+   
+
+
+    
+
+
+
+  
+
+
+    
+  ]
+}

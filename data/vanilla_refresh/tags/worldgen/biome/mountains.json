@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+      
+      {"id":"minecraft:jagged_peaks","required":false},
+      {"id":"minecraft:stony_peaks","required":false},
+      {"id":"terralith:rocky_mountains","required":false},
+      {"id":"terralith:windswept_spires","required":false},
+      {"id":"terralith:pained_mountains","required":false}
+    ]
+  }

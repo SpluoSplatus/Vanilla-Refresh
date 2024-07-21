@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+      
+      {"id":"terralith:volcanic_peaks","required":false},
+      {"id":"terralith:volcanic_crater","required":false}
+    ]
+  }

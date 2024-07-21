@@ -1,0 +1,48 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraft:player_head","required":false},
+
+    {
+      "id": "minecraft:creeper_head","required":false},
+
+    {
+      "id": "minecraft:wither_skeleton_skull","required":false},
+
+    {
+      "id": "minecraft:skeleton_skull","required":false},
+
+    {
+      "id": "minecraft:zombie_head","required":false},
+
+    {
+      "id": "minecraft:diamond_helmet","required":false},
+
+    {
+      "id": "minecraft:netherite_helmet","required":false},
+
+    {
+      "id": "minecraft:iron_helmet","required":false},
+
+    {
+      "id": "minecraft:golden_helmet","required":false},
+
+    {
+      "id": "minecraft:chainmail_helmet","required":false},
+
+    {
+      "id": "minecraft:leather_helmet","required":false},
+
+    {
+      "id": "minecraft:turtle_helmet","required":false},
+
+    {
+      "id": "minecraft:carved_pumpkin","required":false},
+
+    {"id":"#minecraft:banners","required":false},
+
+    {
+      "id": "minecraft:dragon_head","required":false}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+    "replace": false,
+    "values": [
+
+      {"id":"minecraft:stone_brick_slab","required": false},
+      {"id":"minecraft:mossy_stone_brick_slab","required": false},
+      {"id":"minecraft:stone_slab","required": false}
+      
+      
+
+
+
+    
+
+
+      
+    ]
+  }
+  

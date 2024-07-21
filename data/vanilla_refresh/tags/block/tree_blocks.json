@@ -1,0 +1,34 @@
+{
+  "replace": false,
+  "values": [
+
+
+    {"id":"minecraft:oak_log","required": false},
+    {"id":"minecraft:birch_log","required": false},
+    {"id":"minecraft:dark_oak_log","required": false},
+    {"id":"minecraft:jungle_log","required": false},
+    {"id":"minecraft:spruce_log","required": false},
+    {"id":"minecraft:warped_stem","required": false},
+    {"id":"minecraft:crimson_stem","required": false},
+    {"id":"minecraft:mangrove_log","required": false},
+    {"id":"minecraft:acacia_log","required": false},
+    {"id":"minecraft:cherry_log","required": false},
+    {"id":"minecraft:bamboo","required": false},
+
+
+    {"id":"minecraft:oak_leaves","required": false},
+    {"id":"minecraft:acacia_leaves","required": false},
+    {"id":"minecraft:birch_leaves","required": false},
+    {"id":"minecraft:dark_oak_leaves","required": false},
+    {"id":"minecraft:jungle_leaves","required": false},
+    {"id":"minecraft:spruce_leaves","required": false},
+    {"id":"minecraft:warped_wart_block","required": false},
+    {"id":"minecraft:nether_wart_block","required": false},
+    {"id":"minecraft:mangrove_leaves","required": false},
+    {"id":"minecraft:azalea_leaves","required": false},
+    {"id":"minecraft:cherry_leaves","required": false},
+    {"id":"minecraft:pink_petals","required": false},
+    {"id":"minecraft:flowering_azalea_leaves","required": false}
+    
+  ]
+}

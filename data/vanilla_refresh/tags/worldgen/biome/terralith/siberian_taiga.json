@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+      
+      {"id":"terralith:siberian_taiga","required":false},
+      {"id":"terralith:siberian_grove","required":false}
+    ]
+  }

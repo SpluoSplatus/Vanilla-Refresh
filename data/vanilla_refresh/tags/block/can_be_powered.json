@@ -1,0 +1,20 @@
+{
+    "replace": false,
+    "values": [
+
+      {"id":"#minecraft:pressure_plates","required": false},
+      {"id":"#minecraft:buttons","required": false},
+      {"id":"minecraft:lever","required": false}
+
+  
+      
+
+
+
+    
+
+
+      
+    ]
+  }
+  

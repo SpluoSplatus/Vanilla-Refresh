@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+{"id":"minecraft:forest","required":false},
+      
+      {"id":"tectonic:autumn_birch_forest","required":false},
+      {"id":"tectonic:autumn_forest","required":false}
+    ]
+  }

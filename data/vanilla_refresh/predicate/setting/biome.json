@@ -1,0 +1,13 @@
+{
+    "condition": "minecraft:value_check",
+    "value": {
+      "type": "minecraft:score",
+      "target": {
+        "type": "minecraft:fixed",
+        "name": "biome"
+      },
+      "score": "refresh_settings"
+    },
+    "range": 1
+  }
+  

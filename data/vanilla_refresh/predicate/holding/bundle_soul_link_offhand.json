@@ -1,0 +1,26 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "offhand": {
+              "items": [
+                "minecraft:bundle"
+              ],
+              "components": {
+                "minecraft:custom_data": {"VanillaRefreshBundle":1} ,
+                "minecraft:bundle_contents": []
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+      
+    
+  
+

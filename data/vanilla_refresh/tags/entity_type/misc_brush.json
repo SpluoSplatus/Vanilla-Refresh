@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+
+    {"id":"minecraft:player","required": false},
+    {"id":"#vanilla_refresh:misc","required": false}
+
+    
+  ]
+}

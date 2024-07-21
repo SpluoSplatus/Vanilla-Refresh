@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+
+
+    {"id":"minecraft:deepslate_bricks","required": false},
+    {"id":"minecraft:deepslate_brick_slab","required": false},
+    {"id":"minecraft:deepslate_brick_stairs","required": false},
+    {"id":"minecraft:deepslate_brick_wall","required": false},
+    {"id":"minecraft:cracked_deepslate_bricks","required": false},
+    {"id":"minecraft:chiseled_deepslate","required": false},
+    {"id":"minecraft:reinforced_deepslate","required": false}
+    
+  ]
+}

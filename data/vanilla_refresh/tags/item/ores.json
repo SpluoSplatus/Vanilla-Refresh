@@ -1,0 +1,41 @@
+{
+    "replace": false,
+    "values": [
+
+
+
+      {"id":"minecraft:diamond","required": false},
+      {"id":"minecraft:iron_ingot","required": false},
+      {"id":"minecraft:emerald","required": false},
+      {"id":"minecraft:lapis_lazuli","required": false},
+      {"id":"minecraft:coal","required": false},
+      {"id":"minecraft:copper_ingot","required": false},
+      {"id":"minecraft:amethyst_shard","required": false},
+      {"id":"minecraft:gold_ingot","required": false},
+      {"id":"minecraft:netherite_ingot","required": false},
+      {"id":"minecraft:quartz","required": false},
+
+
+
+      
+      
+
+      {"id":"minecraft:diamond_block","required": false},
+      {"id":"minecraft:iron_block","required": false},
+      {"id":"minecraft:emerald_block","required": false},
+      {"id":"minecraft:lapis_block","required": false},
+      {"id":"minecraft:coal_block","required": false},
+      {"id":"minecraft:copper_block","required": false},
+      {"id":"minecraft:amethyst_block","required": false},
+      {"id":"minecraft:gold_block","required": false},
+      {"id":"minecraft:netherite_block","required": false},
+      {"id":"minecraft:quartz_block","required": false}
+
+
+    
+
+
+      
+    ]
+  }
+  

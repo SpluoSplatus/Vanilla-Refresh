@@ -1,0 +1,40 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+
+          {
+            "condition": "minecraft:reference",
+            "name": "vanilla_refresh:setting/biome"
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "vanilla_refresh:condition/exist_200ticks"
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "vanilla_refresh:condition/second.tick5"
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "vanilla_refresh:condition/no_toast"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "#vanilla_refresh:terralith/warped_mesa"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "vanilla_refresh:other_features/biome/terralith/warped_mesa"
+  }
+}

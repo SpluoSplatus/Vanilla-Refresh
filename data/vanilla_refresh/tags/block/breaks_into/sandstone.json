@@ -1,0 +1,21 @@
+{
+    "replace": false,
+    "values": [
+
+      {"id":"minecraft:smooth_sandstone","required": false},
+      {"id":"minecraft:chiseled_sandstone","required": false},
+      {"id":"minecraft:smooth_sandstone_stairs","required": false},
+      {"id":"minecraft:sandstone_wall","required": false},
+      {"id":"minecraft:sandstone_stairs","required": false},
+      {"id":"minecraft:cut_sandstone","required": false}
+      
+
+
+
+    
+
+
+      
+    ]
+  }
+  

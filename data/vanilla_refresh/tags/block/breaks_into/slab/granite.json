@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+
+    {"id":"minecraft:granite_slab","required": false},
+    {"id":"minecraft:polished_granite_slab","required": false}
+    
+
+
+
+  
+
+
+    
+  ]
+}

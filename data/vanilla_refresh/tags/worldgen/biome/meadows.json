@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+{"id":"minecraft:meadow","required":false},
+      {"id":"tectonic:alpine_meadow","required":false}
+    ]
+  }

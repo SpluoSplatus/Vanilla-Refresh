@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+{"id":"minecraft:plains","required":false},
+      {"id":"minecraft:sunflower_plains","required":false},
+      {"id":"tectonic:cold_plains","required":false},
+      {"id":"tectonic:grasslands","required":false}
+    ]
+  }

@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "vanilla_refresh:holding/bundle_soul_link"
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "vanilla_refresh:holding/bundle"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "vanilla_refresh:other/actions/erase_empty_bundle"
+  }
+}

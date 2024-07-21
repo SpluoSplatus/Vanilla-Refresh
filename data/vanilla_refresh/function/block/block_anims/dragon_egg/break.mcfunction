@@ -1,0 +1,2 @@
+
+kill @s[type=marker]

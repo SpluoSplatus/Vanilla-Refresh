@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+
+   
+    {"id":"minecraft:chicken","required": false},
+    {"id":"minecraft:wolf","required": false},
+    {"id":"minecraft:vex","required": false},
+    {"id":"minecraft:cat","required": false},
+    {"id":"minecraft:bee","required": false},
+    {"id":"minecraft:bat","required": false},
+    {"id":"minecraft:cave_spider","required": false},
+    {"id":"minecraft:axolotl","required": false},
+    {"id":"minecraft:pig","required": false},
+    {"id":"minecraft:allay","required": false},
+    {"id":"minecraft:tropical_fish","required": false},
+    {"id":"minecraft:salmon","required": false},
+    {"id":"minecraft:cod","required": false},
+    {"id":"minecraft:pufferfish","required": false},
+    {"id":"minecraft:silverfish","required": false},
+    {"id":"minecraft:endermite","required": false},
+    {"id":"minecraft:item","required": false},
+    {"id":"minecraft:item_frame","required": false},
+    {"id":"minecraft:glow_item_frame","required": false}
+    
+   
+
+    
+  ]
+}

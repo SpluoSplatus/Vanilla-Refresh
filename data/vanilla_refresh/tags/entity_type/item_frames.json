@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+
+    {"id":"minecraft:glow_item_frame","required":false},
+    {"id":"minecraft:item_frame","required":false}
+
+    
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "vanilla_refresh:has/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:reference",
+              "name": "vanilla_refresh:setting/tips_refresh"
+            }
+          ],
+          "items": [
+            {
+              "items": [
+                "minecraft:lodestone"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+  

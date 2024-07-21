@@ -1,0 +1,3 @@
+tellraw @s [{"translate": "Tip: - Creative Mode users have access to Vanilla Refresh creative features. Use ","color": "yellow"},{"translate":"Wands","color":"#5ba3f5","underlined": true,"clickEvent":{"action":"suggest_command","value":"/function vanilla_refresh:_z_wands"}},{"translate":" for helpful tools and "},{"translate":"Item Sets","color":"#5ba3f5","underlined": true,"clickEvent":{"action":"suggest_command","value":"/function vanilla_refresh:_z_item_sets"}},{"translate":" to quickly give yourself a set of items, like armor"}]
+tag @s add refresh_temp7
+tag @s add refresh_receivedtip.item_sets

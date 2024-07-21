@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+
+    {"id":"minecraft:zombie","required":false},
+    {"id":"minecraft:skeleton","required":false},
+    {"id":"minecraft:spider","required":false},
+    {"id":"minecraft:creeper","required":false}
+    
+   
+
+    
+  ]
+}

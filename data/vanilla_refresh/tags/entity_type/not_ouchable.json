@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+
+    {"id":"#vanilla_refresh:misc","required": false},
+    {"id":"minecraft:wither","required": false},
+    {"id":"minecraft:ender_dragon","required": false},
+    {"id":"minecraft:guardian","required": false},
+    {"id":"minecraft:elder_guardian","required": false},
+    {"id":"minecraft:ghast","required": false},
+    {"id":"minecraft:panda","required": false},
+    {"id":"minecraft:ravager","required": false},
+    {"id":"minecraft:llama","required": false},
+    {"id":"minecraft:polar_bear","required": false},
+    {"id":"minecraft:warden","required": false}
+    
+   
+
+    
+  ]
+}

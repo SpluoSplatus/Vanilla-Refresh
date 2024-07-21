@@ -1,0 +1,1 @@
+scoreboard players set dragon_respawned refresh_storage 1

@@ -1,0 +1,29 @@
+{
+    "replace": false,
+    "values": [
+
+
+
+      {"id":"minecraft:end_stone","required":false},
+      {"id":"minecraft:end_stone_brick_slab","required":false},
+      {"id":"minecraft:end_stone_bricks","required":false},
+      {"id":"minecraft:end_stone_brick_stairs","required":false},
+      {"id":"minecraft:end_stone_brick_wall","required":false},
+      {"id":"minecraft:purpur_block","required":false},
+      {"id":"minecraft:purpur_pillar","required":false},
+      {"id":"minecraft:purpur_slab","required":false},
+      {"id":"minecraft:purpur_stairs","required":false},
+      {"id":"minecraft:obsidian","required":false},
+      {"id":"minecraft:bedrock","required":false},
+      {"id":"minecraft:dragon_egg","required":false},
+      {"id":"minecraft:dragon_head","required":false},
+      {"id":"minecraft:chorus_flower","required":false},
+      {"id":"minecraft:chorus_plant","required":false}
+
+    
+
+
+      
+    ]
+  }
+  

@@ -1,0 +1,53 @@
+{
+    "replace": false,
+    "values": [
+
+
+      {"id":"minecraft:red_banner","required": false},
+      {"id":"minecraft:red_bed","required": false},
+      {"id":"minecraft:nether_wart","required": false},
+      {"id":"minecraft:nether_wart_block","required": false},
+      {"id":"minecraft:mangrove_boat","required": false},
+      {"id":"minecraft:mangrove_door","required": false},
+      {"id":"minecraft:mangrove_trapdoor","required": false},
+      {"id":"minecraft:mangrove_button","required": false},
+      {"id":"minecraft:mangrove_chest_boat","required": false},
+      {"id":"minecraft:mangrove_planks","required": false},
+      {"id":"minecraft:mangrove_slab","required": false},
+      {"id":"minecraft:mangrove_stairs","required": false},
+      {"id":"minecraft:red_candle","required": false},
+      {"id":"minecraft:red_carpet","required": false},
+      {"id":"minecraft:red_concrete","required": false},
+      {"id":"minecraft:red_concrete_powder","required": false},
+      {"id":"minecraft:red_dye","required": false},
+      {"id":"minecraft:red_glazed_terracotta","required": false},
+      {"id":"minecraft:red_mushroom","required": false},
+      {"id":"minecraft:red_mushroom_block","required": false},
+      {"id":"minecraft:red_nether_brick_slab","required": false},
+      {"id":"minecraft:red_nether_brick_stairs","required": false},
+      {"id":"minecraft:red_nether_brick_wall","required": false},
+      {"id":"minecraft:red_nether_bricks","required": false},
+      {"id":"minecraft:red_sand","required": false},
+      {"id":"minecraft:red_sandstone","required": false},
+      {"id":"minecraft:red_sandstone_slab","required": false},
+      {"id":"minecraft:red_sandstone_stairs","required": false},
+      {"id":"minecraft:red_sandstone_wall","required": false},
+      {"id":"minecraft:red_shulker_box","required": false},
+      {"id":"minecraft:red_stained_glass","required": false},
+      {"id":"minecraft:red_stained_glass_pane","required": false},
+      {"id":"minecraft:red_tulip","required": false},
+      {"id":"minecraft:red_wool","required": false},
+      {"id":"minecraft:redstone","required": false},
+      {"id":"minecraft:redstone_block","required": false},
+      {"id":"minecraft:red_terracotta","required": false},
+      {"id":"minecraft:cut_red_sandstone","required": false},
+      {"id":"minecraft:cut_red_sandstone_slab","required": false},
+      {"id":"minecraft:smooth_red_sandstone","required": false},
+      {"id":"minecraft:smooth_red_sandstone_slab","required": false},
+      {"id":"minecraft:smooth_red_sandstone_stairs","required": false},
+      {"id":"minecraft:chiseled_red_sandstone","required": false}
+
+      
+    ]
+  }
+  

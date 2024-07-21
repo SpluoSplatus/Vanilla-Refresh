@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+        ],
+        "item": {
+          "items": [
+            "minecraft:firework_rocket"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "a:a"
+  }
+}

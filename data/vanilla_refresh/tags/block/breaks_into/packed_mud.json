@@ -1,0 +1,20 @@
+{
+    "replace": false,
+    "values": [
+
+      {"id":"minecraft:mud_bricks","required": false},
+      {"id":"minecraft:mud_brick_stairs","required": false},
+      {"id":"minecraft:mud_brick_wall","required": false}
+      
+
+      
+
+
+
+    
+
+
+      
+    ]
+  }
+  

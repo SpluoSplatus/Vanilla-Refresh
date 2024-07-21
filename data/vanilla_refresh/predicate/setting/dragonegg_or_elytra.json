@@ -1,0 +1,36 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+
+
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "dragonegg"
+        },
+        "score": "refresh_settings"
+      },
+      "range": 1
+    }
+  ,
+  {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "dragonelytra"
+        },
+        "score": "refresh_settings"
+      },
+      "range": 1
+    }
+      
+    
+  ]
+}
+
+

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+      
+      {"id":"terralith:highlands","required":false},
+      
+      {"id":"terralith:alphine_highlands","required":false}
+    ]
+  }

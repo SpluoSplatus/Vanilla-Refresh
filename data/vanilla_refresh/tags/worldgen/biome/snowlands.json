@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+     
+      
+      
+      {"id":"terralith:wintry_forest","required":false},
+      {"id":"terralith:wintry_lowlands","required":false},
+      {"id":"terralith:snowy_badlands","required":false},
+      {"id":"terralith:snowy_shield","required":false},
+      {"id":"terralith:snowy_maple_forest","required":false},
+      {"id":"terralith:ice_marsh","required":false}
+    ]
+  }

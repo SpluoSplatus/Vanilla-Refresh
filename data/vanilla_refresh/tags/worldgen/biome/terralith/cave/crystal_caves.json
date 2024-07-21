@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+      
+      {"id":"terralith:cave/crystal_caves","required":false}
+    ]
+  }

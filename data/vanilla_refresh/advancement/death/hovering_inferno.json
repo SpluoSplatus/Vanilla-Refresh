@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "killing_blow": {
+          "source_entity": {
+            "type": "minecraft:blaze",
+            "nbt": "{Tags:[\"in.hovering_inferno\"]}"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+
+
+      {"id":"minecraft:snowball","required":false},
+      {"id":"minecraft:nether_star","required":false},
+      {"id":"#vanilla_refresh:discs","required":false}
+
+
+    
+
+
+      
+    ]
+  }
+  

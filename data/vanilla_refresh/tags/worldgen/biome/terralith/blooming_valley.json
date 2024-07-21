@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [{"id":"terralith:blooming_valley","required":false},
+    {"id":"terralith:blooming_plateau","required":false}
+   
+  ]
+}

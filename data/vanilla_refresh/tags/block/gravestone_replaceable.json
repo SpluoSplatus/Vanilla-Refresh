@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+   
+    {"id":"minecraft:grass_block","required": false},
+    {"id":"minecraft:dirt","required": false},
+    {"id":"minecraft:coarse_dirt","required": false},
+    {"id":"minecraft:podzol","required": false},
+    {"id":"minecraft:void_air","required": false},
+    {"id":"minecraft:air","required": false},
+    {"id":"minecraft:cave_air","required": false}
+    
+
+
+
+  
+
+
+    
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "replace": false,
+  "values": [
+
+    {"id":"#vanilla_refresh:tree_blocks","required":false}
+
+    ,
+    {"id":"minecraft:moss_carpet","required": false},
+    {"id":"minecraft:moss_block","required": false},
+    {"id":"minecraft:vine","required": false},
+    {"id":"minecraft:weeping_vines","required": false},
+    {"id":"minecraft:twisting_vines","required": false},
+    {"id":"minecraft:grass","required": false},
+    {"id":"minecraft:tall_grass","required": false},
+    {"id":"minecraft:fern","required": false},
+    {"id":"minecraft:large_fern","required": false},
+    {"id":"#minecraft:flowers","required": false},
+    {"id":"#minecraft:tall_flowers","required": false},
+    {"id":"minecraft:warped_roots","required": false},
+    {"id":"minecraft:warped_fungus","required": false},
+    {"id":"minecraft:crimson_fungus","required": false},
+    {"id":"minecraft:brown_mushroom","required": false},
+    {"id":"minecraft:red_mushroom","required": false},
+    {"id":"minecraft:nether_sprouts","required": false},
+    {"id":"minecraft:hanging_roots","required": false},
+    {"id":"minecraft:small_dripleaf","required": false},
+    {"id":"minecraft:glow_lichen","required": false},
+    {"id":"minecraft:spore_blossom","required": false},
+    {"id":"minecraft:chorus_flower","required": false},
+    {"id":"minecraft:chorus_plant","required": false}
+  ]
+}

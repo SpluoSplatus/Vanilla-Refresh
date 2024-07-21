@@ -1,0 +1,28 @@
+{
+    "replace": false,
+    "values": [
+
+      {"id":"minecraft:carrots","required": false},
+      {"id":"minecraft:wheat","required": false},
+      {"id":"minecraft:beetroots","required": false},
+      {"id":"minecraft:potatoes","required": false},
+
+
+      
+      {"id":"minecraft:cocoa","required": false},
+      {"id":"minecraft:melon","required": false},
+      {"id":"minecraft:pumpkin","required": false},
+      {"id":"minecraft:nether_wart","required": false}
+
+  
+      
+
+
+
+    
+
+
+      
+    ]
+  }
+  

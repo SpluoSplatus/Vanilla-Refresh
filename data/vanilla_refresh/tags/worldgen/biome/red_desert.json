@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [{"id":"tectonic:red_desert","required":false},
+      {"id":"terralith:bryce_canyon","required":false},
+      {"id":"tectonic:red_desert_dunes","required":false},
+      {"id":"terralith:red_oasis","required":false}
+    ]
+  }

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+
+
+    {"id":"minecraft:tnt_minecart","required":false},
+    {"id":"minecraft:tnt","required":false}
+   
+
+    
+  ]
+}

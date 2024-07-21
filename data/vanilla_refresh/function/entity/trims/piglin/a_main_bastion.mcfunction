@@ -1,0 +1,4 @@
+execute as @s[predicate=vanilla_refresh:chance/50_percent,predicate=vanilla_refresh:wearing/boots] run function vanilla_refresh:entity/trims/piglin/boots
+execute as @s[predicate=vanilla_refresh:chance/50_percent,predicate=vanilla_refresh:wearing/leggings] run function vanilla_refresh:entity/trims/piglin/leggings
+execute as @s[predicate=vanilla_refresh:chance/50_percent,predicate=vanilla_refresh:wearing/chestplate] run function vanilla_refresh:entity/trims/piglin/chestplate
+execute as @s[predicate=vanilla_refresh:chance/50_percent,predicate=vanilla_refresh:wearing/helmet] run function vanilla_refresh:entity/trims/piglin/helmet

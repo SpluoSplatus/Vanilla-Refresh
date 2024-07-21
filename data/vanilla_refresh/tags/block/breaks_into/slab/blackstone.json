@@ -1,0 +1,19 @@
+{
+    "replace": false,
+    "values": [
+
+      {"id":"minecraft:blackstone_slab","required": false},
+      {"id":"minecraft:polished_blackstone_slab","required": false},
+      {"id":"minecraft:polished_blackstone_brick_slab","required": false}
+  
+      
+
+
+
+    
+
+
+      
+    ]
+  }
+  

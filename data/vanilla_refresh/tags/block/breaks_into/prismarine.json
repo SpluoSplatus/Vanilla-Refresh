@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+
+    {"id":"minecraft:prismarine_stairs","required": false},
+    {"id":"minecraft:prismarine_wall","required": false}
+    
+
+
+
+  
+
+
+    
+  ]
+}

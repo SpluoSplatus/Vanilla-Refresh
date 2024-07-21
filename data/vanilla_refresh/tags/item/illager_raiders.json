@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+
+    {"id":"minecraft:pillager_spawn_egg","required":false},
+    {"id":"minecraft:ravager_spawn_egg","required":false},
+    {"id":"minecraft:vex_spawn_egg","required":false},
+    {"id":"minecraft:vindicator_spawn_egg","required":false},
+    {"id":"minecraft:evoker_spawn_egg","required":false},
+    {"id":"minecraft:witch_spawn_egg","required":false}
+    
+   
+
+    
+  ]
+}

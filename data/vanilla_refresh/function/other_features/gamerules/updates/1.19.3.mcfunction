@@ -1,0 +1,7 @@
+execute store result score globalSoundEvents refresh_gamerules run gamerule globalSoundEvents
+execute store result score lavaSourceConversion refresh_gamerules run gamerule lavaSourceConversion
+execute store result score waterSourceConversion refresh_gamerules run gamerule waterSourceConversion
+execute store result score snowAccumulationHeight refresh_gamerules run gamerule snowAccumulationHeight
+execute store result score tntExplosionDropDecay refresh_gamerules run gamerule tntExplosionDropDecay
+execute store result score mobExplosionDropDecay refresh_gamerules run gamerule mobExplosionDropDecay
+execute store result score blockExplosionDropDecay refresh_gamerules run gamerule blockExplosionDropDecay

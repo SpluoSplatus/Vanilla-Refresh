@@ -1,0 +1,69 @@
+{
+    "replace": false,
+    "values": [
+
+
+
+      {"id":"minecraft:deepslate_tiles","required": false},
+      {"id":"minecraft:deepslate_tile_slab","required": false},
+      {"id":"minecraft:deepslate_tile_stairs","required": false},
+      {"id":"minecraft:cracked_deepslate_tiles","required": false},
+
+      
+      {"id":"minecraft:polished_deepslate","required": false},
+      {"id":"minecraft:polished_deepslate_slab","required": false},
+      {"id":"minecraft:polished_deepslate_stairs","required": false},
+      {"id":"minecraft:polished_deepslate_wall","required": false},
+
+
+
+
+      
+      {"id":"minecraft:cobblestone","required": false},
+      {"id":"minecraft:spruce_planks","required": false},
+      {"id":"minecraft:spruce_log","required": false},
+      {"id":"minecraft:spruce_wood","required": false},
+      {"id":"minecraft:iron_block","required": false},
+      {"id":"minecraft:mushroom_stem","required": false},
+
+      
+      {"id":"minecraft:stripped_warped_stem","required": false},
+      
+      {"id":"minecraft:warped_planks","required": false},
+
+
+      {"id":"minecraft:oxidized_copper","required": false},
+      {"id":"minecraft:oxidized_cut_copper","required": false},
+      {"id":"minecraft:oxidized_cut_copper_slab","required": false},
+      {"id":"minecraft:oxidized_cut_copper_stairs","required": false},
+
+      
+      {"id":"minecraft:mangrove_planks","required": false},
+      {"id":"minecraft:stripped_mangrove_log","required": false},
+      {"id":"minecraft:stripped_mangrove_wood","required": false},
+      {"id":"minecraft:mangrove_trapdoor","required": false},
+
+      
+      {"id":"minecraft:crying_obsidian","required": false},
+      {"id":"minecraft:calcite","required": false},
+
+      
+      {"id":"minecraft:yellow_glazed_terracotta","required": false},
+      {"id":"minecraft:gray_glazed_terracotta","required": false},
+      {"id":"minecraft:lime_glazed_terracotta","required": false},
+      {"id":"minecraft:light_gray_glazed_terracotta","required": false},
+      {"id":"minecraft:black_glazed_terracotta","required": false},
+
+
+
+      
+      {"id":"minecraft:ochre_froglight","required": false}
+      
+
+    
+
+
+      
+    ]
+  }
+  

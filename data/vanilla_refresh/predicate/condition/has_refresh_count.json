@@ -1,0 +1,9 @@
+{
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "refresh_count": {
+        "min": 0
+      }
+    }
+  }

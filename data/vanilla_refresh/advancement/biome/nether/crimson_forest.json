@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "vanilla_refresh:setting/biome"
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "vanilla_refresh:condition/adv_nether"
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "vanilla_refresh:condition/second.tick5"
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "vanilla_refresh:condition/no_toast"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "#vanilla_refresh:nether/crimson_forest"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "vanilla_refresh:other_features/biome/nether/crimson_forest"
+  }
+}

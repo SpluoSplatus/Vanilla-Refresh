@@ -1,0 +1,9 @@
+{
+  "condition": "minecraft:entity_scores",
+  "entity": "this",
+  "scores": {
+    "refresh_player_tick2": {
+      "min": 200
+    }
+  }
+}

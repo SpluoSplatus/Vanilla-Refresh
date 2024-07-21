@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+      
+      {"id":"minecraft:grove","required":false},
+      {"id":"minecraft:snowy_slopes","required":false},
+      {"id":"minecraft:frozen_peaks","required":false},
+      
+      {"id":"terralith:emerald_peaks","required":false},
+      {"id":"terralith:alpine_grove","required":false}
+    ]
+  }

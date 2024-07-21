@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+
+
+    {"id":"#vanilla_refresh:night_mobs_generic","required":false},
+    {"id":"#vanilla_refresh:night_mobs_skip_zombie_villager","required":false}
+    
+   
+
+    
+  ]
+}

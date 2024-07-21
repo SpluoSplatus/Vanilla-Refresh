@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+{"id":"minecraft:lush_caves","required":false},
+      {"id":"tectonic:lush_river","required":false}
+    ]
+  }

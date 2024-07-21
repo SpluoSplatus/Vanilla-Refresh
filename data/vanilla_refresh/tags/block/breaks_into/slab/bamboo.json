@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+
+    {"id":"minecraft:bamboo_slab","required": false},
+    {"id":"minecraft:bamboo_mosaic_slab","required": false},
+    {"id":"minecraft:bamboo_mosaic","required": false}
+    
+
+
+
+  
+
+
+    
+  ]
+}

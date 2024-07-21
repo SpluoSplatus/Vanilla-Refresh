@@ -1,0 +1,11 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:trim": {
+        "material": "minecraft:iron",
+        "pattern": "minecraft:rib"
+      }
+    }
+  }
+]

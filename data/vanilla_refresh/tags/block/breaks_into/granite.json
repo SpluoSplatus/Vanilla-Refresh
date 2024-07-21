@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+
+    {"id":"minecraft:granite_stairs","required": false},
+    {"id":"minecraft:granite_wall","required": false},
+    {"id":"minecraft:polished_granite","required": false},
+    {"id":"minecraft:polished_granite_stairs","required": false}
+    
+
+
+
+  
+
+
+    
+  ]
+}

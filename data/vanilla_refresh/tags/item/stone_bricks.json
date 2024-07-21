@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+
+
+    {"id":"minecraft:stone_bricks","required":false},
+    {"id":"minecraft:stone_brick_slab","required":false},
+    {"id":"minecraft:stone_brick_stairs","required":false},
+    {"id":"minecraft:stone_brick_wall","required":false},
+    {"id":"minecraft:mossy_stone_brick_slab","required":false},
+    {"id":"minecraft:mossy_stone_bricks","required":false},
+    {"id":"minecraft:mossy_stone_brick_stairs","required":false},
+    {"id":"minecraft:mossy_stone_brick_wall","required":false},
+    {"id":"minecraft:cracked_stone_bricks","required":false},
+    {"id":"minecraft:chiseled_stone_bricks","required":false}
+    
+  ]
+}

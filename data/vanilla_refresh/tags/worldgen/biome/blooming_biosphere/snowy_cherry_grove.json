@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+      
+      {"id":"blooming_biosphere:snowy_cherry_grove","required":false},
+      {"id":"terralith:snowy_cherry_grove","required":false}
+    ]
+  }

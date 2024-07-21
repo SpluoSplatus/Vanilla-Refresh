@@ -1,0 +1,34 @@
+{
+  "replace": false,
+  "values": [
+
+
+    {"id":"minecraft:stone","required": false},
+    {"id":"minecraft:deepslate","required": false},
+    {"id":"minecraft:andesite","required": false},
+    {"id":"minecraft:granite","required": false},
+    {"id":"minecraft:diorite","required": false},
+    {"id":"minecraft:calcite","required": false},
+    {"id":"minecraft:tuff","required": false},
+    {"id":"minecraft:smooth_basalt","required": false},
+    {"id":"minecraft:amethyst_block","required": false},
+    {"id":"minecraft:sculk","required": false},
+    {"id":"minecraft:sculk_vein","required": false},
+    {"id":"minecraft:sculk_catalyst","required": false},
+    {"id":"minecraft:sculk_shrieker","required": false},
+    {"id":"minecraft:sculk_sensor","required": false},
+    {"id":"minecraft:moss_block","required": false},
+    {"id":"minecraft:moss_carpet","required": false},
+    {"id":"minecraft:spore_blossom","required": false},
+    {"id":"minecraft:vine","required": false},
+    {"id":"minecraft:glow_lichen","required": false},
+    {"id":"minecraft:glow_berries","required": false},
+    {"id":"minecraft:azalea","required": false},
+    {"id":"minecraft:flowering_azalea","required": false},
+    {"id":"minecraft:water_bucket","required": false},
+    {"id":"minecraft:lava_bucket","required": false},
+    {"id":"minecraft:dripstone_block","required": false},
+    {"id":"minecraft:pointed_dripstone","required": false}
+    
+  ]
+}

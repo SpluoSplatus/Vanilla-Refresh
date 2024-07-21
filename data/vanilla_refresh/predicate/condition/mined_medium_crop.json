@@ -1,0 +1,83 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "vanilla_refresh:holding/enchant/not_silk_touch"
+  },
+
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "refresh_mine.carrots": {
+          "min": 1
+        }
+      }
+    }
+    ,
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "refresh_mine.wheat": {
+          "min": 1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "refresh_mine.beetroots": {
+          "min": 1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "refresh_mine.potatoes": {
+          "min": 1
+        }
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+,
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "refresh_mine.nether_wart": {
+          "min": 1
+        }
+      }
+    }
+    ,
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "refresh_mine.cocoa": {
+          "min": 1
+        }
+      }
+    }
+    
+
+
+  ]
+}
+]

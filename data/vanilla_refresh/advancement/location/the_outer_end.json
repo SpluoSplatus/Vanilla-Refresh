@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "entered_end_gateway": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "vanilla_refresh:setting/subtitles"
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "vanilla_refresh:position/the_end"
+          }
+        ],
+        "block": "minecraft:end_gateway"
+      }
+    }
+  },
+  "rewards": {
+    "function": "vanilla_refresh:other_features/event/narate/the_outer_end"
+  }
+}

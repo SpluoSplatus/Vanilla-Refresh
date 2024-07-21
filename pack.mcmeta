@@ -1,0 +1,28 @@
+{
+    "pack": {
+      "pack_format": 48,
+      "supported_formats": {
+        "min_inclusive": 15,
+        "max_inclusive": 999
+      },
+      "description": [
+        {
+          "translate": "Quality of Life Refresh",
+          "color": "#30dbbf"
+        },
+        {
+          "translate": "\n"
+        },
+        {
+          "translate": "Version 1.4.21 - MC 1.21",
+          "color": "#898f96"
+        }
+      ]
+    },
+    "overlays": {
+      "entries": [
+         
+      ]
+  }
+  }
+  

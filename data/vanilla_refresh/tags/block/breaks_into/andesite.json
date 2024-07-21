@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+
+    {"id":"minecraft:andesite_stairs","required": false},
+    {"id":"minecraft:andesite_wall","required": false},
+    {"id":"minecraft:polished_andesite","required": false},
+    {"id":"minecraft:polished_andesite_stairs","required": false}
+    
+
+
+
+  
+
+
+    
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "values": [
+    {"id":"minecraft:nether_wart_block","required": false},
+    {"id":"minecraft:warped_wart_block","required": false},
+    {"id":"minecraft:hay_block","required": false},
+    {"id":"minecraft:dried_kelp_block","required": false},
+    {"id":"minecraft:target","required": false},
+    {"id":"minecraft:shroomlight","required": false},
+    {"id":"minecraft:sponge","required": false},
+    {"id":"minecraft:wet_sponge","required": false},
+    {"id":"minecraft:jungle_leaves","required": false},
+    {"id":"minecraft:oak_leaves","required": false},
+    {"id":"minecraft:spruce_leaves","required": false},
+    {"id":"minecraft:dark_oak_leaves","required": false},
+    {"id":"minecraft:acacia_leaves","required": false},
+    {"id":"minecraft:birch_leaves","required": false},
+    {"id":"minecraft:azalea_leaves","required": false},
+    {"id":"minecraft:flowering_azalea_leaves","required": false},
+    {"id":"minecraft:mangrove_leaves","required": false},
+    {"id":"minecraft:sculk_sensor","required": false},
+    {"id":"minecraft:moss_block","required": false},
+    {"id":"minecraft:moss_carpet","required": false},
+    {"id":"minecraft:sculk","required": false},
+    {"id":"minecraft:sculk_catalyst","required": false},
+    {"id":"minecraft:sculk_vein","required": false},
+    {"id":"minecraft:sculk_shrieker","required": false}
+  ]
+}

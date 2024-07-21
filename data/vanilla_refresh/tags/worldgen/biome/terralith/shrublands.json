@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+      
+      {"id":"terralith:cold_shrubland","required":false},
+      {"id":"terralith:hot_shrubland","required":false},
+      {"id":"terralith:rocky_shrubland","required":false},
+      {"id":"terralith:shrubland","required":false}
+    ]
+  }

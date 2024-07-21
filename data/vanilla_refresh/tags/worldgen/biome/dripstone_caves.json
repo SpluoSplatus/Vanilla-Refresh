@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+{"id":"minecraft:dripstone_caves","required":false},
+      {"id":"tectonic:dripstone_river","required":false}
+    ]
+  }

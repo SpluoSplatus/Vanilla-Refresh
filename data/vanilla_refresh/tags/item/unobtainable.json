@@ -1,0 +1,23 @@
+{
+    "replace": false,
+    "values": [
+
+
+
+      {"id":"minecraft:command_block","required": false},
+      {"id":"minecraft:chain_command_block","required": false},
+      {"id":"minecraft:repeating_command_block","required": false},
+      {"id":"minecraft:end_portal_frame","required": false},
+      {"id":"minecraft:farmland","required": false},
+      {"id":"minecraft:reinforced_deepslate","required": false},
+      {"id":"minecraft:bedrock","required": false},
+      {"id":"minecraft:frogspawn","required": false},
+      {"id":"minecraft:player_head","required": false}
+
+    
+
+
+      
+    ]
+  }
+  

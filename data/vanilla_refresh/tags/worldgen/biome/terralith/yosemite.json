@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+      
+      {"id":"terralith:yosemite_lowlands","required":false},
+      {"id":"terralith:yosemite_cliffs","required":false}
+    ]
+  }

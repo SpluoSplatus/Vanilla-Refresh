@@ -1,0 +1,18 @@
+{
+    "replace": false,
+    "values": [
+
+      {"id":"minecraft:cobbled_deepslate_slab","required": false},
+      {"id":"minecraft:deepslate_brick_slab","required": false},
+      {"id":"minecraft:deepslate_tile_slab","required": false},
+      {"id":"minecraft:polished_deepslate_slab","required": false}
+
+
+
+    
+
+
+      
+    ]
+  }
+  

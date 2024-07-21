@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "s": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "vanilla_refresh:player/set_member_id"
+  }
+}

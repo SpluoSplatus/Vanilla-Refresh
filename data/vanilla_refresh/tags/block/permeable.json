@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+   
+    {"id":"#vanilla_refresh:gravestone_permeable","required": false},
+    {"id":"minecraft:lava","required": false},
+    {"id":"minecraft:water","required": false},
+
+    
+    
+    {"id":"minecraft:powder_snow","required": false},
+    {"id":"minecraft:kelp","required": false},
+    {"id":"minecraft:kelp_plant","required": false},
+    {"id":"minecraft:tall_seagrass","required": false},
+    {"id":"minecraft:seagrass","required": false},
+    {"id":"minecraft:bubble_column","required": false}
+    
+   
+
+
+    
+
+
+
+  
+
+
+    
+  ]
+}

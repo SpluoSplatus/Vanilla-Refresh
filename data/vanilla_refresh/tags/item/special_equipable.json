@@ -1,0 +1,49 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"#vanilla_refresh:glass_blocks","required":false},
+
+    {"id":"#vanilla_refresh:fence_gates","required":false},
+
+    {
+      "id": "minecraft:azalea","required":false},
+
+    {
+      "id": "minecraft:flowering_azalea","required":false},
+
+    {"id":"#minecraft:banners","required":false},
+
+    {
+      "id": "minecraft:jack_o_lantern","required":false},
+
+    {
+      "id": "minecraft:composter","required":false},
+
+    {
+      "id": "minecraft:honey_block","required":false},
+
+    {
+      "id": "minecraft:slime_block","required":false},
+
+    {
+      "id": "minecraft:ice","required":false},
+
+    {
+      "id": "minecraft:end_rod","required":false},
+
+    {
+      "id": "minecraft:observer","required":false},
+
+    {
+      "id": "minecraft:dispenser","required":false},
+
+    {
+      "id": "minecraft:dropper","required":false},
+
+    {
+      "id": "minecraft:bone","required":false},
+
+    {
+      "id": "minecraft:obsidian","required":false}
+  ]
+}

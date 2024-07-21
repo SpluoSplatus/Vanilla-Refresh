@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+
+
+    {"id":"minecraft:zombie","required":false},
+    {"id":"minecraft:husk","required":false},
+    {"id":"minecraft:zombified_piglin","required":false},
+    {"id":"minecraft:drowned","required":false}
+    
+   
+
+    
+  ]
+}

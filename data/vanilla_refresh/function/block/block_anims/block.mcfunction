@@ -1,0 +1,8 @@
+execute unless score blockanims_jukebox refresh_settings matches 0 as @e[type=marker,tag=refresh_entity_blockanim_jukebox] at @s if entity @p[distance=..32] run function vanilla_refresh:block/block_anims/jukebox/anim
+execute unless score blockanims_beacon refresh_settings matches 0 as @e[type=marker,tag=refresh_entity_blockanim_beacon] at @s if entity @p[distance=..32] run function vanilla_refresh:block/block_anims/beacon/anim
+execute unless score blockanims_witherskull refresh_settings matches 0 as @e[type=marker,tag=refresh_entity_blockanim_witherskull] at @s if entity @p[distance=..32] run function vanilla_refresh:block/block_anims/witherskull/anim
+execute unless score blockanims_brewing refresh_settings matches 0 as @e[type=marker,tag=refresh_entity_blockanim_brewing_stand] at @s if entity @p[distance=..32] run function vanilla_refresh:block/block_anims/brewing_stand/anim
+execute unless score blockanims_enchant refresh_settings matches 0 as @e[type=marker,tag=refresh_entity_blockanim_enchanting_table] at @s if entity @p[distance=..32] run function vanilla_refresh:block/block_anims/enchanting_table/anim
+execute unless score blockanims_dragonegg refresh_settings matches 0 as @e[type=marker,tag=refresh_entity_blockanim_dragon_egg] at @s if entity @p[distance=..32] run function vanilla_refresh:block/block_anims/dragon_egg/anim
+#execute as @e[type=marker,tag=refresh_entity_blockanim_diamond_block] at @s if entity @p[distance=..32] run function vanilla_refresh:block/block_anims/diamond_block/anim
+#execute as @e[type=marker,tag=refresh_entity_blockanim_netherite_block] at @s if entity @p[distance=..32] run function vanilla_refresh:block/block_anims/netherite_block/anim

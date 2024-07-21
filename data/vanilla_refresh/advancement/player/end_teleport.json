@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "s1": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_end"
+      }
+    },
+    "s2": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:the_end"
+      }
+    },
+    "s3": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "vanilla_refresh:setting/end_teleport"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "s1",
+      "s2"
+    ],
+    [
+      "s3"
+    ]
+  ],
+  "rewards": {
+    "function": "vanilla_refresh:player/teleport_end"
+  }
+}

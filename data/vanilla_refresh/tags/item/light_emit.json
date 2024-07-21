@@ -1,0 +1,48 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraft:torch","required":false},
+
+    {
+      "id": "minecraft:soul_torch","required":false},
+
+    {
+      "id": "minecraft:lantern","required":false},
+
+    {
+      "id": "minecraft:soul_lantern","required":false},
+
+    {
+      "id": "minecraft:campfire","required":false},
+
+    {
+      "id": "minecraft:soul_campfire","required":false},
+
+    {
+      "id": "minecraft:sea_lantern","required":false},
+
+    {"id":"#vanilla_refresh:froglights","required":false},
+
+    {
+      "id": "minecraft:beacon","required":false},
+
+    {
+      "id": "minecraft:glowstone","required":false},
+
+    {
+      "id": "minecraft:shroomlight","required":false},
+
+    {
+      "id": "minecraft:sea_pickle","required":false},
+
+    {
+      "id": "minecraft:jack_o_lantern","required":false},
+
+    {
+      "id": "minecraft:lava_bucket","required":false},
+
+    {
+      "id": "minecraft:end_rod","required":false}
+  ]
+}

@@ -1,0 +1,48 @@
+{
+    "replace": false,
+    "values": [
+
+
+      {"id":"minecraft:sand","required": false},
+      {"id":"minecraft:sea_lantern","required": false},
+      {"id":"minecraft:sea_pickle","required": false},
+      {"id":"minecraft:seagrass","required": false},
+      {"id":"minecraft:kelp","required": false},
+      {"id":"minecraft:gravel","required": false},
+      {"id":"minecraft:dark_prismarine_slab","required": false},
+      {"id":"minecraft:dark_prismarine","required": false},
+      {"id":"minecraft:dark_prismarine_stairs","required": false},
+      {"id":"minecraft:prismarine","required": false},
+      {"id":"minecraft:prismarine_wall","required": false},
+      {"id":"minecraft:prismarine_stairs","required": false},
+      {"id":"minecraft:prismarine_slab","required": false},
+      {"id":"minecraft:prismarine_bricks","required": false},
+      {"id":"minecraft:prismarine_brick_slab","required": false},
+      {"id":"minecraft:prismarine_brick_stairs","required": false},
+      {"id":"minecraft:conduit","required": false},
+      {"id":"minecraft:sponge","required": false},
+      {"id":"minecraft:wet_sponge","required": false},
+
+      {"id":"minecraft:fire_coral","required": false},
+      {"id":"minecraft:fire_coral_block","required": false},
+      {"id":"minecraft:fire_coral_fan","required": false},
+
+      {"id":"minecraft:brain_coral","required": false},
+      {"id":"minecraft:brain_coral_block","required": false},
+      {"id":"minecraft:brain_coral_fan","required": false},
+
+      {"id":"minecraft:horn_coral","required": false},
+      {"id":"minecraft:horn_coral_block","required": false},
+      {"id":"minecraft:horn_coral_fan","required": false},
+
+      {"id":"minecraft:bubble_coral","required": false},
+      {"id":"minecraft:bubble_coral_block","required": false},
+      {"id":"minecraft:bubble_coral_fan","required": false},
+
+      {"id":"minecraft:tube_coral","required": false},
+      {"id":"minecraft:tube_coral_block","required": false},
+      {"id":"minecraft:tube_coral_fan","required": false}
+      
+    ]
+  }
+  

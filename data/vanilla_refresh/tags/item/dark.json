@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"minecraft:black_concrete","required": false},
+    {"id":"minecraft:obsidian","required": false},
+    {"id":"minecraft:crying_obsidian","required": false},
+    {"id":"minecraft:dragon_egg","required": false},
+    {"id":"minecraft:black_glazed_terracotta","required": false},
+    {"id":"minecraft:blackstone","required": false},
+    {"id":"minecraft:blackstone_slab","required": false},
+    {"id":"minecraft:blackstone_stairs","required": false},
+    {"id":"minecraft:blackstone_wall","required": false},
+    {"id":"minecraft:black_concrete_powder","required": false},
+    {"id":"minecraft:sculk","required": false},
+    {"id":"minecraft:sculk_vein","required": false}
+  ]
+}

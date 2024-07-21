@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+       
+        "items": [
+          {
+            "items": "#vanilla_refresh:good_try",
+            "predicates": {
+              "minecraft:custom_data": "{VanillaRefreshClear:1}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "vanilla_refresh:other/actions/good_try"
+  }
+}

@@ -1,0 +1,1 @@
+execute store result score doWardenSpawning refresh_gamerules run gamerule doWardenSpawning

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+     
+      {"id":"minecraft:windswept_gravelly_hills","required":false},
+      {"id":"minecraft:windswept_hills","required":false}
+    ]
+  }

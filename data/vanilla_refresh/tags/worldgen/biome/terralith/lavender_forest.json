@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+      
+      {"id":"terralith:lavender_forest","required":false},
+      {"id":"terralith:lavender_valley","required":false}
+     
+    ]
+  }
+  
