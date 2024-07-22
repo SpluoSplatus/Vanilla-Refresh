@@ -214,3 +214,7 @@ execute unless score process_stats refresh_settings matches -2147483648.. run sc
 
 execute if score cyclestats_health refresh_settings matches 1 run scoreboard objectives modify refresh_player_health displayname {"translate":"❤"}
 execute if score cyclestats_health refresh_settings matches 2 run scoreboard objectives modify refresh_player_health displayname {"translate":"Health"}
+
+
+#modified defaults
+function ls_defaults:defaults/vanilla_refresh
