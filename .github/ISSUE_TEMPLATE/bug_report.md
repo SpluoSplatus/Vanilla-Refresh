@@ -3,15 +3,9 @@ name: Bug Report
 about: Report a bug report using this bug report template
 title: ''
 labels: bug
-assignees: ''
+assignees: SpluoSplatus
 
 ---
-
-**Minecraft Version**
-Write Minecraft version where the issue is occuring (e.x. 1.21)
-
-**Vanilla Refresh Version**
-Write Vanilla Refresh version being used where the issue is occuring. The file name of the .zip/.jar can be pasted here
 
 **Description**
 A description of what the bug is and what occurs
@@ -22,5 +16,6 @@ A description of what the bug is and what occurs
 2. Blank blank
 3. etc
 
-**Additional Info**
-(optional)
+**Minecraft Version:** Write Minecraft version here
+
+Bug reports reviewed under the assumption that you are on the latest version of Vanilla Refresh. Feel free to insert any screenshots or extra info if needed,
