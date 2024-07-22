@@ -18,4 +18,4 @@ A description of what the bug is and what occurs
 
 **Minecraft Version:** Write Minecraft version here
 
-Bug reports reviewed under the assumption that you are on the latest version of Vanilla Refresh. Feel free to insert any screenshots or extra info if needed,
+Bug reports reviewed under the assumption that you are on the latest version of Vanilla Refresh. Optionally, feel free to insert any screenshots or extra info if needed. (you can erase this text!)
