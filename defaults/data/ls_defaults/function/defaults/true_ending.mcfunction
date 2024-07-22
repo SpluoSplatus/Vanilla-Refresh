@@ -12,6 +12,8 @@
     # the value after the "dragonhealth trueEnding_settings" is the value you change to modify the settingz
 #
 
+# it is advised that lines you aren't modifying are removed
+
 
 
 scoreboard players set dragonhealth trueEnding_settings 300

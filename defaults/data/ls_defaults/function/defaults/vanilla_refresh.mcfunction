@@ -9,6 +9,8 @@
     # the value after the "sitting refresh_settings" is the value you change to modify the setting
 #
 
+# it is advised that lines you aren't modifying are removed
+
 
        scoreboard players set sitting refresh_settings 1
 
@@ -71,7 +73,7 @@ execute if score soul refresh_settings matches 2 run scoreboard players set soul
 
          scoreboard players set dragonegg refresh_settings 0
 
-_settings matches -2147483647.. run scoreboard players set soul_despawntime refresh_settings 180
+scoreboard players set soul_despawntime refresh_settings 180
 
 
 
@@ -93,7 +95,7 @@ _settings matches -2147483647.. run scoreboard players set soul_despawntime refr
           scoreboard objectives setdisplay list refresh_player_hours
           scoreboard players set tabdisplay refresh_settings 1
 
-ngs matches -2147483648..1 run scoreboard players set cyclestats refresh_settings 1
+scoreboard players set cyclestats refresh_settings 1
 
     scoreboard players set path refresh_settings 1
 
