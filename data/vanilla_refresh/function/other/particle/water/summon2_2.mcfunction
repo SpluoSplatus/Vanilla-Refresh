@@ -3,7 +3,7 @@ title @s[tag=refresh_debug] actionbar {"translate":"Refresh Debug - Wave 2, Heig
 
 particle explosion ~ ~ ~ 0 0 0 0 1 force @a[distance=..256] 
 
-particle explosion ~ ~ ~ 1.5 .3 1.5 0 2 force @a[distance=..256] 
+particle explosion_emitter ~ ~-2 ~ 0 0 0 0 1 force @a[distance=..256] 
 
 
 particle minecraft:splash ~ ~ ~ .8 .3 .8 0 100 force @a[distance=..64]

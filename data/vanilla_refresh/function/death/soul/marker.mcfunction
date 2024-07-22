@@ -56,7 +56,7 @@ execute if score @s refresh_count matches 99 if score @s refresh_soul_hours matc
 
 
 
-execute if score @s refresh_count matches 99 if entity @p[distance=..5] run title @a[distance=..5,tag=!1_splatus_actionbar_disabled,tag=!1_splatus_actionbar_disabled_2] actionbar [{"translate": "","color": "yellow"},{"translate":"Player Soul","color": "green"},{"translate":" -","color": "gray"},{"translate":" Time Left: "},{"score":{"name": "@s","objective":"refresh_soul_hours"}},{"translate":" hours, "},{"score":{"name": "@s","objective":"refresh_soul_minutes"}},{"translate":" minutes, "},{"score":{"name": "@s","objective":"refresh_soul_seconds"}},{"translate":" seconds"}]
+execute if score @s refresh_count matches 99 if entity @p[distance=..5] run title @a[distance=..5,tag=!1_splatus_actionbar_disabled,tag=!1_splatus_actionbar_disabled_2] actionbar [{"translate": "","color": "yellow"},{"selector":"@s","color": "green"},{"translate":"'s ","color": "green"},{"translate":"Soul","color": "green"},{"translate":" -","color": "gray"},{"translate":" Time Left: ","color": "#dbdbdb"},{"score":{"name": "@s","objective":"refresh_soul_hours"}},{"translate":"h, "},{"score":{"name": "@s","objective":"refresh_soul_minutes"}},{"translate":"m, "},{"score":{"name": "@s","objective":"refresh_soul_seconds"}},{"translate":"s"}]
 
 #
 execute if score @s refresh_soul_hours matches -1 run function vanilla_refresh:death/soul/update_scoreboard_storing

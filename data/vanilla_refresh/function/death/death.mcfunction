@@ -1,6 +1,14 @@
 
 
 execute if score death refresh_settings matches 1.. run function vanilla_refresh:death/death_message
+
+
+#item and soul link naming
+loot spawn ~ ~10.22 ~ loot vanilla_refresh:drop/player_head
+execute positioned ~ ~10.22 ~ run data modify storage vanilla_refresh:storage last_player_death set from entity @n[type=item] Item.components.minecraft:profile.name
+execute positioned ~ ~10.22 ~ run kill @n[type=item]
+
+
 #global death sound
 execute if score death_sound refresh_settings matches 1..10 at @a run function vanilla_refresh:death/death_sound
 
@@ -34,7 +42,7 @@ execute if score death_stop_music refresh_settings matches 1 run stopsound @s mu
     execute unless score temp_createSoul refresh_storage matches 1 if score gamerule_keepInventory refresh_settings matches 1 if score soul refresh_settings matches 1.. if items entity @s hotbar.* * run scoreboard players set temp_createSoul refresh_storage 1
     execute unless score temp_createSoul refresh_storage matches 1 if score gamerule_keepInventory refresh_settings matches 1 if score soul refresh_settings matches 1.. if entity @s[level=2..] run scoreboard players set temp_createSoul refresh_storage 1
 
-    execute if score soul refresh_settings matches 1.. if score soul_create refresh_settings matches 1 if score temp_createSoul refresh_storage matches 1 if score gamerule_keepInventory refresh_settings matches 1 run function vanilla_refresh:death/soul/death
+    execute if score soul refresh_settings matches 1.. if score soul_create refresh_settings matches 1 if score temp_createSoul refresh_storage matches 1 if score gamerule_keepInventory refresh_settings matches 1 positioned ~ ~1.6 ~ run function vanilla_refresh:death/soul/death
 #
 
 #gravestone

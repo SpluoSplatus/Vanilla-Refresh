@@ -35,4 +35,4 @@ tag @s remove refresh_entity_jukebox_islooping
 #execute if score blockanims refresh_settings matches 1 if block ~ ~ ~ jukebox{RecordItem:{id:"minecraft:music_disc_strad"}} run particle minecraft:note ~ ~.5 ~ 0.75 0 0 1 0 force @a[distance=..32]
 #execute if score blockanims refresh_settings matches 1 if block ~ ~ ~ jukebox{RecordItem:{id:"minecraft:music_disc_wait"}} run particle minecraft:note ~ ~.5 ~ 0.72 0 0 1 0 force @a[distance=..32]
 
-execute if score jukebox_stop_sound refresh_settings matches 1 run function vanilla_refresh:block/jukebox_stop_sound
+execute if score jukebox_stop_sound refresh_settings matches 1 run function vanilla_refresh:block/jukebox/stopsound

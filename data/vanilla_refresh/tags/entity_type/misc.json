@@ -45,7 +45,11 @@
     {"id":"minecraft:item_display","required": false},
     {"id":"minecraft:block_display","required": false},
     {"id":"minecraft:text_display","required": false},
-    {"id":"minecraft:interaction","required": false}
+    {"id":"minecraft:interaction","required": false},
+    
+    {"id":"minecraft:ominous_item_spawner","required": false},
+    {"id":"minecraft:wind_charge","required": false},
+    {"id":"minecraft:breeze_wind_charge","required": false}
     
    
 

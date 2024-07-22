@@ -4,6 +4,8 @@ title @s[tag=refresh_debug] actionbar {"translate":"Refresh Debug - Wave 3, Heig
 particle explosion ~ ~ ~ 0 0 0 0 1 force @a[distance=..256] 
 particle explosion_emitter ~ ~ ~ 0 0 0 0 1 force @a[distance=..256] 
 
+particle explosion_emitter ~ ~-2 ~ 0 0 0 0 1 force @a[distance=..256] 
+
 particle minecraft:splash ~ ~ ~ .8 .3 .8 0 100 force @a[distance=..64]
 
 playsound minecraft:entity.dolphin.splash block @a[distance=..48] ~ ~ ~ 2 .5

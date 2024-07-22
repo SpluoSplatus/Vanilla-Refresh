@@ -21,8 +21,8 @@ execute if score sitting refresh_settings matches 1 as @a[predicate=!vanilla_ref
 
 
 #health
-execute if score mob_health refresh_settings matches 1 as @a[advancements={vanilla_refresh:used_spyglass=false}] at @s if entity @e[distance=0.001..5,type=!#vanilla_refresh:misc,tag=!refresh_entity_misc] run function vanilla_refresh:entity/mob_health/mob_health
-execute if score mob_health refresh_settings matches 1 as @a[advancements={vanilla_refresh:used_spyglass=false}] at @s unless entity @e[distance=0.001..5,type=!#vanilla_refresh:misc,tag=!refresh_entity_misc] run tag @s remove 1_splatus_actionbar_disabled
+execute if score mob_health refresh_settings matches 1 as @a[advancements={vanilla_refresh:used_spyglass=false},tag=!1_splatus_actionbar_disabled_2] at @s if entity @e[distance=0.001..5,predicate=vanilla_refresh:condition/can_show_health] run function vanilla_refresh:entity/mob_health/mob_health
+execute if score mob_health refresh_settings matches 1 as @a[advancements={vanilla_refresh:used_spyglass=false},tag=!1_splatus_actionbar_disabled_2] at @s unless entity @e[distance=0.001..5,predicate=vanilla_refresh:condition/can_show_health] run tag @s remove 1_splatus_actionbar_disabled
 
 
 

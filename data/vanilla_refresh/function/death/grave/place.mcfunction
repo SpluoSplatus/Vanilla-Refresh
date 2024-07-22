@@ -17,14 +17,25 @@ fill ^ ^-1 ^1 ^ ^-1 ^1 coarse_dirt replace #vanilla_refresh:gravestone_replaceab
 execute if score @s refresh_player_rotation matches -180..-136 rotated -180 0 run setblock ^ ^ ^1 player_head[rotation=0]
 execute if score @s refresh_player_rotation matches 135..179 rotated -180 0 run setblock ^ ^ ^1 player_head[rotation=0]
 
+execute if score @s refresh_player_rotation matches -180..-136 rotated -180 0 run setblock ^ ^1 ^1 oak_wall_sign[facing=north]
+execute if score @s refresh_player_rotation matches 135..179 rotated -180 0 run setblock ^ ^1 ^1 oak_wall_sign[facing=north]
+
 #east
 execute if score @s refresh_player_rotation matches -135..-46 rotated -90 0 run setblock ^ ^ ^1 player_head[rotation=4]
+execute if score @s refresh_player_rotation matches -135..-46 rotated -90 0 run setblock ^ ^1 ^1 oak_wall_sign[facing=east]
 
 #south
 execute if score @s refresh_player_rotation matches -45..44 rotated 0 0 run setblock ^ ^ ^1 player_head[rotation=8]
+execute if score @s refresh_player_rotation matches -45..44 rotated 0 0 run setblock ^ ^1 ^1 oak_wall_sign[facing=south]
 
 #west
 execute if score @s refresh_player_rotation matches 45..134 rotated 90 0 run setblock ^ ^ ^1 player_head[rotation=12]
+execute if score @s refresh_player_rotation matches 45..134 rotated 90 0 run setblock ^ ^1 ^1 oak_wall_sign[facing=west]
+
+data modify block ^ ^1 ^1 front_text.messages[1] set from storage vanilla_refresh:storage last_soul_link_name
+data modify block ^ ^1 ^1 front_text.has_glowing_text set value 1b
+data modify block ^ ^1 ^1 front_text.color set value "light_gray"
+data modify block ^ ^1 ^1 is_waxed set value 1b
 
 
 

@@ -1,5 +1,5 @@
 
-execute unless block ^ ^ ^1 player_head positioned ^ ^ ^1 run kill @e[distance=..3,type=item,nbt={Item:{id:"minecraft:player_head"}},sort=nearest,limit=1]
+execute unless block ^ ^ ^1 player_head positioned ^ ^ ^1 run kill @n[distance=..3,type=item,nbt={Item:{id:"minecraft:player_head"}}]
 
 execute positioned ~ ~1 ~ if block ~ ~ ~ cobblestone run particle block{block_state:"cobblestone"} ~ ~ ~ .3 .3 .3 .2 50 normal
 execute positioned ~ ~ ~ if block ~ ~ ~ andesite run particle block{block_state:"andesite"} ~ ~ ~ .3 .3 .3 .2 50 normal
@@ -28,6 +28,7 @@ kill @e[distance=..3,type=item,nbt={Item:{id:"minecraft:andesite"}}]
 kill @e[distance=..3,type=item,nbt={Item:{id:"minecraft:cobblestone"}}]
 kill @e[distance=..3,type=item,nbt={Item:{id:"minecraft:coarse_dirt"}}]
 kill @e[distance=..3,type=item,nbt={Item:{id:"minecraft:soul_torch"}}]
+kill @e[distance=..3,type=item,nbt={Item:{id:"minecraft:oak_sign"}}]
 
 playsound entity.wither_skeleton.step block @a[distance=..20] ~ ~ ~ .5 1.6
 playsound block.lodestone.break block @a[distance=..20] ~ ~ ~ 1 .5

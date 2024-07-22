@@ -10,6 +10,9 @@ execute store result score gamerule_keepInventory refresh_settings run gamerule 
 execute if score cyclestats refresh_settings matches 1 run function vanilla_refresh:other_features/cycle/root
 
 
+execute if score jukebox_stop_sound refresh_settings matches 1 as @a at @s unless entity @n[distance=..40,tag=refresh_entity_jukebox,type=marker] run tag @s remove refresh_hears_jukebox
+
+
 
 # timestopper
     #reset
