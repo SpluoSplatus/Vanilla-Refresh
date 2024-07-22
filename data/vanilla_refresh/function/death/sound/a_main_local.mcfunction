@@ -15,7 +15,7 @@ execute as @s[advancements={vanilla_refresh:death/hovering_inferno=true}] run fu
 execute as @s[advancements={vanilla_refresh:death/axe=true}] run function vanilla_refresh:death/sound/axe
 execute as @s[advancements={vanilla_refresh:death/trident=true}] run function vanilla_refresh:death/sound/trident
 execute as @s[advancements={vanilla_refresh:death/arrow=true}] run function vanilla_refresh:death/sound/arrow
-execute as @s[advancements={vanilla_refresh:death/explosion=true}] at @a[distance=32..] run function vanilla_refresh:death/sound/explosion
+execute as @s[advancements={vanilla_refresh:death/explosion=true}] run function vanilla_refresh:death/sound/explosion
 execute as @s[advancements={vanilla_refresh:death/magic=true}] run function vanilla_refresh:death/sound/magic
 execute as @s[predicate=vanilla_refresh:condition/on_fire] run function vanilla_refresh:death/sound/fire
 execute as @s[predicate=vanilla_refresh:condition/is_withering] run function vanilla_refresh:death/sound/withering
