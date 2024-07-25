@@ -14,5 +14,3 @@ function vanilla_refresh:other/actions/teleport_to_last_death with storage vanil
 
 execute at @s run playsound block.beacon.activate player @s ~ ~ ~ 100 1
 
-
-tag @s add refresh_operator

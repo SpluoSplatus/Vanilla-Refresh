@@ -1,7 +1,7 @@
 
 tellraw @s [{"text": " "}]
 
-tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Vanilla Refresh Version: ","color":"gray"},{"translate":"1.4.22b","color": "green"}]
+tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Vanilla Refresh Version: ","color":"gray"},{"translate":"1.4.22c","color": "green"}]
 tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Player Sitting: ","color":"gray"},{"score":{"name": "sitting","objective": "refresh_settings"},"color": "yellow"}]
 tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Mob Health Display: ","color":"gray"},{"score":{"name": "mob_health","objective": "refresh_settings"},"color": "yellow"}]
 
