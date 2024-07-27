@@ -19,6 +19,7 @@ execute as @s[advancements={vanilla_refresh:wand/night_day=true}] positioned ~ ~
 execute as @s[advancements={vanilla_refresh:wand/mob_facer=true}] positioned ~ ~1.62 ~ run function vanilla_refresh:wand/z/mob_facer
 execute as @s[advancements={vanilla_refresh:wand/mob_reposition=true}] positioned ~ ~1.62 ~ run function vanilla_refresh:wand/z/mob_reposition
 execute as @s[advancements={vanilla_refresh:wand/mob_model=true}] positioned ~ ~1.62 ~ run function vanilla_refresh:wand/z/mob_model
+execute as @s[advancements={vanilla_refresh:wand/mob_elevate=true}] positioned ~ ~1.62 ~ run function vanilla_refresh:wand/z/mob_elevate
 
 execute as @s[advancements={vanilla_refresh:wand/teleport_10=true}] positioned ~ ~1.62 ~ run function vanilla_refresh:wand/z/teleport_10
 execute as @s[advancements={vanilla_refresh:wand/teleport_50=true}] positioned ~ ~1.62 ~ run function vanilla_refresh:wand/z/teleport_50

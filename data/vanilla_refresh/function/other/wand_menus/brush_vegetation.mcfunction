@@ -7,15 +7,6 @@ tellraw @s [{"translate":"Select a Wand  ","color": "yellow"},{"translate": "   
 
 tellraw @s [{"text": " "}]
 
-tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Vegetation Remover Brush","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Give"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:wand/brush_vegetation"}},{"translate":"    "}]
-
-
-tellraw @s [{"text": " "}]
-
-tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Vegetation Remover Brush (Large)","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Give"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:wand/brush_vegetation_large"}},{"translate":"    "}]
-
-
-
 
 
 

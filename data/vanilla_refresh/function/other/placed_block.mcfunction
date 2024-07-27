@@ -29,6 +29,11 @@ execute if score cropsxp refresh_settings matches 1 as @s[advancements={vanilla_
 execute if score cropsxp refresh_settings matches 1 as @s[advancements={vanilla_refresh:place/melon_stem=true}] anchored eyes run function vanilla_refresh:block/cropxp/raycast_melon_stem
 execute if score cropsxp refresh_settings matches 1 as @s[advancements={vanilla_refresh:place/pumpkin_stem=true}] anchored eyes run function vanilla_refresh:block/cropxp/raycast_pumpkin_stem
 
+#crops+
+execute if score cropsxp refresh_settings matches 1 as @s[advancements={vanilla_refresh:place/torchflower=true}] anchored eyes run function vanilla_refresh:block/cropxp/raycast_torchflower
+
+
+
 execute if score cake refresh_settings matches 1 as @s[advancements={vanilla_refresh:place/cake=true}] anchored eyes run function vanilla_refresh:block/cake/raycast
 
 
@@ -68,6 +73,10 @@ advancement revoke @s only vanilla_refresh:place/melon_stem
 advancement revoke @s only vanilla_refresh:place/pumpkin_stem
 advancement revoke @s only vanilla_refresh:place/cocoa
 advancement revoke @s only vanilla_refresh:place/nether_wart
+
+advancement revoke @s only vanilla_refresh:place/torchflower
+
+
 advancement revoke @s only vanilla_refresh:place/cake
 advancement revoke @s only vanilla_refresh:place/command_block
 advancement revoke @s only vanilla_refresh:place/command_block_chain

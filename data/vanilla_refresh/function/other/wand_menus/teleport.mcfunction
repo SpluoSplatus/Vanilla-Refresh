@@ -7,20 +7,20 @@ tellraw @s [{"translate":"Select a Wand  ","color": "yellow"},{"translate": "   
 
 tellraw @s [{"text": " "}]
 
-tellraw @s [{"translate": "  ","color": "gray"},{"translate":"10 Blocks Forward","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Give"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:wand/teleport_10"}},{"translate":"    "}]
+tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Teleport Wand","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Give"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:wand/teleport_direct"}},{"translate":"                     "},{"translate":"Random Command Block","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Give"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:wand/teleport_command_random"}}]
 
 
 tellraw @s [{"text": " "}]
 
-tellraw @s [{"translate": "  ","color": "gray"},{"translate":"50 Blocks Forward","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Give"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:wand/teleport_50"}},{"translate":"    "},{"translate":"Nearest Command Block","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Give"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:wand/teleport_command"}}]
+tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Teleport Wand (50 blocks)","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Give"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:wand/teleport_50"}},{"translate":"      "},{"translate":"Nearest Command Block","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Give"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:wand/teleport_command"}}]
 
 
 tellraw @s [{"text": " "}]
 
-tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Directly Forward","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Give"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:wand/teleport_direct"}},{"translate":"    "},{"translate":"Random Command Block","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Give"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:wand/teleport_command_random"}}]
 
 
 
+tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Teleport Wand (10 blocks)","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Give"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:wand/teleport_10"}},{"translate":"    "}]
 
 
 

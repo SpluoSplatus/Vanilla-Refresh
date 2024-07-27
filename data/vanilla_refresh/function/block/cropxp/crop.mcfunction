@@ -1,12 +1,10 @@
 
 
+execute if entity @s[tag=!refresh_entity_crop_wheat,predicate=vanilla_refresh:condition/carrot_potatoes_tagged] run function vanilla_refresh:block/cropxp/convert_to_wheat_tag
 
-
-execute as @e[type=marker,tag=refresh_entity_crop_wheat] at @s if entity @p[distance=..16] run function vanilla_refresh:block/cropxp/crop/wheat
-execute as @e[type=marker,tag=refresh_entity_crop_carrot] at @s if entity @p[distance=..16] run function vanilla_refresh:block/cropxp/crop/carrots
-execute as @e[type=marker,tag=refresh_entity_crop_potatoes] at @s if entity @p[distance=..16] run function vanilla_refresh:block/cropxp/crop/potatoes
-execute as @e[type=marker,tag=refresh_entity_crop_beetroots] at @s if entity @p[distance=..16] run function vanilla_refresh:block/cropxp/crop/beetroots
-execute as @e[type=marker,tag=refresh_entity_crop_cocoa] at @s if entity @p[distance=..16] run function vanilla_refresh:block/cropxp/crop/cocoa
-execute as @e[type=marker,tag=refresh_entity_crop_melon_stem] at @s if entity @p[distance=..16] run function vanilla_refresh:block/cropxp/crop/melon_stem
-execute as @e[type=marker,tag=refresh_entity_crop_pumpkin_stem] at @s if entity @p[distance=..16] run function vanilla_refresh:block/cropxp/crop/pumpkin_stem
-execute as @e[type=marker,tag=refresh_entity_crop_nether_wart] at @s if entity @p[distance=..16] run function vanilla_refresh:block/cropxp/crop/nether_wart
+execute if entity @s[tag=refresh_entity_crop_wheat] run function vanilla_refresh:block/cropxp/crop/wheat_carrots_potatoes
+execute if entity @s[tag=refresh_entity_crop_beetroots] run function vanilla_refresh:block/cropxp/crop/beetroots
+execute if entity @s[tag=refresh_entity_crop_cocoa] run function vanilla_refresh:block/cropxp/crop/cocoa
+execute if entity @s[tag=refresh_entity_crop_melon_stem] run function vanilla_refresh:block/cropxp/crop/melon_stem
+execute if entity @s[tag=refresh_entity_crop_pumpkin_stem] run function vanilla_refresh:block/cropxp/crop/pumpkin_stem
+execute if entity @s[tag=refresh_entity_crop_nether_wart] run function vanilla_refresh:block/cropxp/crop/nether_wart

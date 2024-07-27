@@ -60,6 +60,11 @@
     "Open chat (": "Abrir chat (",
     ") and use your cursor to click UI": ") y usa tu cursor para hacer clic en la interfaz",
 
+
+    "vanilla_refresh.itemsetsUI.seperator1": "                                                       ",
+    "Clear Inventory: ✔": "Vacia inventario: ✔",
+    "Clear Inventory: ❌": "Vacia inventario: ❌",
+
     "Select an Item Set  ": "Selecciona un Conjunto de Objetos  ",
     "Selecting an item set will clear your current inventory": "Seleccionando un conjunto de objetos vacia tu inventario",
     "Click to Give": "Haz clic para Dar",
@@ -202,7 +207,15 @@
     "Appear": "Aparecer",
     "Death Location": "Ubicación de Muerte",
     
-    "vanilla_refresh.spectateUI.seperator2": "     -> ",
+    "Night Vision: ❌": "Visión Nocturna: ❌",
+    "Night Vision: ✔": "Visión Nocturna: ✔",
+    "Ghost Particles: ❌": "Partículos: ❌",
+    "Ghost Particles: ✔": "Partículos: ✔",
+
+    "vanilla_refresh.spectateUI.seperator1": "    -> ",
+    "vanilla_refresh.spectateUI.seperator2": "      -> ",
+    "vanilla_refresh.spectateUI.seperator3": "               -> ",
+    
     
 
     "Disabled ": "Deshabilitado ",
@@ -212,6 +225,10 @@
     "...no one?": "...¿a nadie?",
     "Teleported to ": "Teletransportado a ",
     "Click to run this command": "Haz clic para ejecutar este comando",
+    
+    "Disabled your ": "Deshabilitado tus ",
+    "Enabled your ": "Habilitado tus ",
+    "Ghost Particles": "Partículos de Fantasma",
     
     "Multiplayer": "Multijugador",
     "Creative": "Creativo",

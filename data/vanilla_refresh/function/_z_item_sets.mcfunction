@@ -5,7 +5,6 @@ tellraw @s [{"translate":"Select an Item Set  ","color": "yellow"},{"translate":
 
 
 
-tellraw @s [{"text": " "}]
 
 tellraw @s [{"translate": "  Build Palletes & Styles","color": "white"}]
 
@@ -54,6 +53,13 @@ tellraw @s [{"text": " "}]
 
 
 tellraw @s [{"text": "   ","color": "gray"},{"translate":"Armor1","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Give"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:item_sets/armor/set1"}},{"text": "   ","color": "gray"},{"translate":"Armor2","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Give"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:item_sets/armor/set2"}},{"text": "   ","color": "gray"},{"translate":"Armor3","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Give"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:item_sets/armor/set3"}},{"text": "   "},{"translate":"Armor4","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Give"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:item_sets/armor/set4"}},{"text": "   "},{"translate":"Elytra","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Give"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:item_sets/armor/set_elytra"}}]
+
+
+tellraw @s [{"text": " "}]
+
+
+tellraw @s[tag=!refresh_disabled_clear_items] [{"translate":"vanilla_refresh.itemsetsUI.seperator1","fallback":"                                                       "},{"translate": "Clear Inventory: ✔","underlined": true,"color": "gray","clickEvent":{"action": "run_command","value": "/function vanilla_refresh:item_sets/z_clear0"},"hoverEvent": {"action": "show_text","value":{"translate": "Click to run this command"}}}]
+tellraw @s[tag=refresh_disabled_clear_items] [{"translate":"vanilla_refresh.itemsetsUI.seperator1","fallback":"                                                       "},{"translate": "Clear Inventory: ❌","underlined": true,"color": "#8c8c8c","clickEvent":{"action": "run_command","value": "/function vanilla_refresh:item_sets/z_clear1"},"hoverEvent": {"action": "show_text","value":{"translate": "Click to run this command"}}}]
 
 
 

@@ -4,7 +4,6 @@ tellraw @s [{"text": " "}]
 
 
 tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Spectator Actions: ","color":"gray"},{"score":{"name": "spectate","objective": "refresh_settings"},"color": "yellow"}]
-tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Inventory Cleared After Getting Item Set: ","color":"gray"},{"score":{"name": "giveclearing","objective": "refresh_settings"},"color": "yellow"}]
 tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Item Sparkle: ","color":"gray"},{"score":{"name": "itemsparkle","objective": "refresh_settings"},"color": "yellow"}]
 
 execute if score playerlist refresh_settings matches 0 run tellraw @s [{"translate": "  ","color": "gray"},{"translate":"/trigger playerlist Command: ","color":"gray"},{"score":{"name": "playerlist","objective": "refresh_settings"},"color": "yellow"}]

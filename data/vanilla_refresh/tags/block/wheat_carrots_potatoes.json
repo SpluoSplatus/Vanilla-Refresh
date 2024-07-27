@@ -1,0 +1,20 @@
+{
+    "replace": false,
+    "values": [
+
+      {"id":"minecraft:wheat","required": false},
+      {"id":"minecraft:carrots","required": false},
+      {"id":"minecraft:potatoes","required": false}
+
+  
+      
+
+
+
+    
+
+
+      
+    ]
+  }
+  

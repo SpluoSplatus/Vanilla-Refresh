@@ -9,8 +9,7 @@ advancement revoke @a only vanilla_refresh:used_spyglass
 
 
 #cropsxp
-execute if score cropsxp refresh_settings matches 1 run function vanilla_refresh:block/cropxp/crop
-
+execute if score cropsxp refresh_settings matches 1 as @e[type=marker,tag=refresh_entity_crop] at @s if entity @p[distance=..10,gamemode=!spectator] run function vanilla_refresh:block/cropxp/crop
 
 execute as @a at @s anchored eyes if score torch refresh_settings matches 1 if score torch_speed refresh_settings matches 1 if entity @s[predicate=vanilla_refresh:holding/light_emit] run function vanilla_refresh:block/torch/place_light
 

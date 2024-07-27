@@ -57,6 +57,11 @@
     "Click to preview": "translation",
     "Preview": "translation",
 
+    
+    "vanilla_refresh.itemsetsUI.seperator1": "                                                       ",
+    "Clear Inventory: ✔": "Clear Inventory: ✔",
+    "Clear Inventory: ❌": "Clear Inventory: ❌",
+
     "Open chat (": "translation (",
     ") and use your cursor to click UI": ") translation",
 
@@ -201,8 +206,16 @@
     "Night Vision: Disabled": "translation",
     "World Spawn": "translation",
     "Last Death Location": "translation",
+    
+    "Night Vision: ❌": "translation: ❌",
+    "Night Vision: ✔": "translation: ✔",
+    "Ghost Particles: ❌": "translation: ❌",
+    "Ghost Particles: ✔": "translation: ✔",
 
+    "vanilla_refresh.spectateUI.seperator1": "   -> ",
     "vanilla_refresh.spectateUI.seperator2": "      -> ",
+    "vanilla_refresh.spectateUI.seperator3": "            -> ",
+    
     
     "Appear": "translation",
     "Death Location": "translation",
@@ -214,6 +227,11 @@
     "...no one?": "...translation",
     "Teleported to ": "translation ",
     "Click to run this command": "translation",
+    
+    "Disabled your ": "translation ",
+    "Enabled your ": "translation ",
+    "Ghost Particles": "translation",
+    
 
     "Multiplayer": "translation",
     "Creative": "translation",

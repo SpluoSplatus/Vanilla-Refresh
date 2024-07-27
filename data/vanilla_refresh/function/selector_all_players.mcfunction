@@ -124,8 +124,8 @@ execute as @a[scores={refresh_sound_egg=-2147483648..}] at @s run function vanil
 
 
 #spectator lol this one is literally two commands
-execute if score ghost refresh_settings matches 1 at @a[gamemode=spectator] run particle effect ~ ~1 ~ 0 0 0 0 1 force @a[distance=..64]
-execute if score ghost refresh_settings matches 2 at @a[gamemode=spectator] run particle effect ~ ~1 ~ 0 0 0 0 1 force @a[distance=0.0001..64]
+execute if score ghost refresh_settings matches 1 at @a[gamemode=spectator,tag=!refresh_disabled_spectator_ghost] if predicate vanilla_refresh:chance/80_percent run particle effect ~ ~1 ~ 0 0 0 1 1 force @a[distance=..128]
+execute if score ghost refresh_settings matches 2 at @a[gamemode=spectator,tag=!refresh_disabled_spectator_ghost] if predicate vanilla_refresh:chance/80_percent run particle effect ~ ~1 ~ 0 0 0 1 1 force @a[distance=0.0001..128]
 
 #night vision lol one command
 effect give @a[tag=refresh_nightvision] night_vision infinite 0 true

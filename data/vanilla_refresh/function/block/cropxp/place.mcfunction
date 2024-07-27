@@ -7,4 +7,7 @@ execute as @s[advancements={vanilla_refresh:place/potatoes=true}] run summon mar
 execute as @s[advancements={vanilla_refresh:place/pumpkin_stem=true}] run summon marker ~ ~ ~ {Tags:["refresh_entity_crop_pumpkin_stem","refresh_entity_crop"]}
 execute as @s[advancements={vanilla_refresh:place/wheat=true}] run summon marker ~ ~ ~ {Tags:["refresh_entity_crop_wheat","refresh_entity_crop"]}
 
+execute as @s[advancements={vanilla_refresh:place/torchflower=true}] run summon marker ~ ~ ~ {Tags:["refresh_entity_crop_torchflower","refresh_entity_crop"]}
+
+
 scoreboard players set temp refresh_count 300

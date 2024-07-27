@@ -7,17 +7,6 @@ tellraw @s [{"translate":"Select a Wand  ","color": "yellow"},{"translate": "   
 
 tellraw @s [{"text": " "}]
 
-tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Tree Remover Brush","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Give"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:wand/brush_tree"}},{"translate":"    "}]
-
-
-tellraw @s [{"text": " "}]
-
-tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Tree Remover Brush (Large)","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Give"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:wand/brush_tree_large"}},{"translate":"    "}]
-
-
-
-
-
 
 
 
