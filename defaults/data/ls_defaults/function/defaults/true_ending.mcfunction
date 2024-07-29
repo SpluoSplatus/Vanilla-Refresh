@@ -15,6 +15,7 @@
 # it is advised that lines you aren't modifying are removed
 
 
+#########################################################################################
 
 scoreboard players set dragonhealth trueEnding_settings 300
 scoreboard players set ambience trueEnding_settings 1

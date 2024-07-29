@@ -12,7 +12,8 @@ execute if score @s refresh_count matches 1 run scoreboard players operation @s 
 execute if score @s refresh_count matches 1 run scoreboard players operation @s refresh_soul_hours /= num_60 refresh_constants
 
 
-execute if score @s refresh_count matches 45..55 run particle end_rod ~ ~ ~ 0 0 0 .2 5 force @a[distance=..128]
+execute if score @s refresh_count matches 45..55 run particle trial_spawner_detection_ominous ~ ~ ~ 0 0 0 .05 3 force @a[distance=..128]
+execute if score @s refresh_count matches 45..55 run particle end_rod ~ ~ ~ 0 0 0 .2 4 force @a[distance=..128]
 
 #execute if score @s refresh_count matches 1 run summon marker ~ ~1 ~ {Tags:["refresh_soul_swirly","refresh_soul_swirly2"]}
 execute if score @s refresh_count matches 1 run summon marker ~ ~-1.64 ~.8 {Tags:["refresh_soul_swirly"]}

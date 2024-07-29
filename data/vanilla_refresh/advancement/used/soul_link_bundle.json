@@ -1,16 +1,16 @@
 {
   "criteria": {
     "requirement": {
-      "trigger": "minecraft:tick",
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": [
+        "player": [],
+        "items": [
           {
-            "condition": "minecraft:reference",
-            "name": "vanilla_refresh:holding/bundle_soul_link"
-          },
-          {
-            "condition": "minecraft:reference",
-            "name": "vanilla_refresh:holding/bundle"
+            "items": "minecraft:bundle",
+            "components": {
+              "minecraft:custom_data": {"VanillaRefreshBundle":1} ,
+              "minecraft:bundle_contents": []
+            }
           }
         ]
       }

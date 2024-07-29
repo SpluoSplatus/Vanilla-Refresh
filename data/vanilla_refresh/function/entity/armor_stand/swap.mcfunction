@@ -1,18 +1,17 @@
 
 
 
-execute if score @s refresh_count matches 1.. run scoreboard players add @s refresh_count 1
-execute if score @s refresh_count matches 14.. run scoreboard players set @s refresh_count 1
+execute unless score @s refresh_count matches 12..13 if score @s refresh_count matches 1.. run scoreboard players add @s refresh_count 1
 
 
 execute if score @s refresh_count matches 1.. run data remove entity @s Pose
-execute if score @s refresh_count matches 1.. run data merge entity @s {Pose:{},ShowArms:1b}
+execute if score @s refresh_count matches 1.. run data merge entity @s {NoGravity:0b,Pose:{},ShowArms:1b}
 
 
 execute if score @s refresh_count matches 2 run data merge entity @s {Pose:{Head:[345f,0f,0f],LeftArm:[340f,41f,0f],RightArm:[270f, 355f, 0f]}}
 
 execute if score @s refresh_count matches 3 run data merge entity @s {Pose:{Head:[346f,0f,0f],LeftLeg:[14f,0f,0f],RightLeg:[358f,0f,0f],LeftArm:[18f,0f,340f],RightArm:[257f,65f,10f]}}
-execute if score @s refresh_count matches 4 run data merge entity @s {NoGravity:0b,Pose:{Head:[28f,0f,0f],LeftArm:[309f,50f,0f],RightArm:[320f,328f,0f]}}
+execute if score @s refresh_count matches 4 run data merge entity @s {Pose:{Head:[28f,0f,0f],LeftArm:[309f,50f,0f],RightArm:[320f,328f,0f]}}
 execute if score @s refresh_count matches 5 run data merge entity @s {Pose:{Body:[12f,0f,0f],Head:[14f,0f,0f],LeftLeg:[345f,0f,0f],RightLeg:[30f,0f,0f],RightArm:[37f,26f,20f]}}
 #
 
@@ -27,31 +26,23 @@ execute if score @s refresh_count matches 9 run data merge entity @s {ShowArms:1
 execute if score @s refresh_count matches 10 run data merge entity @s {ShowArms:1b,Pose:{Head:[18f,24f,0f],LeftArm:[249f,275f,0f],RightArm:[270f,334f,0f]}}
 
 
+execute if score @s refresh_count matches 11 run scoreboard players set @s refresh_count 14
 
+execute if score @s[tag=!refresh_entity_is_invisible] refresh_count matches 12..13 run data modify entity @s Invisible set value 0b
+execute if score @s refresh_count matches 12..13 rotated ~-90 ~ run tp @s ^-.5 ^ ^.1 ~ ~
+execute if score @s refresh_count matches 12..13 run scoreboard players set @s refresh_count 15
 
-tag @s add refresh_entity_stand_checked
-
-
-#item hangers
-
-    execute if score @s refresh_count matches 11 run data merge entity @s {NoGravity:1b,Pose:{RightArm: [-9.2f, 0.0f, 0.0f], LeftArm: [-9.2f, 0.0f, 0.0f], RightLeg: [0.0f, 0.0f, 0.0f]},ShowArms:1b}
-    execute if score @s refresh_count matches 11 at @s run tp @s ^.5 ^ ^-.1 ~90 ~
-    execute if score @s refresh_count matches 12 run data merge entity @s {ShowArms:1b,Pose:{LeftArm: [-8.5f, 0.0f, 0.0f],RightArm:[260f,0f,0f]}}
-
-    #execute if score @s refresh_count matches 2 run data merge entity @s {ShowArms:1b,Pose:{RightLeg:[0f,0f,2f],LeftArm:[12f,0f,348f],RightArm:[358f,0f,10f]}}
-
-    execute if score @s refresh_count matches 13 rotated ~-90 ~ run tp @s ^-.5 ^ ^.1 ~ ~
-
-#
 
 
 playsound minecraft:block.wood.fall neutral @a[distance=..20] ~ ~ ~ 1 1.25
 
 
-execute if score @s refresh_count matches 13 run data merge entity @s {ShowArms:0b,Pose:{}}
-execute if score @s refresh_count matches 13 run playsound minecraft:block.wood.break neutral @a[distance=..20] ~ ~ ~ 1 .8
-execute if score @s refresh_count matches 13 positioned ~ ~.75 ~ run particle block{block_state:"oak_planks"} ^-.25 ^ ^ 0 .5 0 0 8 force @a[distance=..32]
-execute if score @s refresh_count matches 13 positioned ~ ~.75 ~ run particle block{block_state:"oak_planks"} ^.25 ^ ^ 0 .5 0 0 8 force @a[distance=..32]
+execute if score @s refresh_count matches 14 run data merge entity @s {ShowArms:0b,Pose:{}}
+execute if score @s refresh_count matches 14 run playsound minecraft:block.wood.break neutral @a[distance=..20] ~ ~ ~ 1 .8
+execute if score @s refresh_count matches 14 positioned ~ ~.75 ~ run particle block{block_state:"oak_planks"} ^-.25 ^ ^ 0 .5 0 0 8 force @a[distance=..32]
+execute if score @s refresh_count matches 14 positioned ~ ~.75 ~ run particle block{block_state:"oak_planks"} ^.25 ^ ^ 0 .5 0 0 8 force @a[distance=..32]
+
+execute if score @s refresh_count matches 15.. run scoreboard players set @s refresh_count 1
 
 execute if score @s refresh_count matches 1 run playsound minecraft:block.wood.place neutral @a[distance=..20] ~ ~ ~ 1 1
 

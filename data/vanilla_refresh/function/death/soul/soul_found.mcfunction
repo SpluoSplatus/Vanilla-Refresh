@@ -8,15 +8,21 @@ execute if score @s refresh_count matches 100 run playsound block.beacon.power_s
 execute if score @s refresh_count matches 100 run playsound block.beacon.power_select player @a[distance=..32] ~ ~ ~ 3 .65
 
 execute if score @s refresh_count matches 100 run playsound minecraft:entity.glow_squid.squirt player @a[distance=..32] ~ ~ ~ 3 .6
-execute if score @s refresh_count matches 100 run playsound minecraft:entity.glow_squid.squirt player @a[distance=..32] ~ ~ ~ 3 .7
 
 execute if score @s refresh_count matches 100 run playsound block.amethyst_cluster.break player @a[distance=..32] ~ ~ ~ 3 1.2
 execute if score @s refresh_count matches 100 run playsound block.amethyst_cluster.break player @a[distance=..32] ~ ~ ~ 3 .6
-execute if score @s refresh_count matches 100 run playsound block.amethyst_cluster.break player @a[distance=..32] ~ ~ ~ 3 .7
 execute if score @s refresh_count matches 100 run playsound block.amethyst_block.chime player @a[distance=..32] ~ ~ ~ 3 .5
 execute if score @s refresh_count matches 100 run playsound block.amethyst_block.chime player @a[distance=..32] ~ ~ ~ 3 .5
 execute if score @s refresh_count matches 100 run playsound block.amethyst_block.chime player @a[distance=..32] ~ ~ ~ 3 .5
-execute if score @s refresh_count matches 100 run playsound block.amethyst_block.chime player @a[distance=..32] ~ ~ ~ 3 .5
+
+
+
+execute if score @s refresh_count matches 100 run function vanilla_refresh:death/soul/wave
+execute if score @s refresh_count matches 100..120 run particle sculk_soul ~ ~ ~ 0 0 0 .1 3 force @a[distance=..128]
+execute if score @s refresh_count matches 100..120 run particle sculk_soul ~ ~ ~ 0 0 0 .2 2 force @a[distance=..128]
+
+execute if score @s refresh_count matches 100..150 run particle sculk_soul ~ ~ ~ 0 0 0 .08 1 force @a[distance=..128]
+execute if score @s refresh_count matches 100..140 run particle effect ~ ~ ~ 0 0 0 .25 1 force @a[distance=..128]
 
 
 #returns your items
@@ -55,14 +61,8 @@ execute if score @s refresh_count matches 100 run tellraw @a[tag=refresh_debug] 
 execute if score @s refresh_count matches 100..104 run particle flash ~ ~ ~ 0 0 0 0 4 force @a[distance=..128]
 
 
-execute if score @s refresh_count matches 100..130 as @a[distance=..32] if score @s refresh_uuid1 = @n[type=marker,tag=refresh_entity_playersoul] refresh_uuid1 if score @s refresh_uuid2 = @n[type=marker,tag=refresh_entity_playersoul] refresh_uuid2 if score @s refresh_uuid3 = @n[type=marker,tag=refresh_entity_playersoul] refresh_uuid3 if score @s refresh_uuid4 = @n[type=marker,tag=refresh_entity_playersoul] refresh_uuid4 at @s run particle sculk_soul ~ ~1 ~ 0 0 0 .06 2 force @a[distance=..128]
-execute if score @s refresh_count matches 131..150 as @a[distance=..32] if score @s refresh_uuid1 = @n[type=marker,tag=refresh_entity_playersoul] refresh_uuid1 if score @s refresh_uuid2 = @n[type=marker,tag=refresh_entity_playersoul] refresh_uuid2 if score @s refresh_uuid3 = @n[type=marker,tag=refresh_entity_playersoul] refresh_uuid3 if score @s refresh_uuid4 = @n[type=marker,tag=refresh_entity_playersoul] refresh_uuid4 at @s run particle sculk_soul ~ ~1 ~ 0 0 0 .06 1 force @a[distance=..128]
-execute if predicate vanilla_refresh:chance/33_percent if score @s refresh_count matches 151.. as @a[distance=..32] if score @s refresh_uuid1 = @n[type=marker,tag=refresh_entity_playersoul] refresh_uuid1 if score @s refresh_uuid2 = @n[type=marker,tag=refresh_entity_playersoul] refresh_uuid2 if score @s refresh_uuid3 = @n[type=marker,tag=refresh_entity_playersoul] refresh_uuid3 if score @s refresh_uuid4 = @n[type=marker,tag=refresh_entity_playersoul] refresh_uuid4 at @s run particle end_rod ~ ~1 ~ 0 0 0 .06 1 force @a[distance=..128]
+execute if score @s refresh_count matches 100..130 as @a[distance=..32] if score @s refresh_uuid1 = @n[type=marker,tag=refresh_entity_playersoul] refresh_uuid1 if score @s refresh_uuid2 = @n[type=marker,tag=refresh_entity_playersoul] refresh_uuid2 if score @s refresh_uuid3 = @n[type=marker,tag=refresh_entity_playersoul] refresh_uuid3 if score @s refresh_uuid4 = @n[type=marker,tag=refresh_entity_playersoul] refresh_uuid4 at @s run particle sculk_soul ~ ~1 ~ 0 0 0 .06 1 force @a[distance=..128]
+execute if predicate vanilla_refresh:chance/50_percent if score @s refresh_count matches 131..150 as @a[distance=..32] if score @s refresh_uuid1 = @n[type=marker,tag=refresh_entity_playersoul] refresh_uuid1 if score @s refresh_uuid2 = @n[type=marker,tag=refresh_entity_playersoul] refresh_uuid2 if score @s refresh_uuid3 = @n[type=marker,tag=refresh_entity_playersoul] refresh_uuid3 if score @s refresh_uuid4 = @n[type=marker,tag=refresh_entity_playersoul] refresh_uuid4 at @s run particle sculk_soul ~ ~1 ~ 0 0 0 .06 1 force @a[distance=..128]
 
-execute if score @s refresh_count matches 100..150 run particle sculk_soul ~ ~ ~ 0 0 0 .08 1 force @a[distance=..128]
-execute if score @s refresh_count matches 100..140 run particle effect ~ ~ ~ 0 0 0 .25 1 force @a[distance=..128]
-execute if score @s refresh_count matches 100..120 run particle sculk_soul ~ ~ ~ 0 0 0 .1 6 force @a[distance=..128]
-execute if score @s refresh_count matches 100..120 run particle sculk_soul ~ ~ ~ 0 0 0 .2 2 force @a[distance=..128]
-execute if score @s refresh_count matches 100 run function vanilla_refresh:death/soul/wave
 
 execute if score @s refresh_count matches 165.. run kill @s

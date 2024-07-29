@@ -5,6 +5,7 @@ tellraw @s [{"translate":"Select an Item Set  ","color": "yellow"},{"translate":
 
 
 
+tellraw @s [{"text": " "}]
 
 tellraw @s [{"translate": "  Build Palletes & Styles","color": "white"}]
 

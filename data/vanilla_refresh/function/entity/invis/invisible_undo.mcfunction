@@ -44,4 +44,5 @@ playsound entity.splash_potion.break neutral @a[distance=..20] ~ ~ ~ 1 1
 playsound entity.shulker_bullet.hit neutral @a[distance=..20] ~ ~ ~ 1 .65
 playsound entity.shulker_bullet.hit neutral @a[distance=..20] ~ ~ ~ 1 1.77
 particle poof ~ ~ ~ .3 .5 .3 .05 25 force @a[distance=..64]
-execute as @e[distance=..1.3,type=#vanilla_refresh:useable_invis] run data modify entity @s Invisible set value 0
+execute as @e[distance=..1.3,type=#vanilla_refresh:useable_invis] unless score @s refresh_count matches 11..12 run data modify entity @s Invisible set value 0b
+execute as @e[distance=..1.3,type=#vanilla_refresh:useable_invis] unless score @s refresh_count matches 11..12 run tag @s remove refresh_entity_is_invisible
