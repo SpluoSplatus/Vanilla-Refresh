@@ -1,6 +1,6 @@
 scoreboard players add temp refresh_count 1
 
-execute positioned ~ ~1.62 ~ align yxz positioned ~.5 ~.5 ~.5 as @e[distance=..1.6,sort=nearest,limit=1,type=armor_stand,tag=refresh_entity_stand] at @s run function vanilla_refresh:entity/armor_stand/swap_item_rack
+execute positioned ~ ~.62 ~ align yxz positioned ~.5 ~ ~.5 as @n[distance=..1.2,type=armor_stand,tag=refresh_entity_stand] if items entity @s weapon.mainhand tripwire_hook at @s run function vanilla_refresh:entity/armor_stand/swap_item_rack
 
 execute unless score temp refresh_count matches 10.. positioned ^ ^ ^.5 run function vanilla_refresh:entity/armor_stand/raycast_swap_to_rack
 

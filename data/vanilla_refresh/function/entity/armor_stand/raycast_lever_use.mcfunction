@@ -1,6 +1,6 @@
 scoreboard players add temp refresh_count 1
 
-execute positioned ~ ~1.62 ~ if block ~ ~ ~ lever align yxz positioned ~.5 ~.5 ~.5 as @e[distance=..1.6,sort=nearest,limit=1,type=armor_stand,tag=refresh_entity_stand] run tag @s add refresh_entity_stand_powered
+execute positioned ~ ~1.62 ~ if block ~ ~ ~ lever align yxz positioned ~.5 ~.5 ~.5 as @n[distance=..1.6,type=armor_stand,tag=refresh_entity_stand] run tag @s add refresh_entity_stand_powered
 
 execute unless score temp refresh_count matches 10.. positioned ^ ^ ^.5 run function vanilla_refresh:entity/armor_stand/raycast_lever_use
 
