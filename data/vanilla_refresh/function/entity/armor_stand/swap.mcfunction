@@ -29,7 +29,7 @@ execute if score @s refresh_count matches 10 run data merge entity @s {ShowArms:
 execute if score @s refresh_count matches 11 run scoreboard players set @s refresh_count 14
 
 execute if score @s[tag=!refresh_entity_is_invisible] refresh_count matches 12..13 run data modify entity @s Invisible set value 0b
-execute if score @s refresh_count matches 12..13 rotated ~-90 ~ run tp @s ^-.5 ^ ^.1 ~ ~
+execute if score @s refresh_count matches 12..13 rotated ~-90 ~ run tp @s ^-.5 ^ ^.09 ~ ~
 execute if score @s refresh_count matches 12..13 run scoreboard players set @s refresh_count 15
 
 

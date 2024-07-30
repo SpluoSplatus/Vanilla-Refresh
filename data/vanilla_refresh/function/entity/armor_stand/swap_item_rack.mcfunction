@@ -20,7 +20,7 @@ item replace entity @p[advancements={vanilla_refresh:place/tripwire=true}] weapo
 #item hangers
 
     execute if score @s refresh_count matches 11 at @s run data modify entity @s NoGravity set value 1b
-    execute if score @s refresh_count matches 11 at @s run tp @s ^.5 ^ ^-.1 ~90 ~
+    execute if score @s refresh_count matches 11 at @s run tp @s ^.5 ^ ^-.09 ~90 ~
     execute if score @s refresh_count matches 11 run data merge entity @s {Invisible:1b,ShowArms:1b,Pose:{LeftArm: [270f,0f,0f],RightArm:[260f,0f,0f]}}
 
 
