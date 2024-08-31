@@ -3,8 +3,8 @@
     "requirement": {
       "trigger": "minecraft:enchanted_item",
       "conditions": {
-        "levels": 1
       }
     }
-  }
+  },
+  "parent": "vanilla_refresh:player/enchanted_item"
 }

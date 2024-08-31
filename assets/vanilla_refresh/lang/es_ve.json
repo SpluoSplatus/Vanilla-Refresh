@@ -1,0 +1,492 @@
+{
+    "/S/ TRANSLATION EXAMPLES /S/": "",
+    "/S/ (Left side) Default Text /S/": "/S/ (Right Side) Your translated text /S/",
+    "/S/ Hello /S/": "/S/ Hola /S/",
+    "/S/ Seperators (vanillarefresh.[blank].seperators) seperate text UI. Adjust these based on new translated text if needed \n's /S/": "",
+    "/S/ !!! Maintain indentions and \n's /S/": "",
+    
+
+
+
+    
+    "Translator: ": "Traductor: ",
+    "Translated by: ": "Traducido por: ",
+    "[[insert name on right ->]]": "younin15 & limesplatus",
+
+    "Health": "Salud",
+    "Hours": "Horas",
+    "Mob Kills": "Muertes de Mobs",
+    "Player Kills": "Muertes de Jugadores",
+    "Deaths": "Muertes",
+    "Hours Survived": "Horas Sobrevividas",
+    "XP Level": "Nivel de XP",
+    "XP Levels": "Niveles de XP",
+    "Member ID": "ID de Miembro",
+    "Death Score": "Puntuación de Muertes",
+    "Time Played (Hours)": "Tiempo Jugado (Horas)",
+
+
+
+    "Page 9 -->": "Pág 9 -->",
+    "Page 8 -->": "Pág 8 -->",
+    "Page 7 -->": "Pág 7 -->",
+    "Page 6 -->": "Pág 6 -->",
+    "Page 5 -->": "Pág 5 -->",
+    "Page 4 -->": "Pág 4 -->",
+    "Page 3 -->": "Pág 3 -->",
+    "Page 2 -->": "Pág 2 -->",
+    
+    "<-- Page 8": "<-- Pág 8",
+    "<-- Page 7": "<-- Pág 7",
+    "<-- Page 6": "<-- Pág 6",
+    "<-- Page 5": "<-- Pág 5",
+    "<-- Page 4": "<-- Pág 4",
+    "<-- Page 3": "<-- Pág 3",
+    "<-- Page 2": "<-- Pág 2",
+    "<-- Page 1": "<-- Pág 1",
+    "<-- Return": "<-- Regresar",
+	
+    "Next Page": "Página Siguiente",
+    "Previous Page": "Página Anterior",
+    "Enabled": "Habilitado",
+    "Disabled": "Deshabilitado",
+    "Configure": "Configurar",
+    "Cancel": "Cancelar",
+    "Click to change this setting": "Haz clic para cambiar esta configuración",
+    "Click to Open": "Haz clic para abrir",
+    "Click to preview": "Haz clic para ver la previsualización",
+    "Preview": "Previsualización",
+
+    "Open chat (": "Abrir chat (",
+    ") and use your cursor to click UI": ") y usa tu cursor para hacer clic en la interfaz",
+
+
+    "vanilla_refresh.itemsetsUI.seperator1": "                                                       ",
+    "Clear Inventory: ✔": "Vacia inventario: ✔",
+    "Clear Inventory: ❌": "Vacia inventario: ❌",
+
+    "Select an Item Set  ": "Selecciona un Conjunto de Objetos  ",
+    "Selecting an item set will clear your current inventory": "Seleccionando un conjunto de objetos vacia tu inventario",
+    "Click to Give": "Haz clic para Dar",
+    "  Build Palletes & Styles": "  Paletas y Estilos de Construcción",
+    "  Armor": "  Armadura",
+    "  Blocks": "  Bloques",
+    
+    "Select a Wand  ": "Selecciona un Varita  ",
+
+    "Applied permanent night vision": "Visión nocturna permanente aplicada",
+    "Removed permanent night vision": "Visión nocturna permanente eliminada",
+    
+    "Items you drop will now be cleared": "translation",
+    "  Items you drop will no longer be cleared": "translation",
+    "Drop Clear Disabled\n": "translation",
+    "Drop Clear Enabled\n": "translation",
+
+    "— D —": "— D —",
+    "— DA —": "— DÍ —",
+    "— DAY —": "— DÍA —",
+    "— DAY ": "— DÍA ",
+    "—  DAY  —": "—  DÍA  —",
+    "⭐ — DAY ": "⭐ — DÍA ",
+    
+    "Add an item to this Armor Stand first to create an item rack": "Primero agregue un objeto a este soporte para armadura para crear un estante de objetos.",
+
+    "Health: ": "Salud: ",
+    "Type: ": "Tipo: ",
+    "Player": "Jugador",
+    "Mob": "Mob",
+    "Boss": "Jefe",
+    "Miscellaneous": "Misceláneo",
+    "Distance: ": "Distancia: ",
+    " blocks away": " bloques de distancia",
+
+    "Clock": "Reloj",
+    "Time: ": "Hora: ",
+    "Day: ": "Día: ",
+    "Lodestone": "Piedra Imán",
+
+    "Last Death": "Última Muerte",
+    "No Death Located": "No se encontró muerte",
+    "Coordinates: ": "Coordenadas: ",
+
+    "Compass": "Brújula",
+    "Facing: ": "Mirando hacia: ",
+    ", North": ", Norte",
+    ", East": ", Este",
+    ", South": ", Sur",
+    ", West": ", Oeste",
+
+    "Free Float mode activated": "Modo de Flotación Libre activado",
+    "Hold ": "Mantén ",
+    " to hover down. - Time Left: ": " para descender. - Tiempo Restante: ",
+
+    "Player Soul": "Alma de Jugador",
+    " Time Left: ": " Tiempo Restante: ",
+    " minutes, ": " minutos, ",
+    " hours, ": " horas, ",
+    " seconds": " segundos",
+	
+    " survived ": " sobrevivido ",
+    " time since spawning into the world and now has a total of ": " tiempo desde que apareció en el mundo y ahora tiene un total de ",
+    " time since their last death and now has a total of ": " tiempo desde su última muerte y ahora tiene un total de ",
+    " deaths": " muertes",
+
+    "Select a Gamerule Category ": "Seleccionar una Categoría de Reglas de Juego ",
+    "ⓘ Value Info": "ⓘ Información del Valor",
+    "0 = Gamerule/setting is disabled\n1 = Gamerule/setting is enabled\n\nOther values mean the setting has more options than just enabled and disabled. (Next to the value, it'll describe what option is set)": "0 = La regla de juego/configuración está deshabilitada\n1 = La regla de juego/configuración está habilitada\n\nOtros valores significan que la configuración tiene más opciones además de habilitado y deshabilitado. (Al lado del valor, se describirá qué opción está configurada)",
+
+    "Overworld: ": "Superficie: ",
+    "The Nether: ": "El Nether: ",
+    "The End: ": "El Fin: ",
+    "Other Dimensions: ": "Otras Dimensiones: ",
+    "Players: ": "Jugadores: ",
+    "Operators: ": "Operadores: ",
+    "Creative Mode: ": "Modo Creativo: ",
+    "Spectators: ": "Espectadores: ",
+    
+    "There are currently ": "Actualmente hay ",
+    " players ": " jugadores ",
+    "online": "en línea",
+    "There is currently ": "Actualmente hay ",
+    " player ": " jugador ",
+    "A total of ": "Un total de ",
+    "ever joined the game": "se unieron al juego alguna vez",
+    "You're the only player to ever join this world": "Eres el único jugador que alguna vez se unió a este mundo",
+
+    "ⓘ Sharing: ": "ⓘ Compartir: ",
+    "  Member ": "  Miembro ",
+    "Member ": "Miembro ",
+    "(ID: ": "(ID: ",
+    "Your member ID can be used by others to view your stats. To view someone else's stats, use ": "Tu ID de miembro puede ser utilizado por otros para ver tus estadísticas. Para ver las estadísticas de otra persona, usa ",
+    ", replacing ": ", reemplazando ",
+    " with the member ID of an online player.": " con el ID de miembro de un jugador en línea.",
+    "\n(Hold ": "\n(Mantén ",
+    " to view online players' member IDs)": " para ver los IDs de miembro de los jugadores en línea)",
+    "\n\nYou can make your stats private from non-operator players by disabling this setting.": "\n\nPuedes hacer que tus estadísticas sean privadas para los jugadores que no sean operadores deshabilitando esta configuración.",
+    
+    "That player is offline or doesnt exist": "Este jugador no esta en línea ahora o no existe",
+    "This player has disabled viewing of their stats": "Este jugador a deshabilitado compartiendo estadísticas",
+    "This user's stats are privated for non-operators\n": "Los estadísticas de este jugador esta privado para jugadores que no sean operadores\n",
+
+    "Player Stats of ": "Estadísticas de ",
+    "Time Played: ": "Tiempo Jugado: ",
+    "Time Since Last Death: ": "Tiempo Desde la Última Muerte: ",
+    "Average Deaths Per Hour: ": "Muertes Promedio por Hora: ",
+    "Mob Kills: ": "Muertes de Mobs: ",
+    "Player Kills: ": "Muertes de Jugadores: ",
+    "XP Level: ": "Nivel de XP: ",
+    "Deaths: ": "Muertes: ",
+	
+	"Select a Settings Category ": "Seleccionar una Categoría ",
+    "Reset Settings": "Restablecer Configuración",
+    "Click to reset settings to default": "Haz clic para restablecer la configuración a los valores predeterminados",
+    "Disable All": "Deshabilitar Todo",
+    "Click to disable all settings (Useful if you just want Vanilla Refresh's creative mode tools)": "Haz clic para deshabilitar todas las configuraciones (Útil si solo quieres las herramientas del modo creativo de Vanilla Refresh)",
+
+    "Click to insert/copy command": "Haz clic para insertar/copiar comando",
+    " << Click to insert command": " << Haz clic para insertar comando",
+    "Run the above command and replace ": "Ejecuta el comando anterior y reemplaza ",
+    " with a player name": " con un nombre de jugador",
+    "This command works for online and offline players": "Este comando funciona para jugadores en línea y fuera de línea",
+
+    "Removed ": "Eliminado ",
+    " block animation markers": " marcadores de animación de bloques",
+    "No entity was found": "No se encontró ninguna entidad",
+    ": Removed ": ": Eliminado ",
+    " block animation markers]": " marcadores de animación de bloques]",
+    " crop XP markers]": " marcadores de XP de cultivos]",
+    " crop XP markers": " marcadores de XP de cultivos",
+    " night mobs]": " mobs nocturnos]",
+    " night mobs": " mobs nocturnos",
+    
+    "PREVIEW:\n": "PREVISUALIZACIÓN:\n\n",
+
+    "Enable the setting first to see the preview": "Habilita la configuración primero para ver la previsualización",
+
+    
+    "You've entered": "Has ingresado a",
+    "Spectator Actions": " translation",
+    " Spectator Mode": " Modo Espectador",
+    "Random Player": "Jugador Aleatorio",
+    "Night Vision: Enabled": "Visión Nocturna: Habilitada",
+    "Night Vision: Disabled": "Visión Nocturna: Deshabilitada",
+    "World Spawn": "Spawn del Mundo",
+    "Last Death Location": "Ultimo locación de Muerte",
+    "Appear": "Aparecer",
+    "Death Location": "Ubicación de Muerte",
+    
+    "Night Vision: ❌": "Visión Nocturna: ❌",
+    "Night Vision: ✔": "Visión Nocturna: ✔",
+    "Ghost Particles: ❌": "Partículos: ❌",
+    "Ghost Particles: ✔": "Partículos: ✔",
+
+    "vanilla_refresh.spectateUI.seperator1": "    -> ",
+    "vanilla_refresh.spectateUI.seperator2": "      -> ",
+    "vanilla_refresh.spectateUI.seperator3": "               -> ",
+    
+    
+
+    "Disabled ": "Deshabilitado ",
+    "Enabled ": "Habilitado ",
+    "Night Vision": "Visión Nocturna",
+    "Now spectating ": "Ahora espectando a ",
+    "...no one?": "...¿a nadie?",
+    "Teleported to ": "Teletransportado a ",
+    "Click to run this command": "Haz clic para ejecutar este comando",
+    
+    "Disabled your ": "Deshabilitado tus ",
+    "Enabled your ": "Habilitado tus ",
+    "Ghost Particles": "Partículos de Fantasma",
+    
+    "Multiplayer": "Multijugador",
+    "Creative": "Creativo",
+    "Other": "Otro",
+    "Griefing": "Griefing",
+    "Blocks & Items": "Bloques & Objetos",
+    "Entities": "Entidads",
+    
+    "vanilla_refresh.settings.categories.seperator1": "   ",
+    "vanilla_refresh.settings.categories.seperator2": "       ",
+    "vanilla_refresh.settings.categories.seperator3": "  ",
+    "vanilla_refresh.settings.categories.seperator4": "   ",
+    "vanilla_refresh.settings.categories.seperator5": "  ",
+    "vanilla_refresh.settings.categories.seperator6": "   ",
+
+    "\nWelcome to ": "\nBienvenido a ",
+    "! You'll be able to configure each feature within Vanilla Refresh to your liking here. Hover over an ": "! Podrás configurar cada característica dentro de Vanilla Refresh a tu gusto aquí. Pasa el cursor sobre un ",
+    " icon to get a description of what a setting does.\n": " ícono para obtener una descripción de lo que hace una configuración.\n",
+    "Continue\n": "Continuar\n",
+    "Click to Proceed to the Settings page": "Haz clic para ir a la página de Configuración",
+    "Information moment": "Momento de Información",
+	
+	"For Soul Links to function correctly, the gamerule Keep Inventory will have to be enabled. Confirm below to allow Vanilla Refresh to enable Keep Inventory.": "Para que los Soul Links funcionen correctamente, la regla de juego Mantener Inventario deberá estar habilitada. Confirma abajo para permitir que Vanilla Refresh habilite Mantener Inventario.",
+
+    "Enable Keep Inventory & Soul Links": "Habilitar Mantener Inventario y Soul Links",
+
+    "Value can't be lower than 0": "El valor no puede ser menor que 0",
+    ": Optimized and refreshed all mob health scores for existing and non existing entities": ": Optimizado y actualizado todos los puntajes de salud de mobs para entidades existentes y no existentes",
+
+    "Are you sure you want to disable Stats Tracking?": "¿Estás seguro de que quieres deshabilitar el Seguimiento de Estadísticas?",
+    " When stats are disabled individually, only their display is removed, but they are still tracked incase later its desired to be re-enabled. If you disable this setting, ": "Cuando las estadísticas se deshabilitan individualmente, solo se elimina su visualización, pero aún se rastrean por si se desea habilitarlas nuevamente. Si deshabilitas esta configuración,",
+    "stats will stop tracking entirely,": "las estadísticas dejarán de rastrearse por completo,",
+    " and if you re-enable Stats Tracking after disabling it, the stats will no longer be accurate.": "y si vuelves a habilitar el Seguimiento de Estadísticas después de deshabilitarlo, las estadísticas ya no serán precisas.",
+    "Disable it!": "¡Deshabilítalo!",
+
+    "Night": "Noche",
+    "Midnight": "Medianoche",
+    "Day": "Día",
+    " - Set the time to 1000": " - Establecer la hora a 1000",
+    " - Set the time to 13000": " - Establecer la hora a 13000",
+    " - Set the time to 18000": " - Establecer la hora a 18000",
+
+    "Player hours successfully reset": "Horas del jugador restablecidas con éxito",
+	
+	"Are you sure you want to reset all players played hours stats? Click below to confirm.": "¿Estás seguro de que quieres restablecer las estadísticas de horas jugadas de todos los jugadores? Haz clic abajo para confirmar.",
+    "Click to Confirm and reset all player hours": "Haz clic para confirmar y restablecer todas las horas de los jugadores",
+    "> Confirm and Reset <\n": "> Confirmar y Restablecer <\n",
+
+    
+    "Loaded Soul Links successfully shattered": "Soul links rompido con éxito",
+	
+	"Are you sure you want to shatter all soul links? Click below to confirm.": "¿Estás seguro de que quieres romper todos soul links? Haz clic abajo para confirmar.",
+    "Click to Confirm and shatter all soul links": "Haz clic para confirmar y romper todas los soul links",
+    "> Confirm and Shatter Soul Links <\n": "> Confirmar y Romper Soul Links <\n",
+
+    "Tip: - Dropping an anvil on blocks like Deepslate Tiles, Packed Ice, or Stone Bricks will crush them back into their original forms.": "Consejo: - Dejar caer un yunque sobre bloques como Azulejos de Pizarrón Profundo, Hielo Compacto o Ladrillos de Piedra los triturará de vuelta a sus formas originales.",
+    "Tip: - You can use a lever to swap between armor stand poses": "Consejo: - Puedes usar una palanca para cambiar entre las poses del soporte de armaduras",
+    "Tip: - You can equip banners on an empty head slot by holding the banner you want to wear and clicking sneak multiple times.": "Consejo: - Puedes equipar pancartas en una ranura de cabeza vacía sosteniendo la pancarta que quieres usar y haciendo clic en agacharse varias veces.",
+    "Tip: - Dropping an Echo Shard on a mob will silence them. You can unsilence them by placing water on the mob": "Consejo: - Dejar caer un Fragmento de Eco sobre un mob los silenciará. Puedes desilenciarlos colocando agua sobre el mob.",
+    "Tip: - Curious about what this world's gamerules are set to? You can view their values by using ": "Consejo: - ¿Curioso sobre a qué están configuradas las reglas de juego de este mundo? Puedes ver sus valores usando ",
+    " in chat": " en el chat",
+    "Tip: - Creative Mode users have access to Vanilla Refresh creative features. Use ": "Consejo: - Los usuarios del Modo Creativo tienen acceso a las funciones creativas de Vanilla Refresh. Usa ",
+    " for helpful tools and ": " para herramientas útiles y ",
+    "Wands": "Varitas",
+    "Item Sets": "Conjuntos de Objetos",
+    " to quickly give yourself a set of items, like armor": " para darte rápidamente un conjunto de ítems, como armaduras",
+
+    "Tip: - Holding ladders and pressing sneak on a ladder block allows you extend its length and hang over air blocks": "Consejo: - Sostener escaleras y presionar agacharse en un bloque de escaleras te permite extender su longitud y colgar sobre bloques de aire",
+    "Tip: - Dropping an Ender Pearl on your Lodestone allows you teleport instantly to it within a 80 block radius": "Consejo: - Dejar caer una Perla de Ender sobre tu Piedra Imán te permite teletransportarte instantáneamente a ella dentro de un radio de 80 bloques",
+    "Tip: - View a variety of your player stats ingame by using ": "Consejo: - Ve una variedad de tus estadísticas de jugador en el juego usando ",
+    "A new player has joined the server! Member #": "¡Un nuevo jugador se ha unido al servidor! Miembro #",
+
+	
+    "Tip: - Cauldrons with water still work in the Nether without evaporating": "",
+	"Tip: - Swift Sneak allows you to quickly bridge across areas with the same speed as walking": "Consejo: - El sigilo rápido te permite cruzar áreas rápidamente con la misma velocidad que caminar",
+
+    "Tip: - This chat message is not from a player": "Consejo: - Este mensaje de chat no es de un jugador",
+    
+    "Tip: - You can use Charged Creepers on Wither Skeletons to instantly get their skull": "Consejo: - Puedes usar Creepers cargados en esqueletos Wither para obtener instantáneamente sus cráneos",
+    
+    "Tip: - The explosion of beds can be used to mine through netherrack for ancient debris": "Consejo: - La explosión de las camas se puede usar para minar a través de la roca abisal en busca de escombros antiguos",
+    
+    "Tip: - Below the deepslate layer underground you'll find significantly more diamonds": "Consejo: - Debajo de la capa de pizarra profunda, encontrarás significativamente más diamantes",
+    
+    "Tip: - Flooded caves contain more exposed ores than ordinary caves, so if you're seeking diamonds, try searching a flooded cave in the Ocean": "Consejo: - Las cuevas inundadas contienen más minerales expuestos que las cuevas normales, así que si estás buscando diamantes, intenta buscar en una cueva inundada en el océano",
+    
+    "Tip: - Iron isn't typically found on the surface of the world, but mountains generate high amounts of iron ore exposed to air.": "Consejo: - El hierro no se encuentra típicamente en la superficie del mundo, pero las montañas generan grandes cantidades de mineral de hierro expuesto al aire",
+    
+    "Tip: - The lower a wolf's tail is, the less health it has": "Consejo: - Cuanto más baja sea la cola de un lobo, menos salud tiene",
+    
+    "Tip: - Cats scare away Creepers, but also Phantoms": "Consejo: - Los gatos ahuyentan a los Creepers, pero también a los fantasmas",
+    
+    "Tip: - Goats can be milked as an alternative to cows": "Consejo: - Se puede ordeñar a las cabras como alternativa a las vacas",
+    
+    "Tip: - On Hard Mode, villagers have an 100% chance of zombifying from a zombie attack": "Consejo: - En Modo Difícil, los aldeanos tienen un 100% de probabilidad de convertirse en zombis por un ataque de zombi",
+    
+    "Tip: - You can equip a banner on a shield to give your shields awesome designs.": "Consejo: - Puedes equipar una pancarta en un escudo para darle diseños impresionantes a tus escudos",
+    
+    "Tip: - Setting your FOV to 40 or less makes for great, cinematic base screenshots without FOV warp.": "Consejo: - Configurar tu campo de visión a 40 o menos permite obtener excelentes capturas de pantalla cinematográficas de la base sin distorsión del campo de visión",
+    
+    "Tip: - Golden carrots make a great food source for those who have an abundance of gold and carrots": "Consejo: - Las zanahorias doradas son una gran fuente de alimento para aquellos que tienen una abundancia de oro y zanahorias",
+    
+    "Tip: - Feather Falling IV only has a approximate 2.7% chance of appearing on a enchanting table": "Consejo: - Pluma caída IV solo tiene una probabilidad aproximada del 2.7% de aparecer en una mesa de encantamientos",
+    
+    "Tip: - The Silence armor trim has a 1.25% chance of appearing in Ancient City chests": "Consejo: - El adorno de armadura del Silencio tiene una probabilidad del 1.25% de aparecer en los cofres de la Ciudad Antigua",
+    
+    "Tip: - A Hoe can be used to quickly remove leaves from a tree": "Consejo: - Una azada se puede usar para quitar rápidamente las hojas de un árbol",
+    
+    "Tip: - The Wither is immune to projectiles in its final phase": "Consejo: - El Wither es inmune a los proyectiles en su fase final",
+    
+    "Tip: - Using Silk Touch to get nether gold ore and then smelting it into an ingot is more efficent": "Consejo: - Usar Toque de Seda para obtener mineral de oro del Nether y luego fundirlo en un lingote es más eficiente",
+    
+    "Tip: - Barrels below solid blocks can still be opened": "Consejo: - Los barriles debajo de bloques sólidos aún se pueden abrir",
+    
+    "Tip: - Placing a cauldron while its snowing in a biome will fill the cauldron with powdered snow": "Consejo: - Colocar un caldero mientras nieva en un bioma llenará el caldero con nieve en polvo",
+    
+    "Tip: - You can create your own mud blocks by pouring a water bottle on a block of dirt": "Consejo: - Puedes crear tus propios bloques de lodo vertiendo una botella de agua sobre un bloque de tierra",
+    
+    "Tip: - Lava can be farmed by placing a lava source block above pointed dripstone, and then placing a cauldron below the dripstone": "Consejo: - Se puede cultivar lava colocando un bloque de fuente de lava sobre una piedra de goteo puntiaguda, y luego colocando un caldero debajo de la piedra de goteo",
+    
+    "Tip: - Endermen will attack any endermites they see": "Consejo: - Los Endermen atacarán a cualquier endermita que vean",
+    
+    "Tip: - If you have too much emeralds, iron etc, you can convert them into blocks to save x9 space in your chests": "Consejo: - Si tienes demasiadas esmeraldas, hierro, etc., puedes convertirlos en bloques para ahorrar 9 veces el espacio en tus cofres",
+    
+    "Tip: - Fortune III allows you to collect a greater amount of items when mining certain blocks, like ores and crops": "Consejo: - Fortuna III te permite recolectar una mayor cantidad de objetos al minar ciertos bloques, como minerales y cultivos",
+    
+    "Tip: - Fighting mobs with axolotls regenerates your health": "Consejo: - Luchar contra mobs con ajolotes regenera tu salud",
+    
+    "Tip: - Crops dont need to be directly touching water to grow, up to 4 blocks away the crop can still be hydrated": "Consejo: - Los cultivos no necesitan estar directamente tocando el agua para crecer, hasta a 4 bloques de distancia el cultivo aún puede estar hidratado",
+    
+    "Tip: - Elytras can be repaired using phantom membranes or mending": "Consejo: - Las élitras se pueden reparar usando membranas de fantasma o reparación",
+	"Tip: - Amethyst shards can be used to breed allays": "Consejo: - Los fragmentos de amatista se pueden usar para criar allays",
+    
+    "Tip: - Wolves scare away and attack skeletons": "Consejo: - Los lobos ahuyentan y atacan a los esqueletos",
+    
+    "Tip: - A goat has a 2% chance of spawning as a screaming varient": "Consejo: - Una cabra tiene un 2% de probabilidad de aparecer como una variante gritona",
+    
+    "Tip: - Press fn + F3 to open the debug menu and see helpful info like your coordinates and fps": "Consejo: - Presiona fn + F3 para abrir el menú de depuración y ver información útil como tus coordenadas y fps",
+    
+    "Tip: - Seeking an Ancient City? Try mining below mountains! Ancient Cities and the Deep Dark generate more often below them.": "Consejo: - ¿Buscas una Ciudad Antigua? ¡Intenta minar debajo de las montañas! Las Ciudades Antiguas y el Deep Dark se generan más a menudo debajo de ellas.",
+    
+    "Tip: - A bow cannot have both the Mending and Infinity enchantments": "Consejo: - Un arco no puede tener ambos encantamientos de Reparación e Infinidad",
+    
+    "Tip: - The rarest ores are deepslate coal and deepslate emerald": "Consejo: - Los minerales más raros son el carbón de pizarra profunda y la esmeralda de pizarra profunda",
+    
+    "Tip: - Use a blast furnace to quickly smelt ores": "Consejo: - Usa un alto horno para fundir minerales rápidamente",
+    
+    "Tip: - Use a smoker to quickly smelt food items": "Consejo: - Usa un ahumador para cocinar alimentos rápidamente",
+    
+    "Tip: - Campfires smelt food without using fuel": "Consejo: - Las hogueras cocinan alimentos sin usar combustible",
+    
+    "Tip: - Lava buckets can be used as a fuel source in furnaces to smelt tons of items": "Consejo: - Los cubos de lava se pueden usar como fuente de combustible en los hornos para fundir toneladas de ítems",
+    
+    "Tip: - Enderchests can only be mined with a Silk Touch pickaxe": "Consejo: - Los enderchests solo se pueden minar con un pico de Toque de Seda",
+    
+    "Tip: - Water buckets and a lava pool can be used to make a nether portal without ever needing to mine obsidian": "Consejo: - Los cubos de agua y un charco de lava se pueden usar para hacer un portal del Nether sin necesidad de minar obsidiana",
+    
+    "Tip: - Sculk Blocks drop XP when mined. You can use a Hoe enchanted with Efficiency V to quickly gather XP from mined Sculk.": "Consejo: - Los bloques de sculk sueltan XP al minarse. Puedes usar una azada encantada con Eficiencia V para recolectar rápidamente XP del sculk minado.",
+    
+    "Tip: - You can instantly dry wet sponges by placing them in the Nether": "Consejo: - Puedes secar instantáneamente esponjas mojadas colocándolas en el Nether",
+    
+    "Tip: - In Warm Ocean Ruins, you can sometimes find Sniffer eggs buried in Suspicious Sand. Use a brush on these sand blocks to uncover a potential Sniffer egg.": "Consejo: - En las ruinas del océano cálido, a veces puedes encontrar huevos de Sniffer enterrados en arena sospechosa. Usa un cepillo en estos bloques de arena para descubrir un posible huevo de Sniffer.",
+    
+    "Tip: - Diamond armor can be bought from armorer villagers for as cheap as 1 emerald": "Consejo: - La armadura de diamante se puede comprar a los aldeanos armeros por tan solo 1 esmeralda",
+    
+    "Tip: - Candles can be placed on cakes for a colorful touch": "Consejo: - Las velas se pueden colocar en pasteles para un toque colorido",
+    
+    "Tip: - Each disc in a jukebox gives a different power level to comparators": "Consejo: - Cada disco en una gramola da un nivel de potencia diferente a los comparadores",
+    
+    "Tip: - You can hold ": "Consejo: - Puedes mantener presionado ",
+    " to view a list of all current players online": " para ver una lista de todos los jugadores en línea",
+    
+    "Tip: - Hold ": "Consejo: - Mantén presionado ",
+    " to sneak around sculk sensors and avoid being detected": " para escabullirte alrededor de los sensores de sculk y evitar ser detectado",
+    
+    "Tip: - Wool can cancel out vibrations, so placing it or walking over it wont be detected by nearby Sculk Sensors ": "Consejo: - La lana puede cancelar las vibraciones, por lo que colocarla o caminar sobre ella no será detectado por los sensores de sculk cercanos",
+	
+	"Tip: - End portal frames have a 10% chance of generating already filled with an Eye of Ender. ": "Consejo: - Los marcos del portal del End tienen un 10% de probabilidad de generarse ya llenos con un Ojo de Ender.",
+    
+    "Tip: - Sculk shriekers wont shriek when broken, though their breaking vibration can be delivered to a nearby Sculk Sensor. ": "Consejo: - Los chilladores de sculk no chillan cuando se rompen, aunque la vibración de su ruptura puede ser detectada por un sensor de sculk cercano.",
+    
+    "Tip: - Challenge advancements when completed can earn you some experience points": "Consejo: - Los avances de desafío cuando se completan pueden darte algunos puntos de experiencia",
+    
+    "Tip: - Coal ore stops generating in the deepslate layer of the world, so make sure you have enough torches before going too deep!": "Consejo: - El mineral de carbón deja de generarse en la capa de pizarra profunda del mundo, ¡así que asegúrate de tener suficientes antorchas antes de ir demasiado profundo!",
+    
+    "Tip: - Mobs can only spawn on blocks with a light level of 0": "Consejo: - Los mobs solo pueden aparecer en bloques con un nivel de luz de 0",
+    
+    "Tip: - Blazes take damage from snowballs": "Consejo: - Los blazes reciben daño de las bolas de nieve",
+    
+    "Tip: - You can use a water bucket and place it below yourself to negate levitation from a Shulker attack.": "Consejo: - Puedes usar un cubo de agua y colocarlo debajo de ti para anular la levitación de un ataque de shulker.",
+    
+    "Tip: - Hoe's can be used to quickly remove vegetation like moss, leaves, and sculk. Enchant one with Efficiency for even more speed.": "Consejo: - Las azadas se pueden usar para quitar rápidamente la vegetación como musgo, hojas y sculk. Encanta una con Eficiencia para aún más velocidad.",
+    
+    "Tip: - Cactus destroys any item that touches it": "Consejo: - El cactus destruye cualquier ítem que lo toque",
+    
+    "Tip: - You can sleep during thunderstorms, even if its daytime": "Consejo: - Puedes dormir durante tormentas eléctricas, incluso si es de día",
+    
+    "Tip: - Carpet can be placed on a fence, allowing players to jump on it, but not mobs. Helpful for enclosing livestock.": "Consejo: - La alfombra se puede colocar en una valla, permitiendo a los jugadores saltar sobre ella, pero no a los mobs. Útil para encerrar ganado.",
+    
+    "Tip: - Splash water bottles extinguish fire and burning mobs": "Consejo: - Las botellas de agua arrojadizas apagan el fuego y los mobs en llamas",
+    
+    "Tip: - Along with magma blocks and soul sand, you can use doors and torches to regain air underwater": "Consejo: - Junto con bloques de magma y arena de almas, puedes usar puertas y antorchas para recuperar aire bajo el agua",
+    
+    "Tip: - If you wear a carved pumpkin on your head, endermen wont attack you when looking at them": "Consejo: - Si llevas una calabaza tallada en la cabeza, los endermen no te atacarán cuando los mires",
+    
+    "Tip: - Eyes of Ender have a 20% chance of shattering after being thrown": "Consejo: - Los Ojos de Ender tienen un 20% de probabilidad de romperse después de ser lanzados",
+    
+    "Tip: - You can ride inside a boat and fall any height without taking damage": "Consejo: - Puedes montar dentro de un bote y caer desde cualquier altura sin recibir daño",
+    
+    "Tip: - Mobs won't despawn if they're inside a boat": "Consejo: - Los mobs no desaparecerán si están dentro de un bote",
+    
+    "Tip: - Netherite tools and armor can't burn in lava": "Consejo: - Las herramientas y armaduras de netherita no pueden quemarse en lava",
+    
+    "Tip: - If you feed a frog a magma cube, they'll spit it out as a neat Froglight block": "Consejo: - Si alimentas a una rana con un cubo de magma, lo escupirá como un bloque de Froglight",
+    
+    "Tip: - Beacon blocks can share their pyramid base blocks, allowing you to stack beacon effects": "Consejo: - Los bloques de baliza pueden compartir los bloques de la base de su pirámide, permitiéndote apilar los efectos de las balizas",
+	
+    "Tip: - Torches release light up to 14 blocks away, so space your torches 28 blocks away from each other to optimally prevent mobs from spawning": "Consejo: - Las antorchas emiten luz hasta 14 bloques de distancia, así que coloca tus antorchas a una distancia de 28 bloques entre sí para prevenir óptimamente la generación de mobs",
+    
+    "Tip: - Large iron ore veins containing massive amounts of iron generate underground in the deepslate layer. You'll know you found one indicated by long strips of tuff with iron ore.": "Consejo: - Grandes vetas de mineral de hierro que contienen grandes cantidades de hierro se generan bajo tierra en la capa de pizarra. Sabrás que encontraste una indicada por largas tiras de toba con mineral de hierro.",
+    
+    "Tip: - Armor trims can be duplicated in a crafting table with diamonds, your smithing template, and a base block.": "Consejo: - Los adornos de armadura se pueden duplicar en una mesa de trabajo con diamantes, tu plantilla de herrería y un bloque base.",
+    
+    "Tip: - Use armor smithing templates in a smithing table to decorate your armor with neat patterns and designs": "Consejo: - Usa plantillas de herrería de armaduras en una mesa de herrería para decorar tu armadura con patrones y diseños elegantes",
+    
+    "Tip: - You can edit a placed sign by right clicking it": "Consejo: - Puedes editar un letrero colocado haciendo clic derecho sobre él",
+    
+    "Tip: - Right click a wood log to turn it into a stripped log": "Consejo: - Haz clic derecho en un tronco de madera para convertirlo en un tronco pelado",
+    
+    "Tip: - While holding a map, right click a banner to mark the banners position on your map": "Consejo: - Mientras sostienes un mapa, haz clic derecho en un estandarte para marcar su posición en tu mapa",
+    
+    "Tip: - Use a Brush on an armadillo to collect armadillo scutes. You can use these scutes to craft wolf armor.": "Consejo: - Usa un cepillo en un armadillo para recolectar escudos de armadillo. Puedes usar estos escudos para fabricar armaduras de lobo.",
+    
+    "Tip: - Fireworks can be loaded and shot from a Crossbow": "Consejo: - Los fuegos artificiales se pueden cargar y disparar desde una ballesta",
+    
+    "Tip: - Enchanting Tables require a minimum of 15 nearby bookshelves to give level 30 enchantments": "Consejo: - Las mesas de encantamiento requieren un mínimo de 15 estanterías cercanas para dar encantamientos de nivel 30",
+    
+    "Tip: - Endermen can spawn in the Overworld, Nether, and End": "Consejo: - Los enderman pueden aparecer en el Overworld, Nether y End",
+    
+    "Tip: - You can up the difficulty of a Trial Chamber and obtain more valuable loot from it by drinking an Ominous Bottle": "Consejo: - Puedes aumentar la dificultad de una Cámara de Prueba y obtener botín más valioso bebiendo una Botella Aterradora",
+    
+    "Tip: - Zombie Villagers can be cured by throwing a weakness splash potion at them and feeding them a golden apple.": "Consejo: - Los aldeanos zombis se pueden curar arrojándoles una poción de debilidad y dándoles una manzana dorada.",
+    
+    "Tip: - Splash weakness potions and golden apples cure zombie villagers. Brew one in a brewing stand with water bottles, a fermented spider eye, and gunpowder": "Consejo: - Las pociones de debilidad y las manzanas doradas curan a los aldeanos zombis. Prepara una en un soporte para pociones con botellas de agua, un ojo de araña fermentado y pólvora",
+    
+    "Tip: - Endermen spawn frequently in the Nether's Warped Forest": "Consejo: - Los enderman aparecen frecuentemente en el Bosque Retorcido del Nether",
+    
+    "Tip: - Cartographer villagers can sell explorer maps leading to Trial Chambers": "Consejo: - Los aldeanos cartógrafos pueden vender mapas de explorador que conducen a Cámaras de Prueba",
+    
+    "Tip: - Wolves wearing wolf armor are completely invulnerable to most damage. Their armor will break after absorbing 64 damage (32❤)": "Consejo: - Los lobos que llevan armadura de lobo son completamente invulnerables a la mayoría del daño. Su armadura se romperá después de absorber 64 de daño (32❤)",
+    
+    "Tip: - Drinking a bucket of milk will clear away any effect, including Bad Omen/Raid Omen": "Consejo: - Beber un cubo de leche eliminará cualquier efecto, incluyendo Mala Fortuna/Presagio de Asalto"
+}

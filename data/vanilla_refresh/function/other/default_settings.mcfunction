@@ -205,6 +205,9 @@ execute unless score jukebox_stop_sound refresh_settings matches -2147483648.. r
 
 execute unless score death_stop_music refresh_settings matches -2147483648.. run scoreboard players set death_stop_music refresh_settings 0
 
+execute unless score craftsound refresh_settings matches -2147483648.. run scoreboard players set craftsound refresh_settings 1
+
+
 
 
 

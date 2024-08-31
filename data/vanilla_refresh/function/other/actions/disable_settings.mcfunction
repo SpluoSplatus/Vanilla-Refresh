@@ -149,4 +149,4 @@ scoreboard players set playerheads refresh_settings 0
 
 function vanilla_refresh:other/menus/main
 
-playsound entity.experience_orb.pickup player @s ~ ~ ~ 1 1
+playsound entity.experience_orb.pickup player @s ~ ~ ~ 0.5 1

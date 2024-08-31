@@ -1,7 +1,7 @@
 
 # 0.1 SECOND LOOP ----------------------------------
 
-execute if score mob_health refresh_settings matches 1 as @a at @s as @e[type=!#vanilla_refresh:misc,distance=..6] store result score @s refresh_health run data get entity @s Health
+execute if score mob_health refresh_settings matches 1 as @a at @s as @e[type=!#vanilla_refresh:misc,distance=..10] run function vanilla_refresh:other/clock/2tick_mob_health
 
 
 

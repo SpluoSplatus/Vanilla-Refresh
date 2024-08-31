@@ -9,11 +9,12 @@
     # the value after the "sitting refresh_settings" is the value you change to modify the setting
 #
 
-# it is advised that lines you aren't modifying are removed
-
-
 #########################################################################################
 
+
+scoreboard objectives add refresh_settings dummy
+
+##
 
 scoreboard players set sitting refresh_settings 1
 
@@ -237,6 +238,9 @@ scoreboard players set cyclestats_health refresh_settings 1
 scoreboard players set jukebox_stop_sound refresh_settings 1
 
 scoreboard players set death_stop_music refresh_settings 0
+
+
+scoreboard players set craftsound refresh_settings 1
 
 
 

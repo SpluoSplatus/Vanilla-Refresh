@@ -1,0 +1,502 @@
+{
+    
+
+"/S/ TRANSLATION EXAMPLES /S/": "",
+"/S/ (Left side) Default Text /S/": "/S/ (Right Side) Your translated text /S/",
+"/S/ Hello /S/": "/S/ Привет /S/",
+"/S/ Seperators (vanillarefresh.[blank].seperators) seperate text UI. Adjust these based on new translated text if needed/S/": "",
+"/S/ !!! Maintain indentions and \n's!! /S/": "",
+
+
+
+
+
+"Translator: ": "Переводчик: ",
+"Translated by: ": "Переведено: ",
+"[[insert name on right ->]]": "ProksimoMine",
+
+"Health": "Здоровье",
+"Hours": "Часов",
+"Mob Kills": "Убийства мобов",
+"Player Kills": "Убийства игроков",
+"Deaths": "Смертей",
+"Hours Survived": "Часов выживания",
+"XP Level": "Уровень опыта",
+"XP Levels": "Уровни опыта",
+"Member ID": "ID участника",
+"Death Score": "Очков за смерть",
+"Time Played (Hours)": "Время игры (часы)",
+
+
+"Page 9 -->": "Страница 9 -->",
+"Page 8 -->": "Страница 8 -->",
+"Page 7 -->": "Страница 7 -->",
+"Page 6 -->": "Страница 6 -->",
+"Page 5 -->": "Страница 5 -->",
+"Page 4 -->": "Страница 4 -->",
+"Page 3 -->": "Страница 3 -->",
+"Page 2 -->": "Страница 2 -->",
+
+"<-- Page 8": "<-- Страница 8",
+"<-- Page 7": "<-- Страница 7",
+"<-- Page 6": "<-- Страница 6",
+"<-- Page 5": "<-- Страница 5",
+"<-- Page 4": "<-- Страница 4",
+"<-- Page 3": "<-- Страница 3",
+"<-- Page 2": "<-- Страница 2",
+"<-- Page 1": "<-- Страница 1",
+"<-- Return": "<-- Назад",
+
+"Next Page": "Следующая страница",
+"Previous Page": "Предыдущая страница",
+"Enabled": "Включено",
+"Disabled": "Отключено",
+"Configure": "Настроить",
+"Cancel": "Отмена",
+"Click to change this setting": "Нажмите, чтобы изменить эту настройку",
+"Click to Open": "Нажмите, чтобы открыть",
+"Click to preview": "Нажмите для предварительного просмотра",
+"Preview": "Предварительный просмотр",
+
+
+"vanilla_refresh.itemsetsUI.seperator1": "                                                       ",
+"Clear Inventory: ✔": "Очистить инвентарь: ✔",
+"Clear Inventory: ❌": "Очистить инвентарь: ❌",
+
+"Open chat (": "Откройте чат (",
+") and use your cursor to click UI": ") и используйте курсор, чтобы нажать на интерфейс",
+
+"Select an Item Set  ": "Выберите набор предметов  ",
+"Selecting an item set will clear your current inventory": "Выбор набора предметов очистит ваш текущий инвентарь",
+"Click to Give": "Нажмите, чтобы выдать",
+"  Build Palletes & Styles": "  Палитры и стили",
+"  Armor": "  Броня",
+"  Blocks": "  Блоки",
+
+"Select a Wand  ": "Выберите палочку  ",
+
+"Applied permanent night vision": "Постоянное ночное зрение применено",
+"Removed permanent night vision": "Постоянное ночное зрение снято",
+
+"Items you drop will now be cleared": "translation",
+"  Items you drop will no longer be cleared": "translation",
+"Drop Clear Disabled\n": "translation",
+"Drop Clear Enabled\n": "translation",
+
+
+"— D —": "— Д —",
+"— DA —": "— ДЕ —",
+"— DAY —": "— ДЕНЬ —",
+"— DAY ": "— ДЕНЬ ",
+"—  DAY  —": "—  ДЕНЬ  —",
+"⭐ — DAY ": "⭐ — ДЕНЬ ",
+
+
+"Add an item to this Armor Stand first to create an item rack": "Сначала добавьте предмет, чтобы создать стойку для предметов",
+
+"Health: ": "Здоровье: ",
+"Type: ": "Тип: ",
+"Player": "Игрок",
+"Mob": "Моб",
+"Boss": "Босс",
+"Miscellaneous": "Разное",
+"Distance": "Расстояние: ",
+" blocks away": " блоков от вас",
+
+"Clock": "Часы",
+"Time: ": "Время: ",
+"Day: ": "День: ",
+"Lodestone": "Магнетит",
+
+"Last Death": "Последняя смерть",
+"No Death Located": "Место смерти не найдено",
+"Coordinates: ": "Координаты: ",
+
+"Compass": "Компас",
+"Facing: ": "Сторона света: ",
+", North": ", Север",
+", East": ", Восток",
+", South": ", Юг",
+", West": ", Запад",
+
+"Free Float mode activated": "Режим свободного полета активирован",
+"Hold ": "Удерживайте ",
+" to hover down. - Time Left: ": " чтобы опуститься. - Осталось времени: ",
+
+"'s Soul": "Душа",
+"Soul": "Душа",
+"Player Soul": "Душа игрока",
+" Time Left: ": " Осталось времени: ",
+" minutes, ": " мин., ",
+" hours, ": " час., ",
+" seconds": " сек.",
+
+" survived ": " выжил ",
+" time since spawning into the world and now has a total of ": " время с момента появления в мире и теперь в сумме имеет ",
+" time since their last death and now has a total of ": " время с момента последней смерти и теперь в сумме имеет ",
+" deaths": " смертей",
+
+"Select a Gamerule Category ": "Выберите категорию правил игры ",
+"ⓘ Value Info": "ⓘ Информация о значении",
+"0 = Gamerule/setting is disabled\n1 = Gamerule/setting is enabled\n\nOther values mean the setting has more options than just enabled and disabled. (Next to the value, it'll describe what option is set)": "0 = правило/настройка отключена\n1 = правило/настройка включена\n\nДругие значения означают, что настройка имеет больше опций, чем просто включено и отключено. (Рядом со значением будет описано, какая опция установлена)",
+
+"Overworld: ": "Надземный мир: ",
+"The Nether: ": "Нижний мир: ",
+"The End: ": "Край: ",
+"Other Dimensions: ": "Другие измерения: ",
+"Players: ": "Игроки: ",
+"Operators: ": "Админы: ",
+"Creative Mode: ": "Творческий режим: ",
+"Spectators: ": "Наблюдатели: ",
+
+"There are currently ": "В данный момент ",
+" players ": " игроков ",
+"online": "в сети",
+"There is currently ": "В данный момент ",
+" player ": " игрок ",
+"A total of ": "Всего ",
+"ever joined the game": " когда-либо присоединились к игре",
+"You're the only player to ever join this world": "Вы единственный игрок, когда-либо присоединившийся к этому серверу",
+
+
+"ⓘ Sharing: ": "ⓘ Совместное использование: ",
+"  Member ": "  Участник ",
+"Member ": "Участник ",
+"(ID: ": "(ID: ",
+"Your member ID can be used by others to view your stats. To view someone else's stats, use ": "Ваш ID участника может быть использован другими для просмотра ваших статистик. Чтобы просмотреть статистики другого игрока, используйте ",
+", replacing ": ", заменив ",
+" with the member ID of an online player.": " на ID участника онлайн-игрока.",
+"\n(Hold ": "\n(Удерживайте ",
+" to view online players' member IDs)": " чтобы увидеть ID участников онлайн-игроков)",
+"\n\nYou can make your stats private from non-operator players by disabling this setting.": "\n\nВы можете сделать свои статистики закрытыми для игроков, не являющихся админами, отключив эту настройку.",
+
+"That player is offline or doesnt exist": "Этот игрок офлайн или не существует",
+"This player has disabled viewing of their stats": "Этот игрок отключил просмотр своих статистик",
+"This user's stats are privated for non-operators\n": "Статистики этого пользователя закрыты для игроков, не являющихся админами\n",
+
+"Player Stats of ": "Статистики игрока ",
+"Time Played: ": "Время игры: ",
+"Time Since Last Death: ": "Время с последней смерти: ",
+"Average Deaths Per Hour: ": "Среднее количество смертей в час: ",
+"Mob Kills: ": "Убийства мобов: ",
+"Player Kills: ": "Убийства игроков: ",
+"XP Level: ": "Уровень опыта: ",
+"Deaths: ": "Смерти: ",
+
+"Select a Settings Category ": "Выберите категорию настроек ",
+"Reset Settings": "Сбросить настройки",
+"Click to reset settings to default": "Нажмите, чтобы сбросить настройки по умолчанию",
+"Disable All": "Отключить все",
+"Click to disable all settings (Useful if you just want Vanilla Refresh's creative mode tools)": "Нажмите, чтобы отключить все настройки (полезно, если вам нужны только инструменты творческого режима Vanilla Refresh)",
+
+"Click to insert/copy command": "Нажмите, чтобы вставить/скопировать команду",
+" << Click to insert command": " << Нажмите, чтобы вставить команду",
+"Run the above command and replace ": "Выполните вышеуказанную команду и замените ",
+" with a player name": " на имя игрока",
+"This command works for online and offline players": "Эта команда работает для онлайн и офлайн игроков",
+
+"Removed ": "Удалено ",
+" block animation markers": " маркеров анимации блока",
+"No entity was found": "Сущность не найдена",
+": Removed ": ": Удалено ",
+" block animation markers]": " маркеров анимации блока]",
+" crop XP markers": " маркеров опыта урожая",
+" night mobs": " ночных мобов",
+" soul links": " связей душ",
+": shattered": ": разрушено",
+"Shattered": "Разрушено",
+
+"PREVIEW:": "ПРЕДПРОСМОТР:",
+"\nPREVIEW:\n": "\nПРЕДПРОСМОТР:\n",
+
+"You've entered": "Вы вошли в",
+"Spectator Actions": " translation",
+" Spectator Mode": " Режим наблюдателя",
+"Random Player": "Случайный игрок",
+"Night Vision: Enabled": "Ночное зрение: Включено",
+"Night Vision: Disabled": "Ночное зрение: Отключено",
+"World Spawn": "Мировая точка возрождения",
+"Last Death Location": "Последнее место смерти",
+
+
+"Night Vision: ❌": "Ночное видение: ❌",
+"Night Vision: ✔": "Ночное видение: ✔",
+"Ghost Particles: ❌": "Призрачные частицы: ❌",
+"Ghost Particles: ✔": "Призрачные частицы: ✔",
+
+"vanilla_refresh.spectateUI.seperator1": "   -> ",
+"vanilla_refresh.spectateUI.seperator2": "      -> ",
+"vanilla_refresh.spectateUI.seperator3": "            -> ",
+
+
+"Appear": "Появление",
+"Death Location": "Место смерти",
+
+"Disabled ": "Отключено ",
+"Enabled ": "Включено ",
+"Night Vision": "Ночное зрение",
+"Now spectating ": "Теперь наблюдаете за ",
+"...no one?": "...никем?",
+"Teleported to ": "Телепортировано к ",
+"Click to run this command": "Нажмите, чтобы выполнить эту команду",
+    
+"Disabled your ": "Отключено ваше ",
+"Enabled your ": "Включено ваше ",
+"Ghost Particles": "Частицы призрака",
+
+"Multiplayer": "Многопользовательский",
+"Creative": "Творческий",
+"Other": "Другие",
+"Griefing": "Гриф",
+"Blocks & Items": "Блоки и предметы",
+"Entities": "Сущности",
+    
+"vanilla_refresh.settings.categories.seperator1": "1",
+"vanilla_refresh.settings.categories.seperator2": "2",
+"vanilla_refresh.settings.categories.seperator3": "3",
+"vanilla_refresh.settings.categories.seperator4": "4",
+"vanilla_refresh.settings.categories.seperator5": "5",
+"vanilla_refresh.settings.categories.seperator6": "6",
+
+
+"\nWelcome to ": "\nДобро пожаловать в ",
+"! You'll be able to configure each feature within Vanilla Refresh to your liking here. Hover over an ": "! Здесь вы сможете настроить каждую функцию в Vanilla Refresh по своему усмотрению. Наведите курсор на ",
+" icon to get a description of what a setting does.\n": " значок, чтобы получить описание настройки.\n",
+"Continue\n": "Продолжить\n",
+"Click to Proceed to the Settings page": "Нажмите, чтобы перейти на страницу настроек",
+"Information moment": "Информационный момент",
+
+"For Soul Links to function correctly, the gamerule Keep Inventory will have to be enabled. Confirm below to allow Vanilla Refresh to enable Keep Inventory.": "Для корректной работы Связей душ нужно включить правило игры Keep Inventory. Подтвердите ниже, чтобы разрешить Vanilla Refresh включить Keep Inventory.",
+
+"Enable Keep Inventory & Soul Links": "Включить Сохранение инвентаря и Связи душ",
+
+"Value can't be lower than 0": "Значение не может быть меньше 0",
+": Optimized and refreshed all mob health scores for existing and non existing entities": ": Оптимизированы и обновлены все показатели здоровья мобов для существующих и несуществующих сущностей",
+
+"Are you sure you want to disable Stats Tracking?": "Вы уверены, что хотите отключить отслеживание статистики?",
+" When stats are disabled individually, only their display is removed, but they are still tracked incase later its desired to be re-enabled. If you disable this setting, ": "При отключении отдельных статистик, только их отображение будет удалено, но они все равно будут отслеживаться на случай, если вы захотите снова включить их позже. Если вы отключите эту настройку, ",
+"stats will stop tracking entirely,": "статистика полностью перестанет отслеживаться,",
+" and if you re-enable Stats Tracking after disabling it, the stats will no longer be accurate.": " и если вы снова включите отслеживание статистики после его отключения, статистика уже не будет точной.",
+"Disable it!": "Отключить!",
+
+"Night": "Ночь",
+"Midnight": "Полночь",
+"Day": "День",
+" - Set the time to 1000": " - Установить время на 1000",
+" - Set the time to 13000": " - Установить время на 13000",
+" - Set the time to 18000": " - Установить время на 18000",
+
+"Player hours successfully reset": "Часы игры игроков успешно сброшены",
+
+"Are you sure you want to reset all players played hours stats? Click below to confirm.": "Вы уверены, что хотите сбросить статистику времени игры всех игроков? Нажмите ниже, чтобы подтвердить.",
+"Click to Confirm and reset all player hours": "Нажмите, чтобы подтвердить и сбросить все часы игры игроков",
+"> Confirm and Reset <\n": "> Подтвердить и Сбросить <\n",
+
+
+"Loaded Soul Links successfully shattered": "Успешно разрушены загруженные Связи душ",
+
+"Are you sure you want to shatter all soul links? Click below to confirm.": "Вы уверены, что хотите разрушить все Связи душ? Нажмите ниже, чтобы подтвердить.",
+"Click to Confirm and shatter all soul links": "Нажмите, чтобы подтвердить и разрушить все Связи душ",
+"> Confirm and Shatter Soul Links <\n": "> Подтвердить и Разрушить Связи душ <\n",
+
+"Tip: - If at any point you'd like to, you can sit down ingame by looking straight down, sneaking and right clicking": "Совет: - В любой момент вы можете сесть в игре, посмотрев прямо вниз, присев и щелкнув правой кнопкой мыши.",
+"Tip: - Dropping an anvil on blocks like Deepslate Tiles, Packed Ice, or Stone Bricks will crush them back into their original forms.": "Совет: - Если сбросить наковальню на блоки, такие как глыбы глубинного сланца, плотный лед или каменные кирпичи, они будут раздавлены до их исходных форм.",
+"Tip: - You can use a lever to swap between armor stand poses": "Совет: - Вы можете использовать рычаг для переключения между позами стойки для брони.",
+"Tip: - You can equip banners on an empty head slot by holding the banner you want to wear and clicking sneak multiple times.": "Совет: - Вы можете надеть флаги на голову, удерживая и несколько раз нажав присесть.",
+"Tip: - Dropping an Echo Shard on a mob will silence them. You can unsilence them by placing water on the mob": "Совет: - Бросив осколок эха на моба, вы заставите его замолчать. Вы можете отменить это действие, налив воду на моба.",
+"Tip: - Curious about what this world's gamerules are set to? You can view their values by using ": "Совет: - Интересно, какие игровые правила установлены в этом мире? Вы можете просмотреть их значения, используя ",
+" in chat": " в чате",
+"Tip: - Creative Mode users have access to Vanilla Refresh creative features. Use ": "Совет: - Пользователи творческого режима имеют доступ к творческим функциям Vanilla refresh. Используйте ",
+" for helpful tools and ": " для полезных инструментов и ",
+"Wands": "Жезлы",
+"Item Sets": "Наборы предметов",
+" to quickly give yourself a set of items, like armor": " чтобы быстро выдать себе набор предметов, таких как броня.",
+
+"Tip: - Holding ladders and pressing sneak on a ladder block allows you extend its length and hang over air blocks": "Совет: - Держа лестницу в руках и нажав присесть на блоке лестницы, вы можете ее удлинить.",
+"Tip: - Dropping an Ender Pearl on your Lodestone allows you teleport instantly to it within a 80 block radius": "Совет: - Бросив жемчуг края на магнетит, вы можете мгновенно телепортироваться к нему в радиусе 80 блоков",
+"Tip: - View a variety of your player stats ingame by using ": "Совет: - Просматривайте различные статистики вашего игрока в игре, используя ",
+"A new player has joined the server! Member #": "Новый игрок присоединился к серверу! Игрок #",
+
+
+
+
+"Tip: - Cauldrons with water still work in the Nether without evaporating": "Совет: - Котлы с водой все еще работают в Незере, не испаряясь.",
+"Tip: - Swift Sneak allows you to quickly bridge across areas with the same speed as walking": "Совет: - Проворство позволяет вам быстро перемещаться в присяди с той же скоростью, что и при нормальной ходьбе.",
+"Tip: - This chat message is not from a player": "Совет: - Если что, это сообщение в чате не от игрока.",
+"Tip: - You can use Charged Creepers on Wither Skeletons to instantly get their skull": "Совет: - Вы можете использовать заряженных криперов на визер-скелетах, чтобы мгновенно получить их череп.",
+"Tip: - The explosion of beds can be used to mine through netherrack for ancient debris": "Совет: - Взрыв кроватей можно использовать для добычи древних обломков в Незере.",
+"Tip: - Below the deepslate layer underground you'll find significantly more diamonds": "Совет: - Под слоем глубинного сланца вы найдете значительно больше алмазов.",
+"Tip: - Flooded caves contain more exposed ores than ordinary caves, so if you're seeking diamonds, try searching a flooded cave in the Ocean": "Совет: - Затопленные пещеры содержат больше открытых руд, чем обычные пещеры, поэтому, если вы ищете алмазы, попробуйте поискать затопленную пещеру в океане.",
+"Tip: - Iron isn't typically found on the surface of the world, but mountains generate high amounts of iron ore exposed to air.": "Совет: - Железо обычно не встречается на поверхности мира, но в горах образуется много железных руд.",
+"Tip: - The lower a wolf's tail is, the less health it has": "Совет: - Чем ниже хвост волка, тем меньше у него здоровья.",
+"Tip: - Cats scare away Creepers, but also Phantoms": "Совет: - Кошки отпугивают не только криперов, но и фантомов.",
+
+"Tip: - Goats can be milked as an alternative to cows": "Совет: - Коз можно доить как альтернативу коровам.",
+
+"Tip: - On Hard Mode, villagers have an 100% chance of zombifying from a zombie attack": "Совет: - В сложном режиме жители имеют 100% шанс превратиться в зомби после атаки зомби.",
+
+"Tip: - You can equip a banner on a shield to give your shields awesome designs.": "Совет: - Вы можете прикрепить флаг к щиту, чтобы придать ему крутой дизайн.",
+
+"Tip: - Setting your FOV to 40 or less makes for great, cinematic base screenshots without FOV warp.": "Совет: - Установка поля зрения (FOV) на 40 или меньше делает отличные кинематографические скриншоты базы без искажения.",
+
+"Tip: - Golden carrots make a great food source for those who have an abundance of gold and carrots": "Совет: - Золотая морковь — отличный источник пищи для тех, у кого много золота и моркови.",
+
+"Tip: - Feather Falling IV only has a approximate 2.7% chance of appearing on a enchanting table": "Совет: - Невесомость IV имеет примерно 2,7% шанс появиться на столе зачарований.",
+
+"Tip: - The Silence armor trim has a 1.25% chance of appearing in Ancient City chests": "Совет: - Кузнечный шаблон 'Тишина' имеет 1,25% шанс появиться в сундуках древнего города.",
+
+"Tip: - A Hoe can be used to quickly remove leaves from a tree": "Совет: - Мотыгу можно использовать для быстрого удаления листьев с дерева.",
+
+"Tip: - The Wither is immune to projectiles in its final phase": "Совет: - Иссушитель неуязвим от снарядов на последней своей стадии.",
+
+"Tip: - Using Silk Touch to get nether gold ore and then smelting it into an ingot is more efficient": "Совет: - Использование Шелкового касания для получения золотой руды в Незере и последующая переплавка ее в слиток более эффективны.",
+
+"Tip: - Barrels below solid blocks can still be opened": "Совет: - Бочки под твердыми блоками все еще можно открывать.",
+
+"Tip: - Placing a cauldron while it's snowing in a biome will fill the cauldron with powdered snow": "Совет: - Установка котла во время падения снега в холодном биоме наполнит котел рыхлым снегом.",
+
+"Tip: - You can create your own mud blocks by pouring a water bottle on a block of dirt": "Совет: - Вы можете создать свои собственные грязевые блоки, вылив бутылочку воды на блок земли.",
+
+"Tip: - Lava can be farmed by placing a lava source block above pointed dripstone, and then placing a cauldron below the dripstone": "Совет: - Вы можете получить лаву, если установите котел над капельником, где есть лавовый источник.",
+
+"Tip: - Endermen will attack any endermites they see": "Совет: - Эндермены будут атаковать любых эндермитов, которых увидят.",
+
+"Tip: - If you have too much emeralds, iron etc, you can convert them into blocks to save x9 space in your chests": "Совет: - Если у вас слишком много изумрудов, железа и т.д., вы можете преобразовать их в блоки, чтобы сэкономить в 9 раз больше места в сундуках.",
+
+"Tip: - Fortune III allows you to collect a greater amount of items when mining certain blocks, like ores and crops": "Совет: - Удача III позволяет собирать больше предметов при добыче определенных блоков, таких как руды и урожай.",
+
+"Tip: - Fighting mobs with axolotls regenerates your health": "Совет: - Бой с мобами вместе с аксолотлями восстанавливает ваше здоровье.",
+
+"Tip: - Crops don't need to be directly touching water to grow, up to 4 blocks away the crop can still be hydrated": "Совет: - Урожай не обязательно должен непосредственно касаться притык с водой, он может быть увлажнен на расстоянии до 4 блоков.",
+
+"Tip: - Elytras can be repaired using phantom membranes or mending": "Совет: - Элитры можно починить, используя мембраны фантома или починку.",
+"Tip: - Amethyst shards can be used to breed allays": "Совет: - Осколки аметиста можно использовать для разведения тихоней.",
+
+"Tip: - Wolves scare away and attack skeletons": "Совет: - Волки отпугивают и атакуют скелетов.",
+
+"Tip: - A goat has a 2% chance of spawning as a screaming varient": "Совет: - Коза имеет 2% шанса на появления в виде кричащего варианта.",
+
+"Tip: - Press fn + F3 to open the debug menu and see helpful info like your coordinates and fps": "Совет: - Нажмите fn + F3, чтобы открыть меню отладки и увидеть полезную информацию, такую как координаты и fps.",
+
+"Tip: - Seeking an Ancient City? Try mining below mountains! Ancient Cities and the Deep Dark generate more often below them.": "Совет: - Ищете Древний Город? Попробуйте копать под горами!",
+
+"Tip: - A bow cannot have both the Mending and Infinity enchantments": "Совет: - Лук не может иметь чары одновременно с Починкой и Бесконечностью.",
+
+"Tip: - The rarest ores are deepslate coal and deepslate emerald": "Совет: - Самые редкие руды — это Угленосный глубинный сланец и Изумрудоносный глубинный сланец.",
+
+"Tip: - Use a blast furnace to quickly smelt ores": "Совет: - Используйте плавильную печь для быстрой плавки руды.",
+
+"Tip: - Use a smoker to quickly smelt food items": "Совет: - Используйте коптильню для быстрой готовки пищи.",
+
+"Tip: - Campfires smelt food without using fuel": "Совет: - Костры готовят еду без использования топлива.",
+
+"Tip: - Lava buckets can be used as a fuel source in furnaces to smelt tons of items": "Совет: - Ведра с лавой можно использовать в качестве топлива в печах для плавки большого количества предметов.",
+
+"Tip: - Enderchests can only be mined with a Silk Touch pickaxe": "Совет: - Эндер сундуки можно добыть только киркой с чарой Шёлковое касание.",
+
+"Tip: - Water buckets and a lava pool can be used to make a nether portal without ever needing to mine obsidian": "Совет: - Ведра с водой и лавовый бассейн можно использовать для создания портала в Незер без необходимости добывать обсидиан.",
+
+"Tip: - Sculk Blocks drop XP when mined. You can use a Hoe enchanted with Efficiency V to quickly gather XP from mined Sculk.": "Совет: - Скалк дает опыт при добыче. Вы можете использовать мотыгу с чарой Эффективность V для быстрой добычи опыта.",
+
+"Tip: - You can instantly dry wet sponges by placing them in the Nether": "Совет: - Мокрые губки можно мгновенно высушить, поместив их в Незер.",
+
+"Tip: - In Warm Ocean Ruins, you can sometimes find Sniffer eggs buried in Suspicious Sand. Use a brush on these sand blocks to uncover a potential Sniffer egg.": "Совет: - В руинах тёплого океана иногда можно найти яйца нюхача, закопанные в подозрительном песке. Используйте кисть, чтобы обнаружить потенциальное яйцо нюхача.",
+
+"Tip: - Diamond armor can be bought from armorer villagers for as cheap as 1 emerald": "Совет: - Алмазную броню можно купить у деревенских бронников всего за 1 изумруд",
+
+"Tip: - Candles can be placed on cakes for a colorful touch": "Совет: - Свечи можно ставить на торты для яркого акцента.",
+
+"Tip: - Each disc in a jukebox gives a different power level to comparators": "Совет: - Каждый диск в музыкальном автомате даёт разный уровень сигнала для компараторов.",
+
+"Tip: - You can hold ": "Совет: - Вы можете удерживать ",
+" to view a list of all current players online": " для просмотра списка всех текущих игроков онлайн",
+
+"Tip: - Hold ": "Совет: - Удерживайте ",
+" to sneak around sculk sensors and avoid being detected": " для того, чтобы красться возле скалковых сенсоров и не быть обнаруженным",
+
+"Tip: - Wool can cancel out vibrations, so placing it or walking over it won't be detected by nearby Sculk Sensors": "Совет: - Шерсть может глушить вибрации, поэтому её размещение, или ходьба по ней не будут обнаружены ближайшими скалковыми сенсорами",
+
+
+"Tip: - End portal frames have a 10% chance of generating already filled with an Eye of Ender. ": "Совет: - У рамок портала в Энд есть 10% шанс генерироваться уже заполненными Оком эндера.",
+
+"Tip: - Sculk shriekers won't shriek when broken, though their breaking vibration can be delivered to a nearby Sculk Sensor. ": "Совет: - Скалковые крикуны не будут кричать при разрушении, хотя вибрация от их разрушения может передаваться ближайшему скалковому сенсору.",
+
+"Tip: - Challenge advancements when completed can earn you some experience points": "Совет: - Выполнение достижений-челленджей может принести вам некоторое количество очков опыта.",
+
+"Tip: - Coal ore stops generating in the deepslate layer of the world, so make sure you have enough torches before going too deep!": "Совет: - Угольная руда перестает генерироваться на слое глубинного сланца, так что убедитесь, что у вас достаточно факелов перед тем, как идти глубже!",
+
+"Tip: - Mobs can only spawn on blocks with a light level of 0": "Совет: - Враждебные мобы могут появляться только на блоках с уровнем освещения 0.",
+
+"Tip: - Blazes take damage from snowballs": "Совет: - Ифриты получают урон от снежков.",
+
+"Tip: - You can use a water bucket and place it below yourself to negate levitation from a Shulker attack.": "Совет: - Вы можете использовать ведро с водой и разместить его под собой, чтобы нейтрализовать левитацию от атаки шалкера.",
+
+"Tip: - Hoe's can be used to quickly remove vegetation like moss, leaves, and sculk. Enchant one with Efficiency for even more speed.": "Совет: - Мотыги можно использовать для быстрого удаления растительности, такие как мох, листья и скалк. Зачаруйте мотыг на Эффективность для еще большей скорости.",
+
+"Tip: - Cactus destroys any item that touches it": "Совет: - Кактус уничтожает любой предмет, который его касается.",
+
+"Tip: - You can sleep during thunderstorms, even if it's daytime": "Совет: - Вы можете спать во время грозы, даже если на улице день.",
+
+"Tip: - Carpet can be placed on a fence, allowing players to jump on it, but not mobs. Helpful for enclosing livestock.": "Совет: - Ковры можно класть на забор, что позволяет игрокам прыгать на него, но не мобам.",
+
+"Tip: - Splash water bottles extinguish fire and burning mobs": "Совет: - Всплески воды из бутылок тушат огонь и горящих мобов.",
+
+"Tip: - Along with magma blocks and soul sand, you can use doors and torches to regain air underwater": "Совет: - Вместе с магматическими блоками и песком душ, вы можете использовать двери и факелы для восстановления воздуха под водой.",
+
+"Tip: - If you wear a carved pumpkin on your head, endermen won't attack you when looking at them": "Совет: - Если надеть на голову вырезанную тыкву, эндермены не будут нападать на вас при взгляде в их глаза.",
+
+"Tip: - Eyes of Ender have a 20% chance of shattering after being thrown": "Совет: - Око эндера имеют 20% шанс разбиться после броска.",
+
+"Tip: - You can ride inside a boat and fall any height without taking damage": "Совет: - Вы можете сесть в лодку и падать с любой высоты, не получая урона.",
+
+"Tip: - Mobs won't despawn if they're inside a boat": "Совет: - Мобы не исчезнут, если они находятся внутри лодки.",
+
+"Tip: - Netherite tools and armor can't burn in lava": "Совет: - Незеритовые инструменты и броня не могут сгореть в лаве.",
+
+"Tip: - If you feed a frog a magma cube, they'll spit it out as a neat Froglight block": "Совет: - Если накормить лягушку магмовым кубом, то она выплюнет его в виде светящегося блока - квампа.",
+
+"Tip: - Beacon blocks can share their pyramid base blocks, allowing you to stack beacon effects": "Совет: - Блоки маяка могут использовать одни и те же блоки в своей пирамиде, что позволяет вам стакать эффекты маяка.",
+
+
+
+"Tip: - Torches release light up to 14 blocks away, so space your torches 28 blocks away from each other to optimally prevent mobs from spawning": "Совет: - Факелы освещают территорию до 14 блоков вокруг, поэтому размещайте их на расстоянии 28 блоков друг от друга для оптимальной защиты от появления враждебных мобов.",
+
+
+"Tip: - Large iron ore veins containing massive amounts of iron generate underground in the deepslate layer. You'll know you found one indicated by long strips of tuff with iron ore.": "Совет: - Большие жилы железной руды, содержащие огромное количество железа, генерируются под землей в слое глубинного сланца.",
+
+"Tip: - Armor trims can be duplicated in a crafting table with diamonds, your smithing template, and a base block.": "Совет: - Кузнечный шаблон для брони можно дублировать на верстаке с помощью алмазов, сам кузнечный шаблон и тип блока.",
+
+"Tip: - Use armor smithing templates in a smithing table to decorate your armor with neat patterns and designs": "Совет: - Используйте кузнечные шаблоны на столе кузнеца, чтобы украсить свою броню красивыми узорами и рисунками.",
+
+"Tip: - You can edit a placed sign by right clicking it": "Совет: - Вы можете редактировать установленную табличку, щелкнув по ней правой кнопкой мыши.",
+
+"Tip: - Right click a wood log to turn it into a stripped log": "Совет: - Щелкните правой кнопкой мыши по деревянному бревну, чтобы превратить его в обтесанное бревно.",
+
+"Tip: - While holding a map, right click a banner to mark the banner's position on your map": "Совет: - Держа карту, щелкните правой кнопкой мыши по флагу, чтобы отметить его положение на вашей карте.",
+
+"Tip: - Use a Brush on an armadillo to collect armadillo scutes. You can use these scutes to craft wolf armor.": "Совет: - Используйте кисть на броненосце, чтобы собрать его щитки. Эти щитки можно использовать для создания брони для волков.",
+
+"Tip: - Fireworks can be loaded and shot from a Crossbow": "Совет: - Фейерверки можно заряжать и стрелять из арбалета.",
+
+"Tip: - Enchanting Tables require a minimum of 15 nearby bookshelves to give level 30 enchantments": "Совет: - Зачаровательным столам требуется минимум 15 рядом стоящих книжных полок для получения зачарований 30-го уровня.",
+
+"Tip: - Endermen can spawn in the Overworld, Nether, and End": "Совет: - Эндермены могут появляться в Обычном мире, Незере и Энде.",
+
+"Tip: - You can up the difficulty of a Trial Chamber and obtain more valuable loot from it by drinking an Ominous Bottle": "Совет: - Вы можете увеличить сложность Испытательной комнаты и получить более ценный лут, выпив зловещую бутылочку.",
+
+"Tip: - Zombie Villagers can be cured by throwing a weakness splash potion at them and feeding them a golden apple.": "Совет: - Зомби-жителей можно излечить, бросив в них зелье слабости и накормив их золотым яблоком.",
+
+"Tip: - Splash weakness potions and golden apples cure zombie villagers. Brew one in a brewing stand with water bottles, a fermented spider eye, and gunpowder": "Совет: - Зелья слабости и золотые яблоки излечивают зомби-жителей. Сварите одно зелье на зельеварке, используя бутылочки с водой, паучий глаз и порох.",
+
+"Tip: - Endermen spawn frequently in the Nether's Warped Forest": "Совет: - Эндермены часто появляются в Искаженном лесу в Незере.",
+
+"Tip: - Cartographer villagers can sell explorer maps leading to Trial Chambers": "Совет: - Картографы могут продавать карты, ведущие к Испытательным комнатам.",
+
+"Tip: - Wolves wearing wolf armor are completely invulnerable to most damage. Their armor will break after absorbing 64 damage (32❤)": "Совет: - Волки в волчьей броне полностью неуязвимы для большинства повреждений. Их броня сломается после поглощения 64 единиц урона (32❤).",
+
+"Tip: - Drinking a bucket of milk will clear away any effect, including Bad Omen/Raid Omen": "Совет: - Выпив ведро молока, вы снимете любой эффект, включая Дурное знамение."
+
+
+
+
+}

@@ -5,10 +5,7 @@ tag @s add refresh_spectator
 
 
 
-
-tellraw @s [{"translate": ""}]
-
-tellraw @s [{"translate":"You've entered","color":"gray"},{"translate":" Spectator Mode","color":"yellow"}]
+tellraw @s [{"translate":"","color":"gray"},{"translate":"\nSpectator Actions","color":"yellow"}]
 
 function vanilla_refresh:player/spectator/a_menu
 

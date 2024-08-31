@@ -4,7 +4,7 @@
 
 
 #health spyglass
-execute if score spyglass refresh_settings matches 1 as @a[advancements={vanilla_refresh:used_spyglass=true}] at @s anchored eyes positioned ^ ^ ^4 run function vanilla_refresh:entity/mob_health/spyglass
+execute if score spyglass refresh_settings matches 1 as @a[advancements={vanilla_refresh:used_spyglass=true}] at @s anchored eyes positioned ^ ^ ^4 run function vanilla_refresh:entity/mob_health/spyglass/spyglass
 advancement revoke @a only vanilla_refresh:used_spyglass
 
 

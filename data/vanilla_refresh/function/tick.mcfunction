@@ -31,8 +31,13 @@ scoreboard players add 5tick refresh_clock 1
 
 #———————————————————————————————————————————————————————————————————————————————————
 
+
+
+#block anim
+execute if score blockanims refresh_settings matches 1 run function vanilla_refresh:block/block_anims/block
+
 # @a checks
-execute if entity @a run function vanilla_refresh:selector_all_players
+execute as @a at @s run function vanilla_refresh:selector_all_players
 
 
 
@@ -65,9 +70,6 @@ function vanilla_refresh:other_features/day_counter/root
 
 #clock ---
 execute if score clock refresh_settings matches 1.. run function vanilla_refresh:block/clock/root
-
-#block anim
-execute if score blockanims refresh_settings matches 1 run function vanilla_refresh:block/block_anims/block
 
 # enchant swirly
 execute as @e[type=marker,tag=refresh_particle] at @s run function vanilla_refresh:other/particle/main
@@ -160,8 +162,3 @@ scoreboard players set @a refresh_player_deaths2 0
 
 
 scoreboard players reset @a[scores={refresh_dragonkill=1..}] refresh_dragonkill
-
-advancement revoke @a only vanilla_refresh:player/enchanted_item
-advancement revoke @a only vanilla_refresh:player/enchanted_item1
-advancement revoke @a only vanilla_refresh:player/enchanted_item2
-advancement revoke @a only vanilla_refresh:player/enchanted_item3

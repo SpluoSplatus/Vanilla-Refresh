@@ -1,0 +1,332 @@
+{
+  "criteria": {
+
+
+    "bucket": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "bucket"
+      }
+    },
+    "shears": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "shears"
+      }
+    },
+    "fishing_rod": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "fishing_rod"
+      }
+    },
+    "crossbow": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "crossbow"
+      }
+    },
+    "bow": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "bow"
+      }
+    },
+    "mace": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "mace"
+      }
+    },
+    "wooden_axe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "wooden_axe"
+      }
+    },
+    "wooden_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "wooden_pickaxe"
+      }
+    },
+    "wooden_shovel": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "wooden_shovel"
+      }
+    },
+    "wooden_sword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "wooden_sword"
+      }
+    },
+    
+    "wooden_hoe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "wooden_hoe"
+      }
+    },
+
+    "stone_axe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "stone_axe"
+      }
+    },
+    "stone_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "stone_pickaxe"
+      }
+    },
+    "stone_shovel": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "stone_shovel"
+      }
+    },
+    "stone_sword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "stone_sword"
+      }
+    },
+    
+    "stone_hoe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "stone_hoe"
+      }
+    },
+
+    "golden_axe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "golden_axe"
+      }
+    },
+    "golden_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "golden_pickaxe"
+      }
+    },
+    "golden_shovel": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "golden_shovel"
+      }
+    },
+    "golden_sword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "golden_sword"
+      }
+    },
+    
+    "golden_hoe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "golden_hoe"
+      }
+    },
+    "golden_boots": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "golden_boots"
+      }
+    },
+    
+    "golden_leggings": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "golden_leggings"
+      }
+    },
+    "golden_chestplate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "golden_chestplate"
+      }
+    },
+    "golden_helmet": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "golden_helmet"
+      }
+    },
+    "iron_axe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "iron_axe"
+      }
+    },
+    "iron_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "iron_pickaxe"
+      }
+    },
+    "iron_shovel": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "iron_shovel"
+      }
+    },
+    "iron_sword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "iron_sword"
+      }
+    },
+    
+    "iron_hoe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "iron_hoe"
+      }
+    },
+    "iron_boots": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "iron_boots"
+      }
+    },
+    
+    "iron_leggings": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "iron_leggings"
+      }
+    },
+    "iron_chestplate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "iron_chestplate"
+      }
+    },
+    "iron_helmet": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "iron_helmet"
+      }
+    },
+    "diamond_axe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "diamond_axe"
+      }
+    },
+    "diamond_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "diamond_pickaxe"
+      }
+    },
+    "diamond_shovel": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "diamond_shovel"
+      }
+    },
+    "diamond_sword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "diamond_sword"
+      }
+    },
+    
+    "diamond_hoe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "diamond_hoe"
+      }
+    },
+    "diamond_boots": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "diamond_boots"
+      }
+    },
+    
+    "diamond_leggings": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "diamond_leggings"
+      }
+    },
+    "diamond_chestplate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "diamond_chestplate"
+      }
+    },
+    "diamond_helmet": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "diamond_helmet"
+      }
+    }
+  },
+  "requirements": [
+    [
+      
+      "bucket",
+      "shears",
+      "bow",
+      "crossbow",
+      "mace",
+      "fishing_rod",
+
+      "wooden_sword",
+      "wooden_hoe",
+      "wooden_shovel",
+      "wooden_axe",
+      "wooden_pickaxe",
+      "wooden_sword",
+      "wooden_hoe",
+      "wooden_shovel",
+
+      "stone_axe",
+      "stone_pickaxe",
+      "stone_sword",
+      "stone_hoe",
+      "stone_shovel",
+
+      "golden_axe",
+      "golden_pickaxe",
+      "golden_sword",
+      "golden_hoe",
+      "golden_shovel",
+      "golden_chestplate",
+      "golden_leggings",
+      "golden_boots",
+      "golden_helmet",
+
+      "iron_axe",
+      "iron_pickaxe",
+      "iron_sword",
+      "iron_hoe",
+      "iron_shovel",
+      "iron_chestplate",
+      "iron_leggings",
+      "iron_boots",
+      "iron_helmet",
+
+      "diamond_axe",
+      "diamond_pickaxe",
+      "diamond_sword",
+      "diamond_hoe",
+      "diamond_shovel",
+      "diamond_chestplate",
+      "diamond_leggings",
+      "diamond_boots",
+      "diamond_helmet"
+     
+    ]
+  ],
+  "parent": "vanilla_refresh:craft/any"
+}

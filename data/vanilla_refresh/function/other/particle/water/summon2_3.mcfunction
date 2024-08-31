@@ -2,9 +2,7 @@
 title @s[tag=refresh_debug] actionbar {"translate":"Refresh Debug - Wave 3, Height 40"}
 
 particle explosion ~ ~ ~ 0 0 0 0 1 force @a[distance=..256] 
-particle explosion_emitter ~ ~ ~ 0 0 0 0 1 force @a[distance=..256] 
-
-particle explosion_emitter ~ ~-2 ~ 0 0 0 0 1 force @a[distance=..256] 
+particle explosion ~ ~1 ~ 1 1 1 0 5 force @a[distance=..256] 
 
 particle minecraft:splash ~ ~ ~ .8 .3 .8 0 100 force @a[distance=..64]
 

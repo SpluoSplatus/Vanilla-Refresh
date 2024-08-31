@@ -1,0 +1,498 @@
+{
+    "/S/ TRANSLATION EXAMPLES /S/": "",
+    "/S/ (Left side) Default Text /S/": "/S/ (Right Side) Your translated text /S/",
+    "/S/ Hello /S/": "/S/ Hola /S/",
+    "/S/ Seperators (vanillarefresh.[blank].seperators) seperate text UI. Adjust these based on new translated text if needed/S/": "",
+    "/S/ !!! Maintain indentions and \n's!! /S/": "",
+    
+
+
+
+
+    "Translator: ": "translation",
+    "Translated by: ": "translation",
+    "[[insert name on right ->]]": "limesplatus",
+
+    "Health": "translation",
+    "Hours": "translation",
+    "Mob Kills": "translation",
+    "Player Kills": "translation",
+    "Deaths": "translation",
+    "Hours Survived": "translation",
+    "XP Level": "translation",
+    "XP Levels": "translation",
+    "Member ID": "translation",
+    "Death Score": "translation",
+    "Time Played (Hours)": "translation",
+
+
+
+    "Page 9 -->": "translation -->",
+    "Page 8 -->": "translation -->",
+    "Page 7 -->": "translation -->",
+    "Page 6 -->": "translation -->",
+    "Page 5 -->": "translation -->",
+    "Page 4 -->": "translation -->",
+    "Page 3 -->": "translation -->",
+    "Page 2 -->": "translation -->",
+    
+    "<-- Page 8": "<-- translation",
+    "<-- Page 7": "<-- translation",
+    "<-- Page 6": "<-- translation",
+    "<-- Page 5": "<-- translation",
+    "<-- Page 4": "<-- translation",
+    "<-- Page 3": "<-- translation",
+    "<-- Page 2": "<-- translation",
+    "<-- Page 1": "<-- translation",
+    "<-- Return": "<-- translation",
+	
+    "Next Page": "translation",
+    "Previous Page": "translation",
+    "Enabled": "translation",
+    "Disabled": "translation",
+    "Configure": "translation",
+    "Cancel": "translation",
+    "Click to change this setting": "translation",
+    "Click to Open": "translation",
+    "Click to preview": "translation",
+    "Preview": "translation",
+
+    
+    "vanilla_refresh.itemsetsUI.seperator1": "                                                       ",
+    "Clear Inventory: ✔": "Clear Inventory: ✔",
+    "Clear Inventory: ❌": "Clear Inventory: ❌",
+
+    "Open chat (": "translation (",
+    ") and use your cursor to click UI": ") translation",
+
+    "Select an Item Set  ": "translation  ",
+    "Selecting an item set will clear your current inventory": "translation",
+    "Click to Give": "translation",
+    "  Build Palletes & Styles": "  translation",
+    "  Armor": "  translation",
+    "  Blocks": "  translation",
+    
+    "Select a Wand  ": "translation  ",
+
+    "Applied permanent night vision": "translation",
+    "Removed permanent night vision": "translation",
+    
+    "Items you drop will now be cleared": "translation",
+    "  Items you drop will no longer be cleared": "translation",
+    "Drop Clear Disabled\n": "translation",
+    "Drop Clear Enabled\n": "translation",
+
+    "— D —": "— traon —",
+    "— DA —": "— tration —",
+    "— DAY —": "— transation —",
+    "— DAY ": "— translation ",
+    "—  DAY  —": "—  translation  —",
+    "⭐ — DAY ": "⭐ — translation ",
+    
+    "Add an item to this Armor Stand first to create an item rack": "translation",
+
+    "Health: ": "translation: ",
+    "Type: ": "translation: ",
+    "Player": "translation",
+    "Mob": "translation",
+    "Boss": "translation",
+    "Miscellaneous": "translation",
+    "Distance: ": "translation: ",
+    " blocks away": " translation",
+
+    "Clock": "translation",
+    "Time: ": "translation: ",
+    "Day: ": "translation: ",
+    "Lodestone": "translation",
+
+    "Last Death": "translation",
+    "No Death Located": "translation",
+    "Coordinates: ": "translation: ",
+
+    "Compass": "translation",
+    "Facing: ": "translation: ",
+    ", North": ", translation",
+    ", East": ", translation",
+    ", South": ", translation",
+    ", West": ", translation",
+
+    "Free Float mode activated": "translation",
+    "Hold ": "translation ",
+    " to hover down. - Time Left: ": " translation - translation: ",
+
+    "'s Soul": "translation",
+    "Soul": "translation",
+    "Player Soul": "translation",
+    " Time Left: ": " translation: ",
+    " minutes, ": " translation, ",
+    " hours, ": " translation, ",
+    " seconds": " translation",
+	
+    " survived ": " translation ",
+    " time since spawning into the world and now has a total of ": " translation ",
+    " time since their last death and now has a total of ": " translation ",
+    " deaths": " translation",
+
+    "Select a Gamerule Category ": "translation ",
+    "ⓘ Value Info": "ⓘ translation",
+    "0 = Gamerule/setting is disabled\n1 = Gamerule/setting is enabled\n\nOther values mean the setting has more options than just enabled and disabled. (Next to the value, it'll describe what option is set)": "0 = translation\n1 = translation\n\ntranslation",
+
+    "Overworld: ": "translation: ",
+    "The Nether: ": "translation: ",
+    "The End: ": "translation: ",
+    "Other Dimensions: ": "translation: ",
+    "Players: ": "translation: ",
+    "Operators: ": "translation: ",
+    "Creative Mode: ": "translation: ",
+    "Spectators: ": "translation: ",
+    
+    "There are currently ": "translation ",
+    " players ": " translation ",
+    "online": "translation",
+    "There is currently ": "translation ",
+    " player ": " translation ",
+    "A total of ": "translation ",
+    "ever joined the game": " translation",
+    "You're the only player to ever join this world": "translation",
+
+    "ⓘ Sharing: ": "ⓘ translation: ",
+    "  Member ": "  translation ",
+    "Member ": "translation ",
+    "(ID: ": "(ID: ",
+    "Your member ID can be used by others to view your stats. To view someone else's stats, use ": "translation",
+    ", replacing ": ", translation ",
+    " with the member ID of an online player.": " translation",
+    "\n(Hold ": "\n(translation ",
+    " to view online players' member IDs)": " translation)",
+    "\n\nYou can make your stats private from non-operator players by disabling this setting.": "\n\ntranslation",
+    
+    "That player is offline or doesnt exist": "translation",
+    "This player has disabled viewing of their stats": "translation",
+    "This user's stats are privated for non-operators\n": "translation\n",
+
+    "Player Stats of ": "translation ",
+    "Time Played: ": "translation: ",
+    "Time Since Last Death: ": "translation: ",
+    "Average Deaths Per Hour: ": "translation: ",
+    "Mob Kills: ": "translation: ",
+    "Player Kills: ": "translation: ",
+    "XP Level: ": "translation: ",
+    "Deaths: ": "translation: ",
+	
+	"Select a Settings Category ": "translation ",
+    "Reset Settings": "translation",
+    "Click to reset settings to default": "translation",
+    "Disable All": "translation",
+    "Click to disable all settings (Useful if you just want Vanilla Refresh's creative mode tools)": "translation",
+
+    "Click to insert/copy command": "translation",
+    " << Click to insert command": " << translation",
+    "Run the above command and replace ": "translation ",
+    " with a player name": " translation",
+    "This command works for online and offline players": "translation",
+
+    "Removed ": "translation ",
+    " block animation markers": " translation",
+    "No entity was found": "translation",
+    ": Removed ": ": translation ",
+    " block animation markers]": " translation]",
+    " crop XP markers": " translation",
+    " night mobs": " translation",
+    " soul links": " translation",
+    ": shattered": ": translation",
+    "Shattered": "translation",
+    
+    "PREVIEW:": "translation:",
+    "\nPREVIEW:\n": "\ntranslation:\n",
+
+
+    "You've entered": "translation",
+    "Spectator Actions": " translation",
+    " Spectator Mode": " translation",
+    "Random Player": "translation",
+    "Night Vision: Enabled": "translation",
+    "Night Vision: Disabled": "translation",
+    "World Spawn": "translation",
+    "Last Death Location": "translation",
+    
+    "Night Vision: ❌": "translation: ❌",
+    "Night Vision: ✔": "translation: ✔",
+    "Ghost Particles: ❌": "translation: ❌",
+    "Ghost Particles: ✔": "translation: ✔",
+
+    "vanilla_refresh.spectateUI.seperator1": "   -> ",
+    "vanilla_refresh.spectateUI.seperator2": "      -> ",
+    "vanilla_refresh.spectateUI.seperator3": "            -> ",
+    
+    
+    "Appear": "translation",
+    "Death Location": "translation",
+
+    "Disabled ": "translation ",
+    "Enabled ": "translation ",
+    "Night Vision": "translation",
+    "Now spectating ": "translation ",
+    "...no one?": "...translation",
+    "Teleported to ": "translation ",
+    "Click to run this command": "translation",
+    
+    "Disabled your ": "translation ",
+    "Enabled your ": "translation ",
+    "Ghost Particles": "translation",
+    
+
+    "Multiplayer": "translation",
+    "Creative": "translation",
+    "Other": "translation",
+    "Griefing": "translation",
+    "Blocks & Items": "translation",
+    "Entities": "translation",
+    
+    "vanilla_refresh.settings.categories.seperator1": "translation",
+    "vanilla_refresh.settings.categories.seperator2": "translation",
+    "vanilla_refresh.settings.categories.seperator3": "translation",
+    "vanilla_refresh.settings.categories.seperator4": "translation",
+    "vanilla_refresh.settings.categories.seperator5": "translation",
+    "vanilla_refresh.settings.categories.seperator6": "translation",
+
+    
+    "\nWelcome to ": "\ntranslation",
+    "! You'll be able to configure each feature within Vanilla Refresh to your liking here. Hover over an ": "translation",
+    " icon to get a description of what a setting does.\n": "translation\n",
+    "Continue\n": "translation\n",
+    "Click to Proceed to the Settings page": "translation",
+    "Information moment": "translation",
+	
+	"For Soul Links to function correctly, the gamerule Keep Inventory will have to be enabled. Confirm below to allow Vanilla Refresh to enable Keep Inventory.": "translation",
+
+    "Enable Keep Inventory & Soul Links": "translation",
+
+    "Value can't be lower than 0": "translation",
+    ": Optimized and refreshed all mob health scores for existing and non existing entities": ": translation",
+
+    "Are you sure you want to disable Stats Tracking?": "translation",
+    " When stats are disabled individually, only their display is removed, but they are still tracked incase later its desired to be re-enabled. If you disable this setting, ": "translation",
+    "stats will stop tracking entirely,": "translation",
+    " and if you re-enable Stats Tracking after disabling it, the stats will no longer be accurate.": "translation",
+    "Disable it!": "translation",
+
+    "Night": "translation",
+    "Midnight": "translation",
+    "Day": "translation",
+    " - Set the time to 1000": " - translation",
+    " - Set the time to 13000": " - translation",
+    " - Set the time to 18000": " - translation",
+
+    "Player hours successfully reset": "translation",
+	
+	"Are you sure you want to reset all players played hours stats? Click below to confirm.": "¿translation.",
+    "Click to Confirm and reset all player hours": "translation",
+    "> Confirm and Reset <\n": "> translation <\n",
+
+    
+    "Loaded Soul Links successfully shattered": "translation",
+	
+	"Are you sure you want to shatter all soul links? Click below to confirm.": "translation",
+    "Click to Confirm and shatter all soul links": "translation",
+    "> Confirm and Shatter Soul Links <\n": "> translation <\n",
+
+    "Tip: - If at any point you'd like to, you can sit down ingame by looking straight down, sneaking and right clicking": "translation",
+    "Tip: - Dropping an anvil on blocks like Deepslate Tiles, Packed Ice, or Stone Bricks will crush them back into their original forms.": "translation",
+    "Tip: - You can use a lever to swap between armor stand poses": "translation",
+    "Tip: - You can equip banners on an empty head slot by holding the banner you want to wear and clicking sneak multiple times.": "translation",
+    "Tip: - Dropping an Echo Shard on a mob will silence them. You can unsilence them by placing water on the mob": "translation",
+    "Tip: - Curious about what this world's gamerules are set to? You can view their values by using ": "translation",
+    " in chat": " translation",
+    "Tip: - Creative Mode users have access to Vanilla Refresh creative features. Use ": "translation",
+    " for helpful tools and ": " translation ",
+    "Wands": "translation",
+    "Item Sets": "translation",
+    " to quickly give yourself a set of items, like armor": " translation",
+
+    "Tip: - Holding ladders and pressing sneak on a ladder block allows you extend its length and hang over air blocks": "translation",
+    "Tip: - Dropping an Ender Pearl on your Lodestone allows you teleport instantly to it within a 80 block radius": "translation",
+    "Tip: - View a variety of your player stats ingame by using ": "translation",
+    "A new player has joined the server! Member #": "translation",
+
+	
+    
+
+"Tip: - Cauldrons with water still work in the Nether without evaporating": "translation: - translation",
+"Tip: - Swift Sneak allows you to quickly bridge across areas with the same speed as walking": "translation: - translation",
+    "Tip: - This chat message is not from a player": "translation: - translation",
+    "Tip: - You can use Charged Creepers on Wither Skeletons to instantly get their skull": "translation: - translation",
+    "Tip: - The explosion of beds can be used to mine through netherrack for ancient debris": "translation: - translation",
+    "Tip: - Below the deepslate layer underground you'll find significantly more diamonds": "translation: - translation",
+    "Tip: - Flooded caves contain more exposed ores than ordinary caves, so if you're seeking diamonds, try searching a flooded cave in the Ocean": "translation: - translation",
+    "Tip: - Iron isn't typically found on the surface of the world, but mountains generate high amounts of iron ore exposed to air.": "translation: - translation",
+    "Tip: - The lower a wolf's tail is, the less health it has": "translation: - translation",
+    "Tip: - Cats scare away Creepers, but also Phantoms": "translation: - translation",
+    
+"Tip: - Goats can be milked as an alternative to cows": "translation: - translation",
+    
+"Tip: - On Hard Mode, villagers have an 100% chance of zombifying from a zombie attack": "translation: - translation",
+    
+"Tip: - You can equip a banner on a shield to give your shields awesome designs.": "translation: - translation",
+    
+"Tip: - Setting your FOV to 40 or less makes for great, cinematic base screenshots without FOV warp.": "translation: - translation",
+    
+"Tip: - Golden carrots make a great food source for those who have an abundance of gold and carrots": "translation: - translation",
+    
+"Tip: - Feather Falling IV only has a approximate 2.7% chance of appearing on a enchanting table": "translation: - translation",
+    
+"Tip: - The Silence armor trim has a 1.25% chance of appearing in Ancient City chests": "translation: - translation",
+    
+"Tip: - A Hoe can be used to quickly remove leaves from a tree": "translation: - translation",
+    
+"Tip: - The Wither is immune to projectiles in its final phase": "translation: - translation",
+    
+"Tip: - Using Silk Touch to get nether gold ore and then smelting it into an ingot is more efficent": "translation: - translation",
+    
+"Tip: - Barrels below solid blocks can still be opened": "translation: - translation",
+    
+"Tip: - Placing a cauldron while its snowing in a biome will fill the cauldron with powdered snow": "translation: - translation",
+    
+"Tip: - You can create your own mud blocks by pouring a water bottle on a block of dirt": "translation: - translation",
+    
+"Tip: - Lava can be farmed by placing a lava source block above pointed dripstone, and then placing a cauldron below the dripstone": "translation: - translation",
+    
+"Tip: - Endermen will attack any endermites they see": "translation: - translation",
+    
+"Tip: - If you have too much emeralds, iron etc, you can convert them into blocks to save x9 space in your chests": "translation: - translation",
+    
+"Tip: - Fortune III allows you to collect a greater amount of items when mining certain blocks, like ores and crops": "translation: - translation",
+    
+"Tip: - Fighting mobs with axolotls regenerates your health": "translation: - translation",
+    
+"Tip: - Crops dont need to be directly touching water to grow, up to 4 blocks away the crop can still be hydrated": "translation: - translation",
+    
+"Tip: - Elytras can be repaired using phantom membranes or mending": "translation: - translation",
+"Tip: - Amethyst shards can be used to breed allays": "translation: - translation",
+    
+    "Tip: - Wolves scare away and attack skeletons": "translation: - translation",
+    
+    "Tip: - A goat has a 2% chance of spawning as a screaming varient": "translation: - translation",
+    
+    "Tip: - Press fn + F3 to open the debug menu and see helpful info like your coordinates and fps": "translation: - translation",
+    
+"Tip: - Seeking an Ancient City? Try mining below mountains! Ancient Cities and the Deep Dark generate more often below them.": "translation: - translation",
+    
+"Tip: - A bow cannot have both the Mending and Infinity enchantments": "translation: - translation",
+    
+"Tip: - The rarest ores are deepslate coal and deepslate emerald": "translation: - translation",
+    
+"Tip: - Use a blast furnance to quickly smelt ores": "translation: - translation",
+    
+"Tip: - Use a smoker to quickly smelt food items": "translation: - translation",
+    
+"Tip: - Campfires smelt food without using fuel": "translation: - translation",
+    
+"Tip: - Lava buckets can be used as a fuel source in furnaces to smelt tons of items": "translation: - translation",
+    
+"Tip: - Enderchests can only be mined with a Silk Touch pickaxe": "translation: - translation",
+    
+"Tip: - Water buckets and a lava pool can be used to make a nether portal without ever needing to mine obsidian": "translation: - translation",
+    
+"Tip: - Sculk Blocks drop XP when mined. You can use a Hoe enchanted with Efficiency V to quickly gather XP from mined Sculk.": "translation: - translation",
+    
+"Tip: - You can instantly dry wet sponges by placing them in the Nether": "translation: - translation",
+    
+"Tip: - In Warm Ocean Ruins, you can sometimes find Sniffer eggs buried in Suspicious Sand. Use a brush on these sand blocks to uncover a potential Sniffer egg.": "translation: - translation",
+    
+"Tip: - Diamond armor can be bought from armorer villagers for as cheap as 1 emerald": "translation: - translation",
+    
+"Tip: - Candles can be placed on cakes for a colorful touch": "translation: - translation",
+    
+"Tip: - Each disc in a jukebox gives a different power level to comparators": "translation: - translation",
+    
+    "Tip: - You can hold ": "translation: - translation ",
+    " to view a list of all current players online": " translation",
+    
+    "Tip: - Hold ": "translation: - translation ",
+    " to sneak around sculk sensors and avoid being detected": " translation",
+    
+    "Tip: - Wool can cancel out vibrations, so placing it or walking over it wont be detected by nearby Sculk Sensors ": "translation: - translation",
+    
+    
+    "Tip: - End portal frames have a 10% chance of generating already filled with an Eye of Ender. ": "translation: - translation",
+    
+    "Tip: - Sculk shriekers wont shriek when broken, though their breaking vibration can be delivered to a nearby Sculk Sensor. ": "translation: - translation",
+    
+    "Tip: - Challenge advancements when completed can earn you some experience points": "translation: - translation",
+    
+    "Tip: - Coal ore stops generating in the deepslate layer of the world, so make sure you have enough torches before going too deep!": "translation: - translation",
+    
+    "Tip: - Mobs can only spawn on blocks with a light level of 0": "translation: - translation",
+    
+    "Tip: - Blazes take damage from snowballs": "translation: - translation",
+    
+    "Tip: - You can use a water bucket and place it below yourself to negate levitation from a Shulker attack.": "translation: - translation",
+    
+    "Tip: - Hoe's can be used to quickly remove vegetation like moss, leaves, and sculk. Enchant one with Efficiency for even more speed.": "translation: - translation",
+    
+    "Tip: - Cactus destroys any item that touches it": "translation: - translation",
+    
+    "Tip: - You can sleep during thunderstorms, even if its daytime": "translation: - translation",
+    
+    "Tip: - Carpet can be placed on a fence, allowing players to jump on it, but not mobs. Helpful for enclosing livestock.": "translation: - translation",
+    
+    "Tip: - Splash water bottles extinguish fire and burning mobs": "translation: - translation",
+    
+    "Tip: - Along with magma blocks and soul sand, you can use doors and torches to regain air underwater": "translation: - translation",
+    
+    "Tip: - If you wear a carved pumpkin on your head, endermen wont attack you when looking at them": "translation: - translation",
+    
+    "Tip: - Eyes of Ender have a 20% chance of shattering after being thrown": "translation: - translation",
+    
+    "Tip: - You can ride inside a boat and fall any height without taking damage": "translation: - translation",
+    
+    "Tip: - Mobs won't despawn if they're inside a boat": "translation: - translation",
+    
+    "Tip: - Netherite tools and armor can't burn in lava": "translation: - translation",
+    
+    "Tip: - If you feed a frog a magma cube, they'll spit it out as a neat Froglight block": "translation: - translation",
+    
+    "Tip: - Beacon blocks can share their pyramid base blocks, allowing you to stack beacon effects": "translation: - translation",
+    
+    
+    "Tip: - Torches release light up to 14 blocks away, so space your torches 28 blocks away from each other to optimally prevent mobs from spawning": "translation: - translation",
+    
+    
+    "Tip: - Large iron ore veins containing massive amounts of iron generate underground in the deepslate layer. You'll know you found one indicated by long strips of tuff with iron ore.": "translation: - translation",
+    
+    "Tip: - Armor trims can be duplicated in a crafting table with diamonds, your smithing template, and a base block.": "translation: - translation",
+    
+    "Tip: - Use armor smithing templates in a smithing table to decorate your armor with neat patterns and designs": "translation: - translation",
+    
+    "Tip: - You can edit a placed sign by right clicking it": "translation: - translation",
+    
+    "Tip: - Right click a wood log to turn it into a stripped log": "translation: - translation",
+    
+    "Tip: - While holding a map, right click a banner to mark the banners position on your map": "translation: - translation",
+    
+    "Tip: - Use a Brush on an armadillo to collect armadillo scutes. You can use these scutes to craft wolf armor.": "translation: - translation",
+    
+    "Tip: - Fireworks can be loaded and shot from a Crossbow": "translation: - translation",
+    
+    "Tip: - Enchanting Tables require a minimum of 15 nearby bookshelves to give level 30 enchantments": "translation: - translation",
+    
+    "Tip: - Endermen can spawn in the Overworld, Nether, and End": "translation: - translation",
+    
+    "Tip: - You can up the difficulty of a Trial Chamber and obtain more valuable loot from it by drinking an Ominous Bottle": "translation: - translation",
+    
+    "Tip: - Zombie Villagers can be cured by throwing a weakness splash potion at them and feeding them a golden apple.": "translation: - translation",
+    
+    "Tip: - Splash weakness potions and golden apples cure zombie villagers. Brew one in a brewing stand with water bottles, a fermented spider eye, and gunpowder": "translation: - translation",
+    
+    "Tip: - Endermen spawn frequently in the Nether's Warped Forest": "translation: - translation",
+    
+    "Tip: - Cartographer villagers can sell explorer maps leading to Trial Chambers": "translation: - translation",
+    
+    "Tip: - Wolves wearing wolf armor are completely invulnerable to most damage. Their armor will break after absorbing 64 damage (32❤)": "translation: - translation",
+    
+    "Tip: - Drinking a bucket of milk will clear away any effect, including Bad Omen/Raid Omen": "translation: - translation"
+    
+    
+
+    
+}

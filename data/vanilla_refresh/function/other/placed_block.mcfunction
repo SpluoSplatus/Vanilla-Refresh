@@ -29,8 +29,6 @@ execute if score cropsxp refresh_settings matches 1 as @s[advancements={vanilla_
 execute if score cropsxp refresh_settings matches 1 as @s[advancements={vanilla_refresh:place/melon_stem=true}] anchored eyes run function vanilla_refresh:block/cropxp/raycast_melon_stem
 execute if score cropsxp refresh_settings matches 1 as @s[advancements={vanilla_refresh:place/pumpkin_stem=true}] anchored eyes run function vanilla_refresh:block/cropxp/raycast_pumpkin_stem
 
-#crops+
-execute if score cropsxp refresh_settings matches 1 as @s[advancements={vanilla_refresh:place/torchflower=true}] anchored eyes run function vanilla_refresh:block/cropxp/raycast_torchflower
 
 
 

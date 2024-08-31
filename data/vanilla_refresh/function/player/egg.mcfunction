@@ -19,3 +19,12 @@ execute if score @s refresh_sound_egg matches 9 run playsound minecraft:block.st
 execute if score @s refresh_sound_egg matches 9 run scoreboard players reset @s refresh_sound_egg
 
 ###################################################
+
+###################################################
+
+execute if score @s refresh_sound_egg matches 14 run function vanilla_refresh:block/craft_sound/general
+execute if score @s refresh_sound_egg matches 16 run function vanilla_refresh:block/craft_sound/general
+
+execute if score @s refresh_sound_egg matches 16 run scoreboard players reset @s refresh_sound_egg
+
+###################################################

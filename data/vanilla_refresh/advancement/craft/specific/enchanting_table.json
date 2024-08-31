@@ -1,0 +1,18 @@
+{
+  "criteria": {
+  
+    "enchanting_table": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "enchanting_table"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "enchanting_table"
+     
+    ]
+  ],
+  "parent": "vanilla_refresh:craft/any"
+}

@@ -5,7 +5,7 @@ execute if score gamerule_keepInventory refresh_settings matches 1 run scoreboar
 
 execute if score gamerule_keepInventory refresh_settings matches 1 run function vanilla_refresh:other/menus/death/settings2
 
-execute if score gamerule_keepInventory refresh_settings matches 1 run playsound entity.experience_orb.pickup player @s ~ ~ ~ 1 1
+execute if score gamerule_keepInventory refresh_settings matches 1 run playsound entity.experience_orb.pickup player @s ~ ~ ~ 0.5 1
 
 
 execute unless score gamerule_keepInventory refresh_settings matches 1 run tellraw @s [{"text": " "}]

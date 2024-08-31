@@ -4,7 +4,6 @@
 
     {"id":"minecraft:player","required":false},
     {"id":"villager","required":false},
-    {"id":"minecraft:ender_dragon","required":false},
     {"id":"#vanilla_refresh:misc","required":false}
     
    

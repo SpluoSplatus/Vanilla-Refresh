@@ -1,1 +1,1 @@
-execute unless block ~ ~-0.001 ~ #vanilla_refresh:permeable if predicate vanilla_refresh:chance/5_percent run function vanilla_refresh:entity/baby_zombie/jump
+execute unless block ~ ~-0.001 ~ #vanilla_refresh:permeable if predicate vanilla_refresh:chance/3_percent run function vanilla_refresh:entity/baby_zombie/jump

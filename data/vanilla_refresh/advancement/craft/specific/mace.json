@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "mace": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "mace"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mace"
+     
+    ]
+  ],
+  "parent": "vanilla_refresh:craft/any"
+}

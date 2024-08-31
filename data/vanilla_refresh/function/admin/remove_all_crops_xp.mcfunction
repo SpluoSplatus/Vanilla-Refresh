@@ -1,6 +1,6 @@
 
 execute if entity @e[type=marker,tag=refresh_entity_crop] run execute store result score temp refresh_count if entity @e[type=marker,tag=refresh_entity_crop]
-execute if entity @e[type=marker,tag=refresh_entity_crop] run playsound entity.experience_orb.pickup player @s ~ ~ ~ 1 1
+execute if entity @e[type=marker,tag=refresh_entity_crop] run playsound entity.experience_orb.pickup player @s ~ ~ ~ 0.5 1
 
 
 execute if entity @e[type=marker,tag=refresh_entity_crop] run tellraw @s [{"translate":"","color": "green"},{"translate":"Removed "},{"score":{"name":"temp","objective":"refresh_count"}},{"translate":" crop XP markers"}]

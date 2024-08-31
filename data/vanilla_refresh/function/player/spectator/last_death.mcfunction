@@ -9,5 +9,3 @@ execute at @s run tellraw @s [{"translate":"Teleported to ","color":"gray"},{"tr
 function vanilla_refresh:player/spectator/a_menu
 
 
-
-advancement revoke @s only vanilla_refresh:wand/teleport_spectate

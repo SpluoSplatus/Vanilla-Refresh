@@ -1,0 +1,18 @@
+{
+  "criteria": {
+  
+    "music_disc_5": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "music_disc_5"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "music_disc_5"
+     
+    ]
+  ],
+  "parent": "vanilla_refresh:craft/any"
+}

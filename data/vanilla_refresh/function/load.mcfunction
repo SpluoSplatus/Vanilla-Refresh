@@ -1,5 +1,5 @@
 
-tellraw @a [{"translate": "Successfully loaded ","color": "gray"},{"translate": "Vanilla Refresh v1.4.23b","color": "green"}]
+tellraw @a [{"translate": "Successfully loaded ","color": "gray"},{"translate": "Vanilla Refresh v1.4.24","color": "green"}]
 
 ### Pack Installed
 
@@ -206,6 +206,7 @@ scoreboard objectives add refresh_adv_end dummy
 scoreboard objectives add refresh_adv_outer dummy
 
 scoreboard objectives add refresh_soul_percent_xp dummy
+
 
 scoreboard objectives add refresh_constants dummy
 

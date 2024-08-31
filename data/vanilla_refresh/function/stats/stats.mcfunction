@@ -22,7 +22,7 @@ execute if score @s refresh_player_hours matches ..9 if score @s refresh_player_
 
 
 tellraw @p [{"translate":"  ","color": "gray"},{"translate":"Mob Kills: ","color":"gray"},"",{"score":{"name":"@s","objective":"refresh_player_mobkills"},"color": "yellow"},{"translate": ""},{"text":""}]
-tellraw @p [{"translate":"  ","color": "gray"},{"translate":"Player Kills: ","color":"gray"},"",{"score":{"name":"@s","objective":"refresh_player_kills"},"color": "yellow"},{"translate": ""},{"text":""}]
+execute if score $allmembers refresh_members matches 2.. run tellraw @p [{"translate":"  ","color": "gray"},{"translate":"Player Kills: ","color":"gray"},"",{"score":{"name":"@s","objective":"refresh_player_kills"},"color": "yellow"},{"translate": ""},{"text":""}]
 tellraw @p [{"translate":"  ","color": "gray"},{"translate":"XP Level: ","color":"gray"},"",{"score":{"name":"@s","objective":"refresh_player_level"},"color": "yellow"},{"translate": ""}]
 tellraw @p [{"translate":"  ","color": "gray"},{"translate":"Deaths: ","color":"gray"},"",{"score":{"name":"@s","objective":"refresh_player_deaths"},"color": "yellow"},{"translate": ""}]
 
@@ -50,7 +50,7 @@ execute if score @s refresh_player_deathaverage_decimal matches 100.. run tellra
 tellraw @p [{"text": " "}]
 
 
-playsound entity.experience_orb.pickup player @p ~ ~ ~ 1 1
+playsound entity.experience_orb.pickup player @p ~ ~ ~ 0.5
 
 
 
