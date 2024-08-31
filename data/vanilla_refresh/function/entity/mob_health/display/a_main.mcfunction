@@ -1,4 +1,8 @@
 
+#run as the mob being looked at
+#tellraw'd to the player
+
+
 #player
 execute as @s[type=player,predicate=!vanilla_refresh:condition/spectator] run title @p[tag=refresh_temp792] actionbar [{"translate":"","color": "yellow"},{"selector":"@n[tag=refresh_temp792_mob]","color": "green"},{"translate": " - ","color": "gray"},{"translate": "❤ ","color":"yellow"},{"score":{"name": "@n[tag=refresh_temp792_mob]","objective": "refresh_player_health"}},{"translate": "/","color": "#bababa"},{"score":{"name": "@n[tag=refresh_temp792_mob]","objective": "refresh_maxhealth"},"color": "#bababa"}]
 

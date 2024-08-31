@@ -4,4 +4,4 @@ tag @s add refresh_nightvision
 
 function vanilla_refresh:other/menus/player/settings3
 
-playsound entity.experience_orb.pickup player @s ~ ~ ~ 0.5 1
+playsound entity.experience_orb.pickup player @s ~ ~ ~ 0.6 1

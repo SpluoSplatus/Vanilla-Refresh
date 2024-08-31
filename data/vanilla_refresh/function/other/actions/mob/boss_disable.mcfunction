@@ -4,4 +4,4 @@ scoreboard players set boss_ambience refresh_settings 0
 
 function vanilla_refresh:other/menus/mob/settings4
 
-playsound entity.experience_orb.pickup player @s ~ ~ ~ 0.5 1
+playsound entity.experience_orb.pickup player @s ~ ~ ~ 0.6 1

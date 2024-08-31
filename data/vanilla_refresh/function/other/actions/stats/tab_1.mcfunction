@@ -5,4 +5,4 @@ scoreboard objectives setdisplay list refresh_player_hours
 
 function vanilla_refresh:other/menus/stats/settings1
 
-playsound entity.experience_orb.pickup player @s ~ ~ ~ 0.5 1
+playsound entity.experience_orb.pickup player @s ~ ~ ~ 0.6 1

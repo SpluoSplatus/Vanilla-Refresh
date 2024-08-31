@@ -46,7 +46,7 @@ $execute if score $(player) refresh_player_deathaverage_decimal matches 100.. ru
 tellraw @p [{"text": " "}]
 
 
-playsound entity.experience_orb.pickup player @p ~ ~ ~ 0.5
+playsound entity.experience_orb.pickup player @p ~ ~ ~ 0.6
 
 tag @s add refresh_temp_player_exists
 

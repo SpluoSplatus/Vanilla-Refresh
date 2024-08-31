@@ -2,6 +2,7 @@
 # 0.1 SECOND LOOP ----------------------------------
 
 execute if score mob_health refresh_settings matches 1 as @a at @s as @e[type=!#vanilla_refresh:misc,distance=..10] run function vanilla_refresh:other/clock/2tick_mob_health
+execute if score mob_health refresh_settings matches 1 as @a[tag=1_splatus_actionbar_disabled,tag=refresh_player_read_mob_health] run function vanilla_refresh:entity/mob_health/display/remove_tags
 
 
 
@@ -19,7 +20,6 @@ execute if entity @a if score ladder refresh_settings matches 1 as @e[type=marke
 execute if score torch refresh_settings matches 1 if score torch_speed refresh_settings matches 2 as @a at @s anchored eyes if entity @s[predicate=vanilla_refresh:holding/light_emit] positioned ~ ~1 ~ run function vanilla_refresh:block/torch/place_light
 
 #max health
-execute if score mob_health refresh_settings matches 1 as @a[tag=!refresh_entity_exists] at @s run scoreboard players set @s refresh_maxhealth 20
 execute if score mob_health refresh_settings matches 1 as @e[tag=!refresh_entity_exists,type=!#vanilla_refresh:misc] at @s if entity @p[distance=..64] if data entity @s Health store result score @s refresh_maxhealth run data get entity @s Health
 
 execute if score mob_health refresh_settings matches 1 as @e[type=!#vanilla_refresh:misc,tag=!refresh_entity_exists] at @s if entity @p[distance=..64] if data entity @s Health run tag @s add refresh_entity_exists

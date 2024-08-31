@@ -1,6 +1,6 @@
 
 execute if entity @e[type=marker,tag=refresh_entity_blockanim] run execute store result score temp refresh_count if entity @e[type=marker,tag=refresh_entity_blockanim]
-execute if entity @e[type=marker,tag=refresh_entity_blockanim] run playsound entity.experience_orb.pickup player @s ~ ~ ~ 0.5 1
+execute if entity @e[type=marker,tag=refresh_entity_blockanim] run playsound entity.experience_orb.pickup player @s ~ ~ ~ 0.6 1
 
 
 execute if entity @e[type=marker,tag=refresh_entity_blockanim] run tellraw @s [{"translate":"","color": "green"},{"translate":"Removed "},{"score":{"name":"temp","objective":"refresh_count"}},{"translate":" block animation markers"}]

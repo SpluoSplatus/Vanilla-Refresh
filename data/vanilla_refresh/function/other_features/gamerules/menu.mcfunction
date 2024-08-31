@@ -22,7 +22,7 @@ tellraw @s [{"translate": "        ","color": "gray"},{"translate":"Vanilla Refr
 tellraw @s [{"text": " "}]
 
 
-#execute if score @s gamerules matches 1 run playsound entity.experience_orb.pickup player @s ~ ~ ~ 0.5 1
+#execute if score @s gamerules matches 1 run playsound entity.experience_orb.pickup player @s ~ ~ ~ 0.6 1
 
 
 

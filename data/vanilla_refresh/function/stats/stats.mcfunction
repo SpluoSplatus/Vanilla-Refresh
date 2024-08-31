@@ -50,7 +50,7 @@ execute if score @s refresh_player_deathaverage_decimal matches 100.. run tellra
 tellraw @p [{"text": " "}]
 
 
-playsound entity.experience_orb.pickup player @p ~ ~ ~ 0.5
+playsound entity.experience_orb.pickup player @p ~ ~ ~ 0.6
 
 
 

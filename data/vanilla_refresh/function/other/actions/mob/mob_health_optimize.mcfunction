@@ -12,4 +12,4 @@ function vanilla_refresh:other/menus/mob/settings1
 
 tellraw @a[distance=0.001..] [{"translate":"[","color": "gray","italic": true},{"selector":"@s"},{"translate":": Optimized and refreshed all mob health scores for existing and non existing entities"}]
 
-playsound entity.experience_orb.pickup player @s ~ ~ ~ 0.5 1
+playsound entity.experience_orb.pickup player @s ~ ~ ~ 0.6 1

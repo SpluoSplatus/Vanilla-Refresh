@@ -56,6 +56,12 @@
       "conditions": {
         "recipe_id": "iron_helmet"
       }
+    },
+    "shield": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "shield"
+      }
     }
   },
   "requirements": [
@@ -68,7 +74,8 @@
       "iron_chestplate",
       "iron_leggings",
       "iron_boots",
-      "iron_helmet"
+      "iron_helmet",
+      "shield"
      
     ]
   ],

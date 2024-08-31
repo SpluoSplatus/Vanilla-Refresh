@@ -1,6 +1,6 @@
 
 
-playsound entity.experience_orb.pickup player @s ~ ~ ~ 0.5
+playsound entity.experience_orb.pickup player @s ~ ~ ~ 0.6
 tag @s remove refresh_disabled_spectator_ghost
 
 #########################

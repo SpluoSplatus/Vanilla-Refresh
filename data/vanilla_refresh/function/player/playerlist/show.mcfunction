@@ -17,4 +17,4 @@ tellraw @s [{"text": " "}]
 
 scoreboard players set @s playerlist 0
 
-#playsound entity.experience_orb.pickup player @s ~ ~ ~ 0.5 1
+#playsound entity.experience_orb.pickup player @s ~ ~ ~ 0.6 1
