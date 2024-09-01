@@ -1,7 +1,4 @@
 
-tellraw @s [{"text": " "}]
-
-
 execute if score path refresh_settings matches 1.. run tellraw @s [{"translate": "   ","color": "gray","hoverEvent": {"action": "show_text","value":[{"text":"ID: path","color":"gray"},{"translate":"\nValue: "},{"score":{"name": "path","objective": "refresh_settings"}}]}},{"text":"✔ ","color": "yellow"},{"translate":"Path Sprinting"}]
   execute if score path refresh_settings matches 0 run tellraw @s [{"translate": "   ","color": "gray","hoverEvent": {"action": "show_text","value":[{"text":"ID: path","color":"gray"},{"translate":"\nValue: "},{"score":{"name": "path","objective": "refresh_settings"}}]}},{"text":"❌ ","color": "#7d7d7d"},{"translate":"Path Sprinting"}]
 
@@ -38,9 +35,3 @@ execute if score echo refresh_settings matches 1.. run tellraw @s [{"translate":
   execute if score echo refresh_settings matches 0 run tellraw @s [{"translate": "   ","color": "gray","hoverEvent": {"action": "show_text","value":[{"text":"ID: echo","color":"gray"},{"translate":"\nValue: "},{"score":{"name": "echo","objective": "refresh_settings"}}]}},{"text":"❌ ","color": "#7d7d7d"},{"translate":"Echo Shard Silence"}]
 
 
-
-
-tellraw @s [{"translate": "","color": "yellow"},{"translate":"\n"},{"translate":"<-- Page 4","color":"yellow","underlined":false,"hoverEvent":{"action":"show_text","contents":[{"translate":"Previous Page"}]},"clickEvent":{"action":"run_command","value":"/trigger gamerules set 24"}},{"translate":"    - 5/8 -     ","color": "gray","italic": false},{"translate":"","color": "yellow"},{"translate":"","color": "yellow"},{"translate":"Page 6 -->","color":"yellow","underlined":false,"hoverEvent":{"action":"show_text","contents":[{"translate":"Next Page"}]},"clickEvent":{"action":"run_command","value":"/trigger gamerules set 26"}}]
-
-
-tellraw @s [{"text": " "}]

@@ -6,8 +6,10 @@ scoreboard players set @a[gamemode=creative] refresh_previous_gamemode 2
 scoreboard players set @a[gamemode=adventure] refresh_previous_gamemode 3
 
 
+
 #calculate hour of day
-execute if score clock refresh_settings matches 1 run function vanilla_refresh:block/clock/calculate_realistic_time
+execute if score clock_active refresh_storage matches 1 if score clock refresh_settings matches 1..2 run function vanilla_refresh:block/clock/calculate_realistic_time
+
 
 
 scoreboard players set 10tick refresh_clock 0

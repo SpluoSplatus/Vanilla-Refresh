@@ -10,6 +10,8 @@ execute if score @s gamerules matches 15 run function vanilla_refresh:other_feat
 execute if score @s gamerules matches 16 run function vanilla_refresh:other_features/gamerules/mc/6
 execute if score @s gamerules matches 17 run function vanilla_refresh:other_features/gamerules/mc/7
 
+execute if score @s gamerules matches 90011 run function vanilla_refresh:other_features/gamerules/mc/modified
+
 execute if score @s gamerules matches 21 run function vanilla_refresh:other_features/gamerules/refresh/1
 execute if score @s gamerules matches 22 run function vanilla_refresh:other_features/gamerules/refresh/2
 execute if score @s gamerules matches 23 run function vanilla_refresh:other_features/gamerules/refresh/3
@@ -17,10 +19,14 @@ execute if score @s gamerules matches 24 run function vanilla_refresh:other_feat
 execute if score @s gamerules matches 25 run function vanilla_refresh:other_features/gamerules/refresh/5
 execute if score @s gamerules matches 26 run function vanilla_refresh:other_features/gamerules/refresh/6
 execute if score @s gamerules matches 27 run function vanilla_refresh:other_features/gamerules/refresh/7
-execute if score @s gamerules matches 28.. run function vanilla_refresh:other_features/gamerules/refresh/8
+execute if score @s gamerules matches 28 run function vanilla_refresh:other_features/gamerules/refresh/8
 
 
 
+execute if score @s gamerules matches 301 run function vanilla_refresh:other_features/gamerules/true_ending/1
 
+#update gamerules
+execute unless score gamerules_cooldown refresh_storage matches 1 run schedule function vanilla_refresh:other_features/gamerules/update 60t replace
+scoreboard players set gamerules_cooldown refresh_storage 1
 
 scoreboard players set @s gamerules 0

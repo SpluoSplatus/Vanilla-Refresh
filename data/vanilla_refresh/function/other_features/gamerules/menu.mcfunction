@@ -13,10 +13,10 @@ tellraw @s [{"translate": "        ","color": "gray"},{"translate":"Minecraft Ga
 
 
 
+tellraw @s [{"translate": "\n        ","color": "gray"},{"translate":"Vanilla Refresh","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to open"}]},"clickEvent":{"action":"run_command","value":"/trigger gamerules set 21"}},{"translate":"   "}]
 
-tellraw @s [{"text": " "}]
 
-tellraw @s [{"translate": "        ","color": "gray"},{"translate":"Vanilla Refresh","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to open"}]},"clickEvent":{"action":"run_command","value":"/trigger gamerules set 21"}},{"translate":"   "}]
+execute if score installed_trueEnding refresh_storage matches 1.. run tellraw @s [{"translate": "\n        ","color": "gray"},{"translate":"True Ending","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to open"}]},"clickEvent":{"action":"run_command","value":"/trigger gamerules set 301"}},{"translate":"   "}]
 
 
 tellraw @s [{"text": " "}]

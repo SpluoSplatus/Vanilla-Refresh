@@ -3,23 +3,29 @@ tellraw @s [{"text": " "}]
 
 
 
-tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Reduced Debug Info: ","color":"gray"},{"score":{"name": "reducedDebugInfo","objective": "refresh_gamerules"},"color": "yellow"}]
-tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Send Command Feedback: ","color":"gray"},{"score":{"name": "sendCommandFeedback","objective": "refresh_gamerules"},"color": "yellow"}]
+execute if score reducedDebugInfo refresh_gamerules matches 0 run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Reduced Debug Info: "},{"score":{"name": "reducedDebugInfo","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
+execute unless score reducedDebugInfo refresh_gamerules matches 0 run tellraw @s [{"translate": "","color": "aqua"},{"text":"+ ","bold": true},{"translate":"Reduced Debug Info: "},{"score":{"name": "reducedDebugInfo","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
 
+execute if score sendCommandFeedback refresh_gamerules matches 1 run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Send Command Feedback: "},{"score":{"name": "sendCommandFeedback","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
+execute unless score sendCommandFeedback refresh_gamerules matches 1 run tellraw @s [{"translate": "","color": "aqua"},{"text":"+ ","bold": true},{"translate":"Send Command Feedback: "},{"score":{"name": "sendCommandFeedback","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
 
+execute if score showDeathMessages refresh_gamerules matches 1 run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Show Death Messages: "},{"score":{"name": "showDeathMessages","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
+execute unless score showDeathMessages refresh_gamerules matches 1 run tellraw @s [{"translate": "","color": "aqua"},{"text":"+ ","bold": true},{"translate":"Show Death Messages: "},{"score":{"name": "showDeathMessages","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
 
-tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Show Death Messages: ","color":"gray"},{"score":{"name": "showDeathMessages","objective": "refresh_gamerules"},"color": "yellow"}]
-tellraw @s [{"translate": "  ","color": "gray"},{"translate":"World Spawn Radius: ","color":"gray"},{"score":{"name": "spawnRadius","objective": "refresh_gamerules"},"color": "yellow"}]
-tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Spectators Generate Chunks: ","color":"gray"},{"score":{"name": "spectatorsGenerateChunks","objective": "refresh_gamerules"},"color": "yellow"}]
+execute if score spawnRadius refresh_gamerules matches 10 run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"World Spawn Radius: "},{"score":{"name": "spawnRadius","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
+execute unless score spawnRadius refresh_gamerules matches 10 run tellraw @s [{"translate": "","color": "aqua"},{"text":"+ ","bold": true},{"translate":"World Spawn Radius: "},{"score":{"name": "spawnRadius","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
 
+execute if score spectatorsGenerateChunks refresh_gamerules matches 1 run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Spectators Generate Chunks: "},{"score":{"name": "spectatorsGenerateChunks","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
+execute unless score spectatorsGenerateChunks refresh_gamerules matches 1 run tellraw @s [{"translate": "","color": "aqua"},{"text":"+ ","bold": true},{"translate":"Spectators Generate Chunks: "},{"score":{"name": "spectatorsGenerateChunks","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
 
-tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Universal Anger: ","color":"gray"},{"score":{"name": "universalAnger","objective": "refresh_gamerules"},"color": "yellow"}]
+execute if score universalAnger refresh_gamerules matches 0 run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Universal Anger: "},{"score":{"name": "universalAnger","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
+execute unless score universalAnger refresh_gamerules matches 0 run tellraw @s [{"translate": "","color": "aqua"},{"text":"+ ","bold": true},{"translate":"Universal Anger: "},{"score":{"name": "universalAnger","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
 
-execute if score mobExplosionDropDecay refresh_gamerules matches -2147483648..2147483647 run tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Global Sound Events: ","color":"gray"},{"score":{"name": "globalSoundEvents","objective": "refresh_gamerules"},"color": "yellow"}]
-execute if score mobExplosionDropDecay refresh_gamerules matches -2147483648..2147483647 run tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Lava Source Conversion: ","color":"gray"},{"score":{"name": "lavaSourceConversion","objective": "refresh_gamerules"},"color": "yellow"}]
+execute if score globalSoundEvents refresh_gamerules matches 1 run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Global Sound Events: "},{"score":{"name": "globalSoundEvents","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
+execute unless score globalSoundEvents refresh_gamerules matches 1 run tellraw @s [{"translate": "","color": "aqua"},{"text":"+ ","bold": true},{"translate":"Global Sound Events: "},{"score":{"name": "globalSoundEvents","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
 
-execute unless score mobExplosionDropDecay refresh_gamerules matches -2147483648..2147483647 run tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Global Sound Events: "},{"translate":"1.19.3+","color": "red"}]
-execute unless score mobExplosionDropDecay refresh_gamerules matches -2147483648..2147483647 run tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Lava Source Conversion: "},{"translate":"1.19.3+","color": "red"}]
+execute if score lavaSourceConversion refresh_gamerules matches 0 run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Lava Source Conversion: "},{"score":{"name": "lavaSourceConversion","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
+execute unless score lavaSourceConversion refresh_gamerules matches 0 run tellraw @s [{"translate": "","color": "aqua"},{"text":"+ ","bold": true},{"translate":"Lava Source Conversion: "},{"score":{"name": "lavaSourceConversion","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
 
 
 

@@ -84,12 +84,6 @@ execute if score ladder refresh_settings matches 1 as @s[predicate=!vanilla_refr
 
 
 
-#narate
-execute if score subtitles refresh_settings matches 1 as @s[tag=!refresh_player_foundwither] if entity @e[distance=..32,type=wither] run function vanilla_refresh:other_features/event/narate/the_wither
-execute if score subtitles refresh_settings matches 1 as @s[tag=!refresh_player_foundinferno] if entity @e[distance=..32,type=blaze,tag=in.hovering_inferno] run function vanilla_refresh:other_features/event/narate/the_hovering_inferno
-execute if score subtitles refresh_settings matches 1 as @s[tag=!refresh_player_foundblazeking] if entity @e[distance=..32,type=blaze,tag=blazeboss,scores={blazebosstime=63..}] run function vanilla_refresh:other_features/event/narate/blaze_king
-execute if score subtitles refresh_settings matches 1 as @s[tag=!refresh_player_foundshulker] if entity @e[distance=..32,type=cow,tag=shulkerstone,scores={shulker_bosstime=130..}] run function vanilla_refresh:other_features/event/narate/shulker_stone
-
 
 
 #item 

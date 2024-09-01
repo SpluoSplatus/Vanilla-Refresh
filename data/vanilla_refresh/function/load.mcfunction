@@ -1,5 +1,5 @@
 
-tellraw @a [{"translate": "Successfully loaded ","color": "gray"},{"translate": "Vanilla Refresh v1.4.24","color": "green"}]
+tellraw @a [{"translate": "Successfully loaded ","color": "gray"},{"translate": "Vanilla Refresh v1.4.24a","color": "green"}]
 
 ### Pack Installed
 
@@ -216,6 +216,13 @@ scoreboard players set 3 refresh_constants 3
 scoreboard players set 4 refresh_constants 4
 scoreboard players set 5 refresh_constants 5
 scoreboard players set 6 refresh_constants 6
+scoreboard players set 7 refresh_constants 7
+scoreboard players set 8 refresh_constants 8
+
+
+scoreboard players set 12 refresh_constants 12
+
+scoreboard players set 24 refresh_constants 24
 
 
 scoreboard players set 10 refresh_constants 10
@@ -245,8 +252,9 @@ schedule function vanilla_refresh:other/clock/2tick 2t
 
 schedule function vanilla_refresh:other/clock/5tick 5t
 
-
 function vanilla_refresh:other/default_settings
+
+schedule function vanilla_refresh:other/check_installs 1t
 
 #execute as @a run function vanilla_refresh:player/first_join_stats
 
