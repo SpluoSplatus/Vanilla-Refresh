@@ -6,6 +6,11 @@ execute as @s[scores={refresh_rejoin=1..}] run function vanilla_refresh:player/r
 
 
 
+#stats
+execute unless score process_stats refresh_settings matches 0 run function vanilla_refresh:stats/root
+
+
+
 #hurt on low health
 execute if score healthsound refresh_settings matches 1 as @s[scores={refresh_player_health=0..5},advancements={vanilla_refresh:player/hurt=true}] run function vanilla_refresh:player/health/hurt_low
 

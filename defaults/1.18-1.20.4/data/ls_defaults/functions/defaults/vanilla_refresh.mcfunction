@@ -32,17 +32,20 @@ scoreboard players set death refresh_settings 0
 #global death sound heard by all players
 scoreboard players set death_sound refresh_settings 11
 
-#lolcal death sound heard by only the player that died
+#local death sound heard by only the player that died
 scoreboard players set death_sound_local refresh_settings 11
 
+#totem works in void
 scoreboard players set totem_void refresh_settings 1
 
 scoreboard players set ladder refresh_settings 1
 
 scoreboard players set death_items refresh_settings 1
 
+#dynamic torch
 scoreboard players set torch refresh_settings 0
 
+#dynamic torch update speed
 scoreboard players set torch_speed refresh_settings 2
 
 scoreboard players set tips_mc refresh_settings 0
@@ -62,8 +65,10 @@ scoreboard players set witherhead refresh_settings 1
 
 scoreboard players set blockanims refresh_settings 1
 
+#allow tnt explosions?
 scoreboard players set grief_tnt refresh_settings 1
 
+#allow end crystal explosions?
 scoreboard players set grief_crystal refresh_settings 1
 
 scoreboard players set explosivefurnace refresh_settings 0

@@ -7,14 +7,7 @@
       },
       "description": [
         {
-          "translate": "Quality of Life Refresh",
-          "color": "#30dbbf"
-        },
-        {
-          "translate": "\n"
-        },
-        {
-          "translate": "Version 1.4.24b - MC 1.21",
+          "translate": "Vanilla Refresh modified default settings",
           "color": "gray"
         }
       ]

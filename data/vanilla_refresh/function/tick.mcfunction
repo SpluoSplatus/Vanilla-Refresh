@@ -53,10 +53,6 @@ execute unless score grief_crystal refresh_settings matches 1 run function vanil
 execute if score torch refresh_settings matches 1 as @e[type=marker,tag=refresh_entity_lightblock] at @s run function vanilla_refresh:block/torch/light
 
 
-#stats
-execute unless score process_stats refresh_settings matches 0 run function vanilla_refresh:stats/root
-
-
 
 
 #invis
