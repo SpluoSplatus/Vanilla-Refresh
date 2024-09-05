@@ -137,8 +137,9 @@
     "ⓘ Value Info": "ⓘ translation",
     "0 = Gamerule/setting is disabled\n1 = Gamerule/setting is enabled\n\nOther values mean the setting has more options than just enabled and disabled. (Next to the value, it'll describe what option is set)": "0 = translation\n1 = translation\n\ntranslation",
 
-    "Modified gamerules listed above": "translation",
-    "No gamerules modified": "translation",
+    "Edited gamerules listed above": "translation",
+    "No gamerules edited": "translation",
+    "All current values are default by Minecraft": "translation",
     "Show Edited Gamerules": "translation",
 
     "Overworld: ": "translation: ",
