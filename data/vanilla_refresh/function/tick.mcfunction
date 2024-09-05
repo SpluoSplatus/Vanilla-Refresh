@@ -134,7 +134,7 @@ execute if score anvil refresh_settings matches 1 as @e[type=falling_block] at @
 
 
 #baby zombie
-execute if score babyzombie refresh_settings matches 1 as @e[type=#vanilla_refresh:baby_monster,tag=refresh_babyzombie] at @s run function vanilla_refresh:entity/baby_zombie/main
+execute if score babyzombie refresh_settings matches 1 as @e[type=#vanilla_refresh:baby_monster,tag=refresh_babyzombie] at @s if entity @p[distance=..32,gamemode=!spectator] run function vanilla_refresh:entity/baby_zombie/main
 
 
 
