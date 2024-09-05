@@ -28,6 +28,10 @@ execute store result score fireDamage refresh_gamerules run gamerule fireDamage
 
 execute store result score forgiveDeadPlayers refresh_gamerules run gamerule forgiveDeadPlayers
 execute store result score freezeDamage refresh_gamerules run gamerule freezeDamage
+
+execute store result score keepInventory refresh_gamerules run gamerule keepInventory
+
+
 execute store result score logAdminCommands refresh_gamerules run gamerule logAdminCommands
 execute store result score maxCommandChainLength refresh_gamerules run gamerule maxCommandChainLength
 

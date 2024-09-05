@@ -137,6 +137,10 @@
     "ⓘ Value Info": "ⓘ translation",
     "0 = Gamerule/setting is disabled\n1 = Gamerule/setting is enabled\n\nOther values mean the setting has more options than just enabled and disabled. (Next to the value, it'll describe what option is set)": "0 = translation\n1 = translation\n\ntranslation",
 
+    "Modified gamerules listed above": "translation",
+    "No gamerules modified": "translation",
+    "Show Edited Gamerules": "translation",
+
     "Overworld: ": "translation: ",
     "The Nether: ": "translation: ",
     "The End: ": "translation: ",

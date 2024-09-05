@@ -1,9 +1,12 @@
 
 tellraw @s [{"text": " "}]
 
+function vanilla_refresh:other_features/gamerules/mc/modified_check
+
+
 execute unless score announceAdvancements refresh_gamerules matches 1 run tellraw @s [{"translate": "","color": "gray"},{"text":"+ ","color":"aqua","bold": true},{"translate":"Announce Advancements: "},{"score":{"name": "announceAdvancements","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
 
-execute unless score commandBlockOutput refresh_gamerules matches 0 run tellraw @s [{"translate": "","color": "gray"},{"text":"+ ","color":"aqua","bold": true},{"translate":"Command Block Output: "},{"score":{"name": "commandBlockOutput","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
+execute unless score commandBlockOutput refresh_gamerules matches 1 run tellraw @s [{"translate": "","color": "gray"},{"text":"+ ","color":"aqua","bold": true},{"translate":"Command Block Output: "},{"score":{"name": "commandBlockOutput","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
 
 execute unless score disableElytraMovementCheck refresh_gamerules matches 0 run tellraw @s [{"translate": "","color": "gray"},{"text":"+ ","color":"aqua","bold": true},{"translate":"Disable Elytra Check: "},{"score":{"name": "disableElytraMovementCheck","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
 
@@ -145,8 +148,10 @@ execute unless score maxCommandForkCount refresh_gamerules matches 65536 run tel
 
 tellraw @s [{"text": " "}]
 
+execute if score temp_gamerules_modified refresh_gamerules matches 1 run tellraw @s [{"translate": "  "},{"translate":"Edited gamerules listed above","color": "#c4c4c4"}]
 
-tellraw @s [{"translate": "  "},{"translate":"Modified gamerules listed above","color": "#c4c4c4"}]
+execute if score temp_gamerules_modified refresh_gamerules matches 0 run tellraw @s [{"translate": "  "},{"translate":"No gamerules edited.","color": "#c4c4c4"}]
+execute if score temp_gamerules_modified refresh_gamerules matches 0 run tellraw @s [{"translate": "  "},{"translate":"All current values are default by Minecraft","color": "#c4c4c4"}]
 
 tellraw @s [{"text": " "}]
 

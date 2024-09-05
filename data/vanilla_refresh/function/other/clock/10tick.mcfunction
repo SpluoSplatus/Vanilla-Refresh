@@ -7,8 +7,9 @@ scoreboard players set @a[gamemode=adventure] refresh_previous_gamemode 3
 
 
 
-#calculate hour of day
-execute if score clock_active refresh_storage matches 1 if score clock refresh_settings matches 1..2 run function vanilla_refresh:block/clock/calculate_realistic_time
+
+#clock ---
+execute if score clock refresh_settings matches 1.. as @a run function vanilla_refresh:block/clock/root_less_often
 
 
 

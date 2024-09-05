@@ -19,9 +19,6 @@ execute if score recovery refresh_settings matches 1 as @a[predicate=vanilla_ref
 #compass
 execute if score compass refresh_settings matches 1 as @a[predicate=vanilla_refresh:holding/compass] at @s run function vanilla_refresh:block/compass/root2
 
-#clock ---
-execute if score clock refresh_settings matches 1.. as @a run function vanilla_refresh:block/clock/root_less_often
-
 #i love echo shards they are so useful definetly
 execute if score echo refresh_settings matches 1 as @e[type=item,tag=!refresh_entity_silencer_item,nbt={Item:{id:"minecraft:echo_shard"}}] at @s if entity @e[distance=..1,type=!#vanilla_refresh:cannot_be_silenced,tag=!refresh_entity_silenced,nbt=!{Silent:1b}] run function vanilla_refresh:block/echo/silence
 
