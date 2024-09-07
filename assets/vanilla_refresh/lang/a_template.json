@@ -261,9 +261,8 @@
     "vanilla_refresh.settings.categories.seperator6": "translation",
 
     
-    "\nWelcome to ": "\ntranslation",
-    "! You'll be able to configure each feature within Vanilla Refresh to your liking here. Hover over an ": "translation",
-    " icon to get a description of what a setting does.\n": "translation\n",
+    "\n Configure each feature within Vanilla Refresh to your liking here. Hover over an ": "\n translation",
+    " icon to get a description of what a setting does.\n": " translation\n",
     "Continue\n": "translation\n",
     "Click to Proceed to the Settings page": "translation",
     "Information moment": "translation",
