@@ -54,6 +54,8 @@ execute anchored eyes run function vanilla_refresh:block/craft_sound/raycast
 
 
 playsound block.stone.place block @a[distance=..20] ~ ~ ~ .6 1.5
+playsound block.wood.place block @a[distance=..20] ~ ~ ~ .2 2
+
 
 
 advancement revoke @s through vanilla_refresh:craft/any
