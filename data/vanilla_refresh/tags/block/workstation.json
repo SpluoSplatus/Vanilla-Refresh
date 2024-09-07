@@ -1,0 +1,7 @@
+{
+  "values": [
+    
+    {"id":"smithing_table","required": false},
+    {"id":"crafting_table","required": false}
+  ]
+}

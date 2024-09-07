@@ -6,6 +6,7 @@ execute if score @s refresh_daycounter2 matches 100 store result score multiple 
 
 execute if score @s refresh_daycounter2 matches 100 if score day refresh_daycounter matches 100.. run scoreboard players operation multiple refresh_daycounter %= num_100 refresh_constants
 
+#if multiple of 100 milestone
 execute if score @s refresh_daycounter2 matches 100 if score day refresh_daycounter matches 100.. if score multiple refresh_daycounter matches 0 run scoreboard players set @s refresh_daycounter2 1000
 
 

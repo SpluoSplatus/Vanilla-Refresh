@@ -2,6 +2,25 @@
   "criteria": {
 
 
+
+    "wolf_armor": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "wolf_armor"
+      }
+    },
+    "turtle_helmet": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "turtle_helmet"
+      }
+    },
+    "spyglass": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "spyglass"
+      }
+    },
     "bucket": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
@@ -273,7 +292,10 @@
   },
   "requirements": [
     [
-      
+
+      "wolf_armor",
+      "turtle_helmet",
+      "spyglass",
       "bucket",
       "shears",
       "bow",

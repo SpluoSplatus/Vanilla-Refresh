@@ -3,7 +3,14 @@
     "acacia_boat": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "acacia_boat"
+        "recipe_id": "acacia_boat",
+        "ingredients": [
+          {
+            "count": {
+              "min": 2
+            }
+          }
+        ]
       }
     },
     "acacia_button": {
@@ -9015,32 +9022,6 @@
         ]
       }
     },
-    "map_cloning": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "map_cloning",
-        "ingredients": [
-          {
-            "count": {
-              "min": 2
-            }
-          }
-        ]
-      }
-    },
-    "map_extending": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "map_extending",
-        "ingredients": [
-          {
-            "count": {
-              "min": 2
-            }
-          }
-        ]
-      }
-    },
     "melon": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
@@ -9574,10 +9555,10 @@
         ]
       }
     },
-    "netherite_axe_smithing": {
+    "note_block": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "netherite_axe_smithing",
+        "recipe_id": "note_block",
         "ingredients": [
           {
             "count": {
@@ -9600,49 +9581,10 @@
         ]
       }
     },
-    "netherite_boots_smithing": {
+    "netherite_ingot_from_netherite_block": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "netherite_boots_smithing",
-        "ingredients": [
-          {
-            "count": {
-              "min": 2
-            }
-          }
-        ]
-      }
-    },
-    "netherite_chestplate_smithing": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "netherite_chestplate_smithing",
-        "ingredients": [
-          {
-            "count": {
-              "min": 2
-            }
-          }
-        ]
-      }
-    },
-    "netherite_helmet_smithing": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "netherite_helmet_smithing",
-        "ingredients": [
-          {
-            "count": {
-              "min": 2
-            }
-          }
-        ]
-      }
-    },
-    "netherite_hoe_smithing": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "netherite_hoe_smithing",
+        "recipe_id": "netherite_ingot_from_netherite_block",
         "ingredients": [
           {
             "count": {
@@ -9665,10 +9607,63 @@
         ]
       }
     },
-    "netherite_ingot_from_netherite_block": {
+    
+    "netherite_axe_smithing": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "netherite_ingot_from_netherite_block",
+        "recipe_id":    "netherite_axe_smithing",
+        "ingredients": [
+          {
+            "count": {
+              "min": 2
+            }
+          }
+        ]
+      }
+    },
+    "netherite_boots_smithing": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id":    "netherite_boots_smithing",
+        "ingredients": [
+          {
+            "count": {
+              "min": 2
+            }
+          }
+        ]
+      }
+    },
+    "netherite_chestplate_smithing": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id":    "netherite_chestplate_smithing",
+        "ingredients": [
+          {
+            "count": {
+              "min": 2
+            }
+          }
+        ]
+      }
+    },
+    "netherite_helmet_smithing": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id":    "netherite_helmet_smithing",
+        "ingredients": [
+          {
+            "count": {
+              "min": 2
+            }
+          }
+        ]
+      }
+    },
+    "netherite_hoe_smithing": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id":    "netherite_hoe_smithing",
         "ingredients": [
           {
             "count": {
@@ -9681,7 +9676,7 @@
     "netherite_leggings_smithing": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "netherite_leggings_smithing",
+        "recipe_id":    "netherite_leggings_smithing",
         "ingredients": [
           {
             "count": {
@@ -9694,33 +9689,7 @@
     "netherite_pickaxe_smithing": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "netherite_pickaxe_smithing",
-        "ingredients": [
-          {
-            "count": {
-              "min": 2
-            }
-          }
-        ]
-      }
-    },
-    "netherite_scrap": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "netherite_scrap",
-        "ingredients": [
-          {
-            "count": {
-              "min": 2
-            }
-          }
-        ]
-      }
-    },
-    "netherite_scrap_from_blasting": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "netherite_scrap_from_blasting",
+        "recipe_id":    "netherite_pickaxe_smithing",
         "ingredients": [
           {
             "count": {
@@ -9733,7 +9702,7 @@
     "netherite_shovel_smithing": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "netherite_shovel_smithing",
+        "recipe_id":    "netherite_shovel_smithing",
         "ingredients": [
           {
             "count": {
@@ -9746,7 +9715,7 @@
     "netherite_sword_smithing": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "netherite_sword_smithing",
+        "recipe_id":    "netherite_sword_smithing",
         "ingredients": [
           {
             "count": {
@@ -9756,32 +9725,14 @@
         ]
       }
     },
-    "netherite_upgrade_smithing_template": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "netherite_upgrade_smithing_template",
-        "ingredients": [
-          {
-            "count": {
-              "min": 2
-            }
-          }
-        ]
-      }
-    },
-    "note_block": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "note_block",
-        "ingredients": [
-          {
-            "count": {
-              "min": 2
-            }
-          }
-        ]
-      }
-    },
+  
+  "netherite_upgrade_smithing_template": {
+    "trigger": "minecraft:recipe_crafted",
+    "conditions": {
+      "recipe_id":    "netherite_upgrade_smithing_template"
+    }
+  },
+    
     "oak_boat": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
@@ -16948,7 +16899,14 @@
     "yellow_terracotta": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "yellow_terracotta"
+        "recipe_id": "yellow_terracotta",
+        "ingredients": [
+          {
+            "count": {
+              "min": 2
+            }
+          }
+        ]
       }
     }
   },
@@ -17648,8 +17606,6 @@
       "mangrove_trapdoor",
       "mangrove_wood",
       "map",
-      "map_cloning",
-      "map_extending",
       "melon",
       "melon_seeds",
       "minecart",
@@ -17691,18 +17647,16 @@
       "nether_brick_wall_from_nether_bricks_stonecutting",
       "nether_bricks",
       "nether_wart_block",
-      "netherite_axe_smithing",
       "netherite_block",
+      "netherite_ingot_from_netherite_block",
+      "netherite_ingot",
+      "netherite_axe_smithing",
       "netherite_boots_smithing",
       "netherite_chestplate_smithing",
       "netherite_helmet_smithing",
       "netherite_hoe_smithing",
-      "netherite_ingot",
-      "netherite_ingot_from_netherite_block",
       "netherite_leggings_smithing",
       "netherite_pickaxe_smithing",
-      "netherite_scrap",
-      "netherite_scrap_from_blasting",
       "netherite_shovel_smithing",
       "netherite_sword_smithing",
       "netherite_upgrade_smithing_template",

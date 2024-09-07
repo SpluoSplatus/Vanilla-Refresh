@@ -5,10 +5,10 @@ particle explosion ~ ~ ~ 0 0 0 0 1 force @a[distance=..256]
 
 particle explosion_emitter ~ ~-3 ~ 0 0 0 0 1 force @a[distance=..256] 
 
+particle poof ~ ~ ~ 1 .5 1 0.1 10 force @a[distance=..128]
 
 particle minecraft:splash ~ ~ ~ .8 .3 .8 0 100 force @a[distance=..64]
 
-playsound minecraft:entity.dolphin.splash block @a[distance=..48] ~ ~ ~ 1.5 .8
 playsound minecraft:entity.player.splash.high_speed block @a[distance=..48] ~ ~ ~ 2 .5
 playsound minecraft:entity.dolphin.swim block @a[distance=..48] ~ ~ ~ 1.5 .8
 

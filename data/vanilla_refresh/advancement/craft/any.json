@@ -594,18 +594,6 @@
         "recipe_id": "blue_terracotta"
       }
     },
-    "bolt_armor_trim_smithing_template": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "bolt_armor_trim_smithing_template"
-      }
-    },
-    "bolt_armor_trim_smithing_template_smithing_trim": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "bolt_armor_trim_smithing_template_smithing_trim"
-      }
-    },
     "bone_block": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
@@ -1156,18 +1144,6 @@
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
         "recipe_id": "coarse_dirt"
-      }
-    },
-    "coast_armor_trim_smithing_template": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "coast_armor_trim_smithing_template"
-      }
-    },
-    "coast_armor_trim_smithing_template_smithing_trim": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "coast_armor_trim_smithing_template_smithing_trim"
       }
     },
     "cobbled_deepslate_slab": {
@@ -2316,18 +2292,6 @@
         "recipe_id": "dropper"
       }
     },
-    "dune_armor_trim_smithing_template": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "dune_armor_trim_smithing_template"
-      }
-    },
-    "dune_armor_trim_smithing_template_smithing_trim": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "dune_armor_trim_smithing_template_smithing_trim"
-      }
-    },
     "dye_black_bed": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
@@ -2832,18 +2796,6 @@
         "recipe_id": "exposed_cut_copper_stairs_from_exposed_cut_copper_stonecutting"
       }
     },
-    "eye_armor_trim_smithing_template": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "eye_armor_trim_smithing_template"
-      }
-    },
-    "eye_armor_trim_smithing_template_smithing_trim": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "eye_armor_trim_smithing_template_smithing_trim"
-      }
-    },
     "fermented_spider_eye": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
@@ -2902,18 +2854,6 @@
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
         "recipe_id": "flint_and_steel"
-      }
-    },
-    "flow_armor_trim_smithing_template": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "flow_armor_trim_smithing_template"
-      }
-    },
-    "flow_armor_trim_smithing_template_smithing_trim": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "flow_armor_trim_smithing_template_smithing_trim"
       }
     },
     "flower_banner_pattern": {
@@ -3346,18 +3286,6 @@
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
         "recipe_id": "hopper_minecart"
-      }
-    },
-    "host_armor_trim_smithing_template": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "host_armor_trim_smithing_template"
-      }
-    },
-    "host_armor_trim_smithing_template_smithing_trim": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "host_armor_trim_smithing_template_smithing_trim"
       }
     },
     "iron_axe": {
@@ -4434,6 +4362,69 @@
         "recipe_id": "netherite_ingot"
       }
     },
+    
+    "netherite_axe_smithing": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id":    "netherite_axe_smithing"
+      }
+    },
+    "netherite_boots_smithing": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id":    "netherite_boots_smithing"
+      }
+    },
+    "netherite_chestplate_smithing": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id":    "netherite_chestplate_smithing"
+      }
+    },
+    "netherite_helmet_smithing": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id":    "netherite_helmet_smithing"
+      }
+    },
+    "netherite_hoe_smithing": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id":    "netherite_hoe_smithing"
+      }
+    },
+    "netherite_leggings_smithing": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id":    "netherite_leggings_smithing"
+      }
+    },
+    "netherite_pickaxe_smithing": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id":    "netherite_pickaxe_smithing"
+      }
+    },
+    "netherite_shovel_smithing": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id":    "netherite_shovel_smithing"
+      }
+    },
+    "netherite_sword_smithing": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id":    "netherite_sword_smithing"
+      }
+    },
+  
+  "netherite_upgrade_smithing_template": {
+    "trigger": "minecraft:recipe_crafted",
+    "conditions": {
+      "recipe_id":    "netherite_upgrade_smithing_template"
+    }
+  },
+    
     "oak_boat": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
@@ -5544,18 +5535,6 @@
         "recipe_id": "rail"
       }
     },
-    "raiser_armor_trim_smithing_template": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "raiser_armor_trim_smithing_template"
-      }
-    },
-    "raiser_armor_trim_smithing_template_smithing_trim": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "raiser_armor_trim_smithing_template_smithing_trim"
-      }
-    },
     "raw_copper": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
@@ -5832,18 +5811,6 @@
         "recipe_id": "respawn_anchor"
       }
     },
-    "rib_armor_trim_smithing_template": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "rib_armor_trim_smithing_template"
-      }
-    },
-    "rib_armor_trim_smithing_template_smithing_trim": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "rib_armor_trim_smithing_template_smithing_trim"
-      }
-    },
     "sandstone": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
@@ -5898,30 +5865,6 @@
         "recipe_id": "sea_lantern"
       }
     },
-    "sentry_armor_trim_smithing_template": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "sentry_armor_trim_smithing_template"
-      }
-    },
-    "sentry_armor_trim_smithing_template_smithing_trim": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "sentry_armor_trim_smithing_template_smithing_trim"
-      }
-    },
-    "shaper_armor_trim_smithing_template": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "shaper_armor_trim_smithing_template"
-      }
-    },
-    "shaper_armor_trim_smithing_template_smithing_trim": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "shaper_armor_trim_smithing_template_smithing_trim"
-      }
-    },
     "shears": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
@@ -5950,18 +5893,6 @@
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
         "recipe_id": "shulker_box_coloring"
-      }
-    },
-    "silence_armor_trim_smithing_template": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "silence_armor_trim_smithing_template"
-      }
-    },
-    "silence_armor_trim_smithing_template_smithing_trim": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "silence_armor_trim_smithing_template_smithing_trim"
       }
     },
     "skull_banner_pattern": {
@@ -6108,18 +6039,6 @@
         "recipe_id": "smooth_stone_slab_from_smooth_stone_stonecutting"
       }
     },
-    "snout_armor_trim_smithing_template": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "snout_armor_trim_smithing_template"
-      }
-    },
-    "snout_armor_trim_smithing_template_smithing_trim": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "snout_armor_trim_smithing_template_smithing_trim"
-      }
-    },
     "snow": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
@@ -6154,18 +6073,6 @@
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
         "recipe_id": "spectral_arrow"
-      }
-    },
-    "spire_armor_trim_smithing_template": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "spire_armor_trim_smithing_template"
-      }
-    },
-    "spire_armor_trim_smithing_template_smithing_trim": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "spire_armor_trim_smithing_template_smithing_trim"
       }
     },
     "sponge": {
@@ -6594,18 +6501,6 @@
         "recipe_id": "terracotta"
       }
     },
-    "tide_armor_trim_smithing_template": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "tide_armor_trim_smithing_template"
-      }
-    },
-    "tide_armor_trim_smithing_template_smithing_trim": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "tide_armor_trim_smithing_template_smithing_trim"
-      }
-    },
     "tinted_glass": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
@@ -6778,30 +6673,6 @@
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
         "recipe_id": "turtle_helmet"
-      }
-    },
-    "vex_armor_trim_smithing_template": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "vex_armor_trim_smithing_template"
-      }
-    },
-    "vex_armor_trim_smithing_template_smithing_trim": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "vex_armor_trim_smithing_template_smithing_trim"
-      }
-    },
-    "ward_armor_trim_smithing_template": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "ward_armor_trim_smithing_template"
-      }
-    },
-    "ward_armor_trim_smithing_template_smithing_trim": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "ward_armor_trim_smithing_template_smithing_trim"
       }
     },
     "warped_button": {
@@ -7434,18 +7305,6 @@
         "recipe_id": "waxed_weathered_cut_copper_stairs_from_waxed_weathered_cut_copper_stonecutting"
       }
     },
-    "wayfinder_armor_trim_smithing_template": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "wayfinder_armor_trim_smithing_template"
-      }
-    },
-    "wayfinder_armor_trim_smithing_template_smithing_trim": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "wayfinder_armor_trim_smithing_template_smithing_trim"
-      }
-    },
     "weathered_chiseled_copper": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
@@ -7612,18 +7471,6 @@
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
         "recipe_id": "white_wool_from_string"
-      }
-    },
-    "wild_armor_trim_smithing_template": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "wild_armor_trim_smithing_template"
-      }
-    },
-    "wild_armor_trim_smithing_template_smithing_trim": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "wild_armor_trim_smithing_template_smithing_trim"
       }
     },
     "wind_charge": {
@@ -7848,8 +7695,6 @@
       "blue_stained_glass_pane",
       "blue_stained_glass_pane_from_glass_pane",
       "blue_terracotta",
-      "bolt_armor_trim_smithing_template",
-      "bolt_armor_trim_smithing_template_smithing_trim",
       "bone_block",
       "bone_meal",
       "bone_meal_from_bone_block",
@@ -7942,8 +7787,6 @@
       "coal_from_smelting_coal_ore",
       "coal_from_smelting_deepslate_coal_ore",
       "coarse_dirt",
-      "coast_armor_trim_smithing_template",
-      "coast_armor_trim_smithing_template_smithing_trim",
       "cobbled_deepslate_slab",
       "cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting",
       "cobbled_deepslate_stairs",
@@ -8135,8 +7978,6 @@
       "dried_kelp_from_smoking",
       "dripstone_block",
       "dropper",
-      "dune_armor_trim_smithing_template",
-      "dune_armor_trim_smithing_template_smithing_trim",
       "dye_black_bed",
       "dye_black_carpet",
       "dye_black_wool",
@@ -8221,8 +8062,6 @@
       "exposed_cut_copper_stairs",
       "exposed_cut_copper_stairs_from_exposed_copper_stonecutting",
       "exposed_cut_copper_stairs_from_exposed_cut_copper_stonecutting",
-      "eye_armor_trim_smithing_template",
-      "eye_armor_trim_smithing_template_smithing_trim",
       "fermented_spider_eye",
       "field_masoned_banner_pattern",
       "fire_charge",
@@ -8233,8 +8072,6 @@
       "fishing_rod",
       "fletching_table",
       "flint_and_steel",
-      "flow_armor_trim_smithing_template",
-      "flow_armor_trim_smithing_template_smithing_trim",
       "flower_banner_pattern",
       "flower_pot",
       "furnace",
@@ -8307,8 +8144,6 @@
       "honeycomb_block",
       "hopper",
       "hopper_minecart",
-      "host_armor_trim_smithing_template",
-      "host_armor_trim_smithing_template_smithing_trim",
       "iron_axe",
       "iron_bars",
       "iron_block",
@@ -8487,6 +8322,16 @@
       "netherite_block",
       "netherite_ingot_from_netherite_block",
       "netherite_ingot",
+      "netherite_axe_smithing",
+      "netherite_boots_smithing",
+      "netherite_chestplate_smithing",
+      "netherite_helmet_smithing",
+      "netherite_hoe_smithing",
+      "netherite_leggings_smithing",
+      "netherite_pickaxe_smithing",
+      "netherite_shovel_smithing",
+      "netherite_sword_smithing",
+      "netherite_upgrade_smithing_template",
       "note_block",
       "oak_boat",
       "oak_button",
@@ -8673,8 +8518,6 @@
       "rabbit_stew_from_brown_mushroom",
       "rabbit_stew_from_red_mushroom",
       "rail",
-      "raiser_armor_trim_smithing_template",
-      "raiser_armor_trim_smithing_template_smithing_trim",
       "raw_copper",
       "raw_copper_block",
       "raw_gold",
@@ -8721,8 +8564,6 @@
       "repair_item",
       "repeater",
       "respawn_anchor",
-      "rib_armor_trim_smithing_template",
-      "rib_armor_trim_smithing_template_smithing_trim",
       "sandstone",
       "sandstone_slab",
       "sandstone_slab_from_sandstone_stonecutting",
@@ -8732,17 +8573,11 @@
       "sandstone_wall_from_sandstone_stonecutting",
       "scaffolding",
       "sea_lantern",
-      "sentry_armor_trim_smithing_template",
-      "sentry_armor_trim_smithing_template_smithing_trim",
-      "shaper_armor_trim_smithing_template",
-      "shaper_armor_trim_smithing_template_smithing_trim",
       "shears",
       "shield",
       "shield_decoration",
       "shulker_box",
       "shulker_box_coloring",
-      "silence_armor_trim_smithing_template",
-      "silence_armor_trim_smithing_template_smithing_trim",
       "skull_banner_pattern",
       "slime_ball",
       "slime_block",
@@ -8767,16 +8602,12 @@
       "smooth_stone",
       "smooth_stone_slab",
       "smooth_stone_slab_from_smooth_stone_stonecutting",
-      "snout_armor_trim_smithing_template",
-      "snout_armor_trim_smithing_template_smithing_trim",
       "snow",
       "snow_block",
       "soul_campfire",
       "soul_lantern",
       "soul_torch",
       "spectral_arrow",
-      "spire_armor_trim_smithing_template",
-      "spire_armor_trim_smithing_template_smithing_trim",
       "sponge",
       "spruce_boat",
       "spruce_button",
@@ -8848,8 +8679,6 @@
       "suspicious_stew_from_wither_rose",
       "target",
       "terracotta",
-      "tide_armor_trim_smithing_template",
-      "tide_armor_trim_smithing_template_smithing_trim",
       "tinted_glass",
       "tipped_arrow",
       "tnt",
@@ -8879,10 +8708,6 @@
       "tuff_wall",
       "tuff_wall_from_tuff_stonecutting",
       "turtle_helmet",
-      "vex_armor_trim_smithing_template",
-      "vex_armor_trim_smithing_template_smithing_trim",
-      "ward_armor_trim_smithing_template",
-      "ward_armor_trim_smithing_template_smithing_trim",
       "warped_button",
       "warped_door",
       "warped_fence",
@@ -8988,8 +8813,6 @@
       "waxed_weathered_cut_copper_stairs_from_honeycomb",
       "waxed_weathered_cut_copper_stairs_from_waxed_weathered_copper_stonecutting",
       "waxed_weathered_cut_copper_stairs_from_waxed_weathered_cut_copper_stonecutting",
-      "wayfinder_armor_trim_smithing_template",
-      "wayfinder_armor_trim_smithing_template_smithing_trim",
       "weathered_chiseled_copper",
       "weathered_chiseled_copper_from_weathered_copper_stonecutting",
       "weathered_chiseled_copper_from_weathered_cut_copper_stonecutting",
@@ -9018,8 +8841,6 @@
       "white_stained_glass_pane_from_glass_pane",
       "white_terracotta",
       "white_wool_from_string",
-      "wild_armor_trim_smithing_template",
-      "wild_armor_trim_smithing_template_smithing_trim",
       "wind_charge",
       "wolf_armor",
       "wooden_axe",

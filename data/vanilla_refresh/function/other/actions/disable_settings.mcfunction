@@ -146,6 +146,8 @@ scoreboard players set anim_teleport refresh_settings 0
 
 scoreboard players set playerheads refresh_settings 0
 
+scoreboard players set spectate_animation refresh_settings 0
+
 
 function vanilla_refresh:other/menus/main
 
