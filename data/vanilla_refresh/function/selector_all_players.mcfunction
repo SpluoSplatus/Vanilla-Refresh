@@ -25,10 +25,12 @@ execute if score sitting refresh_settings matches 1 as @s[predicate=!vanilla_ref
 
 
 
-#health
+# mob health display
+    #runs every 2 ticks
 
-    execute if score mob_health refresh_settings matches 1 as @s[advancements={vanilla_refresh:used_spyglass=false},tag=!1_splatus_actionbar_disabled_2] if entity @e[distance=0.001..7,predicate=vanilla_refresh:condition/can_show_health] run function vanilla_refresh:entity/mob_health/display/raycast_init
-    execute if score mob_health refresh_settings matches 1 as @s[advancements={vanilla_refresh:used_spyglass=false},tag=!1_splatus_actionbar_disabled_2] unless entity @e[distance=0.001..7,predicate=vanilla_refresh:condition/can_show_health] run tag @s remove 1_splatus_actionbar_disabled
+    execute if score 2tick refresh_clock matches 1 if score mob_health refresh_settings matches 1 if entity @s[advancements={vanilla_refresh:used_spyglass=false},tag=!1_splatus_actionbar_disabled_2] if entity @n[distance=0.001..7,predicate=vanilla_refresh:condition/can_show_health] run function vanilla_refresh:entity/mob_health/display/raycast_init
+
+    execute if score 2tick refresh_clock matches 1 if score mob_health refresh_settings matches 1 if entity @s[advancements={vanilla_refresh:used_spyglass=false},tag=!1_splatus_actionbar_disabled_2] unless entity @n[distance=0.001..7,predicate=vanilla_refresh:condition/can_show_health] run tag @s remove 1_splatus_actionbar_disabled
 
 #
 
@@ -53,16 +55,16 @@ execute if score playerlist refresh_settings matches 1..2 as @s if score @s play
 ################
 
 
-execute if score gamerules refresh_settings matches 1 run scoreboard players enable @a gamerules
-execute if score gamerules refresh_settings matches 0 run scoreboard players reset @a gamerules
+execute if score gamerules refresh_settings matches 1 run scoreboard players enable @s gamerules
+execute if score gamerules refresh_settings matches 0 run scoreboard players reset @s gamerules
 
 
-execute if score stats refresh_settings matches 1 run scoreboard players enable @a stats
-execute if score stats refresh_settings matches 0 run scoreboard players reset @a stats
+execute if score stats refresh_settings matches 1 run scoreboard players enable @s stats
+execute if score stats refresh_settings matches 0 run scoreboard players reset @s stats
 
 
-execute if score playerlist refresh_settings matches 1..2 run scoreboard players enable @a playerlist
-execute if score playerlist refresh_settings matches 0 run scoreboard players reset @a playerlist
+execute if score playerlist refresh_settings matches 1..2 run scoreboard players enable @s playerlist
+execute if score playerlist refresh_settings matches 0 run scoreboard players reset @s playerlist
 
 
 
@@ -124,19 +126,20 @@ execute as @s[scores={refresh_sound_egg=-2147483648..}] run function vanilla_ref
 
 
 #spectator lol this one is literally two commands
-execute if score ghost refresh_settings matches 1 at @a[gamemode=spectator,tag=!refresh_disabled_spectator_ghost] if predicate vanilla_refresh:chance/80_percent run particle effect ~ ~1 ~ 0 0 0 1 1 force @a[distance=..128]
-execute if score ghost refresh_settings matches 2 at @a[gamemode=spectator,tag=!refresh_disabled_spectator_ghost] if predicate vanilla_refresh:chance/80_percent run particle effect ~ ~1 ~ 0 0 0 1 1 force @a[distance=0.0001..128]
 
-#night vision lol one command
-effect give @a[tag=refresh_nightvision] night_vision infinite 0 true
+    #fully rendered
+    execute if score ghost refresh_settings matches 1 if entity @s[gamemode=spectator,tag=!refresh_disabled_spectator_ghost] if predicate vanilla_refresh:chance/80_percent run particle effect ~ ~1 ~ 0 0 0 1 1 force @a[distance=..128]
+
+    #if rendered only to others
+    execute if score ghost refresh_settings matches 2 if entity @s[gamemode=spectator,tag=!refresh_disabled_spectator_ghost] if predicate vanilla_refresh:chance/80_percent run particle effect ~ ~1 ~ 0 0 0 1 1 force @s[distance=0.0001..128]
+
+#spectator night vision
+effect give @s[tag=refresh_nightvision] night_vision infinite 0 true
 
 #spectator actions
 execute as @s[gamemode=spectator,tag=!refresh_spectator] run function vanilla_refresh:player/spectator/enter
 execute as @s[gamemode=!spectator,tag=refresh_spectator] run function vanilla_refresh:player/spectator/exit
 
-
-#SPARKLE!
-execute if score itemsparkle refresh_settings matches 1 as @e[type=item,tag=!spellbound_itemaligned,tag=!spellbound_itemaligned_cauldron,tag=!refresh_itemcantsparkle] at @s if entity @p[distance=..32] run function vanilla_refresh:entity/sparkle/root
 
 #water
 execute if score anim_water refresh_settings matches 1 as @s[scores={refresh_fallspeed=..-30}] run function vanilla_refresh:player/anim_water

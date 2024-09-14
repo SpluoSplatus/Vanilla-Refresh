@@ -12,4 +12,5 @@ execute run playsound block.stone.break player @a[distance=..32] ~ ~ ~ .8 1
 execute unless score @s refresh_player_deaths2 matches 1.. if score @s refresh_player_health matches 1.. run playsound block.amethyst_block.resonate player @a[distance=..32] ~ ~ ~ .8 1
 
 advancement revoke @s only vanilla_refresh:player/hurt
-particle minecraft:damage_indicator ~ ~1 ~ .2 .2 .2 .3 3 force @a[distance=..32]
+particle minecraft:damage_indicator ~ ~1 ~ .2 .2 .2 .5 1 force @a[distance=..32]
+particle minecraft:damage_indicator ~ ~1 ~ .2 .2 .2 .4 2 force @a[distance=..32]

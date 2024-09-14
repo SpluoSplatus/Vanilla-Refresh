@@ -11,8 +11,8 @@ particle poof ~ ~ ~ .3 .5 .3 .02 10 force @a[distance=..32]
 particle soul_fire_flame ~ ~1 ~ 0 0 0 .08 10 force @a[distance=..64]
 particle end_rod ~ ~ ~ 0 0 0 .08 8 force @a[distance=..32]
 
-data modify entity @s Silent set value 0
-data modify entity @s[tag=!refresh_nbt_PersistenceRequired] PersistenceRequired set value 0
+data modify entity @s Silent set value 0b
+data modify entity @s[tag=!refresh_nbt_PersistenceRequired] PersistenceRequired set value 0b
 
 loot spawn ~ ~ ~ loot vanilla_refresh:drop/echo_shard
 tag @n[type=item,nbt={Item:{id:"minecraft:echo_shard"}}] add refresh_entity_silencer_item

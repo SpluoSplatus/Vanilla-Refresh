@@ -2,6 +2,9 @@
 # 0.25 SECOND LOOP ----------------------------------
 
 
+# item SPARKLE!
+execute if score itemsparkle refresh_settings matches 1 as @e[type=item,tag=!spellbound_itemaligned,tag=!spellbound_itemaligned_cauldron,tag=!refresh_itemcantsparkle] at @s if entity @p[distance=..32] run function vanilla_refresh:entity/sparkle/root
+
 
 #health spyglass
 execute if score spyglass refresh_settings matches 1 as @a[advancements={vanilla_refresh:used_spyglass=true}] at @s anchored eyes positioned ^ ^ ^4 run function vanilla_refresh:entity/mob_health/spyglass/spyglass

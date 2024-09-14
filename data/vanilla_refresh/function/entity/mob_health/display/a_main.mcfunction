@@ -3,8 +3,19 @@
 #tellraw'd to the player
 
 
+execute store result score @s refresh_health run data get entity @s Health
+execute store result score @s refresh_health_absorption run data get entity @s AbsorptionAmount
+
+execute if entity @s[type=ender_dragon] run scoreboard players operation @s refresh_health = @s trueEnding_health
+
+
+scoreboard players operation @s refresh_health += @s refresh_health_absorption
+
+#####
+#display text below
+
 #player
-execute as @s[type=player,predicate=!vanilla_refresh:condition/spectator] run title @p[tag=refresh_temp792] actionbar [{"translate":"","color": "yellow"},{"selector":"@n[tag=refresh_temp792_mob]","color": "green"},{"translate": " - ","color": "gray"},{"translate": "❤ ","color":"yellow"},{"score":{"name": "@n[tag=refresh_temp792_mob]","objective": "refresh_player_health"}},{"translate": "/","color": "#bababa"},{"score":{"name": "@n[tag=refresh_temp792_mob]","objective": "refresh_maxhealth"},"color": "#bababa"}]
+execute as @s[type=player] run title @p[tag=refresh_temp792] actionbar [{"translate":"","color": "yellow"},{"selector":"@n[tag=refresh_temp792_mob]","color": "green"},{"translate": " - ","color": "gray"},{"translate": "❤ ","color":"yellow"},{"score":{"name": "@n[tag=refresh_temp792_mob]","objective": "refresh_player_health"}},{"translate": "/","color": "#bababa"},{"score":{"name": "@n[tag=refresh_temp792_mob]","objective": "refresh_maxhealth"},"color": "#bababa"}]
 
 #dragon
 #execute if data entity @s[type=ender_dragon] DragonPhase run title @p[tag=refresh_temp792] actionbar [{"translate":"","color": "yellow"},{"selector":"@n[type=ender_dragon]","color": "green"},{"translate": " - ","color": "gray"},{"translate": "❤ ","color":"yellow"},{"score":{"name": "@n[type=ender_dragon]","objective": "refresh_health"}},{"translate": "/","color": "#bababa"},{"score":{"name": "@n[type=ender_dragon]","objective": "refresh_maxhealth"},"color": "#bababa"}]
@@ -23,6 +34,3 @@ execute as @s[type=!#vanilla_refresh:any_other_mob] run title @p[tag=refresh_tem
 ######################
 
 tag @s remove refresh_temp792_mob
-
-tag @p[tag=refresh_temp792] add 1_splatus_actionbar_disabled
-

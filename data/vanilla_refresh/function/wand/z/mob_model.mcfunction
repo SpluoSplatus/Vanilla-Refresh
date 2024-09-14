@@ -5,7 +5,7 @@ scoreboard players add temp refresh_count 1
 
 execute unless entity @e[type=!#vanilla_refresh:misc_brush,distance=..2,sort=nearest,limit=1] positioned ^ ^ ^1 if block ^ ^ ^ #vanilla_refresh:permeable unless score temp refresh_count matches 64.. run function vanilla_refresh:wand/z/mob_model
 
-execute as @e[type=!#vanilla_refresh:misc_brush,distance=..2,sort=nearest,limit=1] at @s run function vanilla_refresh:wand/z/mob_model_end
+execute as @e[type=!#vanilla_refresh:misc_brush,distance=..2,sort=nearest,limit=1] at @s run function vanilla_refresh:wand/z/mob_model_set_data
 
 scoreboard players reset temp refresh_count
 
