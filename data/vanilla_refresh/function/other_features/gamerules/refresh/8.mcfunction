@@ -22,7 +22,8 @@ execute if score anim_teleport refresh_settings matches 1 run tellraw @s [{"tran
 
 
 
-execute if score playerheads refresh_settings matches 1.. run tellraw @s [{"translate": "   ","color": "gray","hoverEvent": {"action": "show_text","value":[{"text":"ID: playerheads","color":"gray"},{"translate":"\nValue: "},{"score":{"name": "playerheads","objective": "refresh_settings"}}]}},{"text":"✔ ","color": "yellow"},{"translate":"Player Head Drops"}]
+execute if score playerheads refresh_settings matches 2 run tellraw @s [{"translate": "   ","color": "gray","hoverEvent": {"action": "show_text","value":[{"text":"ID: playerheads","color":"gray"},{"translate":"\nValue: "},{"score":{"name": "playerheads","objective": "refresh_settings"}}]}},{"text":"✔ ","color": "yellow"},{"translate":"Player Head Drops - "},{"translate": "Only if player caused","color": "yellow"}]
+execute if score playerheads refresh_settings matches 1 run tellraw @s [{"translate": "   ","color": "gray","hoverEvent": {"action": "show_text","value":[{"text":"ID: playerheads","color":"gray"},{"translate":"\nValue: "},{"score":{"name": "playerheads","objective": "refresh_settings"}}]}},{"text":"✔ ","color": "yellow"},{"translate":"Player Head Drops - "},{"translate": "Any death cause","color": "yellow"}]
   execute if score playerheads refresh_settings matches 0 run tellraw @s [{"translate": "   ","color": "gray","hoverEvent": {"action": "show_text","value":[{"text":"ID: playerheads","color":"gray"},{"translate":"\nValue: "},{"score":{"name": "playerheads","objective": "refresh_settings"}}]}},{"text":"❌ ","color": "#7d7d7d"},{"translate":"Player Head Drops"}]
 
 

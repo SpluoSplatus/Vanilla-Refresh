@@ -32,7 +32,7 @@ execute if score @s refresh_player_rotation matches -45..44 rotated 0 0 run setb
 execute if score @s refresh_player_rotation matches 45..134 rotated 90 0 run setblock ^ ^ ^1 player_head[rotation=12]
 execute if score @s refresh_player_rotation matches 45..134 rotated 90 0 run setblock ^ ^1 ^1 oak_wall_sign[facing=west]
 
-data modify block ^ ^1 ^1 front_text.messages[1] set from storage vanilla_refresh:storage last_soul_link_name
+data modify block ^ ^1 ^1 front_text.messages[1] set from storage vanilla_refresh:storage last_player_death
 data modify block ^ ^1 ^1 front_text.has_glowing_text set value 1b
 data modify block ^ ^1 ^1 front_text.color set value "light_gray"
 data modify block ^ ^1 ^1 is_waxed set value 1b

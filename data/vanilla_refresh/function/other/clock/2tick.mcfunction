@@ -1,6 +1,12 @@
 
 # 0.1 SECOND LOOP ----------------------------------
 
+
+
+# death item (lingering death drops)
+execute if score death_items refresh_settings matches 1 as @e[type=item] at @s if entity @p[distance=..32] run function vanilla_refresh:death/item/item_entity
+execute if score death_items refresh_settings matches 0 as @e[type=item,tag=refresh_entity_item_deathchecked] at @s if entity @p[distance=..32] run function vanilla_refresh:death/item/return_to_normal
+
 #remove tag
 execute if score mob_health refresh_settings matches 1 as @a[tag=1_splatus_actionbar_disabled,tag=refresh_player_read_mob_health] run function vanilla_refresh:entity/mob_health/display/remove_tags
 
@@ -9,6 +15,8 @@ execute if score mob_health refresh_settings matches 1 as @e[tag=!refresh_entity
 
 execute if score mob_health refresh_settings matches 1 as @e[type=!#vanilla_refresh:misc,tag=!refresh_entity_exists] at @s if entity @p[distance=..64] if data entity @s Health run tag @s add refresh_entity_exists
 
+#i love echo shards they are so delightfully useful definetly
+execute if score echo refresh_settings matches 1 as @e[type=!#vanilla_refresh:misc,tag=refresh_entity_silenced] at @s if entity @p[distance=..32] run function vanilla_refresh:block/echo/silenced
 
 
 #tridents return in the void

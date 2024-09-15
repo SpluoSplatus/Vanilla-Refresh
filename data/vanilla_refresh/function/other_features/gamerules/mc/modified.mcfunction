@@ -146,7 +146,7 @@ execute unless score maxCommandForkCount refresh_gamerules matches 65536 run tel
 
 
 
-tellraw @s [{"text": " "}]
+execute if score temp_gamerules_modified refresh_gamerules matches 1 run tellraw @s [{"text": " "}]
 
 execute if score temp_gamerules_modified refresh_gamerules matches 1 run tellraw @s [{"translate": "  "},{"translate":"Edited gamerules listed above","color": "#c4c4c4"}]
 
@@ -154,7 +154,6 @@ execute if score temp_gamerules_modified refresh_gamerules matches 0 run tellraw
 execute if score temp_gamerules_modified refresh_gamerules matches 0 run tellraw @s [{"translate": "  "},{"translate":"All current values are default by Minecraft","color": "#c4c4c4"}]
 
 tellraw @s [{"text": " "}]
-
 
 tellraw @s [{"translate": "","color": "gray"},{"translate":""},{"translate":"<-- Return","color":"yellow","underlined":false,"hoverEvent":{"action":"show_text","contents":[{"translate":"Previous Page"}]},"clickEvent":{"action":"run_command","value":"/trigger gamerules set 11"}},{"translate":"     ","color": "gray"}]
 

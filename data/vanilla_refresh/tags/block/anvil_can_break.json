@@ -1,0 +1,20 @@
+{
+    "replace": false,
+    "values": [
+
+        
+        {"id":"minecraft:coal_block","required": false},
+        {"id":"minecraf:copper_block","required": false},
+        {"id":"minecraf:diamond_block","required": false},
+        {"id":"minecraf:emerald_block","required": false},
+        {"id":"minecraf:gold_block","required": false},
+        {"id":"minecraf:iron_block","required": false},
+        {"id":"minecraft:lapis_block","required": false},
+        {"id":"minecraf:netherite_block","required": false},
+        {"id":"minecraf:redstone_block","required": false}
+        
+  
+      
+    ]
+  }
+  

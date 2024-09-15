@@ -1,5 +1,5 @@
 
-execute unless block ~ ~ ~ enchanting_table run kill @s
+execute unless block ~ ~ ~ #vanilla_refresh:enchanting_table run kill @s
 
 execute if predicate vanilla_refresh:chance/50_percent run particle reverse_portal ~ ~ ~ .4 .4 .4 .02 1 normal
 

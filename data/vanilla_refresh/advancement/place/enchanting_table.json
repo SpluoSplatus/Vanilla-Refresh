@@ -5,9 +5,12 @@
       "conditions": {
         "location": [
           {
-            "condition": "minecraft:block_state_property",
-            "block": "minecraft:enchanting_table",
-            "properties": {}
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#vanilla_refresh:enchanting_table"
+              }
+            }
           }
         ]
       }

@@ -22,6 +22,8 @@ execute if score daycounter refresh_settings matches 1 run scoreboard players se
 
 
 tag @s add refresh_temp
-execute if score join refresh_settings matches 1 as @a[tag=!refresh_temp] at @s run playsound entity.player.levelup player @s ~ ~ ~ .8 .5
+execute if score join refresh_settings matches 1 as @a[tag=!refresh_temp] at @s run playsound entity.player.levelup record @s ~ ~ ~ .4 .5
+
+
 execute if score firstjoin refresh_settings matches 1 run tellraw @a [{"translate":"A new player has joined the server! Member #","color":"yellow"},{"score":{"objective":"refresh_members","name":"@s"}}]
 tag @s remove refresh_temp

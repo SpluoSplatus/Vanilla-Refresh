@@ -1,5 +1,5 @@
 
-tellraw @a [{"translate": "Successfully loaded ","color": "gray"},{"translate": "Vanilla Refresh v1.4.24d","color": "green"}]
+tellraw @a [{"translate": "Successfully loaded ","color": "gray"},{"translate": "Vanilla Refresh v1.4.24e","color": "green"}]
 
 ### Pack Installed
 
@@ -242,7 +242,7 @@ scoreboard players set num_16666 refresh_constants 16666
 
 
 
-schedule function vanilla_refresh:other/clock/2400tick 2400t
+schedule function vanilla_refresh:other/clock/2min 2400t
 
 schedule function vanilla_refresh:other/clock/20tick 20t
 

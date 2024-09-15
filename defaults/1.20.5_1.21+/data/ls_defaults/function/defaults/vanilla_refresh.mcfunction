@@ -205,6 +205,7 @@ scoreboard players set gamerules refresh_settings 1
 scoreboard players set stats refresh_settings 1
 
 #whether these should display belowname or not
+#if multiple are enabled, they will cycle between each other every 2 seconds
 scoreboard players set stats_time refresh_settings 0
 scoreboard players set stats_mobkills refresh_settings 0
 scoreboard players set stats_kills refresh_settings 0
@@ -232,6 +233,9 @@ scoreboard players set anim_water refresh_settings 1
 scoreboard players set anim_teleport refresh_settings 1
 
 #player head drops
+  # 0 = disabled
+  # 1 = enabled; all death causes
+  # 2 = enabled; only if death cause is another player
 scoreboard players set playerheads refresh_settings 1
 
 

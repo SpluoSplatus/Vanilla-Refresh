@@ -49,10 +49,8 @@ execute if score death_stop_music refresh_settings matches 1 run stopsound @s mu
 execute at @s if score gravestone refresh_settings matches 1 align yzx positioned ~.5 ~ ~.5 unless score soul refresh_settings matches 2 run function vanilla_refresh:death/grave/find_ground_1
 execute at @s if score gravestone refresh_settings matches 1 align yzx positioned ~.5 ~ ~.5 if score soul refresh_settings matches 2 positioned ^ ^ ^-2 run function vanilla_refresh:death/grave/find_ground_1
 
-#head
-execute if score playerheads refresh_settings matches 1 run loot spawn ~ ~1.62 ~ loot vanilla_refresh:drop/player_head
-execute if score playerheads refresh_settings matches 1 positioned ~ ~1.62 ~ as @e[distance=..1,type=item,nbt={Item:{id:"minecraft:player_head"}}] run data modify entity @s Age set value -32768s
-execute if score playerheads refresh_settings matches 1 positioned ~ ~1.62 ~ as @e[distance=..1,type=item,nbt={Item:{id:"minecraft:player_head"}}] run data modify entity @s Invulnerable set value 1b
+#player head drops
+execute if score playerheads refresh_settings matches 1..2 run function vanilla_refresh:death/head_drop
 
 execute store result score @s refresh_player_dx run data get entity @s LastDeathLocation.pos[0]
 execute store result score @s refresh_player_dy run data get entity @s LastDeathLocation.pos[1]
@@ -66,6 +64,9 @@ scoreboard players set @s refresh_player_d_minutes 0
 
 #lingering death drops
 execute if score death_items refresh_settings matches 1 run function vanilla_refresh:death/item/death_drop
+
+
+advancement revoke @s only vanilla_refresh:player/death_player
 
 
 advancement revoke @s only vanilla_refresh:death/arrow

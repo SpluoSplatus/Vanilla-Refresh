@@ -15,7 +15,7 @@ data modify entity @s Silent set value 0b
 data modify entity @s[tag=!refresh_nbt_PersistenceRequired] PersistenceRequired set value 0b
 
 loot spawn ~ ~ ~ loot vanilla_refresh:drop/echo_shard
-tag @n[type=item,nbt={Item:{id:"minecraft:echo_shard"}}] add refresh_entity_silencer_item
+tag @n[type=item,nbt={Item:{id:"minecraft:echo_shard"}},distance=..3] add refresh_entity_silencer_item
 
 
 tag @s remove refresh_entity_silenced

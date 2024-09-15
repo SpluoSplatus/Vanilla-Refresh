@@ -17,6 +17,6 @@ execute if predicate vanilla_refresh:chance/10_percent at @s run tp @s ~ ~ ~.1
 execute if predicate vanilla_refresh:chance/10_percent at @s run tp @s ~ ~.1 ~
 execute if predicate vanilla_refresh:chance/10_percent at @s run tp @s ~ ~-.1 ~
 
-execute if score @s refresh_count matches 15.. if block ~ ~ ~ enchanting_table align zyx positioned ~.5 ~1.1 ~.5 run function vanilla_refresh:block/block_anims/enchanting_table/swirly_hit
+execute if score @s refresh_count matches 15.. if block ~ ~ ~ #vanilla_refresh:enchanting_table align zyx positioned ~.5 ~1.1 ~.5 run function vanilla_refresh:block/block_anims/enchanting_table/swirly_hit
 
 execute if score @s refresh_count matches 70.. run kill @s

@@ -22,9 +22,13 @@ execute if score @s refresh_daycounter2 matches 1050 run title @s actionbar [{"t
 
 execute if score @s refresh_daycounter2 matches 1055 run title @s actionbar [{"text": "——","color": "yellow","bold": true},{"translate": " DAY "},{"score":{"name":"day","objective": "refresh_daycounter"}},{"translate": " ——"}]
 
-execute if score @s refresh_daycounter2 matches 1060 run title @s actionbar [{"text": "——","color": "#fffcbf","bold": true},{"translate": " DAY "},{"score":{"name":"day","objective": "refresh_daycounter"}},{"translate": " ——"}]
+execute if score @s refresh_daycounter2 matches 1060 run title @s actionbar [{"text": "——","color": "#ffff9e","bold": true},{"translate": " DAY "},{"score":{"name":"day","objective": "refresh_daycounter"}},{"translate": " ——"}]
 
-execute if score @s refresh_daycounter2 matches 1065..1140 run title @s actionbar [{"text": "——","color": "yellow","bold": true},{"translate": " DAY "},{"score":{"name":"day","objective": "refresh_daycounter"}},{"translate": " ——"}]
+execute if score @s refresh_daycounter2 matches 1065 run title @s actionbar [{"text": "——","color": "yellow","bold": true},{"translate": " DAY "},{"score":{"name":"day","objective": "refresh_daycounter"}},{"translate": " ——"}]
+
+execute if score @s refresh_daycounter2 matches 1070 run title @s actionbar [{"text": "——","color": "#ffff80","bold": true},{"translate": " DAY "},{"score":{"name":"day","objective": "refresh_daycounter"}},{"translate": " ——"}]
+
+execute if score @s refresh_daycounter2 matches 1075..1140 run title @s actionbar [{"text": "——","color": "yellow","bold": true},{"translate": " DAY "},{"score":{"name":"day","objective": "refresh_daycounter"}},{"translate": " ——"}]
 
 
 execute if score @s refresh_daycounter2 matches 1050 run playsound minecraft:ui.button.click master @s ~ ~ ~ .4 2

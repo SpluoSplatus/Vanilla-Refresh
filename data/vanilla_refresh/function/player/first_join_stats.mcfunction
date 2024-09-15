@@ -40,9 +40,12 @@ scoreboard players add @s refresh_player_d_seconds 0
 
 scoreboard players add @s refresh_player_level 0
 
-scoreboard players set @s refresh_maxhealth 20
+execute store result score @s refresh_maxhealth run data get entity @s attributes[{id:"minecraft:generic.max_health"}].base
+execute unless score @s refresh_maxhealth matches 1.. run scoreboard players set @s refresh_maxhealth 20
 
-execute as @s store result score @s refresh_uuid1 run data get entity @s UUID[0]
-execute as @s store result score @s refresh_uuid2 run data get entity @s UUID[1]
-execute as @s store result score @s refresh_uuid3 run data get entity @s UUID[2]
-execute as @s store result score @s refresh_uuid4 run data get entity @s UUID[3]
+
+
+execute store result score @s refresh_uuid1 run data get entity @s UUID[0]
+execute store result score @s refresh_uuid2 run data get entity @s UUID[1]
+execute store result score @s refresh_uuid3 run data get entity @s UUID[2]
+execute store result score @s refresh_uuid4 run data get entity @s UUID[3]

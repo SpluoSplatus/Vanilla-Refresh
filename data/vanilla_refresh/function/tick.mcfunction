@@ -67,7 +67,7 @@ function vanilla_refresh:other_features/day_counter/root
 #clock ---
 execute if score clock refresh_settings matches 1.. run function vanilla_refresh:block/clock/root
 
-# enchant swirly
+# refresh particles
 execute as @e[type=marker,tag=refresh_particle] at @s run function vanilla_refresh:other/particle/main
 
 
@@ -126,8 +126,6 @@ execute if score homingxp refresh_settings matches 1 as @e[type=experience_orb,t
 
 
 
-#i love echo shards they are so delightfully useful definetly
-execute if score echo refresh_settings matches 1 as @e[type=!#vanilla_refresh:misc,tag=refresh_entity_silenced] at @s if entity @p[distance=..32] run function vanilla_refresh:block/echo/silenced
 
 #anvil
 execute if score anvil refresh_settings matches 1 as @e[type=falling_block] at @s if entity @p[distance=..64] as @s[predicate=vanilla_refresh:nbt/falling_anvil] run function vanilla_refresh:block/anvil/entity
@@ -153,7 +151,6 @@ execute as @a[predicate=vanilla_refresh:condition/sneaking] run tag @s add refre
 execute as @a[predicate=!vanilla_refresh:condition/sneaking] run tag @s remove refresh_player_sneaking
 execute if score second refresh_clock matches 1 run scoreboard players reset @a refresh_player_sneakcount
 
-execute as @a store result score @s refresh_player_facing run data get entity @s Rotation[1]
 scoreboard players set @a refresh_player_deaths2 0
 
 
