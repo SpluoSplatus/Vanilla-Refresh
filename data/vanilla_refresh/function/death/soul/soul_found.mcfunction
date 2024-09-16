@@ -38,22 +38,23 @@ execute as @s[tag=refresh_entity_playersoul_hasitems] if score @s refresh_count 
 execute as @s[tag=refresh_entity_playersoul_hasitems] if score @s refresh_count matches 101 run data remove entity @s data.Inventory
 
 #returns your experience levels 
-
 #if the player grabs the soul and has xp
+
+#logs:
 execute if score @s refresh_count matches 100 run tellraw @a[tag=refresh_debug] {"translate":"[Vanilla Refresh: Soul Link XP Log]","color": "gray","italic": true}
+execute if score @s refresh_count matches 100 run tellraw @a[tag=refresh_debug] [{"translate":"    Soul Link Owner: ","color": "gray","italic": true},{"nbt":"CustomName","entity":"@s"}]
 execute if score @s refresh_count matches 100 run tellraw @a[tag=refresh_debug] [{"translate":"    Soul Link Level: ","color": "gray","italic": true},{"nbt":"data.XP","entity":"@s"}]
+
+#get soul link XP and drop back
+execute if score @s refresh_count matches 100 store result score temp_XP refresh_count run data get entity @s data.XP
+execute if score @s refresh_count matches 100 if score temp_XP refresh_count matches 1.. run function vanilla_refresh:death/soul/xp_if_has
+
+#log: player level log
 execute if score @s refresh_count matches 100 store result score temp_XP_player refresh_count run data get entity @p XpLevel
-execute if score @s refresh_count matches 100 if score temp_XP_player refresh_count matches 1.. run function vanilla_refresh:death/soul/xp_if_has
+execute if score @s refresh_count matches 100 run tellraw @a[tag=refresh_debug] [{"translate":"    Player Level: ","color": "gray","italic": true},{"score":{"name": "temp_XP_player","objective": "refresh_count"}}]
 
-#returns souls levels
-execute if score @s refresh_count matches 100 store result score temp_XP refresh_count run data get entity @s data.XP 1
-execute if score @s refresh_count matches 100 run scoreboard players operation temp_XP refresh_count *= soul_percentxp refresh_settings
-execute if score @s refresh_count matches 100 run scoreboard players operation temp_XP refresh_count /= 100 refresh_constants
-execute if score @s refresh_count matches 100 if score temp_XP refresh_count matches 1.. run function vanilla_refresh:death/soul/xp
-execute if score @s refresh_count matches 100 run scoreboard players reset temp_XP refresh_count
-execute if score @s refresh_count matches 100 run scoreboard players reset temp_XPadded refresh_count
-
-execute if score @s refresh_count matches 100 run tellraw @a[tag=refresh_debug] [{"translate":"    New Player Level: ","color": "gray","italic": true},{"nbt":"XpLevel","entity":"@p"}]
+#log: player new level log
+execute if score @s refresh_count matches 105 run tellraw @a[tag=refresh_debug] [{"translate":"    New Player Level: ","color": "gray","italic": true},{"nbt":"XpLevel","entity":"@p"}]
 
 
 

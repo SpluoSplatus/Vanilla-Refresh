@@ -46,8 +46,8 @@ execute if score death_stop_music refresh_settings matches 1 run stopsound @s mu
 #
 
 #gravestone
-execute at @s if score gravestone refresh_settings matches 1 align yzx positioned ~.5 ~ ~.5 unless score soul refresh_settings matches 2 run function vanilla_refresh:death/grave/find_ground_1
-execute at @s if score gravestone refresh_settings matches 1 align yzx positioned ~.5 ~ ~.5 if score soul refresh_settings matches 2 positioned ^ ^ ^-2 run function vanilla_refresh:death/grave/find_ground_1
+execute at @s if score gravestone refresh_settings matches 1 align yzx positioned ~.5 ~ ~.5 unless score soul refresh_settings matches 1..2 run function vanilla_refresh:death/grave/find_ground_1
+execute at @s if score gravestone refresh_settings matches 1 align yzx positioned ~.5 ~ ~.5 if score soul refresh_settings matches 1..2 positioned ^ ^ ^-2 run function vanilla_refresh:death/grave/find_ground_1
 
 #player head drops
 execute if score playerheads refresh_settings matches 1..2 run function vanilla_refresh:death/head_drop
