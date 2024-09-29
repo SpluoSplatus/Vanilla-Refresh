@@ -155,6 +155,8 @@ execute if score craftsound refresh_settings matches 1 if entity @s[advancements
 
 advancement revoke @s only vanilla_refresh:player/killed_mob
 
+execute if score 5tick refresh_clock matches 1 run advancement revoke @s through vanilla_refresh:player/fall_high
+
 advancement revoke @s through vanilla_refresh:player/enchanted_item
 
 

@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+            "player": [
+                {
+                    "condition": "reference",
+                    "name": "vanilla_refresh:condition/fall_4_blocks"
+                }
+            ]
+        }
+        }
+      },
+      "parent": "vanilla_refresh:player/killed_mob"
+    }
+  

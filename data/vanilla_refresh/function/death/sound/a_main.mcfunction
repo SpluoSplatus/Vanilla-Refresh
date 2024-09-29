@@ -29,6 +29,13 @@ execute positioned ~ ~1.5 ~ unless block ~ ~ ~ #vanilla_refresh:permeable at @a 
 execute as @s[predicate=vanilla_refresh:position/overworld] as @s[predicate=vanilla_refresh:position/y-64] at @a run function vanilla_refresh:death/sound/void
 execute as @s[predicate=!vanilla_refresh:position/overworld] as @s[predicate=vanilla_refresh:position/y1] at @a run function vanilla_refresh:death/sound/void
 
+
+#fall height
+execute if entity @s[advancements={vanilla_refresh:player/fall_high=true}] at @a run function vanilla_refresh:death/sound/fall
+
+
+
+#generic
 execute as @s[tag=!refresh_temp16] at @a[distance=12..] run function vanilla_refresh:death/sound/generic
 
 tag @s remove refresh_temp16

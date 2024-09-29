@@ -4,7 +4,7 @@ playsound minecraft:item.crossbow.shoot hostile @a ~ ~ ~ 1 1.2
 particle minecraft:smoke ~ ~1 ~ 0 0 0 0.15 4 normal
 
 
-execute at @s anchored eyes run summon arrow ^ ^-.1 ^.5 {Tags:["boss.bandit.arrow"],CustomName:'{"translate":"relativeproj"}'}
+execute at @s anchored eyes positioned ^ ^ ^ run summon arrow ^ ^-.1 ^.5 {Tags:["boss.bandit.arrow"],CustomName:'{"translate":"relativeproj"}'}
 
 
 #LOOK AT PLAYER

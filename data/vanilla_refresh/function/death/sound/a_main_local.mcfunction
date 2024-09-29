@@ -25,6 +25,12 @@ execute if block ~ ~ ~ #vanilla_refresh:water run function vanilla_refresh:death
 execute if block ~ ~-0.001 ~ magma_block run function vanilla_refresh:death/sound/fire
 execute positioned ~ ~1.5 ~ unless block ~ ~ ~ #vanilla_refresh:permeable run function vanilla_refresh:death/sound/wall
 
+
+
+#fall height big
+execute if entity @s[advancements={vanilla_refresh:player/fall_super_high=true}] run function vanilla_refresh:death/sound/fall_big_local
+
+
 #void
 execute as @s[predicate=vanilla_refresh:position/overworld] as @s[predicate=vanilla_refresh:position/y-64] run function vanilla_refresh:death/sound/void
 execute as @s[predicate=!vanilla_refresh:position/overworld] as @s[predicate=vanilla_refresh:position/y1] run function vanilla_refresh:death/sound/void

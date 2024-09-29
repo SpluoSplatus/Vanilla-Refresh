@@ -47,7 +47,7 @@ execute if entity @s[advancements={vanilla_refresh:craft/specific/ender_eye=true
 #particle animation
 #only if at crafting table
 scoreboard players set temp refresh_storage 0
-execute anchored eyes run function vanilla_refresh:block/craft_sound/raycast
+execute anchored eyes positioned ^ ^ ^ run function vanilla_refresh:block/craft_sound/raycast
 
 
 #################
