@@ -18,5 +18,3 @@ execute if score clock refresh_settings matches 2 if score daytime_min refresh_d
 execute if score clock refresh_settings matches 2 if score daytime_min refresh_daycounter matches 10..60 run title @s[tag=!1_splatus_actionbar_disabled,tag=!1_splatus_actionbar_disabled2] actionbar [{"translate": "","color": "yellow"},{"translate":"Clock","color": "gold"},{"translate": " - ","color": "gray"},{"translate": "Day: "},{"score":{"name": "day","objective": "refresh_daycounter"}},{"translate": " - ","color": "gray"},{"translate": "Time: "},{"score":{"name": "daytime_hour","objective": "refresh_daycounter"}},{"translate": ":"},{"score":{"name": "daytime_min","objective": "refresh_daycounter"}}]
 
 
-
-scoreboard players set clock_active refresh_storage 1
