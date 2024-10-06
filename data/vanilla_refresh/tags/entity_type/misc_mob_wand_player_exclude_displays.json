@@ -2,8 +2,9 @@
   "replace": false,
   "values": [
 
+    
     {"id":"minecraft:player","required": false},
-    {"id":"#vanilla_refresh:misc","required": false}
+    {"id":"#vanilla_refresh:misc_exclude_displays","required": false}
 
     
   ]

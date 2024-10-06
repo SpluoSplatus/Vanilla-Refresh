@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+   
+    {"id":"#vanilla_refresh:permeable","required": false},
+   
+    {"id":"minecraft:barrier","required": false}
+    
+   
+
+
+    
+
+
+
+  
+
+
+    
+  ]
+}

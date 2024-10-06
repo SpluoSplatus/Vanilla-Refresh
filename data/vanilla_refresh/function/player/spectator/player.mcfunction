@@ -4,6 +4,9 @@
 
 tp @s @r[gamemode=!spectator,distance=8..]
 
+execute at @s run tp @s ^ ^ ^-1
+execute at @s run tp @s ~ ~ ~ facing entity @n[gamemode=!spectator,distance=..8]
+
 execute at @s run playsound block.beacon.activate player @s ~ ~ ~ 100 1
 
 tellraw @s [{"translate": ""}]

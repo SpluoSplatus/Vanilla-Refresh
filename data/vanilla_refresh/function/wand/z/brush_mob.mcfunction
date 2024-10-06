@@ -6,7 +6,7 @@ tag @s add refresh_usingbrush_mob
 scoreboard players add temp refresh_count 1
 
 
-execute as @n[distance=..2,type=!#vanilla_refresh:misc_brush] at @s run function vanilla_refresh:wand/z/brush_mob_poof
+execute as @n[distance=..2,type=!#vanilla_refresh:misc_mob_wand_player] at @s run function vanilla_refresh:wand/z/brush_mob_poof
 
 
 execute positioned ^ ^ ^1 if block ^ ^ ^ #vanilla_refresh:permeable unless score temp refresh_count matches 128.. run function vanilla_refresh:wand/z/brush_mob

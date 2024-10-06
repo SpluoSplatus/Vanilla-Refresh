@@ -18,7 +18,7 @@ scoreboard players operation @s refresh_health += @s refresh_health_absorption
 #display text below
 
 #player
-execute as @s[type=player] run title @p[tag=refresh_temp792_player] actionbar [{"translate":"","color": "yellow"},{"selector":"@n[tag=refresh_temp792_mob]","color": "green"},{"translate": " - ","color": "gray"},{"translate": "❤ ","color":"yellow"},{"score":{"name": "@n[tag=refresh_temp792_mob]","objective": "refresh_player_health"}},{"translate": "/","color": "#bababa"},{"score":{"name": "@n[tag=refresh_temp792_mob]","objective": "refresh_maxhealth"},"color": "#bababa"}]
+execute as @s[type=player] run title @p[tag=refresh_temp792_player] actionbar [{"translate":"","color": "yellow"},{"selector":"@n[tag=refresh_temp792_mob]","color": "#4affc9"},{"translate": " - ","color": "gray"},{"translate": "❤ ","color":"yellow"},{"score":{"name": "@n[tag=refresh_temp792_mob]","objective": "refresh_player_health"}},{"translate": "/","color": "#bababa"},{"score":{"name": "@n[tag=refresh_temp792_mob]","objective": "refresh_maxhealth"},"color": "#bababa"}]
 
 #dragon
 #execute if data entity @s[type=ender_dragon] DragonPhase run title @p[tag=refresh_temp792_player] actionbar [{"translate":"","color": "yellow"},{"selector":"@n[type=ender_dragon]","color": "green"},{"translate": " - ","color": "gray"},{"translate": "❤ ","color":"yellow"},{"score":{"name": "@n[type=ender_dragon]","objective": "refresh_health"}},{"translate": "/","color": "#bababa"},{"score":{"name": "@n[type=ender_dragon]","objective": "refresh_maxhealth"},"color": "#bababa"}]

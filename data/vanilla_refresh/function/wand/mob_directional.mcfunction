@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick[custom_name='{"color":"light_purple","italic":false,"translate":"Directional Reposition (+0.25)"}',lore=['{"color":"#676E75","italic":true,"translate":"Vanilla Refresh"}'],custom_model_data=751007,custom_data={VanillaRefreshItem:1b,VanillaRefreshTool:1b,VanillaRefreshToolPosition:2b}] 1

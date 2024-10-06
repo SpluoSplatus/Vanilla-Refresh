@@ -20,12 +20,10 @@ execute if score healthsound refresh_settings matches 1 if entity @s[scores={ref
     #get rotation[1] every 2 ticks
     execute if score sitting refresh_settings matches 1 if score 2tick refresh_clock matches 1 if entity @s[predicate=vanilla_refresh:condition/sneaking] store result score @s refresh_player_facing run data get entity @s Rotation[1]
 
-    execute if score sitting refresh_settings matches 1 if entity @s[scores={refresh_player_facing=90},predicate=vanilla_refresh:condition/sneaking] run function vanilla_refresh:player/sit/sit
+    execute if score sitting refresh_settings matches 1 if entity @s[scores={refresh_player_facing=88..90},predicate=vanilla_refresh:condition/sneaking] run function vanilla_refresh:player/sit/sit
     execute if score sitting refresh_settings matches 1 if entity @s[predicate=!vanilla_refresh:condition/sneaking] run scoreboard players reset @s refresh_player_sit
 
 
-
-#execute if entity @s[scores={refresh_carrot=1..},predicate=vanilla_refresh:holding/wand] run function vanilla_refresh:wand/z/any_fail
 
 
 execute if score 2min refresh_clock matches 1 run function vanilla_refresh:player/set_player_max_health

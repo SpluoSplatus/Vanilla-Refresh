@@ -1,5 +1,5 @@
 
-tellraw @a [{"translate": "Successfully loaded ","color": "gray"},{"translate": "Vanilla Refresh v1.4.24g","color": "green"}]
+tellraw @a [{"translate": "Successfully loaded ","color": "gray"},{"translate": "Vanilla Refresh v1.4.24i","color": "green"}]
 
 ### Pack Installed
 

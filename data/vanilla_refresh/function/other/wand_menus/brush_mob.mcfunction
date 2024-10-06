@@ -17,17 +17,29 @@ tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Mob Remover (16 Bl
 
 tellraw @s [{"text": " "}]
 
-tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Summon Zombie Brush","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Give"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:wand/brush_zombie"}},{"text":"        "},{"translate":"Rotation Align to Player","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Give"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:wand/mob_facer"}},{"text":"     "}]
+tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Summon Zombie Brush","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Give"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:wand/brush_zombie"}},{"text":"        "},{"translate":"Rotation Align to Self","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Give"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:wand/mob_facer"}},{"text":"     "}]
 
 
 tellraw @s [{"text": " "}]
 
 
-tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Show Entities","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Open"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:wand/show_64"}},{"text":"                   "},{"translate":"Vertical Reposition","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Give"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:wand/mob_elevate"}}]
+tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Show Entities","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Open"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:wand/show_64"}},{"text":"                   "},{"translate":"Vertically Reposition","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Give"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:wand/mob_elevate"}}]
+
+
+
+tellraw @s [{"text": " "}]
+
+
+tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Directional Reposition","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Open"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:wand/mob_directional"}},{"text":"        "},{"translate":"Rotate","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Give"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:wand/mob_rotate"}}]
 
 
 
 
+tellraw @s [{"text": " "}]
+
+
+
+tellraw @s [{"translate": "  ","color": "gray"},{"translate":"Reset Rotation","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Open"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:wand/mob_rotate_reset"}}]
 
 
 
