@@ -182,8 +182,6 @@ execute if score cyclestats_health refresh_settings matches 2 run scoreboard obj
 
 
 #belowname display color
-execute unless score stats_below_name_color refresh_settings matches -2147483648.. run data modify storage vanilla_refresh:storage below_name_display_color set value "yellow"
-execute unless score stats_below_name_color refresh_settings matches -2147483648.. run scoreboard players set stats_below_name_color refresh_settings 1
 function vanilla_refresh:other/set_belowname_colors with storage vanilla_refresh:storage
 
 
