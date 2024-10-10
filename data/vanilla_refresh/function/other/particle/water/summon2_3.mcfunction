@@ -5,6 +5,8 @@ particle explosion ~ ~ ~ 0 0 0 0 1 force @a[distance=..256]
 particle explosion ~ ~1 ~ 1 1 1 0 5 force @a[distance=..256] 
 
 
+particle minecraft:bubble_column_up ~ ~-2 ~ 1.5 1.5 1.5 0.1 40 force @a[distance=..32]
+
 particle poof ~ ~ ~ 1 .5 1 0.1 10 force @a[distance=..128]
 
 particle minecraft:splash ~ ~ ~ .8 .3 .8 0 100 force @a[distance=..64]

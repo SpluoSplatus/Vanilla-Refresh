@@ -12,7 +12,7 @@ scoreboard players operation @s refresh_player_deathaverage /= @s refresh_player
 scoreboard players operation @s refresh_player_deathaverage_decimal /= @s refresh_player_hours
 
 
-    #score!! (unrelated to the math stuff)
+    #death score!! (unrelated to the math stuff above, this is for the displaying of it as a non integer)
     execute store result score @s refresh_player_death_score run scoreboard players get @s refresh_player_deathaverage_decimal
     scoreboard players operation @s refresh_player_death_score /= 10 refresh_constants
 

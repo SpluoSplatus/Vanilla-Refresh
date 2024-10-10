@@ -173,6 +173,24 @@ execute unless score stats_health refresh_settings matches -2147483648.. run sco
 execute if score stats_health refresh_settings matches 1 run scoreboard objectives setdisplay below_name refresh_player_health
 
 
+# ######################################
+
+execute if score cyclestats_health refresh_settings matches 1 run scoreboard objectives modify refresh_player_health displayname {"translate":"❤"}
+execute if score cyclestats_health refresh_settings matches 2 run scoreboard objectives modify refresh_player_health displayname {"translate":"Health"}
+
+# ######################################
+
+
+#belowname display color
+execute unless score stats_below_name_color refresh_settings matches -2147483648.. run data modify storage vanilla_refresh:storage below_name_display_color set value "yellow"
+execute unless score stats_below_name_color refresh_settings matches -2147483648.. run scoreboard players set stats_below_name_color refresh_settings 1
+function vanilla_refresh:other/set_belowname_colors with storage vanilla_refresh:storage
+
+
+# ######################################
+
+
+
 execute unless score stats_memberjoin refresh_settings matches -2147483648.. run scoreboard players set stats_memberjoin refresh_settings 1
 
 execute unless score stats_health refresh_settings matches -2147483648.. run scoreboard players set stats_health refresh_settings 1
@@ -212,11 +230,6 @@ execute unless score craftsound refresh_settings matches -2147483648.. run score
 
 
 execute unless score process_stats refresh_settings matches -2147483648.. run scoreboard players set process_stats refresh_settings 1
-
-# ######################################
-
-execute if score cyclestats_health refresh_settings matches 1 run scoreboard objectives modify refresh_player_health displayname {"translate":"❤"}
-execute if score cyclestats_health refresh_settings matches 2 run scoreboard objectives modify refresh_player_health displayname {"translate":"Health"}
 
 
 #modified defaults

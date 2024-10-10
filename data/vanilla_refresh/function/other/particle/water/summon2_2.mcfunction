@@ -1,6 +1,10 @@
 
 title @s[tag=refresh_debug] actionbar {"translate":"Refresh Debug - Wave 2, Height 18"}
 
+
+particle minecraft:bubble_column_up ~ ~-1.5 ~ .3 1.5 .3 0.2 20 force @a[distance=..32]
+particle minecraft:bubble_column_up ~ ~-2 ~ 1 1.1 1 0.1 20 force @a[distance=..32]
+
 particle explosion ~ ~ ~ 0 0 0 0 1 force @a[distance=..256] 
 
 particle explosion_emitter ~ ~-3 ~ 0 0 0 0 1 force @a[distance=..256] 

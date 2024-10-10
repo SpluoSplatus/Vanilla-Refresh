@@ -1,5 +1,5 @@
 
-tellraw @a [{"translate": "Successfully loaded ","color": "gray"},{"translate": "Vanilla Refresh v1.4.24i","color": "green"}]
+tellraw @a [{"translate": "Successfully loaded ","color": "gray"},{"translate": "Vanilla Refresh v1.4.24j","color": "green"}]
 
 ### Pack Installed
 
@@ -166,12 +166,14 @@ scoreboard objectives add refresh_carrot minecraft.used:carrot_on_a_stick
 
 scoreboard objectives modify refresh_health displayname {"translate":"Health"}
 
+scoreboard objectives modify refresh_player_health displayname "❤"
+
 scoreboard objectives modify refresh_player_hours displayname {"translate":"Hours"}
 scoreboard objectives modify refresh_player_mobkills displayname {"translate":"Mob Kills"}
 scoreboard objectives modify refresh_player_kills displayname {"translate":"Player Kills"}
 scoreboard objectives modify refresh_player_deaths displayname {"translate":"Deaths"}
 scoreboard objectives modify refresh_player_d_hours displayname {"translate":"Hours Survived"}
-scoreboard objectives modify refresh_player_level displayname {"translate":"XP Level"}
+scoreboard objectives modify refresh_player_level displayname {"translate":"XP"}
 scoreboard objectives modify refresh_memberID displayname {"translate":"Member ID"}
 scoreboard objectives modify refresh_player_death_score displayname {"translate":"Death Score"}
 
@@ -220,6 +222,8 @@ scoreboard players set 7 refresh_constants 7
 scoreboard players set 8 refresh_constants 8
 
 
+scoreboard players set -1 refresh_constants -1
+
 scoreboard players set 12 refresh_constants 12
 
 scoreboard players set 24 refresh_constants 24
@@ -227,9 +231,12 @@ scoreboard players set 24 refresh_constants 24
 
 scoreboard players set 10 refresh_constants 10
 
+scoreboard players set -10 refresh_constants -10
+
 
 scoreboard players set 100 refresh_constants 100
 
+scoreboard players set 1000 refresh_constants 1000
 
 scoreboard players set num_100 refresh_constants 100
 scoreboard players set num_1000 refresh_constants 1000
