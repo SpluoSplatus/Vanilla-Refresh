@@ -1,8 +1,9 @@
 
 #sparkle stuff
-scoreboard players add @s refresh_item_sparkle 1
+execute unless score @s refresh_item_sparkle matches 8.. run scoreboard players add @s refresh_item_sparkle 1
 
 
-execute if score @s refresh_item_sparkle matches 40..139 if predicate vanilla_refresh:chance/5_percent run scoreboard players set @s refresh_item_sparkle 140
 
-execute if score @s refresh_item_sparkle matches 140.. run scoreboard players set @s refresh_item_sparkle 40
+
+execute if score @s refresh_item_sparkle matches 8.. if predicate vanilla_refresh:chance/15_percent run particle electric_spark ~ ~.45 ~ .2 .2 .2 0 1 normal
+

@@ -2,10 +2,9 @@
 execute store result score temp_rotation refresh_storage run data get entity @s Rotation[0]
 execute store result score temp_rotation2 refresh_storage run data get entity @s Rotation[1]
 
-tag @s add refresh_temp_usingwand
 
 #raycast
-function vanilla_refresh:wand/z/mob_directional
+function vanilla_refresh:wand/z/mob_directional with storage vanilla_refresh:storage
 
 
 scoreboard players reset temp_rotation refresh_storage

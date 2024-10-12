@@ -1,0 +1,6 @@
+{
+    "parent": "item/carrot_on_a_stick",
+    "textures": {
+        "layer0": "vanilla_refresh:item/wand"
+    }
+}

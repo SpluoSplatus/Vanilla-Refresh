@@ -1,0 +1,7 @@
+{
+    "parent": "vanilla_refresh:item/wand",
+    "textures": {
+        "layer0": "vanilla_refresh:item/wand",
+        "layer1": "vanilla_refresh:item/wand_icon/freeze"
+    }
+}

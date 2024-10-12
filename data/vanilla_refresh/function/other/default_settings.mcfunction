@@ -230,5 +230,12 @@ execute unless score craftsound refresh_settings matches -2147483648.. run score
 execute unless score process_stats refresh_settings matches -2147483648.. run scoreboard players set process_stats refresh_settings 1
 
 
+
+execute unless score process_stats refresh_settings matches -2147483648.. run scoreboard players set process_stats refresh_settings 1
+
+execute unless score wand_mob_filter refresh_settings matches -2147483648.. run data modify storage vanilla_refresh:storage wand_mob_filter set value "!#vanilla_refresh:misc_entity_wand"
+scoreboard players set wand_mob_filter refresh_settings 1
+
+
 #modified defaults
 function ls_defaults:defaults/vanilla_refresh
