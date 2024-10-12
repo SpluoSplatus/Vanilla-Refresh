@@ -63,13 +63,13 @@
     "Clear Inventory: ❌": "清空物品栏: ❌",
 
     "Open chat (": "打开聊天 (",
-    ") and use your cursor to click UI": ") 并使用光标点击UI",
+    ") and use your cursor to click UI": ") 并使用鼠标点击UI",
 
-    "Select an Item Set  ": "选择一个物品集  ",
-    "Selecting an item set will clear your current inventory": "选择一个物品集将会占用你当前的背包",
+    "Select an Item Set  ": "选择一个物品套装  ",
+    "Selecting an item set will clear your current inventory": "选择一个物品套装将会清空你的当前背包",
     "Click to Give": "点击获得",
     "  Build Palletes & Styles": "  样式",
-    "  Armor": "  装备",
+    "  Armor": "  盔甲",
     "  Blocks": "  方块",
     
     "Select a Wand  ": "选择一个法杖  ",
@@ -111,9 +111,9 @@
     ", South": ", 南",
     ", West": ", 西",
     
-    "Free Float mode activated": "自由浮动模式已激活",
+    "Free Float mode activated": "自由漂浮模式已激活",
     "Hold ": "按住 ",
-    " to hover down. - Time Left: ": " 以悬停下降 - 剩余时间: ",
+    " to hover down. - Time Left: ": " 以缓缓下降 - 剩余时间: ",
     
     "'s Soul": "的灵魂",
     "Soul": "灵魂",
@@ -129,7 +129,7 @@
     " deaths": " 死亡次数",
     
     "Select a Gamerule Category ": "选择一个游戏规则类别 ",
-    "ⓘ Value Info": "ⓘ 值信息",
+    "ⓘ Value Info": "ⓘ 选项信息",
     "0 = Gamerule/setting is disabled\\n1 = Gamerule/setting is enabled\\n\\nOther values mean the setting has more options than just enabled and disabled. (Next to the value, it'll describe what option is set)": "0 = 游戏规则/设置已禁用\\n1 = 游戏规则/设置已启用\\n\\n其他值表示设置有更多选项，而不仅仅是启用和禁用。 (值旁边将描述设置了什么选项)",
     
     "Overworld: ": "主世界: ",
@@ -137,7 +137,7 @@
     "The End: ": "末地: ",
     "Other Dimensions: ": "其他维度: ",
     "Players: ": "玩家: ",
-    "Operators: ": "操作员: ",
+    "Operators: ": "管理员: ",
     "Creative Mode: ": "创造模式: ",
     "Spectators: ": "旁观者: ",
     
@@ -162,7 +162,7 @@
     "\\n\\nYou can make your stats private from non-operator players by disabling this setting.": "\\n\\n您可以通过禁用此设置来使您的统计数据对非操作员玩家保密。",
     
     "That player is offline or doesnt exist": "该玩家离线或不存在",
-    "This player has disabled viewing of their stats": "该玩家已禁用查看其统计数据",
+    "This player has disabled viewing of their stats": "该玩家已隐藏其统计数据",
     "This user's stats are privated for non-operators\\n": "该用户的统计数据对非管理员是私密的\\n",
     
     "Player Stats of ": "玩家统计数据为 ",
@@ -182,8 +182,8 @@
     "Click to disable all settings (Useful if you just want Vanilla Refresh's creative mode tools)": "点击以禁用所有设置（如果您只想使用 Vanilla Refresh 的创造模式工具，则非常有用)",
     "Click to insert/copy command": "点击插入/复制命令",
     " << Click to insert command": " << 点击插入命令",
-    "Run the above command and replace ": "运行上述命令并替换 ",
-    " with a player name": " 以玩家名称",
+    "Run the above command and replace ": "运行上述命令并将 ",
+    " with a player name": " 替换为玩家名称",
     "This command works for online and offline players": "此命令适用于在线和离线玩家",
     
     "Removed ": "移除了 ",
@@ -191,7 +191,7 @@
     "No entity was found": "未找到实体",
     ": Removed ": ": 移除了 ",
     " block animation markers]": " 方块动画标记]",
-    " crop XP markers": " 收获经验值标记",
+    " crop XP markers": " 作物经验值标记",
     " night mobs": " 夜间怪物",
     " soul links": " 灵魂链接",
     ": shattered": ": 取消了",
@@ -252,8 +252,8 @@
     
     
     "\\nWelcome to ": "\\n欢迎来到 ",
-    "! You'll be able to configure each feature within Vanilla Refresh to your liking here. Hover over an ": "！在这里，你可以根据喜好配置 Vanilla Refresh 的每个功能。悬停在图标上以获取设置功能的描述。\\n",
-    " icon to get a description of what a setting does.\\n": "图标以获取设置功能的描述。\\n",
+    "! You'll be able to configure each feature within Vanilla Refresh to your liking here. Hover over an ": "！你可以根据个人偏好定制 Vanilla Refresh 的每个功能。悬停在 ",
+    " icon to get a description of what a setting does.\\n": " 图标上以获取设置功能的描述。\\n",
     "Continue\\n": "继续\\n",
     "Click to Proceed to the Settings page": "点击前往设置页面",
     "Information moment": "信息",
@@ -262,8 +262,8 @@
     
     "Enable Keep Inventory & Soul Links": "启用 Keep Inventory (死亡不掉落) 和灵魂链接",
     
-    "Value can't be lower than 0": "值不能低于0",
-    ": Optimized and refreshed all mob health scores for existing and non existing entities": ": 优化并刷新所有现有和不存在实体的怪物生命值评分",
+    "Value can't be lower than 0": "值不能小于 0",
+    ": Optimized and refreshed all mob health scores for existing and non existing entities": ": 优化并刷新所有现有和不存在实体的生命值分数",
     
     "Are you sure you want to disable Stats Tracking?": "你确定要禁用统计数据追踪吗？",
     " When stats are disabled individually, only their display is removed, but they are still tracked incase later its desired to be re-enabled. If you disable this setting, ": "当单独禁用统计数据时，仅移除其显示，但仍然跟踪，以防以后需要重新启用。如果你禁用此设置",
@@ -285,27 +285,27 @@
     "> Confirm and Reset <\\n": "> 确认并重置 <\\n",
     
     
-    "Loaded Soul Links successfully shattered": "成功加载并取消了灵魂链接",
+    "Loaded Soul Links successfully shattered": "加载的灵魂链接已成功取消",
     
     "Are you sure you want to shatter all soul links? Click below to confirm.": "你确定要取消所有灵魂链接吗？点击下方确认。",
     "Click to Confirm and shatter all soul links": "点击确认并取消所有灵魂链接",
     "> Confirm and Shatter Soul Links <\\n": "> 确认并取消灵魂链接 <\\n",
     
     "Tip: - If at any point you'd like to, you can sit down ingame by looking straight down, sneaking and right clicking": "Tip：- 如果你想在任何时候坐下，只需垂直向下看，潜行并点击右键",
-    "Tip: - Dropping an anvil on blocks like Deepslate Tiles, Packed Ice, or Stone Bricks will crush them back into their original forms.": "Tip：- 将铁砧放在深板岩砖、冰砖或石砖上会将其还原为原始形态。",
+    "Tip: - Dropping an anvil on blocks like Deepslate Tiles, Packed Ice, or Stone Bricks will crush them back into their original forms.": "Tip：- 将铁砧砸在深板岩砖、浮冰或石砖上会将其还原为其原始形态。",
     "Tip: - You can use a lever to swap between armor stand poses": "Tip：- 你可以使用拉杆来切换盔甲架的不同姿势",
     "Tip: - You can equip banners on an empty head slot by holding the banner you want to wear and clicking sneak multiple times.": "Tip：- 你可以通过手持你想要佩戴的旗帜并多次点击潜行来装备旗帜在空的头部装备槽位。",
     "Tip: - Dropping an Echo Shard on a mob will silence them. You can unsilence them by placing water on the mob": "Tip：- 向怪物丢弃回声碎片会使其静默。你可以通过在怪物头上放置水来取消静默效果。",
     "Tip: - Curious about what this world's gamerules are set to? You can view their values by using ": "Tip：- 对于这个世界的游戏规则状态感兴趣吗？你可以在聊天框输入",
     " in chat": "以查看游戏规则的值",
-    "Tip: - Creative Mode users have access to Vanilla Refresh creative features. Use ": "Tip：- 创造模式的玩家可以使用 Vanilla Refresh 的创造功能。使用 ",
+    "Tip: - Creative Mode users have access to Vanilla Refresh creative features. Use ": "Tip：- 创造模式的玩家可以使用 Vanilla Refresh 的创造相关功能。使用 ",
     " for helpful tools and ": " 获取实用工具和 ",
     "Wands": "法杖",
     "Item Sets": "物品套装",
     " to quickly give yourself a set of items, like armor": "来快速给自己一套物品，例如盔甲套装",
     
     "Tip: - Holding ladders and pressing sneak on a ladder block allows you extend its length and hang over air blocks": "Tip：- 手持梯子并在一个梯子方块上按住潜行，你可以在空中自由延展梯子的长度",
-    "Tip: - Dropping an Ender Pearl on your Lodestone allows you teleport instantly to it within a 80 block radius": "Tip：- 向磁石上方丢入一个末影珍珠后，你可以在80格内对准其使用末影珍珠以瞬间传送至磁石处",
+    "Tip: - Dropping an Ender Pearl on your Lodestone allows you teleport instantly to it within a 80 block radius": "Tip：- 向磁石上方丢入一个末影珍珠后，你可以在80格内对准该磁石使用末影珍珠以瞬间传送至磁石处",
     "Tip: - View a variety of your player stats ingame by using ": "Tip：- 使用以下指令在游戏内查看一系列你的玩家状态 ",
     "A new player has joined the server! Member #": "一名新玩家加入了服务器! 成员 #",
         
@@ -313,11 +313,11 @@
                 
                         
 "Tip: - Cauldrons with water still work in the Nether without evaporating": "Tip：- 炼药锅在下界中仍然可以装水而不会蒸发",
-"Tip: - Swift Sneak allows you to quickly bridge across areas with the same speed as walking": "Tip：- 灵魂潜行允许你以行走速度进行速叠(搭桥)",
+"Tip: - Swift Sneak allows you to quickly bridge across areas with the same speed as walking": "Tip：- 迅捷潜行使得你可以用等同行走的速度进行速叠(搭桥)",
     "Tip: - This chat message is not from a player": "Tip：- 这条聊天信息并非由玩家发送",
-    "Tip: - You can use Charged Creepers on Wither Skeletons to instantly get their skull": "Tip：- 你可以使用闪电苦力怕来快速获取凋零骷髅头",
+    "Tip: - You can use Charged Creepers on Wither Skeletons to instantly get their skull": "Tip：- 使用闪电苦力怕可以快速获取凋零骷髅头",
     "Tip: - The explosion of beds can be used to mine through netherrack for ancient debris": "Tip：- 床的爆炸可以用来摧毁下界岩挖掘远古残骸",
-    "Tip: - Below the deepslate layer underground you'll find significantly more diamonds": "Tip：- 地下深版岩层下面你会发现更多的钻石",
+    "Tip: - Below the deepslate layer underground you'll find significantly more diamonds": "Tip：- 在深版岩层的下方你会发现更多的钻石",
     "Tip: - Flooded caves contain more exposed ores than ordinary caves, so if you're seeking diamonds, try searching a flooded cave in the Ocean": "Tip：- 含水洞穴比普通洞穴有更多的裸露矿石，如果你想寻找钻石，试试在海洋中寻找含水洞穴",
     "Tip: - Iron isn't typically found on the surface of the world, but mountains generate high amounts of iron ore exposed to air.": "Tip：- 铁通常不会出现在世界表层，但高山会产生大量暴露在空气中的铁矿石",
     "Tip: - The lower a wolf's tail is, the less health it has": "Tip：- 狼尾巴越低，它的生命值越少",
@@ -329,40 +329,40 @@
 
 "Tip: - You can equip a banner on a shield to give your shields awesome designs.": "Tip：- 你可以在盾牌上装备旗帜，以给你的盾牌带来独特的设计",
 
-"Tip: - Setting your FOV to 40 or less makes for great, cinematic base screenshots without FOV warp.": "Tip：- 将你的视野设置为40或更少，可以得到没有视野扭曲的绝佳电影级截图",
+"Tip: - Setting your FOV to 40 or less makes for great, cinematic base screenshots without FOV warp.": "Tip：- 将你的视野设置为40或更小，可以得到没有镜头畸变的绝佳电影级截图",
 
 "Tip: - Golden carrots make a great food source for those who have an abundance of gold and carrots": "Tip：- 金胡萝卜是那些拥有大量金和胡萝卜的人的绝佳食物来源",
 
 "Tip: - Feather Falling IV only has a approximate 2.7% chance of appearing on a enchanting table": "Tip：- 摔落保护IV只有大约2.7%的几率出现在附魔台",
 
-"Tip: - The Silence armor trim has a 1.25% chance of appearing in Ancient City chests": "Tip：- 寂静盔甲纹样在远古城市的宝箱中出现的概率为1.25%",
+"Tip: - The Silence armor trim has a 1.25% chance of appearing in Ancient City chests": "Tip：- 寂静盔甲纹饰在远古城市的宝箱中出现的概率为1.25%",
 
 "Tip: - A Hoe can be used to quickly remove leaves from a tree": "Tip：- 锄头可以用于快速清除树叶",
 
 "Tip: - The Wither is immune to projectiles in its final phase": "Tip：- 在凋零的最终阶段，它免疫投射物伤害",
 
-"Tip: - Using Silk Touch to get nether gold ore and then smelting it into an ingot is more efficent": "Tip：- 使用精准采集获取下界金矿石，然后将其熔炼成锭，效率更高",
+"Tip: - Using Silk Touch to get nether gold ore and then smelting it into an ingot is more efficent": "Tip：- 使用精准采集挖掘下界金矿石，然后将其熔炼成锭，效率更高",
 
-"Tip: - Barrels below solid blocks can still be opened": "Tip：- 在实心方块下方的木桶仍然可以被打开",
+"Tip: - Barrels below solid blocks can still be opened": "Tip：- 在完整方块下方的木桶仍然可以被打开",
 
 "Tip: - Placing a cauldron while its snowing in a biome will fill the cauldron with powdered snow": "Tip：- 在下雪的生物群系中放置一个炼药锅，炼药锅将被装满细雪",
 
-"Tip: - You can create your own mud blocks by pouring a water bottle on a block of dirt": "Tip：- 你可以通过在泥土上倒水瓶来自己制作泥块",
+"Tip: - You can create your own mud blocks by pouring a water bottle on a block of dirt": "Tip：- 你可以通过在泥土上倒水瓶来自己制作泥巴",
 
-"Tip: - Lava can be farmed by placing a lava source block above pointed dripstone, and then placing a cauldron below the dripstone": "Tip：- 通过在滴水石锥上方放置一桶岩浆，然后在其下方放置一个炼药锅，可以实现岩浆自由",
+"Tip: - Lava can be farmed by placing a lava source block above pointed dripstone, and then placing a cauldron below the dripstone": "Tip：- 在滴水石锥上方放置一桶岩浆，然后在其下方放置一个炼药锅，可以实现岩浆自由",
 
 "Tip: - Endermen will attack any endermites they see": "Tip：- 末影人会攻击它们看到的任何末影螨",
 
 "Tip: - If you have too much emeralds, iron etc, you can convert them into blocks to save x9 space in your chests": "Tip：- 如果你有太多的绿宝石、铁等物品，你可以将它们转换为块来节省你的箱子空间",
 
-"Tip: - Fortune III allows you to collect a greater amount of items when mining certain blocks, like ores and crops": "Tip：- 时运 III 允许你在开采某些方块时收集更多的物品，如矿石和作物",
+"Tip: - Fortune III allows you to collect a greater amount of items when mining certain blocks, like ores and crops": "Tip：- 时运 III 允许你在开采某些方块时获得更多的物品，如矿石和作物",
 
-"Tip: - Fighting mobs with axolotls regenerates your health": "Tip：- 与美西螈并肩作战时可以恢复你的生命值",
+"Tip: - Fighting mobs with axolotls regenerates your health": "Tip：- 与美西螈并肩作战时，它可以恢复你的生命值",
 
-"Tip: - Crops dont need to be directly touching water to grow, up to 4 blocks away the crop can still be hydrated": "Tip：- 作物不需要直接接触水源来生长，相距四格作物仍然可以保持湿润" ,
+"Tip: - Crops dont need to be directly touching water to grow, up to 4 blocks away the crop can still be hydrated": "Tip：- 作物不需要直接接触水源来生长，与水源相距远时四格耕地仍然可以保持湿润" ,
 
 "Tip: - Elytras can be repaired using phantom membranes or mending": "Tip：- 使用幻翼膜或经验修补可以用于修复鞘翅",
-"Tip: - Amethyst shards can be used to breed allays": "Tip：- 紫水晶碎片可用于喂养悦灵",
+"Tip: - Amethyst shards can be used to breed allays": "Tip：- 紫水晶碎片可用于复制悦灵",
     
     "Tip: - Wolves scare away and attack skeletons": "Tip：- 狼会吓跑并攻击骷髅",
     
@@ -376,15 +376,15 @@
 
 "Tip: - The rarest ores are deepslate coal and deepslate emerald": "Tip：- 最稀有的矿石是深层煤矿和深层绿宝石矿",
 
-"Tip: - Use a blast furnance to quickly smelt ores": "Tip：- 使用高炉可以快速熔炼矿石",
+"Tip: - Use a blast furnance to quickly smelt ores": "Tip：- 使用高炉快速熔炼矿石",
 
-"Tip: - Use a smoker to quickly smelt food items": "Tip：- 使用烟熏炉可以快速烤熟食物",
+"Tip: - Use a smoker to quickly smelt food items": "Tip：- 使用烟熏炉快速烹饪食物",
 
-"Tip: - Campfires smelt food without using fuel": "Tip：- 篝火可以烤熟食物而不消耗燃料",
+"Tip: - Campfires smelt food without using fuel": "Tip：- 篝火可以不消耗燃料烹饪食物",
 
 "Tip: - Lava buckets can be used as a fuel source in furnaces to smelt tons of items": "Tip：- 岩浆桶可以作为熔炉的燃料熔炼大量物品",
 
-"Tip: - Enderchests can only be mined with a Silk Touch pickaxe": "Tip：- 只有使用精准采集附魔的镐子才能挖掘获得末影箱",
+"Tip: - Enderchests can only be mined with a Silk Touch pickaxe": "Tip：- 末影箱只能用带有精准采集附魔的镐子开采",
 
 "Tip: - Water buckets and a lava pool can be used to make a nether portal without ever needing to mine obsidian": "Tip：- 水桶和岩浆池可用于浇筑下界传送门，无需手动挖掘黑曜石",
     
@@ -392,7 +392,7 @@
 
 "Tip: - You can instantly dry wet sponges by placing them in the Nether": "Tip：- 将湿海绵放置在下界可以立即使其干燥",
 
-"Tip: - In Warm Ocean Ruins, you can sometimes find Sniffer eggs buried in Suspicious Sand. Use a brush on these sand blocks to uncover a potential Sniffer egg.": "Tip：- 在温暖海洋群系的遗迹中，有时可以在可疑的沙子中找到嗅探兽的蛋。对这些沙子使用刷子可以发现嗅探兽的蛋。",
+"Tip: - In Warm Ocean Ruins, you can sometimes find Sniffer eggs buried in Suspicious Sand. Use a brush on these sand blocks to uncover a potential Sniffer egg.": "Tip：- 在温暖海洋遗迹中，有时可以在可疑沙子中找到嗅探兽蛋。使用刷子清理这些沙块，可能会发现嗅探兽蛋。",
 
 "Tip: - Diamond armor can be bought from armorer villagers for as cheap as 1 emerald": "Tip：- 钻石盔甲可以从盔甲匠处以最低1颗绿宝石的价格购买",
 
@@ -404,22 +404,22 @@
      " to view a list of all current players online": "以查看当前在线所有玩家的列表",
 
     "Tip: - Hold ": "Tip：- 按住 ",
-    " to sneak around sculk sensors and avoid being detected": "以避开幽匿感测体并避免被检测到",
+    " to sneak around sculk sensors and avoid being detected": "悄悄绕过幽匿感测体避免被检测到",
 
-    "Tip: - Wool can cancel out vibrations, so placing it or walking over it wont be detected by nearby Sculk Sensors ": "Tip：- 羊毛可以消除声音，因此放置或者在它上方走不会被附近的幽匿感测体检测到",
+    "Tip: - Wool can cancel out vibrations, so placing it or walking over it wont be detected by nearby Sculk Sensors ": "Tip：- 羊毛可以消除声音，因此放置或者在它上方行走不会被附近的幽匿感测体检测到",
 
 
     "Tip: - End portal frames have a 10% chance of generating already filled with an Eye of Ender. ": "Tip：- 每个末地传送门框架有10%的概率自带一个末影之眼。",
 
     "Tip: - Sculk shriekers wont shriek when broken, though their breaking vibration can be delivered to a nearby Sculk Sensor. ": "Tip：- 当幽匿尖啸体被挖掘时不会发出尖啸，但挖掉它的声音会被传递给附近的幽匿感测体。",
 
-    "Tip: - Challenge advancements when completed can earn you some experience points": "Tip：- 一些挑战性的成就在完成时会获得经验值",
+    "Tip: - Challenge advancements when completed can earn you some experience points": "Tip：- 完成挑战成就后可以获得一些经验值",
 
     "Tip: - Coal ore stops generating in the deepslate layer of the world, so make sure you have enough torches before going too deep!": "Tip：- 主世界的深板岩层将不再生成煤矿石，所以在深入之前确保有足够的火把！",
 
     "Tip: - Mobs can only spawn on blocks with a light level of 0": "Tip：- 怪物只能在光照等级为 0 的方块上生成",
 
-    "Tip: - Blazes take damage from snowballs": "Tip：- 烈焰人可以被雪球伤害",
+    "Tip: - Blazes take damage from snowballs": "Tip：- 雪球可以对烈焰人造成伤害",
 
     "Tip: - You can use a water bucket and place it below yourself to negate levitation from a Shulker attack.": "Tip：- 你可以在自己下方放置一桶水，以抵消潜影贝攻击的漂浮效果",
 
@@ -429,13 +429,13 @@
 
     "Tip: - You can sleep during thunderstorms, even if its daytime": "Tip：- 你可以在雷暴期间睡觉，即使是白天",
 
-    "Tip: - Carpet can be placed on a fence, allowing players to jump on it, but not mobs. Helpful for enclosing livestock.": "Tip：- 当地毯放在栅栏上时，玩家可以跳上去，但生物不行，可以用于圈养牲畜",
+    "Tip: - Carpet can be placed on a fence, allowing players to jump on it, but not mobs. Helpful for enclosing livestock.": "Tip：- 地毯可以放置在栅栏上，允许玩家跳上去，但无法让生物跳上去。这对于圈养牲畜非常有用。",
 
     "Tip: - Splash water bottles extinguish fire and burning mobs": "Tip：- 喷溅水瓶可以灭火并熄灭燃烧的生物",
 
     "Tip: - Along with magma blocks and soul sand, you can use doors and torches to regain air underwater": "Tip：- 除了岩浆块和灵魂沙，你还可以使用门和火把在水下恢复空气",
 
-    "Tip: - If you wear a carved pumpkin on your head, endermen wont attack you when looking at them": "Tip：- 如果你头上戴着雕刻南瓜，你看向末影人时他们将不会攻击你",
+    "Tip: - If you wear a carved pumpkin on your head, endermen wont attack you when looking at them": "Tip：- 如果你头上戴着雕刻南瓜，注视末影人时他们将不会攻击你",
 
     "Tip: - Eyes of Ender have a 20% chance of shattering after being thrown": "Tip: - 末影之眼在使用后有20%的几率破碎。",
 
@@ -443,29 +443,29 @@
 
     "Tip: - Mobs won't despawn if they're inside a boat": "Tip: - 如果生物在船内，它们不会自然消失。",
 
-    "Tip: - Netherite tools and armor can't burn in lava": "Tip: - 下界合金的工具和盔甲不会在熔岩中被烧毁。",
+    "Tip: - Netherite tools and armor can't burn in lava": "Tip: - 下界合金的工具和盔甲不会在岩浆中烧毁。",
 
-    "Tip: - If you feed a frog a magma cube, they'll spit it out as a neat Froglight block": "Tip: - 如果你给青蛙喂一个岩浆怪，它们会吐出一个干净的蛙明灯。",
+    "Tip: - If you feed a frog a magma cube, they'll spit it out as a neat Froglight block": "Tip: - 如果你给青蛙喂一个岩浆怪，它会把它吐出来，变成一个干净的蛙明灯。",
 
-    "Tip: - Beacon blocks can share their pyramid base blocks, allowing you to stack beacon effects": "Tip: - 信标能共享它们的金字塔地基方块，可以用于堆叠信标效果。",
+    "Tip: - Beacon blocks can share their pyramid base blocks, allowing you to stack beacon effects": "Tip: - 信标能共享它们的金字塔底座方块，从而允许你叠加信标效果。",
     
     
-    "Tip: - Torches release light up to 14 blocks away, so space your torches 28 blocks away from each other to optimally prevent mobs from spawning": "Tip: - 火把可以照亮最多14个方块远的距离，所以将火把间隔28个方块放置是防止怪物生成的最优方案。",
+    "Tip: - Torches release light up to 14 blocks away, so space your torches 28 blocks away from each other to optimally prevent mobs from spawning": "Tip: - 火把的光照范围可达 14 格，因此将火把间隔 28 格放置可以最佳地防止生物生成。",
     
     
-    "Tip: - Large iron ore veins containing massive amounts of iron generate underground in the deepslate layer. You'll know you found one indicated by long strips of tuff with iron ore.": "Tip: - 在深层板岩层下，有大量铁矿石的大型矿脉生成。长条状的凝灰岩中含有铁矿石通常就是这类矿脉的特征。",
+    "Tip: - Large iron ore veins containing massive amounts of iron generate underground in the deepslate layer. You'll know you found one indicated by long strips of tuff with iron ore.": "Tip: - 大型铁矿脉在深板岩层地下生成，含有大量铁矿石。当你发现它时，可以通过与铁矿石相连的长条状凝灰岩来判断。",
     
-    "Tip: - Armor trims can be duplicated in a crafting table with diamonds, your smithing template, and a base block.": "Tip: - 在工作台上，使用钻石、你的锻造模板和基础方块可以复制盔甲纹样。",
+    "Tip: - Armor trims can be duplicated in a crafting table with diamonds, your smithing template, and a base block.": "Tip: - 在工作台上，使用钻石、你的锻造模板和基础方块可以复制盔甲纹饰。",
     
     "Tip: - Use armor smithing templates in a smithing table to decorate your armor with neat patterns and designs": "Tip: - 在锻造台上使用盔甲锻造模板来为你的盔甲装饰上整洁的图案和设计。",
     
     "Tip: - You can edit a placed sign by right clicking it": "Tip: - 右键点击放置的告示牌可以编辑它。",
     
-    "Tip: - Right click a wood log to turn it into a stripped log": "Tip: - 右键点击原木可以将其变成去皮原木。",
+    "Tip: - Right click a wood log to turn it into a stripped log": "Tip: - 手持斧头右键点击原木可以将其变成去皮原木。",
     
     "Tip: - While holding a map, right click a banner to mark the banners position on your map": "Tip: - 当拿着地图时，右键点击旗帜可以在地图上标记旗帜的位置。",
     
-    "Tip: - Use a Brush on an armadillo to collect armadillo scutes. You can use these scutes to craft wolf armor.": "Tip: - 在犰狳身上使用刷子可以收集犰狳鳞甲。你可以使用这些鳞片来制作狼的盔甲。",
+    "Tip: - Use a Brush on an armadillo to collect armadillo scutes. You can use these scutes to craft wolf armor.": "Tip: - 在犰狳身上使用刷子可以收集犰狳鳞甲。你可以使用这些鳞甲来制作狼的盔甲。",
     
     "Tip: - Fireworks can be loaded and shot from a Crossbow": "Tip: - 烟火可以装在弩上发射。",
     
