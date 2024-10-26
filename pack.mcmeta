@@ -1,6 +1,6 @@
 {
     "pack": {
-      "pack_format": 48,
+      "pack_format": 57,
       "supported_formats": {
         "min_inclusive": 15,
         "max_inclusive": 999
@@ -14,7 +14,7 @@
           "translate": "\n"
         },
         {
-          "translate": "Version 1.4.25 - MC 1.21",
+          "translate": "Version 1.4.25 - MC 1.21.3",
           "color": "gray"
         }
       ]
