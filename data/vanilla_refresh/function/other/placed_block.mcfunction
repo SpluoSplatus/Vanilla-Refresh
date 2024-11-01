@@ -46,6 +46,7 @@ execute if score armorstand refresh_settings matches 1 as @s[advancements={vanil
 
 #disc
 execute if score blockanims refresh_settings matches 1 as @s[advancements={vanilla_refresh:place/disc=true}] anchored eyes positioned ^ ^ ^ run function vanilla_refresh:block/block_anims/jukebox/raycast
+
 #disc
 execute if score jukebox_stop_sound refresh_settings matches 1 as @s[advancements={vanilla_refresh:place/disc=true}] anchored eyes positioned ^ ^ ^ run function vanilla_refresh:block/jukebox_stop_sound/insert_disc
 
@@ -72,7 +73,6 @@ advancement revoke @s only vanilla_refresh:place/pumpkin_stem
 advancement revoke @s only vanilla_refresh:place/cocoa
 advancement revoke @s only vanilla_refresh:place/nether_wart
 
-advancement revoke @s only vanilla_refresh:place/torchflower
 
 
 advancement revoke @s only vanilla_refresh:place/cake

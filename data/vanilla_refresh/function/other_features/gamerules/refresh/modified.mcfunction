@@ -230,8 +230,8 @@ execute as @s if score anvil refresh_settings matches 1.. run tellraw @s[] [{"tr
 execute as @s if score anvil refresh_settings matches 0 run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Anvil Grinding: "},{"score":{"name": "anvil","objective": "refresh_settings"},"color": "yellow"}]
 
 
-execute as @s if score babyzombie refresh_settings matches 1.. run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Better Baby Zombies: "},{"score":{"name": "babyzombie","objective": "refresh_settings"},"color": "yellow"}]
-execute as @s if score babyzombie refresh_settings matches 0 run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Better Baby Zombies: "},{"score":{"name": "babyzombie","objective": "refresh_settings"},"color": "yellow"}]
+execute as @s if score babyzombie refresh_settings matches 1.. run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Improved Baby Zombies: "},{"score":{"name": "babyzombie","objective": "refresh_settings"},"color": "yellow"}]
+execute as @s if score babyzombie refresh_settings matches 0 run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Improved Baby Zombies: "},{"score":{"name": "babyzombie","objective": "refresh_settings"},"color": "yellow"}]
 
 execute as @s if score dragonegg refresh_settings matches 1.. run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Renewable Dragon Eggs: "},{"score":{"name": "dragonegg","objective": "refresh_settings"},"color": "yellow"}]
 execute as @s if score dragonegg refresh_settings matches 0 run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Renewable Dragon Eggs: "},{"score":{"name": "dragonegg","objective": "refresh_settings"},"color": "yellow"}]

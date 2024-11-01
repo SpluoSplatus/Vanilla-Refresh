@@ -15,12 +15,12 @@ execute if score death_sound refresh_settings matches 1..10 at @a run function v
 #cause of death
 execute if score death_sound refresh_settings matches 11 run function vanilla_refresh:death/sound/a_main
 
+#cause of death (local only)
+execute if score death_sound_local refresh_settings matches 11 unless score death_sound refresh_settings matches 11 at @s run function vanilla_refresh:death/sound/a_main_local
+
 
 #local
 execute if score death_sound_local refresh_settings matches 1..10 at @s run function vanilla_refresh:death/death_sound_local
-
-#cause of death (local only)
-execute if score death_sound_local refresh_settings matches 11 unless score death_sound refresh_settings matches 11 at @s run function vanilla_refresh:death/sound/a_main_local
 
 #orbs dropped on death are not homing
 execute as @e[distance=..4,type=experience_orb,tag=!refresh_disabledhoming] run tag @s add refresh_disabledhoming

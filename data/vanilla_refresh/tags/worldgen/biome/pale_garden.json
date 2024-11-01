@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "values": [
+      {"id":"minecraft:pale_garden","required":false}
+    ]
+  }

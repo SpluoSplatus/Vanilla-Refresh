@@ -21,8 +21,8 @@ execute if score anvil refresh_settings matches 1.. run tellraw @s [{"translate"
   execute if score anvil refresh_settings matches 0 run tellraw @s [{"translate": "   ","color": "gray","hoverEvent": {"action": "show_text","value":[{"text":"ID: anvil","color":"gray"},{"translate":"\nValue: "},{"score":{"name": "anvil","objective": "refresh_settings"}}]}},{"text":"❌ ","color": "#7d7d7d"},{"translate":"Anvil Grinding"}]
 
 
-execute if score babyzombie refresh_settings matches 1.. run tellraw @s [{"translate": "   ","color": "gray","hoverEvent": {"action": "show_text","value":[{"text":"ID: babyzombie","color":"gray"},{"translate":"\nValue: "},{"score":{"name": "babyzombie","objective": "refresh_settings"}}]}},{"text":"✔ ","color": "yellow"},{"translate":"Better Baby Zombies"}]
-  execute if score babyzombie refresh_settings matches 0 run tellraw @s [{"translate": "   ","color": "gray","hoverEvent": {"action": "show_text","value":[{"text":"ID: babyzombie","color":"gray"},{"translate":"\nValue: "},{"score":{"name": "babyzombie","objective": "refresh_settings"}}]}},{"text":"❌ ","color": "#7d7d7d"},{"translate":"Better Baby Zombies"}]
+execute if score babyzombie refresh_settings matches 1.. run tellraw @s [{"translate": "   ","color": "gray","hoverEvent": {"action": "show_text","value":[{"text":"ID: babyzombie","color":"gray"},{"translate":"\nValue: "},{"score":{"name": "babyzombie","objective": "refresh_settings"}}]}},{"text":"✔ ","color": "yellow"},{"translate":"Improved Baby Zombies"}]
+  execute if score babyzombie refresh_settings matches 0 run tellraw @s [{"translate": "   ","color": "gray","hoverEvent": {"action": "show_text","value":[{"text":"ID: babyzombie","color":"gray"},{"translate":"\nValue: "},{"score":{"name": "babyzombie","objective": "refresh_settings"}}]}},{"text":"❌ ","color": "#7d7d7d"},{"translate":"Improved Baby Zombies"}]
 
 
 
