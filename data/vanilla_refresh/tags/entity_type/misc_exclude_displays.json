@@ -38,8 +38,34 @@
     {"id":"minecraft:hopper_minecart","required": false},
     {"id":"minecraft:furnace_minecart","required": false},
     {"id":"minecraft:tnt_minecart","required": false},
+
     {"id":"minecraft:boat","required": false},
     {"id":"minecraft:chest_boat","required": false},
+    
+    {"id":"minecraft:oak_boat","required": false},
+    {"id":"minecraft:birch_boat","required": false},
+    {"id":"minecraft:acacia_boat","required": false},
+    {"id":"minecraft:cherry_boat","required": false},
+    {"id":"minecraft:jungle_boat","required": false},
+    {"id":"minecraft:spruce_boat","required": false},
+    {"id":"minecraft:dark_oak_boat","required": false},
+    {"id":"minecraft:bamboo_raft","required": false},
+    {"id":"minecraft:pale_oak_boat","required": false},
+    {"id":"minecraft:mangrove_boat","required": false},
+
+    {"id":"minecraft:oak_chest_boat","required": false},
+    {"id":"minecraft:birch_chest_boat","required": false},
+    {"id":"minecraft:acacia_chest_boat","required": false},
+    {"id":"minecraft:cherry_chest_boat","required": false},
+    {"id":"minecraft:jungle_chest_boat","required": false},
+    {"id":"minecraft:spruce_chest_boat","required": false},
+    {"id":"minecraft:dark_oak_chest_boat","required": false},
+    {"id":"minecraft:bamboo_chest_raft","required": false},
+    {"id":"minecraft:pale_oak_chest_boat","required": false},
+    {"id":"minecraft:mangrove_chest_boat","required": false},
+
+
+
     {"id":"minecraft:painting","required": false},
     
     {"id":"minecraft:ominous_item_spawner","required": false},
