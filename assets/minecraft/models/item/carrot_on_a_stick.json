@@ -76,6 +76,27 @@
       },
       "model": "vanilla_refresh:item/wand_center"
 
+    },
+    {
+      "predicate": {
+        "custom_model_data": 751011
+      },
+      "model": "vanilla_refresh:item/wand_text"
+
+    },
+    {
+      "predicate": {
+        "custom_model_data": 751012
+      },
+      "model": "vanilla_refresh:item/wand_clone"
+
+    },
+    {
+      "predicate": {
+        "custom_model_data": 751013
+      },
+      "model": "vanilla_refresh:item/wand_scale"
+
     }
   ]
 }

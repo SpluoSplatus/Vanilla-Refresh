@@ -10,6 +10,14 @@
             {
               "function": "minecraft:fill_player_head",
               "entity": "this"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "custom_data": {
+                  "vanilla_refresh_death_head": 1
+                }
+              }
             }
           ]
         }

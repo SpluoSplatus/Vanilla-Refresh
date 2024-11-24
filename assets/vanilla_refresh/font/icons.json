@@ -1,0 +1,16 @@
+{
+    "providers": [
+      {
+        "type": "bitmap",
+        "file": "vanilla_refresh:font/icons.png",
+        "height": 32,
+        "ascent": 28,
+        "chars": [
+          "\uE4f1\uE4f2\uE4f3\uE4f4",
+          "\uE4f5\uE4f6\uE4f7\uE4f8",
+          "\uE4f9\uE4e0\uE4e1\uE4e2"
+        ]
+      }
+    ]
+  }
+  

@@ -2,8 +2,14 @@
 tag @s add refresh_temp_usingwand
 
 execute as @s[advancements={vanilla_refresh:wand/brush_cookie=true}] anchored eyes positioned ^ ^ ^ run function vanilla_refresh:wand/z/brush_cookie
-execute as @s[advancements={vanilla_refresh:wand/brush_mob=true}] anchored eyes positioned ^ ^ ^ run function vanilla_refresh:wand/z/brush_mob with storage vanilla_refresh:storage
+
+execute as @s[advancements={vanilla_refresh:wand/brush_mob=true}] if entity @s[tag=refresh_wand_mode_exclude] anchored eyes positioned ^ ^ ^ run function vanilla_refresh:wand/z/entity_lock with storage vanilla_refresh:storage
+execute as @s[advancements={vanilla_refresh:wand/brush_mob=true}] unless entity @s[tag=refresh_wand_mode_exclude] anchored eyes positioned ^ ^ ^ run function vanilla_refresh:wand/z/brush_mob with storage vanilla_refresh:storage
+
 execute as @s[advancements={vanilla_refresh:wand/brush_mob_32=true}] anchored eyes positioned ^ ^ ^ run function vanilla_refresh:wand/z/brush_mob_32 with storage vanilla_refresh:storage
+
+
+
 execute as @s[advancements={vanilla_refresh:wand/brush_tree=true}] anchored eyes positioned ^ ^ ^ run function vanilla_refresh:wand/z/brush_tree
 execute as @s[advancements={vanilla_refresh:wand/brush_tree_large=true}] anchored eyes positioned ^ ^ ^ run function vanilla_refresh:wand/z/brush_tree_large
 execute as @s[advancements={vanilla_refresh:wand/brush_vegetation=true}] anchored eyes positioned ^ ^ ^ run function vanilla_refresh:wand/z/brush_vegetation
@@ -29,6 +35,10 @@ execute as @s[advancements={vanilla_refresh:wand/mob_directional=true}] anchored
 
 execute as @s[advancements={vanilla_refresh:wand/mob_center=true}] anchored eyes positioned ^ ^ ^ run function vanilla_refresh:wand/z/mob_center with storage vanilla_refresh:storage
 
+execute as @s[advancements={vanilla_refresh:wand/clone=true}] anchored eyes positioned ^ ^ ^ run function vanilla_refresh:wand/z/clone with storage vanilla_refresh:storage
+execute as @s[advancements={vanilla_refresh:wand/scale=true}] anchored eyes positioned ^ ^ ^ run function vanilla_refresh:wand/z/scale with storage vanilla_refresh:storage
+execute as @s[advancements={vanilla_refresh:wand/text=true}] anchored eyes positioned ^ ^ ^ run function vanilla_refresh:wand/z/text/raycast
+
 execute as @s[advancements={vanilla_refresh:wand/teleport_10=true}] anchored eyes positioned ^ ^ ^ run function vanilla_refresh:wand/z/teleport_10
 execute as @s[advancements={vanilla_refresh:wand/teleport_50=true}] anchored eyes positioned ^ ^ ^ run function vanilla_refresh:wand/z/teleport_50
 execute as @s[advancements={vanilla_refresh:wand/teleport_command=true}] anchored eyes positioned ^ ^ ^ run function vanilla_refresh:wand/z/teleport_command
@@ -38,4 +48,6 @@ execute as @s[advancements={vanilla_refresh:wand/teleport_direct=true}] anchored
 scoreboard players set @s refresh_carrot 0
 
 
+
+advancement revoke @s only vanilla_refresh:wand/brush_mob_large
 tag @s remove refresh_temp_usingwand

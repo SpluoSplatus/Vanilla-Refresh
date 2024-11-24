@@ -42,7 +42,7 @@ data modify block ^ ^1 ^1 is_waxed set value 1b
 #insert texture
 execute on origin run loot spawn ^ ^ ^1 loot vanilla_refresh:drop/player_head
 execute positioned ^ ^ ^1 run data modify block ^ ^ ^ profile set from entity @n[type=item] Item.components."minecraft:profile"
-kill @n[type=item]
+execute positioned ^ ^ ^1 run kill @n[type=item,nbt={Item:{id:"minecraft:player_head",components:{"minecraft:custom_data":{"vanilla_refresh_death_head":1b}}}}]
 
 #========================================================
 

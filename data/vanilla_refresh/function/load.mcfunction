@@ -1,5 +1,5 @@
 
-tellraw @a [{"translate": "Successfully loaded ","color": "gray"},{"translate": "Vanilla Refresh v1.4.25c","color": "green"}]
+execute unless score load_message refresh_settings matches ..0 run tellraw @a [{"translate": "Successfully loaded ","color": "gray"},{"translate": "Vanilla Refresh v1.4.26","color": "green"}]
 
 ### Pack Installed
 
@@ -233,6 +233,9 @@ scoreboard players set 10 refresh_constants 10
 
 scoreboard players set -10 refresh_constants -10
 
+scoreboard players set 20 refresh_constants 20
+
+scoreboard players set 50 refresh_constants 50
 
 scoreboard players set 100 refresh_constants 100
 
