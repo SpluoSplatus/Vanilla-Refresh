@@ -1,7 +1,7 @@
 
 tellraw @s [{"text":""}]
 
-tellraw @s [{"translate":"Are you sure you want to reset all players stats?","color":"gray"}]
+tellraw @s [{"translate":"Are you sure you want to reset all stats of every player?","color":"gray"}]
 
 tellraw @s [{"text":""}]
 
