@@ -2,7 +2,7 @@
 #this file exists as this came in a later update, allows older world to use
 
 #incase this runs before tick inside the tick.json advancement
-execute as @s[tag=!refresh_member] run function vanilla_refresh:player/first_join
+execute unless score @s refresh_members matches -2147483648.. run function vanilla_refresh:player/first_join
 
 #member ID = join order number
 execute store result score @s refresh_memberID run scoreboard players get @s refresh_members

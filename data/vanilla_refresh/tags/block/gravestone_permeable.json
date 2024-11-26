@@ -44,6 +44,10 @@
     {"id":"minecraft:end_gateway","required": false},
     {"id":"minecraft:nether_portal","required": false},
     {"id":"minecraft:light","required": false}
+    ,
+    {"id":"minecraft:glow_lichen","required": false},
+    {"id":"#rails","required": false},
+    {"id":"cobweb","required": false}
     
    
 

@@ -1,5 +1,5 @@
 
-execute unless score load_message refresh_settings matches ..0 run tellraw @a [{"translate": "Successfully loaded ","color": "gray"},{"translate": "Vanilla Refresh v1.4.26","color": "green"}]
+execute unless score load_message refresh_settings matches ..0 run tellraw @a [{"translate": "Successfully loaded ","color": "gray"},{"translate": "Vanilla Refresh v1.4.26a","color": "green"}]
 
 ### Pack Installed
 

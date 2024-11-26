@@ -6,7 +6,7 @@ execute as @n[type=text_display,tag=refresh_currently_in_editing,distance=..24] 
 #$tellraw @s [{"text":"Set text","color":"gray"},$(value)]
 
 #$say $(nbt) 
-$say $(value) 
+#$say $(value) 
 
 
 #playsound minecraft:entity.villager.work_shepherd ambient @s ~ ~ ~ .5 1

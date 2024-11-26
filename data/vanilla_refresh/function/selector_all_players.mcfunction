@@ -1,5 +1,5 @@
 # FIRST JOIN
-execute if entity @s[tag=!refresh_member] run function vanilla_refresh:player/first_join
+execute unless score @s refresh_members matches -2147483648.. run function vanilla_refresh:player/first_join
 
 # SECOND AND ABOVE JOIN (welcome back!)
 execute if entity @s[scores={refresh_rejoin=1..}] run function vanilla_refresh:player/rejoin

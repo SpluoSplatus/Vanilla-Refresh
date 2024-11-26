@@ -11,7 +11,7 @@ execute unless score temp_mobs refresh_count matches 1.. run tellraw @s {"transl
 
 execute if score temp_mobs refresh_count matches 1.. run tellraw @a[distance=0.001..] [{"translate":"[","color": "gray","italic": true},{"selector":"@s"},{"translate":": Removed "},{"score":{"name":"temp_mobs","objective":"refresh_count"}},{"translate":" night mobs"},{"text": "]"}]
 
-execute if score temp_mobs refresh_count matches 1.. run kill @e[type=#vanilla_refresh:night_mobs_generic,distance=..128,nbt=!{NoAI:1b}]
+execute if score temp_mobs refresh_count matches 1.. run tp @e[type=#vanilla_refresh:night_mobs_generic,distance=..128,nbt=!{NoAI:1b}]
 
 
 
