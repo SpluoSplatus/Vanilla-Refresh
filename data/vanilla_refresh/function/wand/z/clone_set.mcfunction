@@ -151,4 +151,6 @@ execute if entity @s[type=zombified_piglin] at @s run function vanilla_refresh:w
 
 tp @s ^ ^ ^.5
 
+execute if entity @s[type=#vanilla_refresh:markers] at @s run particle end_rod ~ ~ ~ 0 0 0 0 1 force @a[distance=..64]
+
 scoreboard players set temp refresh_count 999

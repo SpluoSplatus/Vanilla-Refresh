@@ -24,3 +24,6 @@ $execute if score temp_rotation2 refresh_storage matches 45..90 rotated 0 90 run
 
 #up
 $execute if score temp_rotation2 refresh_storage matches -90..-25 rotated 0 -90 run tp @s ^ ^ ^$(step)
+
+
+execute if entity @s[type=#vanilla_refresh:markers] at @s run particle end_rod ~ ~ ~ 0 0 0 0 1 force @a[distance=..64]
