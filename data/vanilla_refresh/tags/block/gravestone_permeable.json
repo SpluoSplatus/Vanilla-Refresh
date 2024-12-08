@@ -11,11 +11,19 @@
     {"id":"minecraft:soul_fire","required": false},
     {"id":"minecraft:vine","required": false},
     {"id":"minecraft:cave_vines","required": false},
+    {"id":"minecraft:cave_vines_plant","required": false},
+    {"id":"minecraft:weeping_vines","required": false},
+    {"id":"minecraft:weeping_vines_plant","required": false},
     {"id":"minecraft:short_grass","required": false},
     {"id":"minecraft:tall_grass","required": false},
     {"id":"#minecraft:standing_signs","required": false},
     {"id":"#minecraft:small_flowers","required": false},
-    {"id":"#minecraft:tall_flowers","required": false},
+    {"id":"minecraft:peony","required": false},
+    {"id":"minecraft:rose_bush","required": false},
+    {"id":"minecraft:lilac","required": false},
+    {"id":"minecraft:wither_rose","required": false},
+    {"id":"minecraft:pitcher_plant","required": false},
+    {"id":"minecraft:pitcher_crop","required": false},
     {"id":"#minecraft:buttons","required": false},
     {"id":"#minecraft:saplings","required": false},
     {"id":"#minecraft:climbable","required": false},
@@ -34,9 +42,7 @@
 
     {"id":"#minecraft:crops","required": false},
     {"id":"minecraft:dead_bush","required": false},
-    {"id":"minecraft:bamboo","required": false},
 
-    {"id":"minecraft:iron_bars","required": false},
     {"id":"minecraft:lever","required": false},
 
     {"id":"minecraft:snow","required": false},
@@ -47,7 +53,13 @@
     ,
     {"id":"minecraft:glow_lichen","required": false},
     {"id":"#rails","required": false},
-    {"id":"cobweb","required": false}
+    {"id":"cobweb","required": false},
+
+    {"id":"moss_carpet","required": false},
+    {"id":"pale_moss_carpet","required": false},
+    {"id":"pale_hanging_moss","required": false},
+    {"id":"hanging_roots","required": false},
+    {"id":"sugar_cane","required": false}
     
    
 

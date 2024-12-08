@@ -34,7 +34,7 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "type": "#vanilla_refresh:misc"
+            "type": "#vanilla_refresh:cannot_show_health"
           }
         },
         {

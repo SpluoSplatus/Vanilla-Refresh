@@ -1,0 +1,4 @@
+give @s carrot_on_a_stick[custom_name='{"color":"light_purple","italic":false,"translate":"Scale Entity"}',lore=['[{"text":"Normal","italic":false,"color":"gray"}]','[{"text":"  Increase scale","color":"blue","italic":false}]','[{"text":"Sneak","italic":false,"color":"gray"}]','[{"text":"  Decrease scale","color":"blue","italic":false}]','[{"text":"Sneak + Jump","italic":false,"color":"gray"}]','[{"text":"  Reset scale","color":"blue","italic":false}]','{"color":"#676E75","italic":true,"translate":"Vanilla Refresh"}'],custom_model_data={floats: [751013]},custom_data={VanillaRefreshItem:1b,VanillaRefreshTool:1b,VanillaRefreshToolScale:1b}] 1
+
+
+function vanilla_refresh:other/wand_menus/brush_mob

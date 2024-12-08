@@ -79,7 +79,6 @@ scoreboard players set spyglass refresh_settings 1
 #renewable elytra (elytra drop from ender dragon)
 scoreboard players set dragonelytra refresh_settings 0
 
-scoreboard players set durability refresh_settings 1
 
 #soul links
 scoreboard players set soul refresh_settings 0
@@ -134,7 +133,11 @@ scoreboard players set cyclestats refresh_settings 1
 #path sprinting
 scoreboard players set path refresh_settings 1
 
+#better lodestone functionality
 scoreboard players set lodestone refresh_settings 1
+
+    #whether ender pearl teleport lodestone functionaltiy deals damage like ender pearl normally do
+    scoreboard players set lodestone_teleport_damage refresh_settings 1
 
 #invisibility potions on armor stands and item frames
 scoreboard players set invis refresh_settings 1

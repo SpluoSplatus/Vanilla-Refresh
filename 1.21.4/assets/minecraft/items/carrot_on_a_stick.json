@@ -1,0 +1,103 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+      {
+        "threshold": 751001,
+        "model": {
+          "type": "minecraft:model",
+          "model": "vanilla_refresh:item/wand"
+        }
+      },
+      {
+        "threshold": 751002,
+        "model": {
+          "type": "minecraft:model",
+          "model": "vanilla_refresh:item/wand_freeze"
+        }
+      },
+      {
+        "threshold": 751003,
+        "model": {
+          "type": "minecraft:model",
+          "model": "vanilla_refresh:item/wand_reposition"
+        }
+      },
+      {
+        "threshold": 751004,
+        "model": {
+          "type": "minecraft:model",
+          "model": "vanilla_refresh:item/wand_facer"
+        }
+      },
+      {
+        "threshold": 751005,
+        "model": {
+          "type": "minecraft:model",
+          "model": "vanilla_refresh:item/wand_rotate"
+        }
+      },
+      {
+        "threshold": 751006,
+        "model": {
+          "type": "minecraft:model",
+          "model": "vanilla_refresh:item/wand_elevate"
+        }
+      },
+      {
+        "threshold": 751007,
+        "model": {
+          "type": "minecraft:model",
+          "model": "vanilla_refresh:item/wand_directional"
+        }
+      },
+      {
+        "threshold": 751008,
+        "model": {
+          "type": "minecraft:model",
+          "model": "vanilla_refresh:item/wand_rotate_reset"
+        }
+      },
+      {
+        "threshold": 751009,
+        "model": {
+          "type": "minecraft:model",
+          "model": "vanilla_refresh:item/wand_remove"
+        }
+      },
+      {
+        "threshold": 751010,
+        "model": {
+          "type": "minecraft:model",
+          "model": "vanilla_refresh:item/wand_center"
+        }
+      },
+      {
+        "threshold": 751011,
+        "model": {
+          "type": "minecraft:model",
+          "model": "vanilla_refresh:item/wand_text"
+        }
+      },
+      {
+        "threshold": 751012,
+        "model": {
+          "type": "minecraft:model",
+          "model": "vanilla_refresh:item/wand_clone"
+        }
+      },
+      {
+        "threshold": 751013,
+        "model": {
+          "type": "minecraft:model",
+          "model": "vanilla_refresh:item/wand_scale"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/carrot_on_a_stick"
+    }
+  }
+}

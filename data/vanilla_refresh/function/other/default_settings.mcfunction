@@ -47,8 +47,7 @@ execute unless score spyglass refresh_settings matches -2147483648.. run scorebo
 
 execute unless score dragonelytra refresh_settings matches -2147483648.. run scoreboard players set dragonelytra refresh_settings 0
 
-execute unless score durability refresh_settings matches -2147483648.. run scoreboard players set durability refresh_settings 1
-
+#execute unless score durability refresh_settings matches -2147483648.. run 
 execute if score soul refresh_settings matches 2 run scoreboard players set soul refresh_settings 1
 execute unless score soul refresh_settings matches -2147483648.. run scoreboard players set soul refresh_settings 0
 
@@ -86,6 +85,7 @@ execute unless score cyclestats refresh_settings matches -2147483648..1 run scor
 execute unless score path refresh_settings matches -2147483648.. run scoreboard players set path refresh_settings 1
 
 execute unless score lodestone refresh_settings matches -2147483648.. run scoreboard players set lodestone refresh_settings 1
+execute unless score lodestone_teleport_damage refresh_settings matches -2147483648.. run scoreboard players set lodestone_teleport_damage refresh_settings 1
 
 execute unless score invis refresh_settings matches -2147483648.. run scoreboard players set invis refresh_settings 1
 

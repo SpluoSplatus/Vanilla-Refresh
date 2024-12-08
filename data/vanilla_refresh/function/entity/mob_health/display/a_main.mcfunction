@@ -27,7 +27,7 @@ execute as @s[type=player] run title @p[tag=refresh_temp792_player] actionbar [{
 execute as @s[type=villager] run function vanilla_refresh:entity/mob_health/display/villager
 
 #misc mobs tagged with "show_health"
-execute as @s[type=#vanilla_refresh:misc] run title @p[tag=refresh_temp792_player] actionbar [{"translate":"","color": "yellow"},{"selector":"@n[tag=refresh_temp792_mob]","color": "green"},{"translate": " - ","color": "gray"},{"translate": "❤ ","color":"yellow"},{"text":"???"}]
+execute as @s[type=#vanilla_refresh:cannot_show_health] run title @p[tag=refresh_temp792_player] actionbar [{"translate":"","color": "yellow"},{"selector":"@n[tag=refresh_temp792_mob]","color": "green"},{"translate": " - ","color": "gray"},{"translate": "❤ ","color":"yellow"},{"text":"???"}]
 
 
 #any other mob

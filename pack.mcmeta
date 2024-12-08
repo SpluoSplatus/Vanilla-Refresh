@@ -1,28 +1,40 @@
 {
-    "pack": {
-      "pack_format": 48,
-      "supported_formats": {
-        "min_inclusive": 15,
-        "max_inclusive": 999
-      },
-      "description": [
-        {
-          "translate": "Quality of Life Refresh",
-          "color": "#30dbbf"
-        },
-        {
-          "translate": "\n"
-        },
-        {
-          "translate": "Version 1.4.26a - MC 1.21.3",
-          "color": "gray"
-        }
-      ]
+  "pack": {
+    "pack_format": 48,
+    "supported_formats": {
+      "min_inclusive": 15,
+      "max_inclusive": 999
     },
-    "overlays": {
-      "entries": [
-         
-      ]
+    "description": [
+      {
+        "translate": "Quality of Life Refresh",
+        "color": "#30dbbf"
+      },
+      {
+        "translate": "\n"
+      },
+      {
+        "translate": "Version 1.4.26b - MC 1.21.2-4",
+        "color": "gray"
+      }
+    ]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "1.21.2",
+        "formats": {
+          "min_inclusive": 1,
+          "max_inclusive": 57
+        }
+      },
+      {
+        "directory": "1.21.4",
+        "formats": {
+          "min_inclusive": 60,
+          "max_inclusive": 9999
+        }
+      }
+    ]
   }
-  }
-  
+}

@@ -13,7 +13,8 @@ execute if score temp_mobs refresh_count matches 1.. run tellraw @a[distance=0.0
 
 execute if score temp_mobs refresh_count matches 1.. run tellraw @a[distance=0.001..,tag=refresh_operator] [{"translate":"[","color": "gray","italic": true},{"selector":"@s"},{"translate":": Set doMobSpawning to false"},{"text": "]"}]
 
-execute if score temp_mobs refresh_count matches 1.. run kill @e[type=#vanilla_refresh:night_mobs_generic,distance=..128,nbt=!{NoAI:1b}]
+
+execute if score temp_mobs refresh_count matches 1.. run tp @e[type=#vanilla_refresh:night_mobs_generic,distance=..128,nbt=!{NoAI:1b}] ~ -500 ~
 
 gamerule doMobSpawning false
 

@@ -3,66 +3,66 @@ execute store result score tempScore refresh_randomizer_output run random value 
 
 tellraw @a[tag=refresh_debug] [{"translate":"[Vanilla Refresh: Displayed tip ","color": "gray","italic": true},{"score":{"objective": "refresh_randomizer_output","name": "tempScore"}},{"translate":" in chat]"}]
 
-execute if score tempScore refresh_randomizer_output matches 0 run tellraw @a {"translate": "Tip: - Cauldrons with water still work in the Nether without evaporating","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 0 run tellraw @a [{"translate": "Tip: - Cauldrons with water still work in the Nether without evaporating","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 1 run tellraw @a {"translate": "Tip: - Swift Sneak allows you to quickly bridge across areas with the same speed as walking","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 1 run tellraw @a [{"translate": "Tip: - Swift Sneak allows you to quickly bridge across areas with the same speed as walking","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 2 run tellraw @a {"translate": "Tip: - This chat message is not from a player","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 2 run tellraw @a [{"translate": "Tip: - This chat message is not from a player","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 3 run tellraw @a {"translate": "Tip: - You can use Charged Creepers on Wither Skeletons to instantly get their skull","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 3 run tellraw @a [{"translate": "Tip: - You can use Charged Creepers on Wither Skeletons to instantly get their skull","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 4 run tellraw @a {"translate": "Tip: - The explosion of beds can be used to mine through netherrack for ancient debris","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 4 run tellraw @a [{"translate": "Tip: - The explosion of beds can be used to mine through netherrack for ancient debris","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 5 run tellraw @a {"translate": "Tip: - Below the deepslate layer underground you'll find significantly more diamonds","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 5 run tellraw @a [{"translate": "Tip: - Below the deepslate layer underground you'll find significantly more diamonds","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 6 run tellraw @a {"translate": "Tip: - Flooded caves contain more exposed ores than ordinary caves, so if you're seeking diamonds, try searching a flooded cave in the Ocean","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 6 run tellraw @a [{"translate": "Tip: - Flooded caves contain more exposed ores than ordinary caves, so if you're seeking diamonds, try searching a flooded cave in the Ocean","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 7 run tellraw @a {"translate": "Tip: - Iron isn't typically found on the surface of the world, but mountains generate high amounts of iron ore exposed to air.","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 7 run tellraw @a [{"translate": "Tip: - Iron isn't typically found on the surface of the world, but mountains generate high amounts of iron ore exposed to air.","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 8 run tellraw @a {"translate": "Tip: - The lower a wolf's tail is, the less health it has","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 8 run tellraw @a [{"translate": "Tip: - The lower a wolf's tail is, the less health it has","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 9 run tellraw @a {"translate": "Tip: - Cats scare away Creepers, but also Phantoms","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 9 run tellraw @a [{"translate": "Tip: - Cats scare away Creepers, but also Phantoms","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 10 run tellraw @a {"translate": "Tip: - Goats can be milked as an alternative to cows","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 10 run tellraw @a [{"translate": "Tip: - Goats can be milked as an alternative to cows","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 11 run tellraw @a {"translate": "Tip: - On Hard Mode, villagers have an 100% chance of zombifying from a zombie attack","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 11 run tellraw @a [{"translate": "Tip: - On Hard Mode, villagers have an 100% chance of zombifying from a zombie attack","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 12 run tellraw @a {"translate": "Tip: - You can equip a banner on a shield to give your shields awesome designs.","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 12 run tellraw @a [{"translate": "Tip: - You can equip a banner on a shield to give your shields awesome designs.","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 13 run tellraw @a {"translate": "Tip: - Setting your FOV to 40 or less makes for great, cinematic base screenshots without FOV warp.","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 13 run tellraw @a [{"translate": "Tip: - Setting your FOV to 40 or less makes for great, cinematic base screenshots without FOV warp.","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 14 run tellraw @a {"translate": "Tip: - Golden carrots make a great food source for those who have an abundance of gold and carrots","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 14 run tellraw @a [{"translate": "Tip: - Golden carrots make a great food source for those who have an abundance of gold and carrots","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 15 run tellraw @a {"translate": "Tip: - Feather Falling IV only has a approximate 2.7% chance of appearing on a enchanting table","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 15 run tellraw @a [{"translate": "Tip: - Feather Falling IV only has a approximate 2.7% chance of appearing on a enchanting table","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 16 run tellraw @a {"translate": "Tip: - The Silence armor trim has a 1.25% chance of appearing in Ancient City chests","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 16 run tellraw @a [{"translate": "Tip: - The Silence armor trim has a 1.25% chance of appearing in Ancient City chests","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 17 run tellraw @a {"translate": "Tip: - A Hoe can be used to quickly remove leaves from a tree","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 17 run tellraw @a [{"translate": "Tip: - A Hoe can be used to quickly remove leaves from a tree","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 18 run tellraw @a {"translate": "Tip: - The Wither is immune to projectiles in its final phase","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 18 run tellraw @a [{"translate": "Tip: - The Wither is immune to projectiles in its final phase","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 19 run tellraw @a {"translate": "Tip: - Using Silk Touch to get nether gold ore and then smelting it into an ingot is more efficent","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 19 run tellraw @a [{"translate": "Tip: - Using Silk Touch to get nether gold ore and then smelting it into an ingot is more efficent","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 20 run tellraw @a {"translate": "Tip: - Barrels below solid blocks can still be opened","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 20 run tellraw @a [{"translate": "Tip: - Barrels below solid blocks can still be opened","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 21 run tellraw @a {"translate": "Tip: - Placing a cauldron while its snowing in a biome will fill the cauldron with powdered snow","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 21 run tellraw @a [{"translate": "Tip: - Placing a cauldron while its snowing in a biome will fill the cauldron with powdered snow","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 22 run tellraw @a {"translate": "Tip: - You can create your own mud blocks by pouring a water bottle on a block of dirt","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 22 run tellraw @a [{"translate": "Tip: - You can create your own mud blocks by pouring a water bottle on a block of dirt","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 23 run tellraw @a {"translate": "Tip: - Lava can be farmed by placing a lava source block above pointed dripstone, and then placing a cauldron below the dripstone","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 23 run tellraw @a [{"translate": "Tip: - Lava can be farmed by placing a lava source block above pointed dripstone, and then placing a cauldron below the dripstone","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 24 run tellraw @a {"translate": "Tip: - Endermen will attack any endermites they see","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 24 run tellraw @a [{"translate": "Tip: - Endermen will attack any endermites they see","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 25 run tellraw @a {"translate": "Tip: - If you have too much emeralds, iron etc, you can convert them into blocks to save x9 space in your chests","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 25 run tellraw @a [{"translate": "Tip: - If you have too much emeralds, iron etc, you can convert them into blocks to save x9 space in your chests","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 26 run tellraw @a {"translate": "Tip: - Fortune III allows you to collect a greater amount of items when mining certain blocks, like ores and crops","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 26 run tellraw @a [{"translate": "Tip: - Fortune III allows you to collect a greater amount of items when mining certain blocks, like ores and crops","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 27 run tellraw @a {"translate": "Tip: - Fighting mobs with axolotls regenerates your health","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 27 run tellraw @a [{"translate": "Tip: - Fighting mobs with axolotls regenerates your health","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 28 run tellraw @a {"translate": "Tip: - Crops dont need to be directly touching water to grow, up to 4 blocks away the crop can still be hydrated","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 28 run tellraw @a [{"translate": "Tip: - Crops dont need to be directly touching water to grow, up to 4 blocks away the crop can still be hydrated","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 29 run tellraw @a {"translate": "Tip: - Elytras can be repaired using phantom membranes or mending","color": "yellow"}
-execute if score tempScore refresh_randomizer_output matches 30 run tellraw @a {"translate": "Tip: - Amethyst shards can be used to breed allays","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 29 run tellraw @a [{"translate": "Tip: - Elytras can be repaired using phantom membranes or mending","color": "yellow"}]
+execute if score tempScore refresh_randomizer_output matches 30 run tellraw @a [{"translate": "Tip: - Amethyst shards can be used to breed allays","color": "yellow"}]
 
 execute if score tempScore refresh_randomizer_output matches 31 run tellraw @a [{"translate": "Tip: - Wolves scare away and attack skeletons","color": "yellow"}]
 
@@ -72,35 +72,35 @@ execute if score tempScore refresh_randomizer_output matches 33 run tellraw @a [
 
 #34
 
-execute if score tempScore refresh_randomizer_output matches 35 run tellraw @a {"translate": "Tip: - Seeking an Ancient City? Try mining below mountains! Ancient Cities and the Deep Dark generate more often below them.","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 35 run tellraw @a [{"translate": "Tip: - Seeking an Ancient City? Try mining below mountains! Ancient Cities and the Deep Dark generate more often below them.","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 36 run tellraw @a {"translate": "Tip: - A bow cannot have both the Mending and Infinity enchantments","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 36 run tellraw @a [{"translate": "Tip: - A bow cannot have both the Mending and Infinity enchantments","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 37 run tellraw @a {"translate": "Tip: - The rarest ores are deepslate coal and deepslate emerald","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 37 run tellraw @a [{"translate": "Tip: - The rarest ores are deepslate coal and deepslate emerald","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 38 run tellraw @a {"translate": "Tip: - Use a blast furnance to quickly smelt ores","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 38 run tellraw @a [{"translate": "Tip: - Use a blast furnance to quickly smelt ores","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 39 run tellraw @a {"translate": "Tip: - Use a smoker to quickly smelt food items","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 39 run tellraw @a [{"translate": "Tip: - Use a smoker to quickly smelt food items","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 40 run tellraw @a {"translate": "Tip: - Campfires smelt food without using fuel","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 40 run tellraw @a [{"translate": "Tip: - Campfires smelt food without using fuel","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 41 run tellraw @a {"translate": "Tip: - Lava buckets can be used as a fuel source in furnaces to smelt tons of items","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 41 run tellraw @a [{"translate": "Tip: - Lava buckets can be used as a fuel source in furnaces to smelt tons of items","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 42 run tellraw @a {"translate": "Tip: - Enderchests can only be mined with a Silk Touch pickaxe","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 42 run tellraw @a [{"translate": "Tip: - Enderchests can only be mined with a Silk Touch pickaxe","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 43 run tellraw @a {"translate": "Tip: - Water buckets and a lava pool can be used to make a nether portal without ever needing to mine obsidian","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 43 run tellraw @a [{"translate": "Tip: - Water buckets and a lava pool can be used to make a nether portal without ever needing to mine obsidian","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 44 run tellraw @a {"translate": "Tip: - Sculk Blocks drop XP when mined. You can use a Hoe enchanted with Efficiency V to quickly gather XP from mined Sculk.","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 44 run tellraw @a [{"translate": "Tip: - Sculk Blocks drop XP when mined. You can use a Hoe enchanted with Efficiency V to quickly gather XP from mined Sculk.","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 45 run tellraw @a {"translate": "Tip: - You can instantly dry wet sponges by placing them in the Nether","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 45 run tellraw @a [{"translate": "Tip: - You can instantly dry wet sponges by placing them in the Nether","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 46 run tellraw @a {"translate": "Tip: - In Warm Ocean Ruins, you can sometimes find Sniffer eggs buried in Suspicious Sand. Use a brush on these sand blocks to uncover a potential Sniffer egg.","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 46 run tellraw @a [{"translate": "Tip: - In Warm Ocean Ruins, you can sometimes find Sniffer eggs buried in Suspicious Sand. Use a brush on these sand blocks to uncover a potential Sniffer egg.","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 47 run tellraw @a {"translate": "Tip: - Diamond armor can be bought from armorer villagers for as cheap as 1 emerald","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 47 run tellraw @a [{"translate": "Tip: - Diamond armor can be bought from armorer villagers for as cheap as 1 emerald","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 48 run tellraw @a {"translate": "Tip: - Candles can be placed on cakes for a colorful touch","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 48 run tellraw @a [{"translate": "Tip: - Candles can be placed on cakes for a colorful touch","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 49 run tellraw @a {"translate": "Tip: - Each disc in a jukebox gives a different power level to comparators","color": "yellow"}
+execute if score tempScore refresh_randomizer_output matches 49 run tellraw @a [{"translate": "Tip: - Each disc in a jukebox gives a different power level to comparators","color": "yellow"}]
 
 execute if score tempScore refresh_randomizer_output matches 50 run tellraw @a [{"translate": "Tip: - You can hold ","color": "yellow"},{"keybind":"key.playerlist"},{"translate":" to view a list of all current players online"}]
 

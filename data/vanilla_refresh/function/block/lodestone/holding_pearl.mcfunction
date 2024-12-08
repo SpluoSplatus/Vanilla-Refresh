@@ -13,7 +13,7 @@ execute as @e[distance=..3,type=ender_pearl] store result score @s refresh_uuid2
 execute as @e[distance=..3,type=ender_pearl] store result score @s refresh_uuid3 run data get entity @s Owner[2]
 execute as @e[distance=..3,type=ender_pearl] store result score @s refresh_uuid4 run data get entity @s Owner[3]
 
-execute as @e[distance=..3,type=ender_pearl,tag=!refresh_entity_pearl] if score @s refresh_uuid1 = @p refresh_uuid1 if score @s refresh_uuid2 = @p refresh_uuid2 if score @s refresh_uuid3 = @p refresh_uuid3 if score @s refresh_uuid4 = @p refresh_uuid4 at @s run function vanilla_refresh:block/lodestone/pearl_data
+execute as @e[distance=..3,type=ender_pearl,tag=!refresh_entity_pearl] if score @s refresh_uuid1 = @p refresh_uuid1 if score @s refresh_uuid2 = @p refresh_uuid2 if score @s refresh_uuid3 = @p refresh_uuid3 if score @s refresh_uuid4 = @p refresh_uuid4 run function vanilla_refresh:block/lodestone/pearl_data
 
 
 

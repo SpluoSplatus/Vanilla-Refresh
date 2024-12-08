@@ -79,6 +79,7 @@ scoreboard players set cyclestats refresh_settings 0
 scoreboard players set path refresh_settings 0
 
 scoreboard players set lodestone refresh_settings 0
+scoreboard players set lodestone_teleport_damage refresh_settings 0
 
 scoreboard players set invis refresh_settings 0
 
