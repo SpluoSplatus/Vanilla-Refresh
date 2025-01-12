@@ -183,6 +183,7 @@ scoreboard players set babyzombie refresh_settings 1
 
 #spectator ghost particles
 scoreboard players set ghost refresh_settings 1
+scoreboard players set ghost_toggle refresh_settings 0
 
 #spectator ui actions
 scoreboard players set spectate refresh_settings 1
