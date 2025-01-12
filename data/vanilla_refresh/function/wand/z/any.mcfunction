@@ -37,7 +37,7 @@ execute as @s[advancements={vanilla_refresh:wand/mob_center=true}] anchored eyes
 
 execute as @s[advancements={vanilla_refresh:wand/clone=true}] anchored eyes positioned ^ ^ ^ run function vanilla_refresh:wand/z/clone with storage vanilla_refresh:storage
 execute as @s[advancements={vanilla_refresh:wand/scale=true}] anchored eyes positioned ^ ^ ^ run function vanilla_refresh:wand/z/scale with storage vanilla_refresh:storage
-execute as @s[advancements={vanilla_refresh:wand/text=true}] anchored eyes positioned ^ ^ ^ run function vanilla_refresh:wand/z/text/raycast
+execute as @s[advancements={vanilla_refresh:wand/text=true}] anchored eyes positioned ^ ^ ^ run function vanilla_refresh:wand/z/display/raycast
 
 execute as @s[advancements={vanilla_refresh:wand/teleport_10=true}] anchored eyes positioned ^ ^ ^ run function vanilla_refresh:wand/z/teleport_10
 execute as @s[advancements={vanilla_refresh:wand/teleport_50=true}] anchored eyes positioned ^ ^ ^ run function vanilla_refresh:wand/z/teleport_50
