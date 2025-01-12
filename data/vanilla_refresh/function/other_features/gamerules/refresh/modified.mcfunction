@@ -241,8 +241,8 @@ execute as @s if score dragonelytra refresh_settings matches 1.. run tellraw @s[
 execute as @s if score dragonelytra refresh_settings matches 0 run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Dragon Drops Elytra: "},{"score":{"name": "dragonelytra","objective": "refresh_settings"},"color": "yellow"}]
 
 execute if score ghost refresh_settings matches 0 run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Spectator Ghost: "},{"score":{"name": "ghost","objective": "refresh_settings"},"color": "yellow"}]
-execute if score ghost refresh_settings matches 1 run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Spectator Ghost: "},{"score":{"name": "ghost","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Particles Fully Rendered","color": "yellow"}]
-execute if score ghost refresh_settings matches 2 run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Spectator Ghost: "},{"score":{"name": "ghost","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Particles Rendered Only to Others","color": "yellow"}]
+execute if score ghost refresh_settings matches 1 run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Spectator Ghost: "},{"score":{"name": "ghost","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Particles Fully Visible","color": "yellow"}]
+execute if score ghost refresh_settings matches 2 run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Spectator Ghost: "},{"score":{"name": "ghost","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Particles Visible Only to Others","color": "yellow"}]
 
 
 

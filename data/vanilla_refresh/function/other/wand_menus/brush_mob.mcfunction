@@ -46,7 +46,7 @@ tellraw @s [{"text": " "}]
 
 
 
-tellraw @s [{"text": " ","color": "gray"},{"translate":"vanilla_refresh.seperator.wands.entities","fallback":"     "},{"translate":"\uE4e1","font":"vanilla_refresh:icons","fallback": "","color":"white","hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Give"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:wand/text"}},{"text":" ","color":"white","hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Give"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:wand/text"}},{"translate":"Edit Text Display","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Open"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:wand/text"}}]
+tellraw @s [{"text": " ","color": "gray"},{"translate":"vanilla_refresh.seperator.wands.entities","fallback":"     "},{"translate":"\uE4e1","font":"vanilla_refresh:icons","fallback": "","color":"white","hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Give"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:wand/text"}},{"text":" ","color":"white","hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Give"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:wand/text"}},{"translate":"Edit Display Entity","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Open"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:wand/text"}}]
 
 
 tellraw @s [{"text": " "}]

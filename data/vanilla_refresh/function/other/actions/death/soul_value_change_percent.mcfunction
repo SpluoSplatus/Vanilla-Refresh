@@ -1,5 +1,6 @@
 execute if score @s refresh_soul_percent_xp matches 0.. store result score soul_percentxp refresh_settings run scoreboard players get @s refresh_soul_percent_xp
 
+#execute store result storage vanilla_refresh:settings soul_percentxp int 1 run scoreboard players get soul_percentxp refresh_settings
 
 #scoreboard players operation soul_percentxp refresh_settings /= 100 refresh_constants
 

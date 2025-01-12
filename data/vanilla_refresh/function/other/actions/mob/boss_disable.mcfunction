@@ -5,3 +5,5 @@ scoreboard players set boss_ambience refresh_settings 0
 function vanilla_refresh:other/menus/mob/settings4
 
 playsound entity.experience_orb.pickup player @s ~ ~ ~ 0.6 1
+
+#execute store result storage vanilla_refresh:settings boss_ambience int 1 run scoreboard players get boss_ambience refresh_settings

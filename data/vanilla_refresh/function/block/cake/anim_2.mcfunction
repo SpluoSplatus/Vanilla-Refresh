@@ -6,9 +6,7 @@ execute if score @s refresh_count matches 101 run particle explosion ~ ~ ~
 execute if score @s refresh_count matches 101 run particle explosion ~ ~ ~
 execute if score @s refresh_count matches 101 run setblock ~ ~ ~ air
 execute if score @s refresh_count matches 101 run particle block{block_state:"cake"} ~ ~-.25 ~ .5 .2 .5 .2 20 force @a[distance=..32]
-execute if score @s refresh_count matches 101 run playsound entity.generic.explode block @a[distance=..64] ~ ~ ~ 3 1.2
-execute if score @s refresh_count matches 101 run playsound entity.generic.explode block @a[distance=..64] ~ ~ ~ 3 1.2
-execute if score @s refresh_count matches 101 run playsound entity.generic.explode block @a[distance=..64] ~ ~ ~ 3 1.2
+execute if score @s refresh_count matches 101 run playsound entity.generic.explode block @a[distance=..32] ~ ~ ~ 2 1.2 .2
 execute if score @s refresh_count matches 101 run particle flame ~ ~ ~ 0 0 0 .12 50 force @a[distance=..64]
 execute if score @s refresh_count matches 101 run particle large_smoke ~ ~ ~ .05 .05 .05 .2 20 force @a[distance=..64]
 

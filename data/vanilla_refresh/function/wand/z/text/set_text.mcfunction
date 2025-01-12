@@ -1,5 +1,8 @@
+
 $data modify entity @n[type=text_display,tag=refresh_currently_in_editing,distance=..24] $(nbt) set value '$(value)'
 $data modify entity @n[type=text_display,tag=refresh_currently_in_editing,distance=..24] $(nbt) set value '"$(value)"'
+
+
 
 #$tellraw @s [{"text":"Set text","color":"gray"},$(value)]
 

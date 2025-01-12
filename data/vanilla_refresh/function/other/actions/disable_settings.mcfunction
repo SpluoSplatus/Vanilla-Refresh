@@ -155,4 +155,7 @@ scoreboard players set jukebox_stop_sound refresh_settings 0
 
 function vanilla_refresh:other/menus/main
 
+function vanilla_refresh:other/default_settings_storage
+
 playsound entity.experience_orb.pickup player @s ~ ~ ~ 0.6 1
+

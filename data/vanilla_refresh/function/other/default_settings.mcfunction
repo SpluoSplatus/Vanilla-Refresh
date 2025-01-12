@@ -1,3 +1,6 @@
+
+# execute unless score sitting refresh_settings matches -2147483648.. run schedule function vanilla_refresh:other/default_settings_storage 1t
+
 execute unless score sitting refresh_settings matches -2147483648.. run scoreboard players set sitting refresh_settings 1
 
 execute unless score mob_health refresh_settings matches -2147483648.. run scoreboard players set mob_health refresh_settings 1
@@ -137,6 +140,8 @@ execute unless score babyzombie refresh_settings matches -2147483648.. run score
 
 
 
+
+execute unless score ghost_toggle refresh_settings matches -2147483648.. run scoreboard players set ghost_toggle refresh_settings 0
 
 execute unless score ghost refresh_settings matches -2147483648.. run scoreboard players set ghost refresh_settings 1
 

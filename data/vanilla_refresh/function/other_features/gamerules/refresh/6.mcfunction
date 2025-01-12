@@ -37,8 +37,8 @@ execute if score dragonelytra refresh_settings matches 1.. run tellraw @s [{"tra
 
 
 
-execute if score ghost refresh_settings matches 1 run tellraw @s [{"translate": "   ","color": "gray","hoverEvent": {"action": "show_text","value":[{"text":"ID: ghost","color":"gray"},{"translate":"\nValue: "},{"score":{"name": "ghost","objective": "refresh_settings"}}]}},{"text":"✔ ","color": "yellow"},{"translate":"Spectator Ghost: - "},{"translate":"Fully Rendered","color": "yellow"}]
-execute if score ghost refresh_settings matches 2 run tellraw @s [{"translate": "   ","color": "gray","hoverEvent": {"action": "show_text","value":[{"text":"ID: ghost","color":"gray"},{"translate":"\nValue: "},{"score":{"name": "ghost","objective": "refresh_settings"}}]}},{"text":"✔ ","color": "yellow"},{"translate":"Spectator Ghost: - "},{"translate":"Rendered only to other players","color": "yellow"}]
+execute if score ghost refresh_settings matches 1 run tellraw @s [{"translate": "   ","color": "gray","hoverEvent": {"action": "show_text","value":[{"text":"ID: ghost","color":"gray"},{"translate":"\nValue: "},{"score":{"name": "ghost","objective": "refresh_settings"}}]}},{"text":"✔ ","color": "yellow"},{"translate":"Spectator Ghost: - "},{"translate":"Fully Visible","color": "yellow"}]
+execute if score ghost refresh_settings matches 2 run tellraw @s [{"translate": "   ","color": "gray","hoverEvent": {"action": "show_text","value":[{"text":"ID: ghost","color":"gray"},{"translate":"\nValue: "},{"score":{"name": "ghost","objective": "refresh_settings"}}]}},{"text":"✔ ","color": "yellow"},{"translate":"Spectator Ghost: - "},{"translate":"Visible only to other players","color": "yellow"}]
   execute if score ghost refresh_settings matches 0 run tellraw @s [{"translate": "   ","color": "gray","hoverEvent": {"action": "show_text","value":[{"text":"ID: ghost","color":"gray"},{"translate":"\nValue: "},{"score":{"name": "ghost","objective": "refresh_settings"}}]}},{"text":"❌ ","color": "#7d7d7d"},{"translate":"Spectator Ghost"}]
 
 

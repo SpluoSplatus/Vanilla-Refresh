@@ -6,7 +6,7 @@ scoreboard players add temp refresh_count 1
 
 particle electric_spark ~ ~ ~ 0 0 0 0 1 force @a[distance=..256]
 
-execute unless predicate vanilla_refresh:condition/sneaking as @n[distance=..1,type=text_display] at @s run function vanilla_refresh:wand/z/text/convert_text_to_escaped with entity @s
+execute unless predicate vanilla_refresh:condition/sneaking as @n[distance=..1,type=#vanilla_refresh:displays] at @s run function vanilla_refresh:wand/z/text/raycast_found
 execute if predicate vanilla_refresh:condition/sneaking as @n[distance=..1,type=text_display] at @s run function vanilla_refresh:wand/z/text/default
 
 

@@ -1,5 +1,5 @@
 
-execute unless score load_message refresh_settings matches ..0 run tellraw @a [{"translate": "Successfully loaded ","color": "gray"},{"translate": "Vanilla Refresh v1.4.26b","color": "green"}]
+execute unless score load_message refresh_settings matches ..0 run tellraw @a [{"translate": "Successfully loaded ","color": "gray"},{"translate": "Vanilla Refresh v1.4.26d","color": "green"}]
 
 ### Pack Installed
 
@@ -261,6 +261,9 @@ schedule function vanilla_refresh:other/clock/10tick 10t
 schedule function vanilla_refresh:other/clock/2tick 2t
 
 schedule function vanilla_refresh:other/clock/5tick 5t
+
+#==============
+
 
 function vanilla_refresh:other/default_settings
 

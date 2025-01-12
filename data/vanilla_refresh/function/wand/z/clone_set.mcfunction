@@ -149,8 +149,13 @@ execute if entity @s[type=zombie_horse] at @s run function vanilla_refresh:wand/
 execute if entity @s[type=zombie_villager] at @s run function vanilla_refresh:wand/z/clone_set_summon {entity:"zombie_villager"}
 execute if entity @s[type=zombified_piglin] at @s run function vanilla_refresh:wand/z/clone_set_summon {entity:"zombified_piglin"}
 
-tp @s ^ ^ ^.5
-
 execute if entity @s[type=#vanilla_refresh:markers] at @s run particle end_rod ~ ~ ~ 0 0 0 0 1 force @a[distance=..64]
+
+
+execute if entity @p[tag=refresh_temp_usingwand,distance=..128,predicate=!vanilla_refresh:condition/sneaking] run function vanilla_refresh:wand/z/clone_set_normal
+execute at @s if entity @p[tag=refresh_temp_usingwand,distance=..128,predicate=!vanilla_refresh:condition/sneaking] run function vanilla_refresh:wand/z/clone_set_normal
+
+execute if entity @p[tag=refresh_temp_usingwand,distance=..128,predicate=vanilla_refresh:condition/sneaking] run function vanilla_refresh:wand/z/clone_set_sneak
+execute at @s if entity @s[type=#vanilla_refresh:markers] if entity @p[tag=refresh_temp_usingwand,distance=..128,predicate=vanilla_refresh:condition/sneaking] run function vanilla_refresh:wand/z/clone_set_sneak
 
 scoreboard players set temp refresh_count 999

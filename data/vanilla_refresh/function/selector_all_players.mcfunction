@@ -128,10 +128,10 @@ execute if entity @s[scores={refresh_sound_egg=-2147483648..}] run function vani
 
 #spectator lol this one is literally two commands
 
-    #fully rendered
+    #fully Visible
     execute if score ghost refresh_settings matches 1 if entity @s[gamemode=spectator,tag=!refresh_disabled_spectator_ghost] if predicate vanilla_refresh:chance/80_percent run particle effect ~ ~1 ~ 0 0 0 1 1 force @a[distance=..128]
 
-    #if rendered only to others
+    #if Visible only to others
     execute if score ghost refresh_settings matches 2 if entity @s[gamemode=spectator,tag=!refresh_disabled_spectator_ghost] if predicate vanilla_refresh:chance/80_percent run particle effect ~ ~1 ~ 0 0 0 1 1 force @s[distance=0.0001..128]
 
 #spectator night vision

@@ -7,14 +7,14 @@ particle minecraft:bubble_column_up ~ ~-2 ~ 1 1.1 1 0.1 20 force @a[distance=..3
 
 particle explosion ~ ~ ~ 0 0 0 0 1 force @a[distance=..256] 
 
-particle explosion_emitter ~ ~-3 ~ 0 0 0 0 1 force @a[distance=..256] 
+execute align y if block ~ ~-.5 ~ water run particle explosion_emitter ~ ~-2.5 ~ 0 0 0 0 1 force @a[distance=..256] 
 
 particle poof ~ ~ ~ 1 .5 1 0.1 10 force @a[distance=..128]
 
 particle minecraft:splash ~ ~ ~ .8 .3 .8 0 100 force @a[distance=..64]
 
-playsound minecraft:entity.player.splash.high_speed block @a[distance=..48] ~ ~ ~ 2 .5
-playsound minecraft:entity.dolphin.swim block @a[distance=..48] ~ ~ ~ 1.5 .8
+execute unless score @s refresh_fallspeed matches ..-210 run playsound minecraft:entity.player.splash.high_speed block @a[distance=..25] ~ ~ ~ .75 .65 .15
+playsound minecraft:entity.dolphin.swim block @a[distance=..30] ~ ~ ~ 2 .5
 
 execute if predicate vanilla_refresh:chance/25_percent run summon marker ~ ~ ~ {Tags:[refresh_particle,refresh_particle_water,refresh_temp_water234234234],Rotation:[20f,-50.000f]}
 execute if predicate vanilla_refresh:chance/25_percent run summon marker ~ ~ ~ {Tags:[refresh_particle,refresh_particle_water,refresh_temp_water234234234],Rotation:[40f,-50.000f]}

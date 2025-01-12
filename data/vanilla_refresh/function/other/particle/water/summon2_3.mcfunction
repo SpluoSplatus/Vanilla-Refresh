@@ -1,17 +1,23 @@
 
 title @s[tag=refresh_debug] actionbar {"translate":"Refresh Debug - Wave 3, Height 40"}
 
-particle explosion ~ ~ ~ 0 0 0 0 1 force @a[distance=..256] 
-particle explosion ~ ~1 ~ 1 1 1 0 5 force @a[distance=..256] 
+particle explosion ~ ~1 ~ 1 1 1 0 4 force @a[distance=..256] 
 
+
+execute positioned ~ ~ ~ run function vanilla_refresh:other/particle/water/wave_particle_bigger
 
 particle minecraft:bubble_column_up ~ ~-2 ~ 1.5 1.5 1.5 0.1 40 force @a[distance=..32]
+
+execute align y if block ~ ~-3 ~ water run particle explosion_emitter ~ ~-5.5 ~ 0 0 0 0 1 force @a[distance=..256] 
 
 particle poof ~ ~ ~ 1 .5 1 0.1 10 force @a[distance=..128]
 
 particle minecraft:splash ~ ~ ~ .8 .3 .8 0 100 force @a[distance=..64]
 
-playsound minecraft:entity.dolphin.splash block @a[distance=..48] ~ ~ ~ 1.5 .5
+playsound minecraft:entity.dolphin.splash block @a[distance=..48] ~ ~ ~ 2 .5
+
+playsound minecraft:entity.dolphin.swim block @a[distance=..48] ~ ~ ~ 2 .5
+playsound minecraft:entity.player.splash.high_speed block @a[distance=..30] ~ ~ ~ .9 .5 .15
 
 execute if predicate vanilla_refresh:chance/25_percent run summon marker ~ ~ ~ {Tags:[refresh_particle,refresh_particle_water,refresh_temp_water234234234],Rotation:[20f,-50.000f]}
 execute if predicate vanilla_refresh:chance/25_percent run summon marker ~ ~ ~ {Tags:[refresh_particle,refresh_particle_water,refresh_temp_water234234234],Rotation:[40f,-50.000f]}
