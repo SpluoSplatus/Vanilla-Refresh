@@ -19,7 +19,7 @@ scoreboard players reset value refresh_storage
 
 
 tag @p add refresh_temp_usingwand
-function vanilla_refresh:wand/z/display/text/convert_text_to_escaped
+function vanilla_refresh:wand/z/display/text/store_data
 execute as @p at @s run function vanilla_refresh:wand/z/display/text/display with storage vanilla_refresh:storage temp.macro
 tag @p remove refresh_temp_usingwand
 

@@ -1,13 +1,9 @@
 {
-    "condition": "minecraft:value_check",
-    "value": {
-      "type": "minecraft:score",
-      "target": {
-        "type": "minecraft:fixed",
-        "name": "mob_health"
-      },
-      "score": "refresh_settings"
-    },
-    "range": 1
-  }
-  
+  "condition": "minecraft:value_check",
+  "value": {
+    "type": "minecraft:storage",
+    "storage": "vanilla_refresh_config:config",
+    "path": "config.mob_health"
+  },
+  "range": 1
+}

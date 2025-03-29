@@ -19,7 +19,7 @@ execute if score @s refresh_count matches 6 run data merge entity @s {Pose:{Body
 
 execute if score @s refresh_count matches 7 run data merge entity @s {ShowArms:1b,Pose:{Head:[336f,0f,0f],LeftArm:[249f,340f,263f],RightArm:[275f,30f,185f]}}
 
-execute if score @s refresh_count matches 8 run data merge entity @s {Pose: {RightArm: [0.0f, 304.0f, 0.0f], LeftLeg: [352.0f, 0.0f, 2.0f], Head: [350.0f, 5.0f, 0.0f], LeftArm: [300.0f, 80.0f, 215.0f], RightLeg: [18.0f, 0.0f, 0.0f], Body: [0.0f, 0.0f, 0.0f]}}
+execute if score @s refresh_count matches 8 run data merge entity @s {Pose: {RightArm: [0.0f, 40.0f, 0.0f], LeftLeg: [352.0f, 0.0f, 2.0f], Head: [350.0f, 5.0f, 0.0f], LeftArm: [300.0f, 80.0f, 215.0f], RightLeg: [18.0f, 0.0f, 0.0f], Body: [0.0f, 0.0f, 0.0f]}}
 
 execute if score @s refresh_count matches 9 run data merge entity @s {ShowArms:1b,Pose:{LeftArm:[0f,290f,240f],RightArm:[0f,90f,120f],LeftLeg:[0f,0f,-10f],RightLeg:[0f,0f,10f]}}
 

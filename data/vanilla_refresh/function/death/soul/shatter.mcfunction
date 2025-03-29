@@ -7,8 +7,8 @@ execute if score @s refresh_count matches 311 run playsound entity.zombie_villag
 execute if score @s refresh_count matches 341 run function vanilla_refresh:death/soul/shatter_end
 
 #lingering death drops
-execute if score death_items refresh_settings matches 1 if score @s refresh_count matches 342 as @s[tag=refresh_entity_playersoul_hasitems] as @e[distance=..3,type=item] run data modify entity @s Age set value -32768s
-execute if score death_items refresh_settings matches 1 if score @s refresh_count matches 342 as @s[tag=refresh_entity_playersoul_hasitems] as @e[distance=..3,type=item] run tag @s add refresh_entity_item_deathchecked
+execute if data storage vanilla_refresh_config:config config{death_items:1} if score @s refresh_count matches 342 as @s[tag=refresh_entity_playersoul_hasitems] as @e[distance=..3,type=item] run data modify entity @s Age set value -32768s
+execute if data storage vanilla_refresh_config:config config{death_items:1} if score @s refresh_count matches 342 as @s[tag=refresh_entity_playersoul_hasitems] as @e[distance=..3,type=item] run tag @s add refresh_entity_item_deathchecked
 
 
 execute if score @s refresh_count matches 301.. run particle trial_spawner_detection_ominous ~ ~ ~ 0 0 0 .02 1 force @a[distance=..128]

@@ -155,7 +155,7 @@ execute if score temp_gamerules_modified refresh_gamerules matches 0 run tellraw
 
 tellraw @s [{"text": " "}]
 
-tellraw @s [{"translate": "","color": "gray"},{"translate":""},{"translate":"<-- Return","color":"yellow","underlined":false,"hoverEvent":{"action":"show_text","contents":[{"translate":"Previous Page"}]},"clickEvent":{"action":"run_command","value":"/trigger gamerules set 11"}},{"translate":"     ","color": "gray"}]
+tellraw @s [{"translate": "","color": "gray"},{"translate":""},{"translate":"<-- Return","color":"yellow","underlined":false,"hover_event":{"action":"show_text","value":[{"translate":"Previous Page"}]},"click_event":{"action":"run_command","command":"/trigger gamerules set 11"}},{"translate":"     ","color": "gray"}]
 
 
 tellraw @s [{"text": " "}]

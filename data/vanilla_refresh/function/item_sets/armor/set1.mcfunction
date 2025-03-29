@@ -9,7 +9,7 @@ item replace entity @s armor.feet with iron_boots[unbreakable={}] 1
 
 give @s iron_sword[unbreakable={}]
 
-give @s bow[unbreakable={},enchantments={levels:{"minecraft:infinity":1}}] 1
+give @s bow[unbreakable={},enchantments={infinity:1}] 1
 give @s cooked_chicken 64
 give @s iron_pickaxe[unbreakable={}]
 give @s iron_shovel[unbreakable={}]

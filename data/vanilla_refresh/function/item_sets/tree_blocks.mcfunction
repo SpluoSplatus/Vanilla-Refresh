@@ -1,4 +1,4 @@
-execute if score giveclearing refresh_settings matches 1 run clear @s
+execute if data storage vanilla_refresh_config:config config{giveclearing:1} run clear @s
 give @s grass_block
 give @s dirt
 

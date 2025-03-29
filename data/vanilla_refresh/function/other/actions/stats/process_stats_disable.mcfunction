@@ -13,7 +13,7 @@ tellraw @s [{"text": " "}]
 
 
 
-tellraw @s [{"translate": "                     ","color": "gray"},{"translate":"Cancel","color":"yellow","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to change this setting"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:other/menus/stats/settings3"}},{"translate": "      ","color": "gray"},{"translate":"Disable it!","color":"red","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to change this setting"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:other/actions/stats/process_stats_disable_confirm"}}]
+tellraw @s [{"translate": "                     ","color": "gray"},{"translate":"Cancel","color":"yellow","underlined":true,"hover_event":{"action":"show_text","value":[{"translate":"Click to change this setting"}]},"click_event":{"action":"run_command","command":"/function vanilla_refresh:other/menus/stats/settings3"}},{"translate": "      ","color": "gray"},{"translate":"Disable it!","color":"red","underlined":true,"hover_event":{"action":"show_text","value":[{"translate":"Click to change this setting"}]},"click_event":{"action":"run_command","command":"/function vanilla_refresh:other/actions/stats/process_stats_disable_confirm"}}]
 
 
 

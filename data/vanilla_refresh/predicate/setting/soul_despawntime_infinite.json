@@ -1,0 +1,11 @@
+{
+  "condition": "minecraft:value_check",
+  "value": {
+    "type": "minecraft:storage",
+    "storage": "vanilla_refresh_config:config",
+    "path": "config.soul_despawntime"
+  },
+  "range": {
+    "min": 6000000
+  }
+}

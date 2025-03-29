@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:value_check",
+  "value": {
+    "type": "minecraft:storage",
+    "storage": "vanilla_refresh_config:config",
+    "path": "config.death_sound"
+  },
+  "range": {
+    "min": 1,
+    "max": 10
+  }
+}

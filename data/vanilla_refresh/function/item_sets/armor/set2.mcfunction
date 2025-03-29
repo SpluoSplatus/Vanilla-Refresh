@@ -8,7 +8,7 @@ item replace entity @s armor.legs with diamond_leggings[unbreakable={}] 1
 item replace entity @s armor.feet with diamond_boots[unbreakable={}] 1
 
 give @s diamond_sword[unbreakable={}]
-give @s bow[unbreakable={},enchantments={levels:{"minecraft:power":1,"minecraft:infinity":1}}] 1
+give @s bow[unbreakable={},enchantments={infinity:1,power:1}] 1
 give @s cooked_beef 64
 give @s diamond_pickaxe[unbreakable={}]
 give @s diamond_shovel[unbreakable={}]

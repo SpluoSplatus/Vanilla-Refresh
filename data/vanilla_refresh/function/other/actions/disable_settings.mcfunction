@@ -1,156 +1,158 @@
- scoreboard players set sitting refresh_settings 0
+ data modify storage vanilla_refresh_config:config config.sitting set value 0
 
-scoreboard players set mob_health refresh_settings 0
+data modify storage vanilla_refresh_config:config config.mob_health set value 0
 
-scoreboard players set banner refresh_settings 0
+data modify storage vanilla_refresh_config:config config.banner set value 0
 
-scoreboard players set death refresh_settings 0
+data modify storage vanilla_refresh_config:config config.death set value 0
 
-scoreboard players set death_sound refresh_settings 0
+data modify storage vanilla_refresh_config:config config.death_sound set value 0
 
-scoreboard players set death_sound_local refresh_settings 0
+data modify storage vanilla_refresh_config:config config.death_sound_local set value 0
 
-scoreboard players set totem_void refresh_settings 0
+data modify storage vanilla_refresh_config:config config.totem_void set value 0
 
-scoreboard players set ladder refresh_settings 0
+data modify storage vanilla_refresh_config:config config.ladder set value 0
 
-scoreboard players set ladder_limit refresh_settings 8
 
-scoreboard players set death_items refresh_settings 0
+data modify storage vanilla_refresh_config:config config.death_items set value 0
 
-scoreboard players set torch refresh_settings 0
+data modify storage vanilla_refresh_config:config config.torch set value 0
 
-scoreboard players set tips refresh_settings 0
+data modify storage vanilla_refresh_config:config config.daycounter set value 0
 
-scoreboard players set daycounter refresh_settings 0
+data modify storage vanilla_refresh_config:config config.subtitles set value 0
 
-scoreboard players set subtitles refresh_settings 0
+data modify storage vanilla_refresh_config:config config.jukebox set value 0
 
-scoreboard players set jukebox refresh_settings 0
 
+data modify storage vanilla_refresh_config:config config.witherhead set value 0
 
-scoreboard players set witherhead refresh_settings 0
+data modify storage vanilla_refresh_config:config config.blockanims set value 0
 
-scoreboard players set blockanims refresh_settings 0
+data modify storage vanilla_refresh_config:config config.grief_tnt set value 1
 
-scoreboard players set grief_tnt refresh_settings 1
+data modify storage vanilla_refresh_config:config config.grief_crystal set value 1
 
-scoreboard players set grief_crystal refresh_settings 1
+data modify storage vanilla_refresh_config:config config.grief_lava set value 0
 
-scoreboard players set grief_lava refresh_settings 0
+data modify storage vanilla_refresh_config:config config.explosivefurnace set value 0
 
-scoreboard players set explosivefurnace refresh_settings 0
+data modify storage vanilla_refresh_config:config config.spyglass set value 0
 
-scoreboard players set spyglass refresh_settings 0
+data modify storage vanilla_refresh_config:config config.dragonelytra set value 0
 
-scoreboard players set dragonelytra refresh_settings 0
 
-scoreboard players set durability refresh_settings 0
+data modify storage vanilla_refresh_config:config config.soul set value 0
 
-scoreboard players set soul refresh_settings 0
+data modify storage vanilla_refresh_config:config config.biome set value 0
 
-scoreboard players set biome refresh_settings 0
+data modify storage vanilla_refresh_config:config config.dragonegg set value 0
 
-scoreboard players set dragonegg refresh_settings 0
 
 
 
 
+data modify storage vanilla_refresh_config:config config.homingxp set value 0
 
-scoreboard players set homingxp refresh_settings 0
+data modify storage vanilla_refresh_config:config config.cropsxp set value 0
 
-scoreboard players set cropsxp refresh_settings 0
+data modify storage vanilla_refresh_config:config config.healthsound set value 0
 
-scoreboard players set healthsound refresh_settings 0
 
-scoreboard players set showdeath refresh_settings 0
+data modify storage vanilla_refresh_config:config config.armorstand set value 0
 
-scoreboard players set armorstand refresh_settings 0
+data modify storage vanilla_refresh_config:config config.trident set value 0
 
-scoreboard players set trident refresh_settings 0
 
 
+scoreboard objectives setdisplay below_name
+scoreboard objectives setdisplay list
 
-scoreboard objectives setdisplay list refresh_player_hours
-scoreboard players set tabdisplay refresh_settings 0
+data modify storage vanilla_refresh_config:config config.tabdisplay set value 0
 
-scoreboard players set cyclestats refresh_settings 0
+data modify storage vanilla_refresh_config:config config.cyclestats set value 0
 
-scoreboard players set path refresh_settings 0
+data modify storage vanilla_refresh_config:config config.path set value 0
 
-scoreboard players set lodestone refresh_settings 0
-scoreboard players set lodestone_teleport_damage refresh_settings 0
+data modify storage vanilla_refresh_config:config config.lodestone set value 0
+data modify storage vanilla_refresh_config:config config.lodestone_teleport_damage set value 0
 
-scoreboard players set invis refresh_settings 0
+data modify storage vanilla_refresh_config:config config.invis set value 0
 
-scoreboard players set cyclestats refresh_settings 0
+data modify storage vanilla_refresh_config:config config.cyclestats set value 0
 
-scoreboard players set recovery refresh_settings 0
+data modify storage vanilla_refresh_config:config config.recovery set value 0
 
-scoreboard players set clock refresh_settings 0
+data modify storage vanilla_refresh_config:config config.clock set value 0
 
-scoreboard players set compass refresh_settings 0
+data modify storage vanilla_refresh_config:config config.compass set value 0
 
-scoreboard players set gravestone refresh_settings 0
+data modify storage vanilla_refresh_config:config config.gravestone set value 0
 
 
-#scoreboard players set process_stats refresh_settings 0
+#data modify storage vanilla_refresh_config:config config.process_stats set value 0
 
 
-scoreboard players set gamerules refresh_settings 0
+data modify storage vanilla_refresh_config:config config.gamerules set value 0
 
 
 
-scoreboard players set echo refresh_settings 0
-scoreboard players set spawn_invul refresh_settings 0
-scoreboard players set command_block refresh_settings 0
-#scoreboard players set giveclearing refresh_settings 0
-#scoreboard players set wands_survival refresh_settings 0
+data modify storage vanilla_refresh_config:config config.echo set value 0
 
 
-scoreboard players set cake refresh_settings 0
-scoreboard players set join refresh_settings 0
-scoreboard players set firstjoin refresh_settings 0
-scoreboard players set anvil refresh_settings 0
 
+data modify storage vanilla_refresh_config:config config.command_block set value 0
+#data modify storage vanilla_refresh_config:config config.giveclearing set value 0
+#data modify storage vanilla_refresh_config:config config.wands_survival set value 0
 
-scoreboard players set babyzombie refresh_settings 0
 
+data modify storage vanilla_refresh_config:config config.cake set value 0
+data modify storage vanilla_refresh_config:config config.join set value 0
+data modify storage vanilla_refresh_config:config config.firstjoin set value 0
+data modify storage vanilla_refresh_config:config config.anvil set value 0
 
-scoreboard players set ghost refresh_settings 0
 
-scoreboard players set spectate refresh_settings 0
+data modify storage vanilla_refresh_config:config config.babyzombie set value 0
 
-scoreboard players set nightvision refresh_settings 0
 
-scoreboard players set itemsparkle refresh_settings 0
+data modify storage vanilla_refresh_config:config config.ghost set value 0
 
-scoreboard players set playerlist refresh_settings 0
+data modify storage vanilla_refresh_config:config config.spectate set value 0
 
-scoreboard players set armortrimmed_mobs refresh_settings 0
 
-scoreboard players set stats refresh_settings 0
-scoreboard players set stats_name refresh_settings 0
-scoreboard players set stats_time refresh_settings 0
-scoreboard players set stats_mobkills refresh_settings 0
-scoreboard players set stats_kills refresh_settings 0
-scoreboard players set stats_deaths refresh_settings 0
-scoreboard players set stats_deathtime refresh_settings 0
-scoreboard players set stats_deathaverage refresh_settings 0
-scoreboard players set stats_xp refresh_settings 0
 
-scoreboard players set stats_memberjoin refresh_settings 0
+data modify storage vanilla_refresh_config:config config.itemsparkle set value 0
 
-scoreboard players set anim_level refresh_settings 0
-scoreboard players set anim_water refresh_settings 0
-scoreboard players set anim_teleport refresh_settings 0
+data modify storage vanilla_refresh_config:config config.playerlist set value 0
 
-scoreboard players set playerheads refresh_settings 0
+data modify storage vanilla_refresh_config:config config.armortrimmed_mobs set value 0
 
-scoreboard players set spectate_animation refresh_settings 0
+data modify storage vanilla_refresh_config:config config.stats set value 0
 
-scoreboard players set craftsound refresh_settings 0
-scoreboard players set jukebox_stop_sound refresh_settings 0
+
+data modify storage vanilla_refresh_config:config config.stats_time set value 0
+data modify storage vanilla_refresh_config:config config.stats_mobkills set value 0
+data modify storage vanilla_refresh_config:config config.stats_kills set value 0
+data modify storage vanilla_refresh_config:config config.stats_deaths set value 0
+data modify storage vanilla_refresh_config:config config.stats_deathtime set value 0
+data modify storage vanilla_refresh_config:config config.stats_deathaverage set value 0
+data modify storage vanilla_refresh_config:config config.stats_xp set value 0
+
+data modify storage vanilla_refresh_config:config config.stats_memberjoin set value 0
+
+data modify storage vanilla_refresh_config:config config.anim_level set value 0
+data modify storage vanilla_refresh_config:config config.anim_water set value 0
+data modify storage vanilla_refresh_config:config config.anim_teleport set value 0
+
+data modify storage vanilla_refresh_config:config config.playerheads set value 0
+
+data modify storage vanilla_refresh_config:config config.spectate_animation set value 0
+
+data modify storage vanilla_refresh_config:config config.craftsound set value 0
+data modify storage vanilla_refresh_config:config config.jukebox_stop_sound set value 0
+
+data modify storage vanilla_refresh_config:config config.stoptime set value 0
 
 
 function vanilla_refresh:other/menus/main

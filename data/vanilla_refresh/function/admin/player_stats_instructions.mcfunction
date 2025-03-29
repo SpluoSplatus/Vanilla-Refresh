@@ -1,6 +1,6 @@
 tellraw @s {"translate": ""}
 
-tellraw @s [{"translate": "","color": "gray"},{"translate":"/function vanilla_refresh:admin/player_stats {player:\"insertname\"}","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"translate":"Click to insert/copy command"}]},"clickEvent":{"action":"suggest_command","value":"/function vanilla_refresh:admin/player_stats {player:\"insertname\"}"}},{"translate":" << Click to insert command","color": "gray"},{"translate": "    "}]
+tellraw @s [{"translate": "","color": "gray"},{"translate":"/function vanilla_refresh:admin/player_stats {player:\"insertname\"}","color":"aqua","hover_event":{"action":"show_text","value":[{"translate":"Click to insert/copy command"}]},"click_event":{"action":"suggest_command","command":"/function vanilla_refresh:admin/player_stats {player:\"insertname\"}"}},{"translate":" << Click to insert command","color": "gray"},{"translate": "    "}]
 
 
 tellraw @s {"translate": ""}

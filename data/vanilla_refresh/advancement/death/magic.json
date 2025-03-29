@@ -5,7 +5,10 @@
         "conditions": {
           "killing_blow": {
             "direct_entity": {
-              "type": "minecraft:potion"
+              "type": [
+                "splash_potion",
+                "lingering_potion"
+              ]
             }
           }
         }

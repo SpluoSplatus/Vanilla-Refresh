@@ -7,7 +7,7 @@ tellraw @s [{"translate":"Select a Wand Category ","color": "yellow"},{"translat
 
 tellraw @s [{"text": " "}]
 
-tellraw @s [{"text": "   ","color": "gray"},{"translate":"Teleport","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Open"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:other/wand_menus/teleport"}},{"translate":"    "},{"translate":"Entities","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Open"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:other/wand_menus/brush_mob"}},{"translate":"    "},{"translate":"Other","color":"#5ba3f5","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Open"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:other/wand_menus/other"}},{"translate":"    "}]
+tellraw @s [{"text": "   ","color": "gray"},{"translate":"Teleport","color":"#5ba3f5","underlined":true,"hover_event":{"action":"show_text","value":[{"translate":"Click to Open"}]},"click_event":{"action":"run_command","command":"/function vanilla_refresh:other/wand_menus/teleport"}},{"translate":"    "},{"translate":"Entities","color":"#5ba3f5","underlined":true,"hover_event":{"action":"show_text","value":[{"translate":"Click to Open"}]},"click_event":{"action":"run_command","command":"/function vanilla_refresh:other/wand_menus/brush_mob"}},{"translate":"    "},{"translate":"Other","color":"#5ba3f5","underlined":true,"hover_event":{"action":"show_text","value":[{"translate":"Click to Open"}]},"click_event":{"action":"run_command","command":"/function vanilla_refresh:other/wand_menus/other"}},{"translate":"    "}]
 
 
 

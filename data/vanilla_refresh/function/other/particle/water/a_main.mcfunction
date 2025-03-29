@@ -1,5 +1,6 @@
 scoreboard players add @s refresh_count 1
 
+#randomness
 execute if score @s refresh_count matches 1..10 if predicate vanilla_refresh:chance/25_percent run scoreboard players remove @s refresh_count 1
 execute if score @s refresh_count matches ..9 if predicate vanilla_refresh:chance/40_percent run scoreboard players add @s refresh_count 2
 
@@ -17,7 +18,7 @@ execute at @s if score @s refresh_count matches 26.. run tp @s ~ ~-1.4 ~
 
 #execute at @s run particle poof ~ ~ ~ 0 0 0 0 1 force @a[distance=..128]
 execute at @s run particle dust_color_transition{from_color:[0.541,0.710,1.000],scale:1.2,to_color:[1.000,1.000,1.000]} ~ ~ ~ .3 .3 .3 1 0 force @a[distance=..128]
-execute at @s run particle minecraft:splash ~ ~ ~ 0 0 0 0 5 force @a[distance=..64]
+execute at @s run particle minecraft:splash ~ ~ ~ 0 0 0 0 3 normal @a[distance=..32]
 
 execute at @s unless block ~ ~ ~ #vanilla_refresh:gravestone_permeable run function vanilla_refresh:other/particle/water/splash
 

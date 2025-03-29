@@ -9,5 +9,5 @@ $data modify entity @s item.components.minecraft:custom_model_data set value $(v
 #playsound minecraft:entity.villager.work_shepherd ambient @s ~ ~ ~ .5 1
 
 
-execute if entity @s[type=item_display,tag=refresh_CIE2] run function vanilla_refresh:wand/z/display/item/convert_text_to_escaped
+execute if entity @s[type=item_display,tag=refresh_CIE2] run function vanilla_refresh:wand/z/display/item/store_data
 

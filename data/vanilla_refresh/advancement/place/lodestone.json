@@ -9,11 +9,30 @@
             "block": "minecraft:lodestone",
             "properties": {}
           }
+        ],
+        "player": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "gamemode": [
+                  "creative"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "reference",
+            "name": "vanilla_refresh:condition/sneaking"
+          }
         ]
       }
     }
   },
   "rewards": {
     "function": "vanilla_refresh:other/placed_block"
-  }
+  },
+  "parent": "vanilla_refresh:place/disc"
 }

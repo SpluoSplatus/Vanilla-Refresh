@@ -18,7 +18,7 @@ scoreboard players reset value refresh_storage
 
 
 
-function vanilla_refresh:wand/z/display/item/convert_text_to_escaped
+function vanilla_refresh:wand/z/display/item/store_data
 
 
 

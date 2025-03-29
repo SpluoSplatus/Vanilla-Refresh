@@ -1,6 +1,6 @@
 tag @s add refresh_temp_pearlholder
 
-execute if score second refresh_clock matches 1 positioned ~ ~1.62 ~ as @e[type=marker,tag=refresh_entity_lodestone_teleport,distance=..80] facing entity @s feet positioned ^ ^ ^2 run function vanilla_refresh:block/lodestone/holding_pearl_check_color
+execute if score second refresh_clock matches 1 positioned ~ ~1.62 ~ as @e[type=marker,tag=refresh_entity_lodestone_teleport,distance=..128] facing entity @s feet positioned ^ ^ ^2 run function vanilla_refresh:block/lodestone/holding_pearl_check_color
 
 
 

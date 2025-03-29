@@ -6,29 +6,22 @@
     {
       "condition": "minecraft:value_check",
       "value": {
-        "type": "minecraft:score",
-        "target": {
-          "type": "minecraft:fixed",
-          "name": "dragonegg"
-        },
-        "score": "refresh_settings"
+        "type": "minecraft:storage",
+        "storage": "vanilla_refresh_config:config",
+        "path": "config.dragonegg"
       },
       "range": 1
-    }
-  ,
-  {
+    },
+    {
       "condition": "minecraft:value_check",
       "value": {
-        "type": "minecraft:score",
-        "target": {
-          "type": "minecraft:fixed",
-          "name": "dragonelytra"
-        },
-        "score": "refresh_settings"
+        "type": "minecraft:storage",
+        "storage": "vanilla_refresh_config:config",
+        "path": "config.dragonelytra"
       },
       "range": 1
     }
-      
+    
     
   ]
 }

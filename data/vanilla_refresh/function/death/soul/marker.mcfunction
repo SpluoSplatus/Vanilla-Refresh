@@ -5,7 +5,7 @@ execute if score 2tick refresh_clock matches 1 if score @s refresh_count matches
 execute if score 2tick refresh_clock matches 1 if score @s refresh_count matches 50..99 positioned ^ ^ ^-1 rotated ~ 90 run particle soul_fire_flame ~ ~.5 ~ ^ ^ ^10000000000 0.0000000000075 0 force @a[distance=..64]
 
 
-execute if score soul_takeitems refresh_settings matches 1 run tag @s add refresh_entity_playersoul_hasitems
+execute if data storage vanilla_refresh_config:config config{soul_takeitems:1} run tag @s add refresh_entity_playersoul_hasitems
 
 #animation
 execute unless score @s refresh_count matches 99.. run function vanilla_refresh:death/soul/marker_starting_anim

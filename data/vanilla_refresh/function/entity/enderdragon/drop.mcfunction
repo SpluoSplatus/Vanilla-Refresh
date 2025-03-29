@@ -1,18 +1,18 @@
 
 #dragon egg: off // elytra: on
-execute unless score dragonegg refresh_settings matches 1 if score dragonelytra refresh_settings matches 1 run summon item ~ ~-.5 ~ {Age:32768,Item:{id:"minecraft:elytra",count:1},PickupDelay:60,NoGravity:1b}
+execute unless data storage vanilla_refresh_config:config config{dragonegg:1} if data storage vanilla_refresh_config:config config{dragonelytra:1} run summon item ~ ~-.5 ~ {Age:32768,Item:{id:"minecraft:elytra",count:1},PickupDelay:60,NoGravity:1b}
 
 #dragon egg: on // elytra: off
-execute unless score dragonelytra refresh_settings matches 1 if score dragonegg refresh_settings matches 1 if score dragon_respawned refresh_storage matches 1 run summon item ~ ~-.5 ~ {Age:32768,Item:{id:"minecraft:dragon_egg",count:1},PickupDelay:60,NoGravity:1b}
+execute unless data storage vanilla_refresh_config:config config{dragonelytra:1} if data storage vanilla_refresh_config:config config{dragonegg:1} if score dragon_respawned refresh_storage matches 1 run summon item ~ ~-.5 ~ {Age:32768,Item:{id:"minecraft:dragon_egg",count:1},PickupDelay:60,NoGravity:1b}
 
 #dragon egg: on // elytra: on // second dragon kill
-execute if score dragon_respawned refresh_storage matches 1 if score dragonelytra refresh_settings matches 1 if score dragonegg refresh_settings matches 1 run summon item ~ ~-.5 ~.2 {Age:32768,Item:{id:"minecraft:dragon_egg",count:1},PickupDelay:60,NoGravity:1b}
-execute if score dragon_respawned refresh_storage matches 1 if score dragonelytra refresh_settings matches 1 if score dragonegg refresh_settings matches 1 run summon item ~ ~-.5 ~-.2 {Age:32768,Item:{id:"minecraft:elytra",count:1},PickupDelay:60,NoGravity:1b}
+execute if score dragon_respawned refresh_storage matches 1 if data storage vanilla_refresh_config:config config{dragonelytra:1} if data storage vanilla_refresh_config:config config{dragonegg:1} run summon item ~ ~-.5 ~.2 {Age:32768,Item:{id:"minecraft:dragon_egg",count:1},PickupDelay:60,NoGravity:1b}
+execute if score dragon_respawned refresh_storage matches 1 if data storage vanilla_refresh_config:config config{dragonelytra:1} if data storage vanilla_refresh_config:config config{dragonegg:1} run summon item ~ ~-.5 ~-.2 {Age:32768,Item:{id:"minecraft:elytra",count:1},PickupDelay:60,NoGravity:1b}
 
 
 #dragon egg: on // elytra: on // first dragon kill
 #will only drop elytra
-execute unless score dragon_respawned refresh_storage matches 1 if score dragonelytra refresh_settings matches 1 if score dragonegg refresh_settings matches 1 run summon item ~ ~-.5 ~ {Age:32768,Item:{id:"minecraft:elytra",count:1},PickupDelay:60,NoGravity:1b}
+execute unless score dragon_respawned refresh_storage matches 1 if data storage vanilla_refresh_config:config config{dragonelytra:1} if data storage vanilla_refresh_config:config config{dragonegg:1} run summon item ~ ~-.5 ~ {Age:32768,Item:{id:"minecraft:elytra",count:1},PickupDelay:60,NoGravity:1b}
 
 
 

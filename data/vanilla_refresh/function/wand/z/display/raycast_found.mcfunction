@@ -16,9 +16,9 @@ execute if entity @s[type=block_display] at @s run tag @s add refresh_CIE2
     execute store result score entities_selected refresh_storage if entity @e[type=#vanilla_refresh:displays,tag=refresh_CIE2,distance=..128]
 
 #store data for each display, and convert any stringed data into escaped strings
-execute if entity @s[type=text_display] at @s run function vanilla_refresh:wand/z/display/text/convert_text_to_escaped with entity @s
-execute if entity @s[type=item_display] at @s run function vanilla_refresh:wand/z/display/item/convert_text_to_escaped with entity @s
-execute if entity @s[type=block_display] at @s run function vanilla_refresh:wand/z/display/block/convert_text_to_escaped with entity @s
+execute if entity @s[type=text_display] at @s run function vanilla_refresh:wand/z/display/text/store_data with entity @s
+execute if entity @s[type=item_display] at @s run function vanilla_refresh:wand/z/display/item/store_data with entity @s
+execute if entity @s[type=block_display] at @s run function vanilla_refresh:wand/z/display/block/store_data with entity @s
 
 #chat menu UI
 execute if entity @s[type=text_display] as @p[tag=refresh_temp_usingwand] run function vanilla_refresh:wand/z/display/text/display with storage vanilla_refresh:storage temp.macro

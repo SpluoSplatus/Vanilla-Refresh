@@ -11,5 +11,5 @@ $data modify entity @s block_state.Name set value "$(id)"
 
 
 
-function vanilla_refresh:wand/z/display/block/convert_text_to_escaped
+function vanilla_refresh:wand/z/display/block/store_data
 

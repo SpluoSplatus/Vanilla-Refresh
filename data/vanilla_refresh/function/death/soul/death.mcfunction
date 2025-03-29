@@ -9,13 +9,13 @@ execute store result score @n[type=marker,tag=refresh_entity_playersoul_temp] re
 execute store result score @n[type=marker,tag=refresh_entity_playersoul_temp] refresh_uuid3 run data get entity @s UUID[2]
 execute store result score @n[type=marker,tag=refresh_entity_playersoul_temp] refresh_uuid4 run data get entity @s UUID[3]
 
-execute if score soul_takeitems refresh_settings matches 1 run data modify entity @n[type=marker,tag=refresh_entity_playersoul_temp] data.Inventory set from entity @s Inventory
-execute if score soul_takeitems refresh_settings matches 1 run tag @n[type=marker,tag=refresh_entity_playersoul_temp] add refresh_entity_playersoul_hasitems
+execute if data storage vanilla_refresh_config:config config{soul_takeitems:1} run data modify entity @n[type=marker,tag=refresh_entity_playersoul_temp] data.Inventory set from entity @s Inventory
+execute if data storage vanilla_refresh_config:config config{soul_takeitems:1} run tag @n[type=marker,tag=refresh_entity_playersoul_temp] add refresh_entity_playersoul_hasitems
 data modify entity @n[type=marker,tag=refresh_entity_playersoul_temp] data.XP set from entity @s XpLevel
 
 
 #particle end_rod ~ ~ ~ 0 0 0 .12 6 force @a[distance=..32] 
-execute if score soul_takeitems refresh_settings matches 1 run clear @s
+execute if data storage vanilla_refresh_config:config config{soul_takeitems:1} run clear @s
 xp set @s 0 levels
 xp set @s 0 points
 

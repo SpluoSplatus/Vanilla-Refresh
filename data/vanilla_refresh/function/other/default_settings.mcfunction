@@ -1,123 +1,127 @@
 
-# execute unless score sitting refresh_settings matches -2147483648.. run schedule function vanilla_refresh:other/default_settings_storage 1t
+execute unless data storage vanilla_refresh_config:config config.load_message run data modify storage vanilla_refresh_config:config config.load_message set value 1
 
-execute unless score sitting refresh_settings matches -2147483648.. run scoreboard players set sitting refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.sitting run data modify storage vanilla_refresh_config:config config.sitting set value 1
 
-execute unless score mob_health refresh_settings matches -2147483648.. run scoreboard players set mob_health refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.mob_health run data modify storage vanilla_refresh_config:config config.mob_health set value 1
 
-execute unless score banner refresh_settings matches -2147483648.. run scoreboard players set banner refresh_settings 2
+execute unless data storage vanilla_refresh_config:config config.banner run data modify storage vanilla_refresh_config:config config.banner set value 2
 
-execute unless score death refresh_settings matches -2147483648.. run scoreboard players set death refresh_settings 0
+execute unless data storage vanilla_refresh_config:config config.death run data modify storage vanilla_refresh_config:config config.death set value 0
 
-execute unless score death_sound refresh_settings matches -2147483648.. run scoreboard players set death_sound refresh_settings 11
+execute unless data storage vanilla_refresh_config:config config.death_sound run data modify storage vanilla_refresh_config:config config.death_sound set value 11
 
-execute unless score death_sound_local refresh_settings matches -2147483648.. run scoreboard players set death_sound_local refresh_settings 11
+execute unless data storage vanilla_refresh_config:config config.death_sound_local run data modify storage vanilla_refresh_config:config config.death_sound_local set value 11
 
-execute unless score totem_void refresh_settings matches -2147483648.. run scoreboard players set totem_void refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.totem_void run data modify storage vanilla_refresh_config:config config.totem_void set value 1
 
-execute unless score ladder refresh_settings matches -2147483648.. run scoreboard players set ladder refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.ladder run data modify storage vanilla_refresh_config:config config.ladder set value 1
 
-execute unless score ladder_limit refresh_settings matches -2147483648.. run scoreboard players set ladder_limit refresh_settings 8
+execute unless data storage vanilla_refresh_config:config config.death_items run data modify storage vanilla_refresh_config:config config.death_items set value 1
 
-execute unless score death_items refresh_settings matches -2147483648.. run scoreboard players set death_items refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.torch run data modify storage vanilla_refresh_config:config config.torch set value 0
 
-execute unless score torch refresh_settings matches -2147483648.. run scoreboard players set torch refresh_settings 0
+execute unless data storage vanilla_refresh_config:config config.torch_speed run data modify storage vanilla_refresh_config:config config.torch_speed set value 2
 
-execute unless score torch_speed refresh_settings matches -2147483648.. run scoreboard players set torch_speed refresh_settings 2
+execute unless data storage vanilla_refresh_config:config config.tips_mc run data modify storage vanilla_refresh_config:config config.tips_mc set value 0
+execute unless data storage vanilla_refresh_config:config config.tips_refresh run data modify storage vanilla_refresh_config:config config.tips_refresh set value 0
 
-execute unless score tips_mc refresh_settings matches -2147483648.. run scoreboard players set tips_mc refresh_settings 0
-execute unless score tips_refresh refresh_settings matches -2147483648.. run scoreboard players set tips_refresh refresh_settings 0
+execute unless data storage vanilla_refresh_config:config config.daycounter run data modify storage vanilla_refresh_config:config config.daycounter set value 1
 
-execute unless score daycounter refresh_settings matches -2147483648.. run scoreboard players set daycounter refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.subtitles run data modify storage vanilla_refresh_config:config config.subtitles set value 1
 
-execute unless score subtitles refresh_settings matches -2147483648.. run scoreboard players set subtitles refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.jukebox run data modify storage vanilla_refresh_config:config config.jukebox set value 0
 
-execute unless score jukebox refresh_settings matches -2147483648.. run scoreboard players set jukebox refresh_settings 0
+execute unless data storage vanilla_refresh_config:config config.witherhead run data modify storage vanilla_refresh_config:config config.witherhead set value 1
 
-execute unless score witherhead refresh_settings matches -2147483648.. run scoreboard players set witherhead refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.blockanims run data modify storage vanilla_refresh_config:config config.blockanims set value 1
 
-execute unless score blockanims refresh_settings matches -2147483648.. run scoreboard players set blockanims refresh_settings 1
-
-execute unless score grief_tnt refresh_settings matches -2147483648.. run scoreboard players set grief_tnt refresh_settings 1
-
-execute unless score grief_crystal refresh_settings matches -2147483648.. run scoreboard players set grief_crystal refresh_settings 1
-
-execute unless score grief_lava refresh_settings matches -2147483648.. run scoreboard players set grief_lava refresh_settings 1
-
-execute unless score explosivefurnace refresh_settings matches -2147483648.. run scoreboard players set explosivefurnace refresh_settings 0
-
-execute unless score spyglass refresh_settings matches -2147483648.. run scoreboard players set spyglass refresh_settings 1
-
-execute unless score dragonelytra refresh_settings matches -2147483648.. run scoreboard players set dragonelytra refresh_settings 0
-
-#execute unless score durability refresh_settings matches -2147483648.. run 
-execute if score soul refresh_settings matches 2 run scoreboard players set soul refresh_settings 1
-execute unless score soul refresh_settings matches -2147483648.. run scoreboard players set soul refresh_settings 0
-
-execute unless score soul_create refresh_settings matches -2147483648.. run scoreboard players set soul_create refresh_settings 1
-execute unless score soul_otherplayer refresh_settings matches -2147483648.. run scoreboard players set soul_otherplayer refresh_settings 0
-
-execute unless score biome refresh_settings matches -2147483648.. run scoreboard players set biome refresh_settings 1
-
-execute unless score dragonegg refresh_settings matches -2147483648.. run scoreboard players set dragonegg refresh_settings 0
-
-execute unless score soul_despawntime refresh_settings matches -2147483647.. run scoreboard players set soul_despawntime refresh_settings 180
+execute unless data storage vanilla_refresh_config:config config.blockanims_beacon run data modify storage vanilla_refresh_config:config config.blockanims_beacon set value 1
+execute unless data storage vanilla_refresh_config:config config.blockanims_witherskull run data modify storage vanilla_refresh_config:config config.blockanims_witherskull set value 1
+execute unless data storage vanilla_refresh_config:config config.blockanims_brewing run data modify storage vanilla_refresh_config:config config.blockanims_brewing set value 1
+execute unless data storage vanilla_refresh_config:config config.blockanims_enchant run data modify storage vanilla_refresh_config:config config.blockanims_enchant set value 1
+execute unless data storage vanilla_refresh_config:config config.blockanims_dragonegg run data modify storage vanilla_refresh_config:config config.blockanims_dragonegg set value 1
+execute unless data storage vanilla_refresh_config:config config.blockanims_enderchest run data modify storage vanilla_refresh_config:config config.blockanims_enderchest set value 1
 
 
+execute unless data storage vanilla_refresh_config:config config.grief_tnt run data modify storage vanilla_refresh_config:config config.grief_tnt set value 1
 
+execute unless data storage vanilla_refresh_config:config config.grief_crystal run data modify storage vanilla_refresh_config:config config.grief_crystal set value 1
 
-execute unless score homingxp refresh_settings matches -2147483648.. run scoreboard players set homingxp refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.grief_lava run data modify storage vanilla_refresh_config:config config.grief_lava set value 1
 
-execute unless score cropsxp refresh_settings matches -2147483648.. run scoreboard players set cropsxp refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.explosivefurnace run data modify storage vanilla_refresh_config:config config.explosivefurnace set value 0
 
-execute unless score healthsound refresh_settings matches -2147483648.. run scoreboard players set healthsound refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.spyglass run data modify storage vanilla_refresh_config:config config.spyglass set value 1
 
-execute unless score showdeath refresh_settings matches -2147483648.. run scoreboard players set showdeath refresh_settings 0
+execute unless data storage vanilla_refresh_config:config config.dragonelytra run data modify storage vanilla_refresh_config:config config.dragonelytra set value 0
 
-execute unless score armorstand refresh_settings matches -2147483648.. run scoreboard players set armorstand refresh_settings 1
+#execute unless score.durability run 
+execute if data storage vanilla_refresh_config:config config{soul:2} run data modify storage vanilla_refresh_config:config config.soul set value 1
+execute unless data storage vanilla_refresh_config:config config.soul run data modify storage vanilla_refresh_config:config config.soul set value 0
 
-execute unless score trident refresh_settings matches -2147483648.. run scoreboard players set trident refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.soul_create run data modify storage vanilla_refresh_config:config config.soul_create set value 1
+execute unless data storage vanilla_refresh_config:config config.soul_otherplayer run data modify storage vanilla_refresh_config:config config.soul_otherplayer set value 0
 
+execute unless data storage vanilla_refresh_config:config config.biome run data modify storage vanilla_refresh_config:config config.biome set value 1
 
+execute unless data storage vanilla_refresh_config:config config.dragonegg run data modify storage vanilla_refresh_config:config config.dragonegg set value 0
 
-execute unless score tabdisplay refresh_settings matches -2147483648.. run scoreboard objectives setdisplay list refresh_player_hours
-execute unless score tabdisplay refresh_settings matches -2147483648.. run scoreboard players set tabdisplay refresh_settings 1
-
-execute unless score cyclestats refresh_settings matches -2147483648..1 run scoreboard players set cyclestats refresh_settings 1
-
-execute unless score path refresh_settings matches -2147483648.. run scoreboard players set path refresh_settings 1
-
-execute unless score lodestone refresh_settings matches -2147483648.. run scoreboard players set lodestone refresh_settings 1
-execute unless score lodestone_teleport_damage refresh_settings matches -2147483648.. run scoreboard players set lodestone_teleport_damage refresh_settings 1
-
-execute unless score invis refresh_settings matches -2147483648.. run scoreboard players set invis refresh_settings 1
-
-execute unless score recovery refresh_settings matches -2147483648.. run scoreboard players set recovery refresh_settings 1
-
-execute unless score clock refresh_settings matches -2147483648.. run scoreboard players set clock refresh_settings 1
-
-execute unless score compass refresh_settings matches -2147483648.. run scoreboard players set compass refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.soul_despawntime run data modify storage vanilla_refresh_config:config config.soul_despawntime set value 180
 
 
 
 
+execute unless data storage vanilla_refresh_config:config config.homingxp run data modify storage vanilla_refresh_config:config config.homingxp set value 1
+
+execute unless data storage vanilla_refresh_config:config config.cropsxp run data modify storage vanilla_refresh_config:config config.cropsxp set value 1
+
+execute unless data storage vanilla_refresh_config:config config.healthsound run data modify storage vanilla_refresh_config:config config.healthsound set value 1
+
+execute unless data storage vanilla_refresh_config:config config.armorstand run data modify storage vanilla_refresh_config:config config.armorstand set value 1
+
+execute unless data storage vanilla_refresh_config:config config.trident run data modify storage vanilla_refresh_config:config config.trident set value 1
 
 
-execute unless score echo refresh_settings matches -2147483648.. run scoreboard players set echo refresh_settings 1
 
-execute unless score spawn_invul refresh_settings matches -2147483648.. run scoreboard players set spawn_invul refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.tabdisplay run scoreboard objectives setdisplay list refresh_player_hours
+execute unless data storage vanilla_refresh_config:config config.tabdisplay run data modify storage vanilla_refresh_config:config config.tabdisplay set value 1
 
-execute unless score command_block refresh_settings matches -2147483648.. run scoreboard players set command_block refresh_settings 0
+execute unless data storage vanilla_refresh_config:config config.cyclestats1 run data modify storage vanilla_refresh_config:config config.cyclestats set value 1
 
-execute unless score giveclearing refresh_settings matches -2147483648.. run scoreboard players set giveclearing refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.path run data modify storage vanilla_refresh_config:config config.path set value 1
 
-execute unless score wands_survival refresh_settings matches -2147483648.. run scoreboard players set wands_survival refresh_settings 0
+execute unless data storage vanilla_refresh_config:config config.lodestone run data modify storage vanilla_refresh_config:config config.lodestone set value 0
+execute unless data storage vanilla_refresh_config:config config.lodestone_teleport_damage run data modify storage vanilla_refresh_config:config config.lodestone_teleport_damage set value 0
 
-execute unless score cake refresh_settings matches -2147483648.. run scoreboard players set cake refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.invis run data modify storage vanilla_refresh_config:config config.invis set value 1
 
-execute unless score join refresh_settings matches -2147483648.. run scoreboard players set join refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.recovery run data modify storage vanilla_refresh_config:config config.recovery set value 1
 
-execute unless score firstjoin refresh_settings matches -2147483648.. run scoreboard players set firstjoin refresh_settings 0
+execute unless data storage vanilla_refresh_config:config config.clock run data modify storage vanilla_refresh_config:config config.clock set value 1
+
+execute unless data storage vanilla_refresh_config:config config.compass run data modify storage vanilla_refresh_config:config config.compass set value 1
+
+
+
+
+
+
+execute unless data storage vanilla_refresh_config:config config.echo run data modify storage vanilla_refresh_config:config config.echo set value 1
+
+# execute unless score.spawn_invul run scoreboard players set spawn_invul set value 1
+
+execute unless data storage vanilla_refresh_config:config config.command_block run data modify storage vanilla_refresh_config:config config.command_block set value 0
+
+execute unless data storage vanilla_refresh_config:config config.giveclearing run data modify storage vanilla_refresh_config:config config.giveclearing set value 1
+
+execute unless data storage vanilla_refresh_config:config config.wands_survival run data modify storage vanilla_refresh_config:config config.wands_survival set value 0
+
+execute unless data storage vanilla_refresh_config:config config.cake run data modify storage vanilla_refresh_config:config config.cake set value 1
+
+execute unless data storage vanilla_refresh_config:config config.join run data modify storage vanilla_refresh_config:config config.join set value 1
+
+execute unless data storage vanilla_refresh_config:config config.firstjoin run data modify storage vanilla_refresh_config:config config.firstjoin set value 0
 
 execute unless score daycounter_offset refresh_storage matches -2147483648.. run time add 1d
 execute unless score daycounter_offset refresh_storage matches -2147483648.. run scoreboard players set daycounter_offset refresh_storage 1
@@ -127,61 +131,62 @@ execute unless score daycounter_offset refresh_storage matches -2147483648.. run
 
 
 
-execute unless score anvil refresh_settings matches -2147483648.. run scoreboard players set anvil refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.anvil run data modify storage vanilla_refresh_config:config config.anvil set value 1
 
 
 
 
 
 
-execute unless score babyzombie refresh_settings matches -2147483648.. run scoreboard players set babyzombie refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.babyzombie run data modify storage vanilla_refresh_config:config config.babyzombie set value 1
 
 
 
 
 
 
-execute unless score ghost_toggle refresh_settings matches -2147483648.. run scoreboard players set ghost_toggle refresh_settings 0
+execute unless data storage vanilla_refresh_config:config config.ghost_toggle run data modify storage vanilla_refresh_config:config config.ghost_toggle set value 0
 
-execute unless score ghost refresh_settings matches -2147483648.. run scoreboard players set ghost refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.ghost run data modify storage vanilla_refresh_config:config config.ghost set value 1
 
-execute unless score spectate refresh_settings matches -2147483648.. run scoreboard players set spectate refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.spectate run data modify storage vanilla_refresh_config:config config.spectate set value 1
 
-execute unless score spectate_animation refresh_settings matches -2147483648.. run scoreboard players set spectate_animation refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.spectate_animation run data modify storage vanilla_refresh_config:config config.spectate_animation set value 1
 
-execute unless score nightvision refresh_settings matches -2147483648.. run scoreboard players set nightvision refresh_settings 0
+execute unless data storage vanilla_refresh_config:config config.itemsparkle run data modify storage vanilla_refresh_config:config config.itemsparkle set value 1
 
-execute unless score itemsparkle refresh_settings matches -2147483648.. run scoreboard players set itemsparkle refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.playerlist run data modify storage vanilla_refresh_config:config config.playerlist set value 1
 
-execute unless score playerlist refresh_settings matches -2147483648.. run scoreboard players set playerlist refresh_settings 1
-
-execute unless score armortrimmed_mobs refresh_settings matches -2147483648.. run scoreboard players set armortrimmed_mobs refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.armortrimmed_mobs run data modify storage vanilla_refresh_config:config config.armortrimmed_mobs set value 1
 
 
-execute unless score gamerules refresh_settings matches -2147483648.. run scoreboard players set gamerules refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.gamerules run data modify storage vanilla_refresh_config:config config.gamerules set value 1
 
 
-execute unless score stats refresh_settings matches -2147483648.. run scoreboard players set stats refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.stats run data modify storage vanilla_refresh_config:config config.stats set value 1
 
-#execute unless score stats_name refresh_settings matches -2147483648.. run scoreboard players set stats_name refresh_settings 1
+#execute unless score.stats_name run scoreboard players set stats_name set value 1
 
-execute unless score stats_time refresh_settings matches -2147483648.. run scoreboard players set stats_time refresh_settings 0
-execute unless score stats_mobkills refresh_settings matches -2147483648.. run scoreboard players set stats_mobkills refresh_settings 0
-execute unless score stats_kills refresh_settings matches -2147483648.. run scoreboard players set stats_kills refresh_settings 0
-execute unless score stats_deaths refresh_settings matches -2147483648.. run scoreboard players set stats_deaths refresh_settings 0
-execute unless score stats_deathtime refresh_settings matches -2147483648.. run scoreboard players set stats_deathtime refresh_settings 0
-execute unless score stats_deathaverage refresh_settings matches -2147483648.. run scoreboard players set stats_deathaverage refresh_settings 0
-execute unless score stats_xp refresh_settings matches -2147483648.. run scoreboard players set stats_xp refresh_settings 0
+execute unless data storage vanilla_refresh_config:config config.stats_time run data modify storage vanilla_refresh_config:config config.stats_time set value 0
+execute unless data storage vanilla_refresh_config:config config.stats_mobkills run data modify storage vanilla_refresh_config:config config.stats_mobkills set value 0
+execute unless data storage vanilla_refresh_config:config config.stats_kills run data modify storage vanilla_refresh_config:config config.stats_kills set value 0
+execute unless data storage vanilla_refresh_config:config config.stats_deaths_non_pvp run data modify storage vanilla_refresh_config:config config.stats_deaths_non_pvp set value 0
+execute unless data storage vanilla_refresh_config:config config.stats_deaths run data modify storage vanilla_refresh_config:config config.stats_deaths set value 0
+execute unless data storage vanilla_refresh_config:config config.stats_deathtime run data modify storage vanilla_refresh_config:config config.stats_deathtime set value 0
+execute unless data storage vanilla_refresh_config:config config.stats_deathaverage run data modify storage vanilla_refresh_config:config config.stats_deathaverage set value 0
+execute unless data storage vanilla_refresh_config:config config.stats_deathaverage_non_pvp run data modify storage vanilla_refresh_config:config config.stats_deathaverage_non_pvp set value 0
 
-execute unless score stats_health refresh_settings matches -2147483648.. run scoreboard players set stats_health refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.stats_xp run data modify storage vanilla_refresh_config:config config.stats_xp set value 0
 
-execute if score stats_health refresh_settings matches 1 run scoreboard objectives setdisplay below_name refresh_player_health
+execute unless data storage vanilla_refresh_config:config config.stats_health run data modify storage vanilla_refresh_config:config config.stats_health set value 1
+
+execute if data storage vanilla_refresh_config:config config{stats_health:1} run scoreboard objectives setdisplay below_name refresh_player_health
 
 
 # ######################################
 
-execute if score cyclestats_health refresh_settings matches 1 run scoreboard objectives modify refresh_player_health displayname {"translate":"❤"}
-execute if score cyclestats_health refresh_settings matches 2 run scoreboard objectives modify refresh_player_health displayname {"translate":"Health"}
+execute if data storage vanilla_refresh_config:config config{cyclestats_health:1} run scoreboard objectives modify refresh_player_health displayname {"translate":"❤"}
+execute if data storage vanilla_refresh_config:config config{cyclestats_health:2} run scoreboard objectives modify refresh_player_health displayname {"translate":"Health"}
 
 # ######################################
 
@@ -194,52 +199,51 @@ function vanilla_refresh:other/set_belowname_colors with storage vanilla_refresh
 
 
 
-execute unless score stats_memberjoin refresh_settings matches -2147483648.. run scoreboard players set stats_memberjoin refresh_settings 1
-
-execute unless score stats_health refresh_settings matches -2147483648.. run scoreboard players set stats_health refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.stats_memberjoin run data modify storage vanilla_refresh_config:config config.stats_memberjoin set value 1
 
 
 
-execute unless score gravestone refresh_settings matches -2147483648.. run scoreboard players set gravestone refresh_settings 0
+execute unless data storage vanilla_refresh_config:config config.gravestone run data modify storage vanilla_refresh_config:config config.gravestone set value 0
 
-execute unless score stoptime refresh_settings matches -2147483648.. run scoreboard players set stoptime refresh_settings 0
+execute unless data storage vanilla_refresh_config:config config.stoptime run data modify storage vanilla_refresh_config:config config.stoptime set value 0
 
-execute unless score anim_level refresh_settings matches -2147483648.. run scoreboard players set anim_level refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.anim_level run data modify storage vanilla_refresh_config:config config.anim_level set value 1
 
-execute unless score anim_water refresh_settings matches -2147483648.. run scoreboard players set anim_water refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.anim_water run data modify storage vanilla_refresh_config:config config.anim_water set value 1
 
-execute unless score anim_teleport refresh_settings matches -2147483648.. run scoreboard players set anim_teleport refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.anim_teleport run data modify storage vanilla_refresh_config:config config.anim_teleport set value 1
 
-execute unless score playerheads refresh_settings matches -2147483648.. run scoreboard players set playerheads refresh_settings 1
-
-
-
-execute unless score cyclestats_health refresh_settings matches -2147483648.. run scoreboard players set cyclestats_health refresh_settings 1
-
-execute unless score soul_percentxp refresh_settings matches -2147483648.. run scoreboard players set soul_percentxp refresh_settings 80
-
-execute unless score soul_takeitems refresh_settings matches -2147483648.. run scoreboard players set soul_takeitems refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.playerheads run data modify storage vanilla_refresh_config:config config.playerheads set value 1
 
 
 
-execute unless score jukebox_stop_sound refresh_settings matches -2147483648.. run scoreboard players set jukebox_stop_sound refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.cyclestats_health run data modify storage vanilla_refresh_config:config config.cyclestats_health set value 1
 
-execute unless score death_stop_music refresh_settings matches -2147483648.. run scoreboard players set death_stop_music refresh_settings 0
+execute unless data storage vanilla_refresh_config:config config.soul_percentxp run data modify storage vanilla_refresh_config:config config.soul_percentxp set value 80
 
-execute unless score craftsound refresh_settings matches -2147483648.. run scoreboard players set craftsound refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.soul_takeitems run data modify storage vanilla_refresh_config:config config.soul_takeitems set value 1
+
+
+
+execute unless data storage vanilla_refresh_config:config config.jukebox_stop_sound run data modify storage vanilla_refresh_config:config config.jukebox_stop_sound set value 1
+
+execute unless data storage vanilla_refresh_config:config config.death_stop_music run data modify storage vanilla_refresh_config:config config.death_stop_music set value 0
+
+execute unless data storage vanilla_refresh_config:config config.craftsound run data modify storage vanilla_refresh_config:config config.craftsound set value 1
 
 
 
 
 
-execute unless score process_stats refresh_settings matches -2147483648.. run scoreboard players set process_stats refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.process_stats run data modify storage vanilla_refresh_config:config config.process_stats set value 1
 
 
 
-execute unless score process_stats refresh_settings matches -2147483648.. run scoreboard players set process_stats refresh_settings 1
+execute unless data storage vanilla_refresh_config:config config.process_stats run data modify storage vanilla_refresh_config:config config.process_stats set value 1
 
-execute unless score wand_mob_filter refresh_settings matches -2147483648.. run data modify storage vanilla_refresh:storage wand_mob_filter set value "!#vanilla_refresh:misc_entity_wand"
-scoreboard players set wand_mob_filter refresh_settings 1
+execute unless data storage vanilla_refresh:storage wand_mob_filter run data modify storage vanilla_refresh:storage wand_mob_filter set value "!#vanilla_refresh:misc_entity_wand"
+
+
 
 
 #modified defaults

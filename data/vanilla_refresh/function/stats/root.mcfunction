@@ -39,6 +39,6 @@ scoreboard players set @s[scores={refresh_player_d_minutes=60..}] refresh_player
 # STATS
 
 
-execute unless score stats refresh_settings matches 0 as @s[scores={stats=1..}] at @s run function vanilla_refresh:stats/stats_trigger
-execute unless score stats refresh_settings matches 0 as @s[scores={stats=..-1}] at @s run function vanilla_refresh:stats/stats_trigger
+execute unless data storage vanilla_refresh_config:config config{stats:0} as @s[scores={stats=1..}] at @s run function vanilla_refresh:stats/stats_trigger
+execute unless data storage vanilla_refresh_config:config config{stats:0} as @s[scores={stats=..-1}] at @s run function vanilla_refresh:stats/stats_trigger
 

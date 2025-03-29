@@ -1,6 +1,7 @@
 
 #multiply XP by percentange of it to keep
-scoreboard players operation temp_XP refresh_count *= soul_percentxp refresh_settings
+execute store result score config.soul_percentxp refresh_settings run data get storage vanilla_refresh_config:config config.soul_percentxp 1
+scoreboard players operation temp_XP refresh_count *= config.soul_percentxp refresh_settings
 
 #divide by 100 (percents are x100)
 scoreboard players operation temp_XP refresh_count /= 100 refresh_constants

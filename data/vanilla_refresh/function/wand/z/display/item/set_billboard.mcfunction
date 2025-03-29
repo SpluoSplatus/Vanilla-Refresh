@@ -15,7 +15,7 @@ execute if entity @s[tag=billboard_fixed] run tag @s remove billboard_fixed
 #$say $(nbt) 
 #$say $(value) 
 
-execute if entity @s[type=block_display] run function vanilla_refresh:wand/z/display/block/convert_text_to_escaped
-execute if entity @s[type=item_display] run function vanilla_refresh:wand/z/display/item/convert_text_to_escaped
+execute if entity @s[type=block_display] run function vanilla_refresh:wand/z/display/block/store_data
+execute if entity @s[type=item_display] run function vanilla_refresh:wand/z/display/item/store_data
 
 

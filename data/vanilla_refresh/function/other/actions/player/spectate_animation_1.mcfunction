@@ -1,4 +1,4 @@
-scoreboard players set spectate_animation refresh_settings 1
+data modify storage vanilla_refresh_config:config config.spectate_animation set value 1
 
 
 

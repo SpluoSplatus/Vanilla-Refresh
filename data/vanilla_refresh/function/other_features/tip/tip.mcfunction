@@ -5,11 +5,11 @@ tellraw @a[tag=refresh_debug] [{"translate":"[Vanilla Refresh: Displayed tip ","
 
 execute if score tempScore refresh_randomizer_output matches 0 run tellraw @a [{"translate": "Tip: - Cauldrons with water still work in the Nether without evaporating","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 1 run tellraw @a [{"translate": "Tip: - Swift Sneak allows you to quickly bridge across areas with the same speed as walking","color": "yellow"}]
+execute if score tempScore refresh_randomizer_output matches 1 run tellraw @a [{"translate": "Tip: - Swift Sneak allows you to quickly bridge across areas with the same speed as walking","color": "yellow","fallback":"Tip: - Swift Sneak, obtained from Ancient Cities, allows you to sneak across areas and bridge quickly with similar speed to walking"}]
 
 execute if score tempScore refresh_randomizer_output matches 2 run tellraw @a [{"translate": "Tip: - This chat message is not from a player","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 3 run tellraw @a [{"translate": "Tip: - You can use Charged Creepers on Wither Skeletons to instantly get their skull","color": "yellow"}]
+execute if score tempScore refresh_randomizer_output matches 3 run tellraw @a [{"translate": "Tip: - You can use Charged Creeper on Wither Skeletons to instantly get their skull","color": "yellow","fallback":"Tip: - You can use Charged Creeper explosions on Wither Skeletons to instantly obtain their skull"}]
 
 execute if score tempScore refresh_randomizer_output matches 4 run tellraw @a [{"translate": "Tip: - The explosion of beds can be used to mine through netherrack for ancient debris","color": "yellow"}]
 
@@ -69,6 +69,9 @@ execute if score tempScore refresh_randomizer_output matches 31 run tellraw @a [
 execute if score tempScore refresh_randomizer_output matches 32 run tellraw @a [{"translate": "Tip: - A goat has a 2% chance of spawning as a screaming varient","color": "yellow"}]
 
 execute if score tempScore refresh_randomizer_output matches 33 run tellraw @a [{"translate": "Tip: - Press fn + F3 to open the debug menu and see helpful info like your coordinates and fps","color": "yellow"}]
+
+
+execute if score tempScore refresh_randomizer_output matches 34 run tellraw @a [{"translate": "Tip: - Drinking a bucket of milk will clear away any effect, including Bad Omen/Raid Omen","color": "yellow"}]
 
 #34
 
@@ -189,5 +192,8 @@ execute if score tempScore refresh_randomizer_output matches 88 run tellraw @a [
 
 execute if score tempScore refresh_randomizer_output matches 89 run tellraw @a [{"translate": "Tip: - Wolves wearing wolf armor are completely invulnerable to most damage. Their armor will break after absorbing 64 damage (32❤)","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 34 run tellraw @a [{"translate": "Tip: - Drinking a bucket of milk will clear away any effect, including Bad Omen/Raid Omen","color": "yellow"}]
+execute if score tempScore refresh_randomizer_output matches 90 run tellraw @a [{"translate": "Tip: - Obtain resin in the Pale Garden from resin clumps in trees accumulating after attacking a Creaking. ","color": "yellow"}]
 
+execute if score tempScore refresh_randomizer_output matches 91 run tellraw @a [{"translate": "Tip: - Leaf litter from forest floors can be smelted in furnaces, smelting the same amount of items as sticks","color": "yellow"}]
+
+execute if score tempScore refresh_randomizer_output matches 92 run tellraw @a [{"translate": "Tip: - You can set a compass's target to a specific point in your world by right clicking it on a lodestone","color": "yellow"}]

@@ -1,5 +1,5 @@
-execute if score playerlist refresh_settings matches 1 run function vanilla_refresh:player/playerlist/gamemode
-execute unless score playerlist refresh_settings matches 1 run function vanilla_refresh:player/playerlist/dimension
+execute if data storage vanilla_refresh_config:config config{playerlist:1} run function vanilla_refresh:player/playerlist/gamemode
+execute unless data storage vanilla_refresh_config:config config{playerlist:1} run function vanilla_refresh:player/playerlist/dimension
 
 tellraw @s [{"text": " "}]
 

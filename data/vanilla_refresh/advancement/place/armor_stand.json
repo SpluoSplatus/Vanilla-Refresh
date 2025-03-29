@@ -21,5 +21,6 @@
   },
   "rewards": {
     "function": "vanilla_refresh:other/placed_block"
-  }
+  },
+  "parent": "vanilla_refresh:place/disc"
 }

@@ -1,40 +1,29 @@
 {
-  "pack": {
-    "pack_format": 48,
-    "supported_formats": {
-      "min_inclusive": 15,
-      "max_inclusive": 999
-    },
-    "description": [
-      {
-        "translate": "Quality of Life Refresh",
-        "color": "#30dbbf"
+    "pack": {
+      "pack_format": 71,
+      "supported_formats": {
+        "min_inclusive": 71,
+        "max_inclusive": 999
       },
-      {
-        "translate": "\n"
-      },
-      {
-        "translate": "Version 1.4.26e - MC 1.21.2-4",
-        "color": "gray"
-      }
-    ]
-  },
-  "overlays": {
-    "entries": [
-      {
-        "directory": "1.21.2",
-        "formats": {
-          "min_inclusive": 1,
-          "max_inclusive": 57
+      "description": [
+        {
+          "translate": "Vanilla Refresh",
+          "color": "#30dbbf"
+        },
+        {
+          "translate": " [v1.4.27]",
+          "color": "#707070"
+        },
+        {
+          "translate": "\n"
+        },
+        {
+          "translate": "Adds a variety of QOL Features",
+          "color": "#898f96"
         }
-      },
-      {
-        "directory": "1.21.4",
-        "formats": {
-          "min_inclusive": 60,
-          "max_inclusive": 9999
-        }
-      }
-    ]
+      ]
+    }
+    
+    
   }
-}
+  

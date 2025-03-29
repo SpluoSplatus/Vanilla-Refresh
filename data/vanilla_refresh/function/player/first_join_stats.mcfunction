@@ -29,7 +29,14 @@ scoreboard players add @s refresh_player_minutes 0
 scoreboard players add @s refresh_player_hours 0
 
 scoreboard players add @s refresh_player_deaths 0
+scoreboard players add @s refresh_player_deaths_non_pvp 0
 scoreboard players add @s refresh_player_deaths2 0
+
+scoreboard players add @s refresh_player_deathaverage 0
+scoreboard players add @s refresh_player_deathaverage_decimal 0
+scoreboard players add @s refresh_player_deathaverage_non_pvp 0
+scoreboard players add @s refresh_player_deathaverage_decimal_non_pvp 0
+
 scoreboard players add @s refresh_player_kills 0
 scoreboard players add @s refresh_player_mobkills 0
 scoreboard players add @s refresh_player_kills 0

@@ -7,7 +7,7 @@ particle sculk_soul ~ ~ ~ 0 0 0 .2 30 force @a[distance=..64]
 
 #returns souls levels
 execute store result score temp_XP refresh_count run data get entity @s data.XP 1
-execute run scoreboard players operation temp_XP refresh_count *= soul_percentxp refresh_settings
+execute run scoreboard players operation temp_XP refresh_count *= config.soul_percentxp refresh_settings
 execute run scoreboard players operation temp_XP refresh_count /= 100 refresh_constants
 
 execute if score temp_XP refresh_count matches 1 run summon experience_orb ~ ~ ~ {Tags:["refresh_disabledhoming"],Value:7}
@@ -48,5 +48,6 @@ execute if score temp_XP refresh_count matches 35.. run summon experience_orb ~ 
 
 scoreboard players reset temp_XP refresh_count
 
-execute as @s[tag=refresh_entity_playersoul_hasitems] run summon item ~ ~ ~ {Item:{id:"minecraft:bundle",count:1},Fire:60}
+execute as @s[tag=refresh_entity_playersoul_hasitems] run summon item ~ ~ ~ {Item:{id:"minecraft:bundle",count:1},Tags:["refresh_entity_soulitem_bundle"]}
+execute as @s[tag=refresh_entity_playersoul_hasitems] run damage @n[type=item,tag=refresh_entity_soulitem_bundle,distance=..3] 100
 execute as @s[tag=refresh_entity_playersoul_hasitems] run data modify entity @n[type=item,nbt={Item:{id:"minecraft:bundle"}}] Item.components.minecraft:bundle_contents set from entity @s data.Inventory

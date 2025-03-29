@@ -1,12 +1,9 @@
 {
     "condition": "minecraft:value_check",
     "value": {
-      "type": "minecraft:score",
-      "target": {
-        "type": "minecraft:fixed",
-        "name": "biome"
-      },
-      "score": "refresh_settings"
+      "type": "minecraft:storage",
+      "storage": "vanilla_refresh_config:config",
+      "path": "config.biome"
     },
     "range": 1
   }

@@ -2,14 +2,16 @@ scoreboard players add cyclestats refresh_count 1
 
 
 #skip if not available
-execute if score cyclestats refresh_count matches 1 if score stats_health refresh_settings matches 0 run scoreboard players add cyclestats refresh_count 2
-execute if score cyclestats refresh_count matches 3 if score stats_time refresh_settings matches 0 run scoreboard players add cyclestats refresh_count 2
-execute if score cyclestats refresh_count matches 5 if score stats_mobkills refresh_settings matches 0 run scoreboard players add cyclestats refresh_count 2
-execute if score cyclestats refresh_count matches 7 if score stats_kills refresh_settings matches 0 run scoreboard players add cyclestats refresh_count 2
-execute if score cyclestats refresh_count matches 9 if score stats_xp refresh_settings matches 0 run scoreboard players add cyclestats refresh_count 2
-execute if score cyclestats refresh_count matches 11 if score stats_deaths refresh_settings matches 0 run scoreboard players add cyclestats refresh_count 2
-execute if score cyclestats refresh_count matches 13 if score stats_deathtime refresh_settings matches 0 run scoreboard players add cyclestats refresh_count 2
-execute if score cyclestats refresh_count matches 15 if score stats_deathaverage refresh_settings matches 0 run scoreboard players add cyclestats refresh_count 2
+execute if score cyclestats refresh_count matches 1 if data storage vanilla_refresh_config:config config{stats_health:0} run scoreboard players add cyclestats refresh_count 2
+execute if score cyclestats refresh_count matches 3 if data storage vanilla_refresh_config:config config{stats_time:0} run scoreboard players add cyclestats refresh_count 2
+execute if score cyclestats refresh_count matches 5 if data storage vanilla_refresh_config:config config{stats_mobkills:0} run scoreboard players add cyclestats refresh_count 2
+execute if score cyclestats refresh_count matches 7 if data storage vanilla_refresh_config:config config{stats_kills:0} run scoreboard players add cyclestats refresh_count 2
+execute if score cyclestats refresh_count matches 9 if data storage vanilla_refresh_config:config config{stats_xp:0} run scoreboard players add cyclestats refresh_count 2
+execute if score cyclestats refresh_count matches 11 if data storage vanilla_refresh_config:config config{stats_deaths:0} run scoreboard players add cyclestats refresh_count 2
+execute if score cyclestats refresh_count matches 13 if data storage vanilla_refresh_config:config config{stats_deaths_non_pvp:0} run scoreboard players add cyclestats refresh_count 2
+execute if score cyclestats refresh_count matches 15 if data storage vanilla_refresh_config:config config{stats_deathtime:0} run scoreboard players add cyclestats refresh_count 2
+execute if score cyclestats refresh_count matches 17 if data storage vanilla_refresh_config:config config{stats_deathaverage:0} run scoreboard players add cyclestats refresh_count 2
+execute if score cyclestats refresh_count matches 19 if data storage vanilla_refresh_config:config config{stats_deathaverage_non_pvp:0} run scoreboard players add cyclestats refresh_count 2
 
 #
 
@@ -20,8 +22,10 @@ execute if score cyclestats refresh_count matches 5 run scoreboard objectives se
 execute if score cyclestats refresh_count matches 7 run scoreboard objectives setdisplay below_name refresh_player_kills
 execute if score cyclestats refresh_count matches 9 run scoreboard objectives setdisplay below_name refresh_player_level
 execute if score cyclestats refresh_count matches 11 run scoreboard objectives setdisplay below_name refresh_player_deaths
-execute if score cyclestats refresh_count matches 13 run scoreboard objectives setdisplay below_name refresh_player_d_hours
-execute if score cyclestats refresh_count matches 15 run scoreboard objectives setdisplay below_name refresh_player_death_score
+execute if score cyclestats refresh_count matches 13 run scoreboard objectives setdisplay below_name refresh_player_deaths_non_pvp
+execute if score cyclestats refresh_count matches 15 run scoreboard objectives setdisplay below_name refresh_player_d_hours
+execute if score cyclestats refresh_count matches 17 run scoreboard objectives setdisplay below_name refresh_player_death_score
+execute if score cyclestats refresh_count matches 19 run scoreboard objectives setdisplay below_name refresh_player_death_score_non_pvp
 
-execute if score cyclestats refresh_count matches 17 run scoreboard players set cyclestats refresh_count 0
+execute if score cyclestats refresh_count matches 21 run scoreboard players set cyclestats refresh_count 0
 

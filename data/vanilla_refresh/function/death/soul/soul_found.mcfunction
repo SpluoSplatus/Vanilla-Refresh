@@ -26,8 +26,9 @@ execute if score @s refresh_count matches 100..140 run particle effect ~ ~ ~ 0 0
 
 
 #returns your items
-execute as @s[tag=refresh_entity_playersoul_hasitems] if score @s refresh_count matches 100 run summon item ~ ~ ~ {Item:{id:"minecraft:bundle",count:1b,components:{custom_data:{VanillaRefreshBundle:1b}}},Fire:60s,PickupDelay:5,Tags:["refresh_entity_soulitem","refresh_entity_soulitem_bundle"],NoGravity:1b}
+execute as @s[tag=refresh_entity_playersoul_hasitems] if score @s refresh_count matches 100 run summon item ~ ~ ~ {Item:{id:"minecraft:bundle",count:1b,components:{custom_data:{VanillaRefreshBundle:1b}}},PickupDelay:5,Tags:["refresh_entity_soulitem","refresh_entity_soulitem_bundle"],NoGravity:1b}
 execute as @s[tag=refresh_entity_playersoul_hasitems] if score @s refresh_count matches 100 run data modify entity @n[type=item,nbt={Item:{id:"minecraft:bundle"}}] Item.components.minecraft:bundle_contents set from entity @s data.Inventory
+execute as @s[tag=refresh_entity_playersoul_hasitems] if score @s refresh_count matches 100 run damage @n[type=item,tag=refresh_entity_soulitem_bundle,distance=..3] 100
 execute as @s[tag=refresh_entity_playersoul_hasitems] if score @s refresh_count matches 101 as @e[distance=..3,sort=nearest,type=item] run data modify entity @s NoGravity set value 1b
 execute as @s[tag=refresh_entity_playersoul_hasitems] if score @s refresh_count matches 101 as @e[distance=..3,sort=nearest,type=item] run data modify entity @s Motion[0] set value 0
 execute as @s[tag=refresh_entity_playersoul_hasitems] if score @s refresh_count matches 101 as @e[distance=..3,sort=nearest,type=item] run data modify entity @s Motion[1] set value 0

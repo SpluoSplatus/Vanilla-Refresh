@@ -1,9 +1,11 @@
 
 title @s[tag=refresh_debug] actionbar {"translate":"Refresh Debug - Wave 2, Height 18"}
 
+particle minecraft:dust_pillar{block_state:"light_blue_concrete"} ~ ~ ~ 1 0 1 0.05 50 force @a[distance=..80]
+particle minecraft:dust_pillar{block_state:"light_blue_concrete"} ~ ~ ~ .3 0 .3 0.05 50 force @a[distance=..80]
 
 particle minecraft:bubble_column_up ~ ~-1.5 ~ .3 1.5 .3 0.2 20 force @a[distance=..32]
-particle minecraft:bubble_column_up ~ ~-2 ~ 1 1.1 1 0.1 20 force @a[distance=..32]
+particle minecraft:bubble_column_up ~ ~-2 ~ 2 1.1 2 0.1 20 force @a[distance=..32]
 
 particle explosion ~ ~ ~ 0 0 0 0 1 force @a[distance=..256] 
 
@@ -13,7 +15,7 @@ particle poof ~ ~ ~ 1 .5 1 0.1 10 force @a[distance=..128]
 
 particle minecraft:splash ~ ~ ~ .8 .3 .8 0 100 force @a[distance=..64]
 
-execute unless score @s refresh_fallspeed matches ..-210 run playsound minecraft:entity.player.splash.high_speed block @a[distance=..25] ~ ~ ~ .75 .65 .15
+execute unless score @s refresh_fallspeed matches ..-210 run playsound minecraft:entity.player.splash.high_speed block @a[distance=..30] ~ ~ ~ 1.5 .62 .15
 playsound minecraft:entity.dolphin.swim block @a[distance=..30] ~ ~ ~ 2 .5
 
 execute if predicate vanilla_refresh:chance/25_percent run summon marker ~ ~ ~ {Tags:[refresh_particle,refresh_particle_water,refresh_temp_water234234234],Rotation:[20f,-50.000f]}

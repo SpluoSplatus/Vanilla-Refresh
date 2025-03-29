@@ -17,6 +17,6 @@ execute as @n[type=text_display,tag=refresh_CIE1,distance=..24] if data entity @
 
 
 tag @s add refresh_temp_usingwand
-execute as @n[type=text_display,tag=refresh_CIE1] run function vanilla_refresh:wand/z/display/text/convert_text_to_escaped
+execute as @n[type=text_display,tag=refresh_CIE1] run function vanilla_refresh:wand/z/display/text/store_data
 execute as @p at @s run function vanilla_refresh:wand/z/display/text/display with storage vanilla_refresh:storage temp.macro
 tag @s remove refresh_temp_usingwand

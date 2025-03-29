@@ -16,7 +16,7 @@ execute unless score maxCommandForkCount refresh_gamerules matches 65536 run tel
 execute if score maxCommandForkCount refresh_gamerules matches 65536 run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Max Command Fork Count: "},{"score":{"name": "maxCommandForkCount","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
 
 
-tellraw @s [{"translate": "","color": "yellow"},{"translate":"\n"},{"translate":"<-- Page 6","color":"yellow","underlined":false,"hoverEvent":{"action":"show_text","contents":[{"translate":"Previous Page"}]},"clickEvent":{"action":"run_command","value":"/trigger gamerules set 15"}},{"translate":"    - 7/7 -     ","color": "gray","italic": false},{"translate":"","color": "yellow"},{"translate":"","color": "yellow"}]
+tellraw @s [{"translate": "","color": "yellow"},{"translate":"\n"},{"translate":"<-- Page 6","color":"yellow","underlined":false,"hover_event":{"action":"show_text","value":[{"translate":"Previous Page"}]},"click_event":{"action":"run_command","command":"/trigger gamerules set 15"}},{"translate":"    - 7/7 -     ","color": "gray","italic": false},{"translate":"","color": "yellow"},{"translate":"","color": "yellow"}]
 
 
 tellraw @s [{"text": " "}]

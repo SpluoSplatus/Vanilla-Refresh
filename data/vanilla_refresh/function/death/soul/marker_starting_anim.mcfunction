@@ -4,8 +4,8 @@ execute if score @s refresh_count matches 1 run scoreboard players set @s refres
 execute if score @s refresh_count matches 1 run scoreboard players set @s refresh_soul_seconds 0
 
 #sets time based on settings
-execute if score @s refresh_count matches 1 store result score @s refresh_soul_minutes run scoreboard players get soul_despawntime refresh_settings
-execute if score @s refresh_count matches 1 store result score @s refresh_soul_hours run scoreboard players get soul_despawntime refresh_settings
+execute if score @s refresh_count matches 1 store result score @s refresh_soul_minutes run data get storage vanilla_refresh_config:config config.soul_despawntime
+execute if score @s refresh_count matches 1 store result score @s refresh_soul_hours run data get storage vanilla_refresh_config:config config.soul_despawntime
 
 
 execute if score @s refresh_count matches 1 run scoreboard players operation @s refresh_soul_minutes %= num_60 refresh_constants

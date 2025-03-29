@@ -1,12 +1,9 @@
 {
   "condition": "minecraft:value_check",
   "value": {
-    "type": "minecraft:score",
-    "target": {
-      "type": "minecraft:fixed",
-      "name": "subtitles"
-    },
-    "score": "refresh_settings"
+    "type": "minecraft:storage",
+    "storage": "vanilla_refresh_config:config",
+    "path": "config.subtitles"
   },
   "range": 1
 }

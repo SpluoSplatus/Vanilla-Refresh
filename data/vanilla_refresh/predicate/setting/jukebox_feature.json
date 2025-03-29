@@ -4,24 +4,18 @@
     {
       "condition": "minecraft:value_check",
       "value": {
-        "type": "minecraft:score",
-        "target": {
-          "type": "minecraft:fixed",
-          "name": "jukebox"
-        },
-        "score": "refresh_settings"
+        "type": "minecraft:storage",
+        "storage": "vanilla_refresh_config:config",
+        "path": "config.jukebox"
       },
       "range": 1
     },
     {
       "condition": "minecraft:value_check",
       "value": {
-        "type": "minecraft:score",
-        "target": {
-          "type": "minecraft:fixed",
-          "name": "jukebox_stop_sound"
-        },
-        "score": "refresh_settings"
+        "type": "minecraft:storage",
+        "storage": "vanilla_refresh_config:config",
+        "path": "config.jukebox_stop_sound"
       },
       "range": 1
     }

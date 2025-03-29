@@ -5,7 +5,7 @@ tellraw @s [{"translate":"Are you sure you want to reset all stats of every play
 
 tellraw @s [{"text":""}]
 
-tellraw @s [{"text":"Resets: ","color":"#6e6e6e"},{"translate":"Time played/hours, deaths, mob kills, player kills, deaths per hour, and time since last death","italic": true,"color":"#6e6e6e"}]
+tellraw @s [{"text":"Resets: ","color":"#bf7a7a"},{"translate":"Time played/hours, deaths, mob kills, player kills, deaths per hour, and time since last death","italic": true,"color":"#bf7a7a"}]
 
 tellraw @s [{"text":""}]
 
@@ -16,7 +16,7 @@ tellraw @s [{"text":"Click below to confirm.","color":"gray"}]
 
 tellraw @s [{"text":""}]
 
-tellraw @s [{"translate": "               "},{"translate":"> Confirm and Reset <\n","color": "red","underlined":true,"hoverEvent":{"action":"show_text","contents":[{"translate":"Click to Confirm and reset player stats"}]},"clickEvent":{"action":"run_command","value":"/function vanilla_refresh:other/actions/z_reset_player_stats"}},{"translate": "    "}]
+tellraw @s [{"translate": "               "},{"translate":"> Confirm and Reset <\n","color": "red","underlined":true,"hover_event":{"action":"show_text","value":[{"translate":"Click to Confirm and reset player stats"}]},"click_event":{"action":"run_command","command":"/function vanilla_refresh:other/actions/z_reset_player_stats"}},{"translate": "    "}]
 
 
 scoreboard players set @s refresh_sound_egg 6

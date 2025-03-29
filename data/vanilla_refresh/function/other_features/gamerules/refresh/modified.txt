@@ -1,0 +1,325 @@
+
+tellraw @s [{"text": " "}]
+
+
+
+
+
+execute if data storage vanilla_refresh_config:config config{sitting:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Player Sitting: "},{"score":{"name": "sitting","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{sitting:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Player Sitting: "},{"score":{"name": "sitting","objective": "refresh_settings"},"color": "yellow"}]
+
+execute if data storage vanilla_refresh_config:config config{mob_health:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Mob Health Display: "},{"score":{"name": "mob_health","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{mob_health:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Mob Health Display: "},{"score":{"name": "mob_health","objective": "refresh_settings"},"color": "yellow"}]
+
+execute if data storage vanilla_refresh_config:config config{banner:0} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Special Equipment: "},{"score":{"name": "banner","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{banner:1} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Special Equipment: "},{"score":{"name": "banner","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Banners","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{banner:2} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Special Equipment: "},{"score":{"name": "banner","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Banners, Special Blocks","color": "yellow"}]
+
+
+execute if data storage vanilla_refresh_config:config config{death:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Announce Death Stats: "},{"score":{"name": "death","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{death:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Announce Death Stats: "},{"score":{"name": "death","objective": "refresh_settings"},"color": "yellow"}]
+
+
+#global death sound
+execute if data storage vanilla_refresh_config:config config{death_sound:11} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Global Death Sound: "},{"score":{"name": "death_sound","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Cause of Death","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{death_sound:1} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Global Death Sound: "},{"score":{"name": "death_sound","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Dragon Growl","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{death_sound:2} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Global Death Sound: "},{"score":{"name": "death_sound","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Elder Guardian","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{death_sound:3} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Global Death Sound: "},{"score":{"name": "death_sound","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Wither Spawn","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{death_sound:4} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Global Death Sound: "},{"score":{"name": "death_sound","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Trident","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{death_sound:5} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Global Death Sound: "},{"score":{"name": "death_sound","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Sculk","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{death_sound:6} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Global Death Sound: "},{"score":{"name": "death_sound","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Evoker","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{death_sound:7} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Global Death Sound: "},{"score":{"name": "death_sound","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Beacon","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{death_sound:8} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Global Death Sound: "},{"score":{"name": "death_sound","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Conversion","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{death_sound:9} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Global Death Sound: "},{"score":{"name": "death_sound","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Allay","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{death_sound:10} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Global Death Sound: "},{"score":{"name": "death_sound","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Randomize Sound","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{death_sound:0} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Global Death Sound: "},{"score":{"name": "death_sound","objective": "refresh_settings"},"color": "yellow"}]
+
+
+#local death sound
+execute if data storage vanilla_refresh_config:config config{death_sound_local:11} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Local Death Sound: "},{"score":{"name": "death_sound_local","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Cause of Death","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{death_sound_local:1} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Local Death Sound: "},{"score":{"name": "death_sound_local","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Dragon Growl","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{death_sound_local:2} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Local Death Sound: "},{"score":{"name": "death_sound_local","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Elder Guardian","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{death_sound_local:3} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Local Death Sound: "},{"score":{"name": "death_sound_local","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Wither Spawn","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{death_sound_local:4} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Local Death Sound: "},{"score":{"name": "death_sound_local","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Trident","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{death_sound_local:5} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Local Death Sound: "},{"score":{"name": "death_sound_local","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Sculk","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{death_sound_local:6} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Local Death Sound: "},{"score":{"name": "death_sound_local","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Evoker","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{death_sound_local:7} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Local Death Sound: "},{"score":{"name": "death_sound_local","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Beacon","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{death_sound_local:8} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Local Death Sound: "},{"score":{"name": "death_sound_local","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Conversion","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{death_sound_local:9} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Local Death Sound: "},{"score":{"name": "death_sound_local","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Allay","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{death_sound_local:10} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Local Death Sound: "},{"score":{"name": "death_sound_local","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Randomize Sound","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{death_sound_local:0} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Local Death Sound: "},{"score":{"name": "death_sound_local","objective": "refresh_settings"},"color": "yellow"}]
+
+
+
+###
+
+
+
+execute if data storage vanilla_refresh_config:config config{death_items:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Lingering Death Drops: "},{"score":{"name": "death_items","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{death_items:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Lingering Death Drops: "},{"score":{"name": "death_items","objective": "refresh_settings"},"color": "yellow"}]
+
+execute if data storage vanilla_refresh_config:config config{torch:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Dynamic Torch Lighting: "},{"score":{"name": "torch","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{torch:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Dynamic Torch Lighting: "},{"score":{"name": "torch","objective": "refresh_settings"},"color": "yellow"}]
+
+
+execute if data storage vanilla_refresh_config:config config{torch_speed:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Dynamic Torch Light Updates: "},{"score":{"name": "torch_speed","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{torch_speed:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Dynamic Torch Light Updates: "},{"score":{"name": "torch_speed","objective": "refresh_settings"},"color": "yellow"}]
+
+execute if data storage vanilla_refresh_config:config config{tips_mc:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Minecraft Chat Tips: "},{"score":{"name": "tips_mc","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{tips_mc:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Minecraft Chat Tips: "},{"score":{"name": "tips_mc","objective": "refresh_settings"},"color": "yellow"}]
+
+execute if data storage vanilla_refresh_config:config config{tips_refresh:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Vanilla Refresh Chat Tips: "},{"score":{"name": "tips_refresh","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{tips_refresh:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Vanilla Refresh Chat Tips: "},{"score":{"name": "tips_refresh","objective": "refresh_settings"},"color": "yellow"}]
+
+
+execute if data storage vanilla_refresh_config:config config{daycounter:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Daycounter: "},{"score":{"name": "daycounter","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{daycounter:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Daycounter: "},{"score":{"name": "daycounter","objective": "refresh_settings"},"color": "yellow"}]
+
+execute if data storage vanilla_refresh_config:config config{subtitles:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Subtitle Major Events: "},{"score":{"name": "subtitles","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{subtitles:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Subtitle Major Events: "},{"score":{"name": "subtitles","objective": "refresh_settings"},"color": "yellow"}]
+
+execute if data storage vanilla_refresh_config:config config{jukebox:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Looping Jukebox: "},{"score":{"name": "jukebox","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{jukebox:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Looping Jukebox: "},{"score":{"name": "jukebox","objective": "refresh_settings"},"color": "yellow"}]
+
+execute if data storage vanilla_refresh_config:config config{witherhead:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Wither Head Drop: "},{"score":{"name": "witherhead","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{witherhead:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Wither Head Drop: "},{"score":{"name": "witherhead","objective": "refresh_settings"},"color": "yellow"}]
+
+
+
+
+
+execute if data storage vanilla_refresh_config:config config{totem_void:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Totem Works In Void: "},{"score":{"name": "totem_void","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{totem_void:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Totem Works In Void: "},{"score":{"name": "totem_void","objective": "refresh_settings"},"color": "yellow"}]
+
+execute if data storage vanilla_refresh_config:config config{ladder:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Drop Ladder: "},{"score":{"name": "ladder","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{ladder:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Drop Ladder: "},{"score":{"name": "ladder","objective": "refresh_settings"},"color": "yellow"}]
+
+
+##
+
+
+
+
+execute if data storage vanilla_refresh_config:config config{craftsound:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Craft Sound: "},{"score":{"name": "craftsound","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{craftsound:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Craft Sound: "},{"score":{"name": "craftsound","objective": "refresh_settings"},"color": "yellow"}]
+
+
+
+execute if data storage vanilla_refresh_config:config config{blockanims:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Improved Block Animations: "},{"score":{"name": "blockanims","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{blockanims:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Improved Block Animations: "},{"score":{"name": "blockanims","objective": "refresh_settings"},"color": "yellow"}]
+
+execute unless data storage vanilla_refresh_config:config config{grief_tnt:2} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"TNT Explosions: "},{"score":{"name": "grief_tnt","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{grief_tnt:2} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"TNT Explosions: "},{"score":{"name": "grief_tnt","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Nether and End only","color": "yellow"}]
+
+
+execute unless data storage vanilla_refresh_config:config config{grief_crystal:2} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"End Crystals: "},{"score":{"name": "grief_crystal","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{grief_crystal:2} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"End Crystals: "},{"score":{"name": "grief_crystal","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Nether and End only","color": "yellow"}]
+
+
+
+
+execute if data storage vanilla_refresh_config:config config{spyglass:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Spyglass Mob Info: "},{"score":{"name": "spyglass","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{spyglass:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Spyglass Mob Info: "},{"score":{"name": "spyglass","objective": "refresh_settings"},"color": "yellow"}]
+
+execute if data storage vanilla_refresh_config:config config{soul:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Soul Links: "},{"score":{"name": "soul","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{soul:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Soul Links: "},{"score":{"name": "soul","objective": "refresh_settings"},"color": "yellow"}]
+
+execute if data storage vanilla_refresh_config:config config{soul:1} run tellraw @s [{"translate": "\n    | ","color": "gray"},{"translate":"Take/Store Items: "},{"score":{"name": "soul_takeitems","objective": "refresh_settings"},"color": "yellow" }]
+execute if data storage vanilla_refresh_config:config config{soul:1} unless predicate vanilla_refresh:setting/soul_despawntime_infinite run tellraw @s [{"translate": "    | ","color": "gray"},{"translate":"Expiration: "},{"storage":"vanilla_refresh_config:config","nbt":"config.soul_despawntime"},"color": "yellow" },{"translate": " minutes","color": "yellow" }]
+execute if data storage vanilla_refresh_config:config config{soul:1} if predicate vanilla_refresh:setting/soul_despawntime_infinite run tellraw @s [{"translate": "    | ","color": "gray"},{"translate":"Expiration: ","color":"gray"},{"translate": "∞ minutes","color": "yellow" }]
+execute if data storage vanilla_refresh_config:config config{soul:1} run tellraw @s [{"translate": "    | ","color": "gray"},{"translate":"Percent XP Returned: "},{"storage":"vanilla_refresh_config:config","nbt":"soul_percentxp","color": "yellow" },{"translate": "%","color": "yellow" }]
+execute if data storage vanilla_refresh_config:config config{soul:1} run tellraw @s [{"translate": "    | ","color": "gray"},{"translate":"Public Soul Links: "},{"score":{"name": "soul_otherplayer","objective": "refresh_settings"},"color": "yellow" }]
+execute if data storage vanilla_refresh_config:config config{soul:1} run tellraw @s [{"translate": "    | ","color": "gray"},{"translate":"Create Soul Links: "},{"score":{"name": "soul_create","objective": "refresh_settings"},"color": "yellow" }]
+
+##
+
+
+
+
+execute if data storage vanilla_refresh_config:config config{biome:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Subtitle Biome Discovery: "},{"score":{"name": "biome","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{biome:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Subtitle Biome Discovery: "},{"score":{"name": "biome","objective": "refresh_settings"},"color": "yellow"}]
+
+
+execute if data storage vanilla_refresh_config:config config{homingxp:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Homing XP: "},{"score":{"name": "homingxp","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{homingxp:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Homing XP: "},{"score":{"name": "homingxp","objective": "refresh_settings"},"color": "yellow"}]
+
+execute if data storage vanilla_refresh_config:config config{cropsxp:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Crops XP: "},{"score":{"name": "cropsxp","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{cropsxp:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Crops XP: "},{"score":{"name": "cropsxp","objective": "refresh_settings"},"color": "yellow"}]
+
+execute if data storage vanilla_refresh_config:config config{healthsound:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Low Health Sound: "},{"score":{"name": "healthsound","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{healthsound:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Low Health Sound: "},{"score":{"name": "healthsound","objective": "refresh_settings"},"color": "yellow"}]
+
+execute if data storage vanilla_refresh_config:config config{armorstand:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Better Armor Stands: "},{"score":{"name": "armorstand","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{armorstand:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Better Armor Stands: "},{"score":{"name": "armorstand","objective": "refresh_settings"},"color": "yellow"}]
+
+execute if data storage vanilla_refresh_config:config config{trident:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Tridents Return From Void: "},{"score":{"name": "trident","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{trident:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Tridents Return From Void: "},{"score":{"name": "trident","objective": "refresh_settings"},"color": "yellow"}]
+
+
+execute if data storage vanilla_refresh_config:config config{tabdisplay:0} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Tab Display: "},{"score":{"name": "tabdisplay","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{tabdisplay:1} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Tab Display: "},{"score":{"name": "tabdisplay","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Hours","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{tabdisplay:2} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Tab Display: "},{"score":{"name": "tabdisplay","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Health","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{tabdisplay:3} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Tab Display: "},{"score":{"name": "tabdisplay","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Mob Kills","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{tabdisplay:4} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Tab Display: "},{"score":{"name": "tabdisplay","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Player Kills","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{tabdisplay:5} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Tab Display: "},{"score":{"name": "tabdisplay","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Deaths","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{tabdisplay:6} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Tab Display: "},{"score":{"name": "tabdisplay","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Hours Survived","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{tabdisplay:7} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Tab Display: "},{"score":{"name": "tabdisplay","objective": "refresh_settings"},"color": "yellow"},{"translate": ", XP Level","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{tabdisplay:8} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Tab Display: "},{"score":{"name": "tabdisplay","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Member ID","color": "yellow"}]
+
+
+execute if data storage vanilla_refresh_config:config config{cyclestats:0} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Below Name Display: "},{"score":{"name": "cyclestats","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{cyclestats:1} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Below Name Display: "},{"score":{"name": "cyclestats","objective": "refresh_settings"},"color": "yellow"}]
+
+
+##
+
+
+
+
+
+execute if data storage vanilla_refresh_config:config config{path:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Path Sprinting: "},{"score":{"name": "path","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{path:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Path Sprinting: "},{"score":{"name": "path","objective": "refresh_settings"},"color": "yellow"}]
+
+execute if data storage vanilla_refresh_config:config config{lodestone:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Teleport Lodestones: "},{"score":{"name": "lodestone","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{lodestone:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Teleport Lodestones: "},{"score":{"name": "lodestone","objective": "refresh_settings"},"color": "yellow"}]
+
+execute if data storage vanilla_refresh_config:config config{gamerules:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"/trigger gamerules Command: "},{"score":{"name": "gamerules","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{gamerules:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"/trigger gamerules Command: "},{"score":{"name": "gamerules","objective": "refresh_settings"},"color": "yellow"}]
+
+
+execute if data storage vanilla_refresh_config:config config{invis:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Invisibility on Armor Stands + Item Frames: "},{"score":{"name": "invis","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{invis:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Invisibility on Armor Stands + Item Frames: "},{"score":{"name": "invis","objective": "refresh_settings"},"color": "yellow"}]
+
+
+
+execute if data storage vanilla_refresh_config:config config{recovery:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Recovery Compass Coordinates: "},{"score":{"name": "recovery","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{recovery:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Recovery Compass Coordinates: "},{"score":{"name": "recovery","objective": "refresh_settings"},"color": "yellow"}]
+
+execute if data storage vanilla_refresh_config:config config{clock:1} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Readable Clocks: "},{"score":{"name": "clock","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Realistic","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{clock:2} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Readable Clocks: "},{"score":{"name": "clock","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Tick","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{clock:0} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Readable Clocks: "},{"score":{"name": "clock","objective": "refresh_settings"},"color": "yellow"}]
+
+
+execute if data storage vanilla_refresh_config:config config{compass:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Compass Coordinates: "},{"score":{"name": "compass","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{compass:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Compass Coordinates: "},{"score":{"name": "compass","objective": "refresh_settings"},"color": "yellow"}]
+
+execute if data storage vanilla_refresh_config:config config{echo:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Echo Shard Silence: "},{"score":{"name": "echo","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{echo:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Echo Shard Silence: "},{"score":{"name": "echo","objective": "refresh_settings"},"color": "yellow"}]
+
+
+##
+
+
+
+
+execute if data storage vanilla_refresh_config:config config{command_block:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Marked Command Blocks: "},{"score":{"name": "command_block","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{command_block:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Marked Command Blocks: "},{"score":{"name": "command_block","objective": "refresh_settings"},"color": "yellow"}]
+
+execute if data storage vanilla_refresh_config:config config{cake:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Party Cake: "},{"score":{"name": "cake","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{cake:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Party Cake: "},{"score":{"name": "cake","objective": "refresh_settings"},"color": "yellow"}]
+
+
+
+execute if data storage vanilla_refresh_config:config config{join:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Join/Exits Sound Effect: "},{"score":{"name": "join","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{join:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Join/Exits Sound Effect: "},{"score":{"name": "join","objective": "refresh_settings"},"color": "yellow"}]
+
+execute if data storage vanilla_refresh_config:config config{firstjoin:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"First Join Chat Message: "},{"score":{"name": "firstjoin","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{firstjoin:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"First Join Chat Message: "},{"score":{"name": "firstjoin","objective": "refresh_settings"},"color": "yellow"}]
+
+execute if data storage vanilla_refresh_config:config config{anvil:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Anvil Grinding: "},{"score":{"name": "anvil","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{anvil:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Anvil Grinding: "},{"score":{"name": "anvil","objective": "refresh_settings"},"color": "yellow"}]
+
+
+execute if data storage vanilla_refresh_config:config config{babyzombie:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Improved Baby Zombies: "},{"score":{"name": "babyzombie","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{babyzombie:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Improved Baby Zombies: "},{"score":{"name": "babyzombie","objective": "refresh_settings"},"color": "yellow"}]
+
+execute if data storage vanilla_refresh_config:config config{dragonegg:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Renewable Dragon Eggs: "},{"score":{"name": "dragonegg","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{dragonegg:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Renewable Dragon Eggs: "},{"score":{"name": "dragonegg","objective": "refresh_settings"},"color": "yellow"}]
+
+
+execute if data storage vanilla_refresh_config:config config{dragonelytra:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Dragon Drops Elytra: "},{"score":{"name": "dragonelytra","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{dragonelytra:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Dragon Drops Elytra: "},{"score":{"name": "dragonelytra","objective": "refresh_settings"},"color": "yellow"}]
+
+execute if data storage vanilla_refresh_config:config config{ghost:0} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Spectator Ghost: "},{"score":{"name": "ghost","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{ghost:1} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Spectator Ghost: "},{"score":{"name": "ghost","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Particles Fully Visible","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{ghost:2} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Spectator Ghost: "},{"score":{"name": "ghost","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Particles Visible Only to Others","color": "yellow"}]
+
+
+
+##
+
+
+
+
+execute if data storage vanilla_refresh_config:config config{spectate:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Spectator Actions: "},{"score":{"name": "spectate","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{spectate:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Spectator Actions: "},{"score":{"name": "spectate","objective": "refresh_settings"},"color": "yellow"}]
+
+execute if data storage vanilla_refresh_config:config config{itemsparkle:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Item Sparkle: "},{"score":{"name": "itemsparkle","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{itemsparkle:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Item Sparkle: "},{"score":{"name": "itemsparkle","objective": "refresh_settings"},"color": "yellow"}]
+
+execute if data storage vanilla_refresh_config:config config{playerlist:0} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"/trigger playerlist Command: "},{"score":{"name": "playerlist","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{playerlist:1} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"/trigger playerlist Command: "},{"score":{"name": "playerlist","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Sort by Gamemode","color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{playerlist:2} run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"/trigger playerlist Command: "},{"score":{"name": "playerlist","objective": "refresh_settings"},"color": "yellow"},{"translate": ", Sort by Dimension","color": "yellow"}]
+
+execute if data storage vanilla_refresh_config:config config{armortrimmed_mobs:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Trimmed Armored Piglins: "},{"score":{"name": "armortrimmed_mobs","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{armortrimmed_mobs:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Trimmed Armored Piglins: "},{"score":{"name": "armortrimmed_mobs","objective": "refresh_settings"},"color": "yellow"}]
+
+
+
+execute if data storage vanilla_refresh_config:config config{stats:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"/trigger stats Command: "},{"score":{"name": "stats","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{stats:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"/trigger stats Command: "},{"score":{"name": "stats","objective": "refresh_settings"},"color": "yellow"}]
+
+execute if data storage vanilla_refresh_config:config config{process_stats:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Stats Tracking: "},{"score":{"name": "process_stats","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{process_stats:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Stats Tracking: "},{"score":{"name": "process_stats","objective": "refresh_settings"},"color": "yellow"}]
+
+execute if data storage vanilla_refresh_config:config config{gravestone:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Gravestones: "},{"score":{"name": "gravestone","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{gravestone:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Gravestones: "},{"score":{"name": "gravestone","objective": "refresh_settings"},"color": "yellow"}]
+
+
+
+
+execute if data storage vanilla_refresh_config:config config{stoptime:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Offline Timestop: "},{"score":{"name": "stoptime","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{stoptime:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Offline Timestop: "},{"score":{"name": "stoptime","objective": "refresh_settings"},"color": "yellow"}]
+
+
+
+##
+
+
+
+execute if data storage vanilla_refresh_config:config config{anim_level:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Level Up Animation: "},{"score":{"name": "anim_level","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{anim_level:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Level Up Animation: "},{"score":{"name": "anim_level","objective": "refresh_settings"},"color": "yellow"}]
+
+execute if data storage vanilla_refresh_config:config config{anim_water:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Water Splash Animation: "},{"score":{"name": "anim_water","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{anim_water:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Water Splash Animation: "},{"score":{"name": "anim_water","objective": "refresh_settings"},"color": "yellow"}]
+
+execute if data storage vanilla_refresh_config:config config{anim_teleport:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"End Teleport Animation: "},{"score":{"name": "anim_teleport","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{anim_teleport:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"End Teleport Animation: "},{"score":{"name": "anim_teleport","objective": "refresh_settings"},"color": "yellow"}]
+
+
+execute if data storage vanilla_refresh_config:config config{spectate_animation:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Spectator Animation: "},{"score":{"name": "spectate_animation","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{spectate_animation:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Spectator Animation: "},{"score":{"name": "spectate_animation","objective": "refresh_settings"},"color": "yellow"}]
+
+
+
+execute if data storage vanilla_refresh_config:config config{playerheads:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Player Head Drops: "},{"score":{"name": "playerheads","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{playerheads:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Player Head Drops: "},{"score":{"name": "playerheads","objective": "refresh_settings"},"color": "yellow"}]
+
+
+execute if data storage vanilla_refresh_config:config config{jukebox_stop_sound:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Jukebox Music Override: "},{"score":{"name": "jukebox_stop_sound","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{jukebox_stop_sound:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Jukebox Music Override: "},{"score":{"name": "jukebox_stop_sound","objective": "refresh_settings"},"color": "yellow"}]
+
+
+execute if data storage vanilla_refresh_config:config config{death_stop_music:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Stop Music on Death: "},{"score":{"name": "death_stop_music","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{death_stop_music:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Stop Music on Death: "},{"score":{"name": "death_stop_music","objective": "refresh_settings"},"color": "yellow"}]
+
+
+
+
+execute if data storage vanilla_refresh_config:config config{explosivefurnace:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Explosive Blast Furnace: "},{"score":{"name": "explosivefurnace","objective": "refresh_settings"},"color": "yellow"}]
+execute if data storage vanilla_refresh_config:config config{explosivefurnace:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Explosive Blast Furnace: "},{"score":{"name": "explosivefurnace","objective": "refresh_settings"},"color": "yellow"}]
+
+
+
+
+tellraw @s [{"text": " "}]
