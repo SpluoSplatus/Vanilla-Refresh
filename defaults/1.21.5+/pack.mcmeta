@@ -1,0 +1,21 @@
+{
+    "pack": {
+      "pack_format": 71,
+      "supported_formats": {
+        "min_inclusive": 15,
+        "max_inclusive": 999
+      },
+      "description": [
+        {
+          "translate": "Vanilla Refresh modified default settings",
+          "color": "gray"
+        }
+      ]
+    },
+    "overlays": {
+      "entries": [
+         
+      ]
+  }
+  }
+  

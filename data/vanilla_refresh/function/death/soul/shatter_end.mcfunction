@@ -49,5 +49,5 @@ execute if score temp_XP refresh_count matches 35.. run summon experience_orb ~ 
 scoreboard players reset temp_XP refresh_count
 
 execute as @s[tag=refresh_entity_playersoul_hasitems] run summon item ~ ~ ~ {Item:{id:"minecraft:bundle",count:1},Tags:["refresh_entity_soulitem_bundle"]}
-execute as @s[tag=refresh_entity_playersoul_hasitems] run damage @n[type=item,tag=refresh_entity_soulitem_bundle,distance=..3] 100
 execute as @s[tag=refresh_entity_playersoul_hasitems] run data modify entity @n[type=item,nbt={Item:{id:"minecraft:bundle"}}] Item.components.minecraft:bundle_contents set from entity @s data.Inventory
+execute as @s[tag=refresh_entity_playersoul_hasitems] run damage @n[type=item,tag=refresh_entity_soulitem_bundle,distance=..3] 100

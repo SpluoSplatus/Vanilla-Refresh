@@ -9,7 +9,12 @@ execute store result score @n[type=marker,tag=refresh_entity_playersoul_temp] re
 execute store result score @n[type=marker,tag=refresh_entity_playersoul_temp] refresh_uuid3 run data get entity @s UUID[2]
 execute store result score @n[type=marker,tag=refresh_entity_playersoul_temp] refresh_uuid4 run data get entity @s UUID[3]
 
+#store inventory
 execute if data storage vanilla_refresh_config:config config{soul_takeitems:1} run data modify entity @n[type=marker,tag=refresh_entity_playersoul_temp] data.Inventory set from entity @s Inventory
+execute if data storage vanilla_refresh_config:config config{soul_takeitems:1} run data modify entity @n[type=marker,tag=refresh_entity_playersoul_temp] data.Inventory append from entity @s equipment.feet
+execute if data storage vanilla_refresh_config:config config{soul_takeitems:1} run data modify entity @n[type=marker,tag=refresh_entity_playersoul_temp] data.Inventory append from entity @s equipment.legs
+execute if data storage vanilla_refresh_config:config config{soul_takeitems:1} run data modify entity @n[type=marker,tag=refresh_entity_playersoul_temp] data.Inventory append from entity @s equipment.chest
+execute if data storage vanilla_refresh_config:config config{soul_takeitems:1} run data modify entity @n[type=marker,tag=refresh_entity_playersoul_temp] data.Inventory append from entity @s equipment.head
 execute if data storage vanilla_refresh_config:config config{soul_takeitems:1} run tag @n[type=marker,tag=refresh_entity_playersoul_temp] add refresh_entity_playersoul_hasitems
 data modify entity @n[type=marker,tag=refresh_entity_playersoul_temp] data.XP set from entity @s XpLevel
 

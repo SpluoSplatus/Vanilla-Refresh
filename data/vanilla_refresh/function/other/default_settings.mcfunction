@@ -91,7 +91,7 @@ execute unless data storage vanilla_refresh_config:config config.cyclestats1 run
 
 execute unless data storage vanilla_refresh_config:config config.path run data modify storage vanilla_refresh_config:config config.path set value 1
 
-execute unless data storage vanilla_refresh_config:config config.lodestone run data modify storage vanilla_refresh_config:config config.lodestone set value 0
+execute unless data storage vanilla_refresh_config:config config.lodestone run data modify storage vanilla_refresh_config:config config.lodestone set value 1
 execute unless data storage vanilla_refresh_config:config config.lodestone_teleport_damage run data modify storage vanilla_refresh_config:config config.lodestone_teleport_damage set value 0
 
 execute unless data storage vanilla_refresh_config:config config.invis run data modify storage vanilla_refresh_config:config config.invis set value 1

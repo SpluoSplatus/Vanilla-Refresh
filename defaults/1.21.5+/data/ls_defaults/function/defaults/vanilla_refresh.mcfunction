@@ -137,7 +137,7 @@ data modify storage vanilla_refresh_config:config config.config.path set value 1
 data modify storage vanilla_refresh_config:config config.config.lodestone set value 1
 
     #whether ender pearl teleport lodestone functionaltiy deals damage like ender pearl normally do
-    data modify storage vanilla_refresh_config:config config.config.lodestone_teleport_damage set value 1
+    data modify storage vanilla_refresh_config:config config.config.lodestone_teleport_damage set value 0
 
 #invisibility potions on armor stands and item frames
 data modify storage vanilla_refresh_config:config config.config.invis set value 1
@@ -219,7 +219,7 @@ data modify storage vanilla_refresh_config:config config.config.stats_deathavera
 data modify storage vanilla_refresh_config:config config.config.stats_xp set value 0
 
 data modify storage vanilla_refresh_config:config config.config.stats_health set value 1
-execute if score stats_healthFIX:1 run scoreboard objectives setdisplay below_name refresh_player_health
+execute if data storage vanilla_refresh_config:config config{stats_healthFIX:1} run scoreboard objectives setdisplay below_name refresh_player_health
 
 
 
@@ -263,7 +263,7 @@ data modify storage vanilla_refresh_config:config config.config.process_stats se
 
 # ######################################
 
-execute if score cyclestats_healthFIX:1 run scoreboard objectives modify refresh_player_health displayname {"translate":"❤"}
-execute if score cyclestats_healthFIX:2 run scoreboard objectives modify refresh_player_health displayname {"translate":"Health"}
+execute if data storage vanilla_refresh_config:config config{cyclestats_health:1} run scoreboard objectives modify refresh_player_health displayname {"translate":"❤"}
+execute if data storage vanilla_refresh_config:config config{cyclestats_health:2} run scoreboard objectives modify refresh_player_health displayname {"translate":"Health"}
 
 # ######################################

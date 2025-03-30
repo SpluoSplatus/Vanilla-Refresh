@@ -1,0 +1,1 @@
+{"schemaVersion":1,"id":"mr_ls_defaults","version":"1","name":"LS Defaults","description":"Modified default data for limesplatus projects","authors":["limesplatus"],"contact":{"homepage":"https://modrinth.com/user/limesplatus"},"license":"LicenseRef-Custom","environment":"*","depends":{"fabric-resource-loader-v0":"*"}}
