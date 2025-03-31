@@ -15,6 +15,7 @@ execute if data storage vanilla_refresh_config:config config{soul_takeitems:1} r
 execute if data storage vanilla_refresh_config:config config{soul_takeitems:1} run data modify entity @n[type=marker,tag=refresh_entity_playersoul_temp] data.Inventory append from entity @s equipment.legs
 execute if data storage vanilla_refresh_config:config config{soul_takeitems:1} run data modify entity @n[type=marker,tag=refresh_entity_playersoul_temp] data.Inventory append from entity @s equipment.chest
 execute if data storage vanilla_refresh_config:config config{soul_takeitems:1} run data modify entity @n[type=marker,tag=refresh_entity_playersoul_temp] data.Inventory append from entity @s equipment.head
+execute if data storage vanilla_refresh_config:config config{soul_takeitems:1} run data modify entity @n[type=marker,tag=refresh_entity_playersoul_temp] data.Inventory append from entity @s equipment.offhand
 execute if data storage vanilla_refresh_config:config config{soul_takeitems:1} run tag @n[type=marker,tag=refresh_entity_playersoul_temp] add refresh_entity_playersoul_hasitems
 data modify entity @n[type=marker,tag=refresh_entity_playersoul_temp] data.XP set from entity @s XpLevel
 

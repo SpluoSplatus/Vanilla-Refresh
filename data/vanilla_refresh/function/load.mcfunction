@@ -1,5 +1,5 @@
 
-execute unless data storage vanilla_refresh_config:config config{load_message:0} unless score load_message refresh_settings matches ..0 run tellraw @a [{"translate": "Successfully loaded ","color": "gray"},{"translate": "Vanilla Refresh v1.4.27a","color": "green"}]
+execute unless data storage vanilla_refresh_config:config config{load_message:0} unless score load_message refresh_settings matches ..0 run tellraw @a [{"translate": "Successfully loaded ","color": "gray"},{"translate": "Vanilla Refresh v1.4.27b","color": "green"}]
 
 ### Pack Installed
 
