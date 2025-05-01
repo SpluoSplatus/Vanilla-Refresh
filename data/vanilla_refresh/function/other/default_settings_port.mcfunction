@@ -238,7 +238,4 @@ execute store result storage vanilla_refresh_config:config config.process_stats 
 
 execute store result storage vanilla_refresh_config:config config.process_stats int 1 run scoreboard players get process_stats refresh_settings
 
-
-
-#modified defaults
-function ls_defaults:defaults/vanilla_refresh
+scoreboard players set settings_ported refresh_settings 1

@@ -1,5 +1,5 @@
 
-execute unless data storage vanilla_refresh_config:config config{load_message:0} unless score load_message refresh_settings matches ..0 run tellraw @a [{"translate": "Successfully loaded ","color": "gray"},{"translate": "Vanilla Refresh v1.4.27b","color": "green"}]
+execute unless data storage vanilla_refresh_config:config config{load_message:0} unless score load_message refresh_settings matches ..0 run tellraw @a [{"translate": "Successfully loaded ","color": "gray"},{"translate": "Vanilla Refresh v1.4.27d","color": "green"}]
 
 ### Pack Installed
 
@@ -271,7 +271,7 @@ schedule function vanilla_refresh:other/clock/5tick 5t
 
 #==============
 
-execute if score mob_health refresh_settings matches -2147483648..2147483647 run function vanilla_refresh:other/default_settings_port
+execute unless score settings_ported refresh_settings matches 1 if score mob_health refresh_settings matches -2147483648..2147483647 run function vanilla_refresh:other/default_settings_port
 function vanilla_refresh:other/default_settings
 
 schedule function vanilla_refresh:other/check_installs 1t

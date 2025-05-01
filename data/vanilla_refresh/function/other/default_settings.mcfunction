@@ -244,7 +244,3 @@ execute unless data storage vanilla_refresh_config:config config.process_stats r
 execute unless data storage vanilla_refresh:storage wand_mob_filter run data modify storage vanilla_refresh:storage wand_mob_filter set value "!#vanilla_refresh:misc_entity_wand"
 
 
-
-
-#modified defaults
-function ls_defaults:defaults/vanilla_refresh

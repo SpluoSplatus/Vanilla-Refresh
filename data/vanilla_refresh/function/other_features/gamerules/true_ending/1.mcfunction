@@ -2,7 +2,7 @@
 tellraw @s [{"text": " "}]
 
 
-tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Ender Dragon Health: "},{"score":{"name": "dragonhealth","objective": "trueEnding_settings"},"color": "yellow"},{"translate":" HP","color": "yellow"}]
+tellraw @s [{"translate": "   ","color": "gray","hover_event": {"action": "show_text","value":[{"text":"ID: dragonhealth","color":"gray"},{"translate":"\nValue: "},{"score":{"name": "dragonhealth","objective": "trueEnding_settings"}}]}},{"translate":"Ender Dragon Health: "},{"score":{"name": "dragonhealth","objective": "trueEnding_settings"},"color": "yellow"},{"translate":" HP","color": "yellow"}]
 
 
 tellraw @s [{"text": " "}]

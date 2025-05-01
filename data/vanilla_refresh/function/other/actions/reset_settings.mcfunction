@@ -6,6 +6,10 @@ data remove storage vanilla_refresh_config:config config
 scoreboard objectives add refresh_settings dummy
 function vanilla_refresh:other/default_settings
 
+#modified defaults
+function ls_defaults:defaults/vanilla_refresh
+
+
 function vanilla_refresh:other/menus/main
 
 playsound entity.experience_orb.pickup player @s ~ ~ ~ 0.6 1

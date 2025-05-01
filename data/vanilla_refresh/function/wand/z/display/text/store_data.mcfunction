@@ -4,7 +4,7 @@
 # data remove storage vanilla_refresh:storage temp.macro.list.target_string
 data modify storage vanilla_refresh:storage temp.macro.target_string set value {"text":"Text Display","color":"white"}
 execute unless data entity @s {text:""} run data modify storage vanilla_refresh:storage temp.macro.target_string set from entity @s text
-tellraw @a {"nbt":"temp.macro.target_string",storage:"vanilla_refresh:storage",color:red}
+# tellraw @a {"nbt":"temp.macro.target_string",storage:"vanilla_refresh:storage",color:red}
 
 # assume string is at "storage vanilla_refresh:storage temp.macro.target_string"
 data modify storage vanilla_refresh:storage temp.macro.list set value []
@@ -14,12 +14,12 @@ data modify entity @s text set value {storage:"vanilla_refresh:storage",nbt:"tem
 # >> `["Hello World"]`
 # or
 # >> `['Hello "..." World']`
-tellraw @a {"nbt":"text",entity:"@s"}
+# tellraw @a {"nbt":"text",entity:"@s"}
 
 
 data modify storage vanilla_refresh:storage temp.macro.escaped_string set string entity @s text 1 -1
 
-tellraw @a {"nbt":"temp.macro.target_string",storage:"vanilla_refresh:storage",color:red}
+# tellraw @a {"nbt":"temp.macro.target_string",storage:"vanilla_refresh:storage",color:red}
 
  # if it used single quotes, force double quotes
  data modify storage vanilla_refresh:storage temp.macro.quote_mark set string entity @s text 1 2

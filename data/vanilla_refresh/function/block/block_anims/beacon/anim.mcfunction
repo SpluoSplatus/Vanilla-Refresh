@@ -7,7 +7,7 @@ tp @s ~ ~ ~ ~5 ~
 execute if predicate vanilla_refresh:chance/20_percent run particle end_rod ~ ~ ~ .5 .5 .5 .02 1 force @a[distance=..32]
 
 
-execute unless block ~ ~ ~ beacon{Levels:0} run function vanilla_refresh:block/block_anims/beacon/powered_anim
+execute if block ~ ~ ~ beacon unless block ~ ~ ~ beacon{Levels:0} run function vanilla_refresh:block/block_anims/beacon/powered_anim
 
 
 #reset anim
