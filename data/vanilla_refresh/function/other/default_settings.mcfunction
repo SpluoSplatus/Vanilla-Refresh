@@ -42,6 +42,7 @@ execute unless data storage vanilla_refresh_config:config config.blockanims_brew
 execute unless data storage vanilla_refresh_config:config config.blockanims_enchant run data modify storage vanilla_refresh_config:config config.blockanims_enchant set value 1
 execute unless data storage vanilla_refresh_config:config config.blockanims_dragonegg run data modify storage vanilla_refresh_config:config config.blockanims_dragonegg set value 1
 execute unless data storage vanilla_refresh_config:config config.blockanims_enderchest run data modify storage vanilla_refresh_config:config config.blockanims_enderchest set value 1
+execute unless data storage vanilla_refresh_config:config config.blockanims_disc run data modify storage vanilla_refresh_config:config config.blockanims_disc set value 1
 
 
 execute unless data storage vanilla_refresh_config:config config.grief_tnt run data modify storage vanilla_refresh_config:config config.grief_tnt set value 1
@@ -175,6 +176,7 @@ execute unless data storage vanilla_refresh_config:config config.stats_deaths ru
 execute unless data storage vanilla_refresh_config:config config.stats_deathtime run data modify storage vanilla_refresh_config:config config.stats_deathtime set value 0
 execute unless data storage vanilla_refresh_config:config config.stats_deathaverage run data modify storage vanilla_refresh_config:config config.stats_deathaverage set value 0
 execute unless data storage vanilla_refresh_config:config config.stats_deathaverage_non_pvp run data modify storage vanilla_refresh_config:config config.stats_deathaverage_non_pvp set value 0
+execute unless data storage vanilla_refresh_config:config config.stats_member_id run data modify storage vanilla_refresh_config:config config.stats_member_id set value 0
 
 execute unless data storage vanilla_refresh_config:config config.stats_xp run data modify storage vanilla_refresh_config:config config.stats_xp set value 0
 

@@ -45,7 +45,7 @@ execute if data storage vanilla_refresh_config:config config{armorstand:1} as @s
 
 
 #disc
-execute if data storage vanilla_refresh_config:config config{blockanims:1} as @s[advancements={vanilla_refresh:place/disc=true}] anchored eyes positioned ^ ^ ^ run function vanilla_refresh:block/block_anims/jukebox/raycast
+execute if data storage vanilla_refresh_config:config config{blockanims:1} unless data storage vanilla_refresh_config:config config{blockanims_disc:0} as @s[advancements={vanilla_refresh:place/disc=true}] anchored eyes positioned ^ ^ ^ run function vanilla_refresh:block/block_anims/jukebox/raycast
 
 #disc
 execute if data storage vanilla_refresh_config:config config{jukebox_stop_sound:1} as @s[advancements={vanilla_refresh:place/disc=true}] anchored eyes positioned ^ ^ ^ run function vanilla_refresh:block/jukebox_stop_sound/insert_disc

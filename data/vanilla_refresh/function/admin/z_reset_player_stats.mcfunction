@@ -5,7 +5,7 @@ tellraw @s [{"translate":"Are you sure you want to reset all stats of every play
 
 tellraw @s [{"text":""}]
 
-tellraw @s [{"text":"Resets: ","color":"#bf7a7a"},{"translate":"Time played/hours, deaths, mob kills, player kills, deaths per hour, and time since last death","italic": true,"color":"#bf7a7a"}]
+tellraw @s [{"text":"Resets: ","color":"#bf7a7a"},{"translate":"Time played/hours, deaths, mob kills, and all other stats displayed in /trigger stats and other stats features","italic": true,"color":"#bf7a7a"}]
 
 tellraw @s [{"text":""}]
 

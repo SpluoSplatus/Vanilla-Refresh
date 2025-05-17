@@ -17,6 +17,10 @@ execute if score blockExplosionDropDecay refresh_gamerules matches 1 run tellraw
 execute unless score tntExplosionDropDecay refresh_gamerules matches 0 run tellraw @s [{"translate": "","color": "aqua"},{"text":"+ ","bold": true},{"translate":"TNT Explosion Drop Decay: "},{"score":{"name": "tntExplosionDropDecay","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
 execute if score tntExplosionDropDecay refresh_gamerules matches 0 run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"TNT Explosion Drop Decay: "},{"score":{"name": "tntExplosionDropDecay","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
 
+
+execute unless score tntExplodes refresh_gamerules matches 1 run tellraw @s [{"translate": "","color": "aqua"},{"text":"+ ","bold": true},{"translate":"TNT Explodes: "},{"score":{"name": "tntExplodes","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
+execute if score tntExplodes refresh_gamerules matches 1 run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"TNT Explodes: "},{"score":{"name": "tntExplodes","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
+
 execute unless score doVinesSpread refresh_gamerules matches 1 run tellraw @s [{"translate": "","color": "aqua"},{"text":"+ ","bold": true},{"translate":"Do Vines Spread: "},{"score":{"name": "doVinesSpread","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
 execute if score doVinesSpread refresh_gamerules matches 1 run tellraw @s [{"translate": "   ","color": "gray"},{"translate":"Do Vines Spread: "},{"score":{"name": "doVinesSpread","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
 

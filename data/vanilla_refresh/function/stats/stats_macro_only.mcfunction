@@ -20,7 +20,12 @@ $execute if score $(player) refresh_player_hours matches ..9 if score $(player) 
 $tellraw @p [{"translate":"  ","color": "gray"},{"translate":"Mob Kills: ","color":"gray"},"",{"score":{"name":"$(player)","objective":"refresh_player_mobkills"},"color": "yellow"},{"translate": ""},{"text":""}]
 $tellraw @p [{"translate":"  ","color": "gray"},{"translate":"Player Kills: ","color":"gray"},"",{"score":{"name":"$(player)","objective":"refresh_player_kills"},"color": "yellow"},{"translate": ""},{"text":""}]
 $tellraw @p [{"translate":"  ","color": "gray"},{"translate":"XP Level: ","color":"gray"},"",{"score":{"name":"$(player)","objective":"refresh_player_level"},"color": "yellow"},{"translate": ""}]
-$tellraw @p [{"translate":"  ","color": "gray"},{"translate":"Deaths: ","color":"gray"},"",{"score":{"name":"$(player)","objective":"refresh_player_deaths"},"color": "yellow"},{"translate": ""}]
+
+
+#deaths
+$execute unless score @s refresh_player_deaths = @s refresh_player_deaths_non_pvp run tellraw @p [{"translate":"  ","color": "gray"},{"translate":"Deaths: ","color":"gray"},"",{"score":{"name":"$(player)","objective":"refresh_player_deaths_non_pvp"},"color": "yellow"},{"translate":" ","color": "gray"},{"translate":"+PVP: ","color":"#808080","italic":true},"",{"score":{"name":"$(player)","objective":"refresh_player_deaths"},"color": "#808080"},{"translate": ""}]
+$execute if score @s refresh_player_deaths = @s refresh_player_deaths_non_pvp run tellraw @p [{"translate":"  ","color": "gray"},{"translate":"Deaths: ","color":"gray"},"",{"score":{"name":"$(player)","objective":"refresh_player_deaths_non_pvp"},"color": "yellow"},{"translate":" ","color": "gray"}]
+
 
 
 # LAST DEATH
@@ -36,9 +41,12 @@ $execute if score $(player) refresh_player_deaths matches 1.. if score $(player)
 $execute if score $(player) refresh_player_deaths matches 0 run tellraw @p [{"translate":"  ","color": "yellow"},{"translate":"Time Since Last Death: ","color":"gray"},{"translate": "--"}]
 
 # AVERAGE DEATHS PER HOUR
-$execute if score $(player) refresh_player_deathaverage_decimal matches 0..9 run tellraw @p [{"translate":"  ","color": "yellow"},{"translate":"Average Deaths Per Hour: ","color":"gray"},{"score":{"name":"$(player)","objective":"refresh_player_deathaverage"},"color": "yellow"},{"translate": ".00"},{"score":{"name":"$(player)","objective":"refresh_player_deathaverage_decimal"}}]
-$execute if score $(player) refresh_player_deathaverage_decimal matches 10..99 run tellraw @p [{"translate":"  ","color": "yellow"},{"translate":"Average Deaths Per Hour: ","color":"gray"},{"score":{"name":"$(player)","objective":"refresh_player_deathaverage"},"color": "yellow"},{"translate": ".0"},{"score":{"name":"$(player)","objective":"refresh_player_deathaverage_decimal"}}]
-$execute if score $(player) refresh_player_deathaverage_decimal matches 100.. run tellraw @p [{"translate":"  ","color": "yellow"},{"translate":"Average Deaths Per Hour: ","color":"gray"},{"score":{"name":"$(player)","objective":"refresh_player_deathaverage"},"color": "yellow"},{"translate": "."},{"score":{"name":"$(player)","objective":"refresh_player_deathaverage_decimal"}}]
+
+# AVERAGE DEATHS PER HOUR
+$execute unless score @s refresh_player_deaths = @s refresh_player_deaths_non_pvp run tellraw @p [{"translate":"  ","color": "yellow"},{"translate":"Average Deaths Per Hour: ","color":"gray","fallback":"Avg Deaths Per Hour: "},{"score":{"name":"$(player)","objective":"refresh_player_deathaverage_non_pvp"}},{"translate": "."},{"score":{"name":"$(player)","objective":"refresh_player_deathaverage_decimal_non_pvp"}},{"translate":" ","color": "gray"},{"translate":"+PVP: ","color":"#808080","italic":true},"",{"score":{"name":"$(player)","objective":"refresh_player_deathaverage"},"color":"#808080"},{"translate": ".","color":"#808080"},{"score":{"name":"$(player)","objective":"refresh_player_deathaverage_decimal"},"color":"#808080"},{"translate": "","color":"#808080"}]
+
+$execute if score @s refresh_player_deaths = @s refresh_player_deaths_non_pvp run tellraw @p [{"translate":"  ","color": "yellow"},{"translate":"Average Deaths Per Hour: ","color":"gray","fallback":"Avg Deaths Per Hour: "},{"score":{"name":"$(player)","objective":"refresh_player_deathaverage_non_pvp"}},{"translate": "."},{"score":{"name":"$(player)","objective":"refresh_player_deathaverage_decimal_non_pvp"}}]
+
 
 
 

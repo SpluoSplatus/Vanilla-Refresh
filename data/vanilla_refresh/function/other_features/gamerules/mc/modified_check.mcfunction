@@ -2,6 +2,7 @@
 scoreboard players set temp_gamerules_modified refresh_gamerules 0
 
 execute unless score announceAdvancements refresh_gamerules matches 1 run scoreboard players set temp_gamerules_modified refresh_gamerules 1
+execute unless score allowFireTicksAwayFromPlayer refresh_gamerules matches 0 run scoreboard players set temp_gamerules_modified refresh_gamerules 1
 execute unless score commandBlockOutput refresh_gamerules matches 1 run scoreboard players set temp_gamerules_modified refresh_gamerules 1
 execute unless score disableElytraMovementCheck refresh_gamerules matches 0 run scoreboard players set temp_gamerules_modified refresh_gamerules 1
 execute unless score disableRaids refresh_gamerules matches 0 run scoreboard players set temp_gamerules_modified refresh_gamerules 1
@@ -44,6 +45,7 @@ execute unless score waterSourceConversion refresh_gamerules matches 1 run score
 execute unless score snowAccumulationHeight refresh_gamerules matches 1 run scoreboard players set temp_gamerules_modified refresh_gamerules 1
 execute unless score mobExplosionDropDecay refresh_gamerules matches 1 run scoreboard players set temp_gamerules_modified refresh_gamerules 1
 execute unless score blockExplosionDropDecay refresh_gamerules matches 1 run scoreboard players set temp_gamerules_modified refresh_gamerules 1
+execute unless score tntExplodes refresh_gamerules matches 0 run scoreboard players set temp_gamerules_modified refresh_gamerules 1
 execute unless score tntExplosionDropDecay refresh_gamerules matches 0 run scoreboard players set temp_gamerules_modified refresh_gamerules 1
 execute unless score doVinesSpread refresh_gamerules matches 1 run scoreboard players set temp_gamerules_modified refresh_gamerules 1
 execute unless score commandModificationBlockLimit refresh_gamerules matches 32768 run scoreboard players set temp_gamerules_modified refresh_gamerules 1

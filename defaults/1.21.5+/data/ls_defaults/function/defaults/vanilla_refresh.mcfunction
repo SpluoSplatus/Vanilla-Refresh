@@ -63,7 +63,16 @@ data modify storage vanilla_refresh_config:config config.jukebox set value 0
 #wither head drop
 data modify storage vanilla_refresh_config:config config.witherhead set value 1
 
+#block animations
 data modify storage vanilla_refresh_config:config config.blockanims set value 1
+   
+  execute unless data storage vanilla_refresh_config:config config.blockanims_beacon run data modify storage vanilla_refresh_config:config config.blockanims_beacon set value 1
+  execute unless data storage vanilla_refresh_config:config config.blockanims_witherskull run data modify storage vanilla_refresh_config:config config.blockanims_witherskull set value 1
+  execute unless data storage vanilla_refresh_config:config config.blockanims_brewing run data modify storage vanilla_refresh_config:config config.blockanims_brewing set value 1
+  execute unless data storage vanilla_refresh_config:config config.blockanims_enchant run data modify storage vanilla_refresh_config:config config.blockanims_enchant set value 1
+  execute unless data storage vanilla_refresh_config:config config.blockanims_dragonegg run data modify storage vanilla_refresh_config:config config.blockanims_dragonegg set value 1
+  execute unless data storage vanilla_refresh_config:config config.blockanims_enderchest run data modify storage vanilla_refresh_config:config config.blockanims_enderchest set value 1
+  execute unless data storage vanilla_refresh_config:config config.blockanims_disc run data modify storage vanilla_refresh_config:config config.blockanims_disc set value 1
 
 #allow tnt explosions?
 data modify storage vanilla_refresh_config:config config.grief_tnt set value 1

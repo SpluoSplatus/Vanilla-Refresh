@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "vehicle": {
+          "type": "#vanilla_refresh:misc"
+        }
+      }
+    }
+  ]
+}

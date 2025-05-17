@@ -77,6 +77,12 @@ execute if data storage vanilla_refresh_config:config config{stats_deathtime:0} 
 
 tellraw @s [{"text": " "}]
 
+execute if data storage vanilla_refresh_config:config config{stats_member_id:1} run tellraw @s [{"translate": "","color": "gray"},{"translate": "ⓘ ","hover_event":{"action":"show_text","value":[{"translate": "Your member ID can be used by others to view your stats. To view someone else's stats, use "},{"translate":"\"/trigger stats set playerID\"","color": "yellow"},{"translate":", replacing "},{"translate": "playerID","color": "yellow"},{"translate": " with the member ID of an online player."}]}},{"translate":"Member ID"},{"text":": ","color":"gray"},{"translate":"Enabled","color":"green","underlined":true,"hover_event":{"action":"show_text","value":[{"translate":"Click to change this setting"}]},"click_event":{"action":"run_command","command":"/function vanilla_refresh:other/actions/a_config_change {id:stats_member_id,value:0,page:\"vanilla_refresh:other/menus/stats/below_name/1\"}"}}]
+execute if data storage vanilla_refresh_config:config config{stats_member_id:0} run tellraw @s [{"translate": "","color": "gray"},{"translate": "ⓘ ","hover_event":{"action":"show_text","value":[{"translate": "Your member ID can be used by others to view your stats. To view someone else's stats, use "},{"translate":"\"/trigger stats set playerID\"","color": "yellow"},{"translate":", replacing "},{"translate": "playerID","color": "yellow"},{"translate": " with the member ID of an online player."}]}},{"translate":"Member ID"},{"text":": ","color":"gray"},{"translate":"Disabled","color":"red","underlined":true,"hover_event":{"action":"show_text","value":[{"translate":"Click to change this setting"}]},"click_event":{"action":"run_command","command":"/function vanilla_refresh:other/actions/a_config_change {id:stats_member_id,value:1,page:\"vanilla_refresh:other/menus/stats/below_name/1\"}"}}]
+
+
+tellraw @s [{"text": " "}]
+
 
 
 tellraw @s [{"translate": "","color": "yellow"},{"translate":"<-- Return","color":"yellow","underlined":false,"hover_event":{"action":"show_text","value":[{"translate":"Previous Page"}]},"click_event":{"action":"run_command","command":"/function vanilla_refresh:other/menus/stats/settings1"}}]

@@ -1,5 +1,5 @@
 
-execute unless data storage vanilla_refresh_config:config config{load_message:0} unless score load_message refresh_settings matches ..0 run tellraw @a [{"translate": "Successfully loaded ","color": "gray"},{"translate": "Vanilla Refresh v1.4.27d","color": "green"}]
+execute unless data storage vanilla_refresh_config:config config{load_message:0} unless score load_message refresh_settings matches ..0 run tellraw @a [{"translate": "Successfully loaded ","color": "gray"},{"translate": "Vanilla Refresh v1.4.27e","color": "green"}]
 
 ### Pack Installed
 
@@ -180,7 +180,7 @@ scoreboard objectives modify refresh_player_deaths displayname {"translate":"☠
 scoreboard objectives modify refresh_player_deaths_non_pvp displayname {"translate":"☠"}
 scoreboard objectives modify refresh_player_d_hours displayname {"translate":"Hours Survived"}
 scoreboard objectives modify refresh_player_level displayname {"translate":"XP"}
-scoreboard objectives modify refresh_memberID displayname {"translate":"Member ID"}
+scoreboard objectives modify refresh_memberID displayname {"translate":"ID"}
 scoreboard objectives modify refresh_player_death_score displayname ["☠",{"text":"S","bold":true,"color":"white"}]
 scoreboard objectives modify refresh_player_death_score_non_pvp displayname ["☠",{"text":"S","bold":true,"color":"white"}]
 
@@ -241,6 +241,8 @@ scoreboard players set 10 refresh_constants 10
 scoreboard players set -10 refresh_constants -10
 
 scoreboard players set 20 refresh_constants 20
+
+scoreboard players set 60 refresh_constants 60
 
 scoreboard players set 50 refresh_constants 50
 

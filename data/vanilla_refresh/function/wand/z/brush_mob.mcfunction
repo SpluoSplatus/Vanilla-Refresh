@@ -8,7 +8,7 @@ scoreboard players add temp refresh_count 1
 
 particle electric_spark ~ ~ ~ 0 0 0 0 1 force @a[distance=..256]
 
-$execute as @n[tag=!refresh_temp_usingwand,distance=..1,type=$(wand_mob_filter),tag=!refresh_entity_deletion_locked] at @s run function vanilla_refresh:wand/z/brush_mob_poof
+$execute as @n[tag=!refresh_temp_usingwand,tag=!refresh_exclude_wand,distance=..1,type=$(wand_mob_filter),tag=!refresh_entity_deletion_locked] at @s run function vanilla_refresh:wand/z/brush_mob_poof
 
 #$execute if predicate vanilla_refresh:condition/sneaking if entity @n[distance=..1,type=$(wand_mob_filter)] as @e[distance=..3,type=$(wand_mob_filter)] at @s run function vanilla_refresh:wand/z/brush_mob_poof
 

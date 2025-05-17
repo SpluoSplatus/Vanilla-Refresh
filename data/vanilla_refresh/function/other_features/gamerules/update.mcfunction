@@ -71,5 +71,9 @@ execute store result score projectilesCanBreakBlocks refresh_gamerules run gamer
 
 execute store result score spawnChunkRadius refresh_gamerules run gamerule spawnChunkRadius
 
+execute store result score tntExplodes refresh_gamerules run gamerule tntExplodes
+
+execute store result score allowFireTicksAwayFromPlayer refresh_gamerules run gamerule allowFireTicksAwayFromPlayer
+
 
 #tellraw @a[tag=refresh_debug] {"translate":"[Vanilla Refresh: Checked and updated gamerules to /trigger]","color": "gray","italic": true} 

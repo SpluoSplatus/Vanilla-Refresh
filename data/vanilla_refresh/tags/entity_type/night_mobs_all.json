@@ -4,7 +4,14 @@
 
 
     {"id":"#vanilla_refresh:night_mobs_generic","required":false},
-    {"id":"#vanilla_refresh:night_mobs_skip_zombie_villager","required":false}
+    
+    {"id":"minecraft:stray","required":false},
+    {"id":"minecraft:husk","required":false},
+    {"id":"minecraft:phantom","required":false},
+    {"id":"minecraft:witch","required":false},
+    {"id":"minecraft:phantom","required":false},
+    {"id":"minecraft:enderman","required":false},
+    {"id":"minecraft:zombie_villager","required":false}
     
    
 

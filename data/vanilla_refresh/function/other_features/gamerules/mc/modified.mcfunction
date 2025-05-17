@@ -6,6 +6,8 @@ function vanilla_refresh:other_features/gamerules/mc/modified_check
 
 execute unless score announceAdvancements refresh_gamerules matches 1 run tellraw @s [{"translate": "","color": "gray"},{"text":"+ ","color":"aqua","bold": true},{"translate":"Announce Advancements: "},{"score":{"name": "announceAdvancements","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
 
+execute unless score allowFireTicksAwayFromPlayer refresh_gamerules matches 1 run tellraw @s [{"translate": "","color": "gray"},{"text":"+ ","color":"aqua","bold": true},{"translate":"Allow Fire Ticks Away From Players: "},{"score":{"name": "allowFireTicksAwayFromPlayer","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
+
 execute unless score commandBlockOutput refresh_gamerules matches 1 run tellraw @s [{"translate": "","color": "gray"},{"text":"+ ","color":"aqua","bold": true},{"translate":"Command Block Output: "},{"score":{"name": "commandBlockOutput","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
 
 execute unless score disableElytraMovementCheck refresh_gamerules matches 0 run tellraw @s [{"translate": "","color": "gray"},{"text":"+ ","color":"aqua","bold": true},{"translate":"Disable Elytra Check: "},{"score":{"name": "disableElytraMovementCheck","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
@@ -123,6 +125,8 @@ execute unless score mobExplosionDropDecay refresh_gamerules matches 1 run tellr
 execute unless score blockExplosionDropDecay refresh_gamerules matches 1 run tellraw @s [{"translate": "","color": "gray"},{"text":"+ ","color":"aqua","bold": true},{"translate":"Block Explosion Drop Decay: "},{"score":{"name": "blockExplosionDropDecay","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
 
 execute unless score tntExplosionDropDecay refresh_gamerules matches 0 run tellraw @s [{"translate": "","color": "gray"},{"text":"+ ","color":"aqua","bold": true},{"translate":"TNT Explosion Drop Decay: "},{"score":{"name": "tntExplosionDropDecay","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
+
+execute unless score tntExplodes refresh_gamerules matches 1 run tellraw @s [{"translate": "","color": "gray"},{"text":"+ ","color":"aqua","bold": true},{"translate":"TNT Explodes: "},{"score":{"name": "tntExplodes","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
 
 execute unless score doVinesSpread refresh_gamerules matches 1 run tellraw @s [{"translate": "","color": "gray"},{"text":"+ ","color":"aqua","bold": true},{"translate":"Do Vines Spread: "},{"score":{"name": "doVinesSpread","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
 
