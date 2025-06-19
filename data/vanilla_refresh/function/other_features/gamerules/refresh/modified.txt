@@ -226,8 +226,9 @@ execute if data storage vanilla_refresh_config:config config{join:0} run tellraw
 execute if data storage vanilla_refresh_config:config config{firstjoin:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"First Join Chat Message: "},{"score":{"name": "firstjoin","objective": "refresh_settings"},"color": "yellow"}]
 execute if data storage vanilla_refresh_config:config config{firstjoin:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"First Join Chat Message: "},{"score":{"name": "firstjoin","objective": "refresh_settings"},"color": "yellow"}]
 
-execute if data storage vanilla_refresh_config:config config{anvil:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Anvil Grinding: "},{"score":{"name": "anvil","objective": "refresh_settings"},"color": "yellow"}]
-execute if data storage vanilla_refresh_config:config config{anvil:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Anvil Grinding: "},{"score":{"name": "anvil","objective": "refresh_settings"},"color": "yellow"}]
+# LEGACY FEATURE
+# execute if data storage vanilla_refresh_config:config config{anvil:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Anvil Grinding: "},{"score":{"name": "anvil","objective": "refresh_settings"},"color": "yellow"}]
+# execute if data storage vanilla_refresh_config:config config{anvil:0} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Anvil Grinding: "},{"score":{"name": "anvil","objective": "refresh_settings"},"color": "yellow"}]
 
 
 execute if data storage vanilla_refresh_config:config config{babyzombie:1} run tellraw @s[] [{"translate": "   ","color": "gray"},{"translate":"Improved Baby Zombies: "},{"score":{"name": "babyzombie","objective": "refresh_settings"},"color": "yellow"}]

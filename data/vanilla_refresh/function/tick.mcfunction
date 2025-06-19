@@ -1,14 +1,16 @@
+## MODDING NOTES =========
+
+# some features are located/rooted in vanilla_refresh:other/clock/[number]tick
+    # >> these features run at a slower pace then every tick to minimize lag on features that dont need high checks
+# some features are located/rooted in vanilla_refresh:selector_all_players
+    # >> this is also to minimize lag on servers when there's no players
+
 #hello modders and code learners, welcome to the insanity of the tick.mcfunction file!
 #this file is going to look like the most terrifying of all AND I AGREE
 #i tried adding comments (these things -> # <- ) throughout parts to make them slightly more understandable
 #but honestly this file is not organized that well
 #use ctrl + f to search for specific things, almost all features are labeled
 
-#NOTE
-# some features are located in vanilla_refresh:other/clock/[number]tick
-    # these features run at a slower pace then every tick to minimize lag on features that dont need high checks
-# some features are located in vanilla_refresh:selector_all_players
-    # this is also to minimize lag on servers when there's no players
 
 
 
@@ -23,10 +25,6 @@ scoreboard players add 10tick refresh_clock 1
 scoreboard players add 2tick refresh_clock 1
 
 scoreboard players add 5tick refresh_clock 1
-
-
-
-
 
 
 #———————————————————————————————————————————————————————————————————————————————————
@@ -49,18 +47,18 @@ execute unless data storage vanilla_refresh_config:config config{grief_crystal:1
 
 
 
-#torch
+#torch lighting dyanmic
 execute if data storage vanilla_refresh_config:config config{torch:1} as @e[type=marker,tag=refresh_entity_lightblock] at @s run function vanilla_refresh:block/torch/light
 
 
 
 
-#invis
+#invisibility on armor stands and item frames
 execute if data storage vanilla_refresh_config:config config{invis:1} as @e[type=armor_stand,tag=refresh_entity_stand,tag=!refresh_armorstandbypass,tag=!scorched_golem,tag=!scorched_desertgolem] at @s if entity @p[distance=..16] run function vanilla_refresh:entity/invis/root
 execute if data storage vanilla_refresh_config:config config{invis:1} as @e[type=#vanilla_refresh:item_frames] at @s if entity @p[distance=..16] run function vanilla_refresh:entity/invis/root_itemframe
 
 
-#day counter
+#day counter daycounter
 function vanilla_refresh:other_features/day_counter/root
 
 
@@ -106,7 +104,7 @@ execute unless data storage vanilla_refresh_config:config config{dragonelytra:1}
 execute if predicate vanilla_refresh:setting/dragonegg_or_elytra as @e[type=marker,tag=refresh_dragonelytra] at @s unless score @s refresh_count matches 290.. run function vanilla_refresh:entity/enderdragon/anim
 execute if predicate vanilla_refresh:setting/dragonegg_or_elytra as @e[type=marker,tag=refresh_dragonelytra] at @s if score @s refresh_count matches 290.. run function vanilla_refresh:entity/enderdragon/waiting
 
-#soul
+#soul link
 execute if data storage vanilla_refresh_config:config config{soul:1} as @e[type=marker,tag=refresh_entity_playersoul] at @s run function vanilla_refresh:death/soul/marker
 execute if data storage vanilla_refresh_config:config config{soul:1} as @e[type=item,tag=refresh_entity_soulitem] unless score @s refresh_item_time matches 600.. at @s run function vanilla_refresh:death/soul/item
 

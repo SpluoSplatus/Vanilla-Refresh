@@ -138,7 +138,7 @@
 
 "Select a Gamerule Category ": "Выберите категорию правил игры ",
 "ⓘ Value Info": "ⓘ Информация о значении",
-"0 = Gamerule/setting is disabled\n1 = Gamerule/setting is enabled\n\nOther values mean the setting has more options than just enabled and disabled. (Next to the value, it'll describe what option is set)": "0 = правило/настройка отключена\n1 = правило/настройка включена\n\nДругие значения означают, что настройка имеет больше опций, чем просто включено и отключено. (Рядом со значением будет описано, какая опция установлена)",
+"0 = Gamerule/setting is disabled\n1 = Gamerule/setting is enabled)": "0 = правило/настройка отключена\n1 = правило/настройка включена\n\nДругие значения означают, что настройка имеет больше опций, чем просто включено и отключено. (Рядом со значением будет описано, какая опция установлена)",
 
 "Overworld: ": "Надземный мир: ",
 "The Nether: ": "Нижний мир: ",

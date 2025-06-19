@@ -181,7 +181,7 @@ data modify storage vanilla_refresh_config:config config.firstjoin set value 0
 
 
 
-#anvil grinding
+#anvil grinding LEGACY FEATURE
 data modify storage vanilla_refresh_config:config config.anvil set value 1
 
 

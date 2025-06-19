@@ -1,5 +1,41 @@
 
+data modify storage vanilla_refresh:storage jukebox set value {}
 
+execute if block ~ ~ ~ jukebox{RecordItem:{id:"minecraft:music_disc_blocks"}} run data modify storage vanilla_refresh:storage jukebox.color set value "color:[1.000,0.376,0.220]" 
+
+execute if block ~ ~ ~ jukebox{RecordItem:{id:"minecraft:music_disc_cat"}} run data modify storage vanilla_refresh:storage jukebox.color set value "color:[0.259,1.000,0.075]"
+
+execute if block ~ ~ ~ jukebox{RecordItem:{id:"minecraft:music_disc_chirp"}} run data modify storage vanilla_refresh:storage jukebox.color set value "color:[0.678,0.055,0.086]"
+
+execute if block ~ ~ ~ jukebox{RecordItem:{id:"minecraft:music_disc_creator_music_box"}} run data modify storage vanilla_refresh:storage jukebox.color set value "color:[1.000,0.937,0.620]"
+
+execute if block ~ ~ ~ jukebox{RecordItem:{id:"minecraft:music_disc_creator"}} run data modify storage vanilla_refresh:storage jukebox.color set value "color:[0.490,1.000,0.831]"
+
+execute if block ~ ~ ~ jukebox{RecordItem:{id:"minecraft:music_disc_far"}} run data modify storage vanilla_refresh:storage jukebox.color set value "color:[0.525,1.000,0.565]"
+
+execute if block ~ ~ ~ jukebox{RecordItem:{id:"minecraft:music_disc_mall"}} run data modify storage vanilla_refresh:storage jukebox.color set value "color:[0.447,0.416,1.000]"
+
+execute if block ~ ~ ~ jukebox{RecordItem:{id:"minecraft:music_disc_mellohi"}} run data modify storage vanilla_refresh:storage jukebox.color set value "color:[0.647,0.075,1.000]"
+
+execute if block ~ ~ ~ jukebox{RecordItem:{id:"minecraft:music_disc_otherside"}} run data modify storage vanilla_refresh:storage jukebox.color set value "color:[0.051,0.894,0.600]"
+
+execute if block ~ ~ ~ jukebox{RecordItem:{id:"minecraft:music_disc_pigstep"}} run data modify storage vanilla_refresh:storage jukebox.color set value "color:[1.000,0.761,0.153]"
+
+execute if block ~ ~ ~ jukebox{RecordItem:{id:"minecraft:music_disc_precipice"}} run data modify storage vanilla_refresh:storage jukebox.color set value "color:[1.000,0.816,0.502]"
+
+execute if block ~ ~ ~ jukebox{RecordItem:{id:"minecraft:music_disc_relic"}} run data modify storage vanilla_refresh:storage jukebox.color set value "color:[0.318,0.863,1.000]"
+
+execute if block ~ ~ ~ jukebox{RecordItem:{id:"minecraft:music_disc_stal"}} run data modify storage vanilla_refresh:storage jukebox.color set value "color:[0.318,0.306,0.298]"
+
+execute if block ~ ~ ~ jukebox{RecordItem:{id:"minecraft:music_disc_strad"}} run data modify storage vanilla_refresh:storage jukebox.color set value "color:[1.000,1.000,1.000]"
+
+execute if block ~ ~ ~ jukebox{RecordItem:{id:"minecraft:music_disc_wait"}} run data modify storage vanilla_refresh:storage jukebox.color set value "color:[0.153,0.620,1.000]"
+
+execute if block ~ ~ ~ jukebox{RecordItem:{id:"minecraft:music_disc_ward"}} run data modify storage vanilla_refresh:storage jukebox.color set value "color:[0.000,0.729,0.290]"
+
+
+data modify storage vanilla_refresh:storage jukebox.disc set string block ~ ~ ~ RecordItem.id 21
+execute unless data storage vanilla_refresh:storage {jukebox:0} positioned ~ ~-.5 ~ run function vanilla_refresh:block/block_anims/jukebox/particle/box with storage vanilla_refresh:storage jukebox
 
 #execute positioned ~.55 ~-1.025 ~-.4 run kill @e[distance=..0.001,tag=refresh_discinsert]
 

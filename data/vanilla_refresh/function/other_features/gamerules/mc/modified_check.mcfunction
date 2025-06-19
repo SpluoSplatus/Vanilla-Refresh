@@ -52,7 +52,7 @@ execute unless score commandModificationBlockLimit refresh_gamerules matches 327
 execute unless score enderPearlsVanishOnDeath refresh_gamerules matches 1 run scoreboard players set temp_gamerules_modified refresh_gamerules 1
 execute unless score projectilesCanBreakBlocks refresh_gamerules matches 1 run scoreboard players set temp_gamerules_modified refresh_gamerules 1
 execute unless score playersNetherPortalDefaultDelay refresh_gamerules matches 80 run scoreboard players set temp_gamerules_modified refresh_gamerules 1
-execute unless score playersNetherPortalCreativeDelay refresh_gamerules matches 1 run scoreboard players set temp_gamerules_modified refresh_gamerules 1
+execute unless score playersNetherPortalCreativeDelay refresh_gamerules matches 0 run scoreboard players set temp_gamerules_modified refresh_gamerules 1
 execute unless score maxCommandForkCount refresh_gamerules matches 65536 run scoreboard players set temp_gamerules_modified refresh_gamerules 1
 
 

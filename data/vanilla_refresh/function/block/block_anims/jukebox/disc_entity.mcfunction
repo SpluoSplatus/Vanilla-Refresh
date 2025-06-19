@@ -10,7 +10,6 @@ execute anchored eyes positioned ~-.55 ~1.025 ~.4 as @s[tag=refresh_discinsert_S
 #execute anchored eyes positioned ~-.55 ~1.025 ~.4 align zyx positioned ~.5 ~1.05 ~.5 as @s[tag=refresh_discinsert_special] if score @s refresh_count matches 20 run function vanilla_refresh:block/block_anims/jukebox/disc_entity_special
 
 
-execute if score @s refresh_count matches 1 anchored eyes positioned ~-.55 ~1.025 ~.4 align zyx positioned ~.5 ~ ~.5 run function vanilla_refresh:block/block_anims/jukebox/box/check
 #execute anchored eyes positioned ~-.55 ~1.025 ~.4 align zyx positioned ~.5 ~1.05 ~.5 as @s[tag=refresh_discinsert_special] run function vanilla_refresh:block/block_anims/jukebox/disc_entity_special
 
 execute if score @s refresh_count matches 40.. run function vanilla_refresh:other/disappear

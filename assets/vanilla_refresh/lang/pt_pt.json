@@ -135,7 +135,7 @@
 
     "Select a Gamerule Category ": "Escolhe uma Categoria de Regra de Jogo ",
     "ⓘ Value Info": "ⓘ Informação do Valor",
-    "0 = Gamerule/setting is disabled\n1 = Gamerule/setting is enabled\n\nOther values mean the setting has more options than just enabled and disabled. (Next to the value, it'll describe what option is set)": "0 = Regra de Jogo/Configuração inativa\n1 = Regra de Jogo/Configuração ativa\n\nOutros valores significam que a configuração tem mais opções do que apenas ativadas e desativadas. (Ao lado do valor, descreverá qual opção está definida)",
+    "0 = Gamerule/setting is disabled\n1 = Gamerule/setting is enabled)": "0 = Regra de Jogo/Configuração inativa\n1 = Regra de Jogo/Configuração ativa\n\nOutros valores significam que a configuração tem mais opções do que apenas ativadas e desativadas. (Ao lado do valor, descreverá qual opção está definida)",
 
     "Overworld: ": "Superfície: ",
     "The Nether: ": "O Nether: ",

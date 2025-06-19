@@ -1,5 +1,5 @@
 
-execute store result score tempScore refresh_randomizer_output run random value 0..89
+execute store result score tempScore refresh_randomizer_output run random value 0..98
 
 tellraw @a[tag=refresh_debug] [{"translate":"[Vanilla Refresh: Displayed tip ","color": "gray","italic": true},{"score":{"objective": "refresh_randomizer_output","name": "tempScore"}},{"translate":" in chat]"}]
 
@@ -15,7 +15,7 @@ execute if score tempScore refresh_randomizer_output matches 4 run tellraw @a [{
 
 execute if score tempScore refresh_randomizer_output matches 5 run tellraw @a [{"translate": "Tip: - Below the deepslate layer underground you'll find significantly more diamonds","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 6 run tellraw @a [{"translate": "Tip: - Flooded caves contain more exposed ores than ordinary caves, so if you're seeking diamonds, try searching a flooded cave in the Ocean","color": "yellow"}]
+execute if score tempScore refresh_randomizer_output matches 6 run tellraw @a [{"translate": "Tip: - Flooded caves contain more exposed ores than ordinary caves, so if you're seeking diamonds, try searching a flooded cave in the Ocean","color": "yellow",fallback:"Tip: - Flooded caves contain more exposed ores than ordinary caves, making them great for finding diamonds"}]
 
 execute if score tempScore refresh_randomizer_output matches 7 run tellraw @a [{"translate": "Tip: - Iron isn't typically found on the surface of the world, but mountains generate high amounts of iron ore exposed to air.","color": "yellow"}]
 
@@ -27,11 +27,11 @@ execute if score tempScore refresh_randomizer_output matches 10 run tellraw @a [
 
 execute if score tempScore refresh_randomizer_output matches 11 run tellraw @a [{"translate": "Tip: - On Hard Mode, villagers have an 100% chance of zombifying from a zombie attack","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 12 run tellraw @a [{"translate": "Tip: - You can equip a banner on a shield to give your shields awesome designs.","color": "yellow"}]
+execute if score tempScore refresh_randomizer_output matches 12 run tellraw @a [{"translate": "Tip: - You can equip a banner on a shield in a crafting table to give your shields awesome designs.","color": "yellow"}]
 
 execute if score tempScore refresh_randomizer_output matches 13 run tellraw @a [{"translate": "Tip: - Setting your FOV to 40 or less makes for great, cinematic base screenshots without FOV warp.","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 14 run tellraw @a [{"translate": "Tip: - Golden carrots make a great food source for those who have an abundance of gold and carrots","color": "yellow"}]
+execute if score tempScore refresh_randomizer_output matches 14 run tellraw @a [{"translate": "Tip: - Golden carrots are a great food source for their high saturation","color": "yellow"}]
 
 execute if score tempScore refresh_randomizer_output matches 15 run tellraw @a [{"translate": "Tip: - Feather Falling IV only has a approximate 2.7% chance of appearing on a enchanting table","color": "yellow"}]
 
@@ -99,7 +99,7 @@ execute if score tempScore refresh_randomizer_output matches 45 run tellraw @a [
 
 execute if score tempScore refresh_randomizer_output matches 46 run tellraw @a [{"translate": "Tip: - In Warm Ocean Ruins, you can sometimes find Sniffer eggs buried in Suspicious Sand. Use a brush on these sand blocks to uncover a potential Sniffer egg.","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 47 run tellraw @a [{"translate": "Tip: - Diamond armor can be bought from armorer villagers for as cheap as 1 emerald","color": "yellow"}]
+execute if score tempScore refresh_randomizer_output matches 47 run tellraw @a [{"translate": "Tip: - Diamond armor can be bought from zombie villager cured armorer villagers for as cheap as 1 emerald","color": "yellow"}]
 
 execute if score tempScore refresh_randomizer_output matches 48 run tellraw @a [{"translate": "Tip: - Candles can be placed on cakes for a colorful touch","color": "yellow"}]
 
@@ -120,9 +120,9 @@ execute if score tempScore refresh_randomizer_output matches 53 run tellraw @a [
 
 execute if score tempScore refresh_randomizer_output matches 54 run tellraw @a [{"translate": "Tip: - Sculk shriekers wont shriek when broken, though their breaking vibration can be delivered to a nearby Sculk Sensor. ","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 55 run tellraw @a [{"translate": "Tip: - Challenge advancements when completed can earn you some experience points","color": "yellow"}]
+execute if score tempScore refresh_randomizer_output matches 55 run tellraw @a [{"translate": "Tip: - Challenge advancements when completed can earn you some experience points","color": "yellow",fallback:"Tip: - Completing challenge advancements earns you experience points"}]
 
-execute if score tempScore refresh_randomizer_output matches 56 run tellraw @a [{"translate": "Tip: - Coal ore stops generating in the deepslate layer of the world, so make sure you have enough torches before going too deep!","color": "yellow"}]
+execute if score tempScore refresh_randomizer_output matches 56 run tellraw @a [{"translate": "Tip: - Coal ore stops generating in the deepslate layer of the world, so make sure you have enough torches before going too deep!","color": "yellow","fallback":"Tip: - Coal ore stops generating in the deepslate layer of the world. Keep enough torches before going too deep!"}]
 
 execute if score tempScore refresh_randomizer_output matches 57 run tellraw @a [{"translate": "Tip: - Mobs can only spawn on blocks with a light level of 0","color": "yellow"}]
 
@@ -136,7 +136,7 @@ execute if score tempScore refresh_randomizer_output matches 61 run tellraw @a [
 
 execute if score tempScore refresh_randomizer_output matches 62 run tellraw @a [{"translate": "Tip: - You can sleep during thunderstorms, even if its daytime","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 63 run tellraw @a [{"translate": "Tip: - Carpet can be placed on a fence, allowing players to jump on it, but not mobs. Helpful for enclosing livestock.","color": "yellow"}]
+execute if score tempScore refresh_randomizer_output matches 63 run tellraw @a [{"translate": "Tip: - Carpet can be placed on a fence, allowing players to jump on it, but not mobs. Helpful for enclosing livestock.","color": "yellow","fallback":"Tip: - Carpet can be placed on a fence, allowing players to jump on it, but not mobs encloed in the fence."}]
 
 execute if score tempScore refresh_randomizer_output matches 64 run tellraw @a [{"translate": "Tip: - Splash water bottles extinguish fire and burning mobs","color": "yellow"}]
 
@@ -148,13 +148,13 @@ execute if score tempScore refresh_randomizer_output matches 67 run tellraw @a [
 
 execute if score tempScore refresh_randomizer_output matches 68 run tellraw @a [{"translate": "Tip: - You can ride inside a boat and fall any height without taking damage","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 69 run tellraw @a [{"translate": "Tip: - Mobs won't despawn if they're inside a boat","color": "yellow"}]
+execute if score tempScore refresh_randomizer_output matches 69 run tellraw @a [{"translate": "Tip: - Place a boat and lure a mob into it to trap it in place for moving or easy killing","color": "yellow"}]
 
 execute if score tempScore refresh_randomizer_output matches 70 run tellraw @a [{"translate": "Tip: - Netherite tools and armor can't burn in lava","color": "yellow"}]
 
 execute if score tempScore refresh_randomizer_output matches 71 run tellraw @a [{"translate": "Tip: - If you feed a frog a magma cube, they'll spit it out as a neat Froglight block","color": "yellow"}]
 
-execute if score tempScore refresh_randomizer_output matches 72 run tellraw @a [{"translate": "Tip: - Beacon blocks can share their pyramid base blocks, allowing you to stack beacon effects","color": "yellow"}]
+execute if score tempScore refresh_randomizer_output matches 72 run tellraw @a [{"translate": "Tip: - Beacon blocks can share their pyramid base blocks, allowing you to stack beacon effects","color": "yellow","fallback":"Tip: - Beacon blocks can share their pyramid base blocks, allowing you to stack beacon effects in one area without constructing a second pyramid"}]
 
 
 execute if score tempScore refresh_randomizer_output matches 73 run tellraw @a [{"translate": "Tip: - Torches release light up to 14 blocks away, so space your torches 28 blocks away from each other to optimally prevent mobs from spawning","color": "yellow"}]
@@ -197,3 +197,17 @@ execute if score tempScore refresh_randomizer_output matches 90 run tellraw @a [
 execute if score tempScore refresh_randomizer_output matches 91 run tellraw @a [{"translate": "Tip: - Leaf litter from forest floors can be smelted in furnaces, smelting the same amount of items as sticks","color": "yellow"}]
 
 execute if score tempScore refresh_randomizer_output matches 92 run tellraw @a [{"translate": "Tip: - You can set a compass's target to a specific point in your world by right clicking it on a lodestone","color": "yellow"}]
+
+execute if score tempScore refresh_randomizer_output matches 93 run tellraw @a [{"translate": "Tip: - You can reroll the trades of a Villager you haven't traded with by removing and re-placing its workstation.","color": "yellow"}]
+
+execute if score tempScore refresh_randomizer_output matches 94 run tellraw @a [{"translate": "Tip: - A creeper will drop a music disc if killed by a skeleton's arrow","color": "yellow"}]
+
+execute if score tempScore refresh_randomizer_output matches 95 run tellraw @a [{"translate": "Tip: - Place kelp throughout a vertical water current to convert each part of the current into a source block, permitting soul sand bubble columns.","color": "yellow"}]
+
+execute if score tempScore refresh_randomizer_output matches 96 run tellraw @a [{"translate": "Tip: - Camels allow two players to ride them at the same time","color": "yellow"}]
+
+execute if score tempScore refresh_randomizer_output matches 97 run tellraw @a [{"translate": "Tip: - Mules, donkeys, and llamas are mounts that can equip a chest while you travel to hold items","color": "yellow"}]
+
+execute if score tempScore refresh_randomizer_output matches 98 run tellraw @a [{"translate": "Tip: - Lead multiple chest boats together to carry all your storage across the ocean","color": "yellow"}]
+
+

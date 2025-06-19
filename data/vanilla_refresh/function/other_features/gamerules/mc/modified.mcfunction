@@ -142,7 +142,7 @@ execute unless score projectilesCanBreakBlocks refresh_gamerules matches 1 run t
 
 execute unless score playersNetherPortalDefaultDelay refresh_gamerules matches 80 run tellraw @s [{"translate": "","color": "gray"},{"text":"+ ","color":"aqua","bold": true},{"translate":"Nether Portal Travel Delay: "},{"score":{"name": "playersNetherPortalDefaultDelay","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
 
-execute unless score playersNetherPortalCreativeDelay refresh_gamerules matches 1 run tellraw @s [{"translate": "","color": "gray"},{"text":"+ ","color":"aqua","bold": true},{"translate":"Nether Portal Creative Travel Delay: "},{"score":{"name": "playersNetherPortalCreativeDelay","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
+execute unless score playersNetherPortalCreativeDelay refresh_gamerules matches 0 run tellraw @s [{"translate": "","color": "gray"},{"text":"+ ","color":"aqua","bold": true},{"translate":"Nether Portal Creative Travel Delay: "},{"score":{"name": "playersNetherPortalCreativeDelay","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
 
 execute unless score maxCommandForkCount refresh_gamerules matches 65536 run tellraw @s [{"translate": "","color": "gray"},{"text":"+ ","color":"aqua","bold": true},{"translate":"Max Command Fork Count: "},{"score":{"name": "maxCommandForkCount","objective": "refresh_gamerules"},"color":"#c2c2c2" }]
 

@@ -11,7 +11,7 @@
           "color": "#30dbbf"
         },
         {
-          "translate": " [v1.4.27e]",
+          "translate": " [v1.4.27g]",
           "color": "#707070"
         },
         {
@@ -20,6 +20,18 @@
         {
           "translate": "Adds a variety of QOL Features",
           "color": "#898f96"
+        }
+      ]
+    },
+    "overlays": {
+      "entries": [
+        {
+          "directory": "1.21.6",
+          "formats": {
+
+            "min_inclusive": 80,
+            "max_inclusive": 9999
+          }
         }
       ]
     }

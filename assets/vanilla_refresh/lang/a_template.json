@@ -135,7 +135,7 @@
 
     "Select a Gamerule Category ": "translation ",
     "ⓘ Value Info": "ⓘ translation",
-    "0 = Gamerule/setting is disabled\n1 = Gamerule/setting is enabled\n\nOther values mean the setting has more options than just enabled and disabled. (Next to the value, it'll describe what option is set)": "0 = translation\n1 = translation\n\ntranslation",
+    "0 = Gamerule/setting is disabled\n1 = Gamerule/setting is enabled)": "0 = translation\n1 = translation\n\ntranslation",
 
     "Edited gamerules listed above": "translation",
     "No gamerules edited": "translation",

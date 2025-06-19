@@ -19,6 +19,7 @@
       {"id":"minecraft:music_disc_strad","required": false},
       {"id":"minecraft:music_disc_wait","required": false},
       {"id":"minecraft:music_disc_ward","required": false},
+      {"id":"minecraft:music_disc_tears","required": false},
       
       {"id":"minecraft:music_disc_relic","required": false},
       
